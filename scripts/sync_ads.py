@@ -18,6 +18,7 @@ On GitHub this runs monthly (.github/workflows/ads-sync.yml) and opens a pull re
 from __future__ import annotations
 
 import argparse
+import difflib
 import os
 import re
 import sys
@@ -30,13 +31,17 @@ import yaml
 ORCID = "0000-0001-8229-7183"
 FIRST_AUTHOR_WINDOW = 3                       # "among the first N authors"
 ALWAYS = {"Nature", "Science", "Nature Astronomy"}
-SKIP_DOCTYPES = {"abstract", "inproceedings", "proceedings", "eprint", "erratum", "catalog", "software"}
+HIGHLIGHTS_SINCE = 2025                       # only newer papers are proposed as highlights
+REFEREED_ONLY = True                          # publication list: refereed papers only
+SKIP_DOCTYPES = {"abstract", "inproceedings", "proceedings", "eprint", "erratum", "catalog",
+                 "software", "misc", "phdthesis", "mastersthesis", "techreport", "circular", "newsletter"}
+SKIP_TITLE = re.compile(r"corrigendum|erratum|vizier|data catalog|online data", re.I)
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBS = ROOT / "data" / "publications.yml"
 HIGHLIGHTS = ROOT / "data" / "highlights.yml"
 API = "https://api.adsabs.harvard.edu/v1/search/query"
-FIELDS = "bibcode,title,author,year,pub,doi,citation_count,doctype,orcid_pub,orcid_user,orcid_other"
+FIELDS = "bibcode,title,author,year,pub,doi,citation_count,doctype,property,orcid_pub,orcid_user,orcid_other"
 
 
 def fetch(token: str) -> list[dict]:
@@ -84,6 +89,15 @@ def ids_in(entry: dict) -> set[str]:
         if m:
             ids.add(f"10.1051/0004-6361/20{m.group(2)}{m.group(1)}")
     return {i.lower() for i in ids if i}
+
+
+def unwanted(doc: dict) -> bool:
+    title = (doc.get("title") or [""])[0]
+    return doc.get("doctype") in SKIP_DOCTYPES or bool(SKIP_TITLE.search(title))
+
+
+def norm_title(t: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", re.sub(r"<[^>]+>", "", t.lower())).strip()
 
 
 def new_id(doc: dict, taken: set[str]) -> str:
@@ -136,16 +150,21 @@ def main() -> int:
         "doi": (d.get("doi") or [None])[0],
         "citations": d.get("citation_count") or 0,
         "url": f"https://ui.adsabs.harvard.edu/abs/{d.get('bibcode')}/abstract",
-    } for d in docs if d.get("doctype") not in SKIP_DOCTYPES]
+    } for d in docs if not unwanted(d)
+        and (not REFEREED_ONLY or "REFEREED" in (d.get("property") or []))]
     print(f"ADS: {len(docs)} records, {len(pubs)} kept for the publication list, "
           f"{sum(p['citations'] for p in pubs)} citations in total")
 
     highlights = yaml.safe_load(HIGHLIGHTS.read_text(encoding="utf-8")) or []
     known = set().union(*(ids_in(h) for h in highlights)) if highlights else set()
+    known_titles = [norm_title(h.get("title", "")) for h in highlights]
     taken = {h["id"] for h in highlights}
     new = []
     for d in docs:
-        if d.get("doctype") in SKIP_DOCTYPES:
+        if unwanted(d) or int(d.get("year") or 0) < HIGHLIGHTS_SINCE:
+            continue
+        t = norm_title((d.get("title") or [""])[0])
+        if any(difflib.SequenceMatcher(None, t, k).ratio() > 0.85 for k in known_titles):
             continue
         ids = {(d.get("bibcode") or "").lower(), *[x.lower() for x in d.get("doi") or []]}
         if ids & known:
