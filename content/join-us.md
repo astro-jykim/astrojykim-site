@@ -15,6 +15,9 @@ UNIST provides substantial support for graduate students, typically including fu
 **We are currently seeking two graduate students for 2027.** See the [2027 open positions](/positions-2027/) for the two projects.
 {: .callout}
 
+**Thinking about graduate school?** Please read [Before You Apply](/before-you-apply/) first — every student in our group has. (한국어 포함)
+{: .callout}
+
 ## Graduate Students
 
 Various MSc, MSc–PhD integrated, and PhD research opportunities may be available depending on ongoing projects and research funding. Prospective students are encouraged to contact the professor to discuss current research topics, project availability, and suitable graduate programs.

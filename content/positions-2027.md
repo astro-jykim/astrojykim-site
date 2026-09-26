@@ -11,6 +11,9 @@ We are currently seeking two students for the MSc–PhD integrated and/or PhD pr
 
 Applications will be considered until the positions are filled. Prospective students are strongly encouraged to contact the professor in advance to discuss the projects, their background, and the graduate admission process.
 
+Before applying, please read [Before You Apply](/before-you-apply/) — a reading list on graduate school and careers in astronomy (English and Korean).
+{: .callout}
+
 ## 1. Dynamics and Magnetic Fields Near Supermassive Black Holes
 
 One position is available to investigate how accretion flows and magnetic fields in the immediate vicinity of supermassive black holes connect to the formation and evolution of relativistic jets. Although horizon-scale observations are now revealing the structure of black-hole environments, and relativistic jets can be traced over vastly larger scales, the physical connection between these two regimes remains an important open problem. Key questions include how magnetic fields are organized near the black hole, how energy is extracted and transferred into an outflow, and how jets are launched, accelerated, and collimated.

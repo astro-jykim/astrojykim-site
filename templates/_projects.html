@@ -1,0 +1,12 @@
+<div class="projects">
+{% for p in projects %}
+  <article class="project" id="project-{{ p.id }}">
+    <a class="img" href="{{ p.url }}" target="_blank" rel="noopener" aria-label="{{ p.name }}">{{ p.figure }}</a>
+    <div class="body">
+      <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
+      <p>{{ p.text }}</p>
+      {% if p.role %}<p class="role"><span>Our work</span>{{ p.role }}</p>{% endif %}
+    </div>
+  </article>
+{% endfor %}
+</div>

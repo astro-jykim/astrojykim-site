@@ -128,15 +128,42 @@ class Builder:
         rel = p.relative_to(IMG).as_posix()
         self.used_images.add(rel)
         if self.preview:
-            mime = mimetypes.guess_type(p.name)[0] or "image/jpeg"
-            return f"data:{mime};base64," + base64.b64encode(p.read_bytes()).decode()
+            return self._preview_uri(p)
         return f"{self.base}/assets/img/{rel}"
 
-    def figure(self, name: str, caption: str = "", link: bool = False) -> Markup:
+    def _preview_uri(self, p: Path) -> str:
+        """Single-file preview: embed a downscaled copy (keeps the file small)."""
+        cache = self.__dict__.setdefault("_uri_cache", {})
+        if p in cache:
+            return cache[p]
+        if p.suffix.lower() == ".svg":
+            uri = "data:image/svg+xml;base64," + base64.b64encode(p.read_bytes()).decode()
+        else:
+            try:
+                from PIL import Image
+                import io
+                im = Image.open(p)
+                im.thumbnail((1200, 1200))
+                if im.mode not in ("RGB", "L"):
+                    bg = Image.new("RGB", im.size, (255, 255, 255))
+                    bg.paste(im, mask=im.convert("RGBA").split()[-1])
+                    im = bg
+                buf = io.BytesIO()
+                im.save(buf, "JPEG", quality=72, optimize=True)
+                uri = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+            except Exception:
+                mime = mimetypes.guess_type(p.name)[0] or "image/jpeg"
+                uri = f"data:{mime};base64," + base64.b64encode(p.read_bytes()).decode()
+        cache[p] = uri
+        return uri
+
+    def figure(self, name: str, caption: str = "", link: bool = False, thumb: bool = False) -> Markup:
         src = self.image_src(name)
         if not src:
             return Markup(placeholder_svg(name, f"assets/img/{name}"))
         img = f'<img src="{src}" alt="{html.escape(caption)}" loading="lazy">'
+        if thumb:   # fixed-shape frame: whole figure visible, blurred copy fills the rest
+            return Markup(f'<span class="thumb" style="--img:url(\'{src}\')">{img}</span>')
         return Markup(img)
 
     def md_inline(self, text: str) -> Markup:
@@ -215,6 +242,16 @@ class Builder:
             html_cards = self.env.get_template("_cards.html").render(cards=cards, md_inline=self.md_inline)
             c.replace_with(BeautifulSoup('<div class="related">' + html_cards + "</div>", "html.parser"))
 
+        # <!-- projects -->  ->  project / facility cards from data/projects.yml
+        for c in soup.find_all(string=lambda t: isinstance(t, Comment) and t.strip() == "projects"):
+            projects = []
+            for p in load_yaml("projects.yml", []) or []:
+                imgs = p.get("image") or [f"projects/{p['id']}.jpg"]
+                imgs = [imgs] if isinstance(imgs, str) else imgs
+                name = next((i for i in imgs if find_image(i)), imgs[0])
+                projects.append({**p, "figure": self.figure(name, p.get("name", ""), thumb=True)})
+            c.replace_with(BeautifulSoup(self.env.get_template("_projects.html").render(projects=projects), "html.parser"))
+
         return self.fix_links(str(soup))
 
     # ---- pages
@@ -240,7 +277,7 @@ class Builder:
         cards = []
         for h in items[:limit] if limit else items:
             name = h.get("image") or f"highlights/{h['id']}.jpg"
-            cards.append({**h, "figure": self.figure(name, h.get("title", ""))})
+            cards.append({**h, "figure": self.figure(name, h.get("title", ""), thumb=True)})
         return cards, len(items)
 
     def pubs_by_year(self):
@@ -295,6 +332,10 @@ class Builder:
         if layout in ("home", "highlights"):
             limit = self.site.get("home_highlights", 6) if layout == "home" else None
             ctx["cards"], ctx["highlights_total"] = self.highlight_cards(limit)
+        if layout == "home":
+            ctx["programs"] = [{**p, "figure": self.figure(p["image"], p["title"], thumb=True),
+                                "url": self.href(p["link"])} for p in fm.get("programs") or []]
+            ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
         if layout == "members":
             ctx["members"] = load_yaml("members.yml", {})
         if layout == "publications":
