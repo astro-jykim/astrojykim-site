@@ -249,7 +249,9 @@ class Builder:
         for p in pubs:
             authors = p.get("authors") or []
             short = (authors[0].split(",")[0] + (" et al." if len(authors) > 1 else "")) if authors else ""
-            years.setdefault(p.get("year"), []).append({**p, "authors_short": short})
+            title = html.escape(p.get("title") or "")
+            title = re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", title, flags=re.I)   # keep ADS super/subscripts
+            years.setdefault(p.get("year"), []).append({**p, "authors_short": short, "title_html": Markup(title)})
         return sorted(years.items(), key=lambda kv: -(kv[0] or 0))
 
     def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:

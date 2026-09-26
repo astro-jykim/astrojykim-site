@@ -6,7 +6,7 @@
   <h2 class="pubyear">{{ year }}</h2>
   <ul class="pubs">
     {% for p in items %}
-    <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a></div>
+    <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
         <div class="m">{{ p.authors_short }} · {{ p.journal }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>
     {% endfor %}
   </ul>
