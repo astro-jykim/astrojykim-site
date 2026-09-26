@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="prose">{{ content }}</div>
+{% if pubs_by_year %}
+  {% for year, items in pubs_by_year %}
+  <h2 class="pubyear">{{ year }}</h2>
+  <ul class="pubs">
+    {% for p in items %}
+    <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a></div>
+        <div class="m">{{ p.authors_short }} · {{ p.journal }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+{% else %}
+<p class="prose" style="margin-top:22px;color:var(--ink-3)">The full list will appear here after the first ADS sync.</p>
+{% endif %}
+{% endblock %}

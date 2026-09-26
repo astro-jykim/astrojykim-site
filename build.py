@@ -1,0 +1,370 @@
+#!/usr/bin/env python3
+"""
+Build the website.
+
+    python build.py             ->  _site/            (what GitHub Pages serves)
+    python build.py --preview   ->  _preview/index.html  (single-file preview of every page)
+
+Sources
+    content/*.md      pages (Markdown with a small YAML header)
+    data/*.yml        site settings, highlights, members, publications
+    templates/*.html  page layouts
+    assets/           css and images
+
+Images
+    Write ![caption](research/foo.jpg) in Markdown; the file lives in assets/img/research/foo.jpg.
+    A non-empty caption becomes a figure caption. A missing file shows a labelled placeholder,
+    so the page never breaks while images are still being added.
+    Highlight images need no setting at all: assets/img/highlights/<id>.jpg (or .png/.webp).
+"""
+
+from __future__ import annotations
+
+import argparse
+import base64
+import os
+import hashlib
+import html
+import mimetypes
+import re
+import shutil
+import sys
+from pathlib import Path
+
+import markdown
+import yaml
+from bs4 import BeautifulSoup
+from jinja2 import Environment, FileSystemLoader
+from markupsafe import Markup
+
+ROOT = Path(__file__).resolve().parent
+CONTENT, DATA, TEMPLATES, ASSETS = ROOT / "content", ROOT / "data", ROOT / "templates", ROOT / "assets"
+IMG = ASSETS / "img"
+IMG_EXT = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg")
+
+
+# --------------------------------------------------------------------------- helpers
+
+def load_yaml(name: str, default=None):
+    p = DATA / name
+    if not p.exists():
+        return default
+    return yaml.safe_load(p.read_text(encoding="utf-8")) or default
+
+
+def split_front(text: str):
+    if text.startswith("---\n"):
+        _, fm, body = text.split("---\n", 2)
+        return yaml.safe_load(fm) or {}, body
+    return {}, text
+
+
+def find_image(name: str | None) -> Path | None:
+    """Resolve 'research/foo.jpg' -> assets/img/research/foo.<any ext>, or None."""
+    if not name:
+        return None
+    p = IMG / name
+    if p.exists():
+        return p
+    for ext in IMG_EXT:
+        q = p.with_suffix(ext)
+        if q.exists():
+            return q
+    return None
+
+
+def placeholder_svg(key: str, label: str) -> str:
+    """A calm radio-map style placeholder that is obviously not a real picture."""
+    h = int(hashlib.sha1(key.encode()).hexdigest(), 16)
+    r = lambda n, m: ((h >> n) & 255) / 255 * m
+    rot, n = -60 + r(0, 120), 4 + int(r(3, 3))
+    cx, cy = 38 + r(5, 24), 40 + r(7, 20)
+    rings = "".join(
+        f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{(14 + r(11, 16)) * k:.1f}" ry="{(8 + r(13, 9)) * k:.1f}" '
+        f'transform="rotate({rot:.0f} {cx:.1f} {cy:.1f})" fill="none" stroke="#d98a1f" '
+        f'stroke-width="{0.7 + k * 0.5:.2f}" opacity="{0.25 + k * 0.5:.2f}"/>'
+        for k in [(n - i) / n for i in range(n)])
+    grid = "".join(f'<line x1="0" y1="{i*12}" x2="100" y2="{i*12}"/>' for i in range(7)) + \
+           "".join(f'<line x1="{i*12}" y1="0" x2="{i*12}" y2="80"/>' for i in range(9))
+    return (f'<span class="ph"><svg viewBox="0 0 100 80" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
+            f'<g stroke="currentColor" stroke-width=".3" opacity=".12">{grid}</g>{rings}'
+            f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="1.5" fill="#d98a1f"/></svg>'
+            f'<span class="slot">{html.escape(label)}</span></span>')
+
+
+# --------------------------------------------------------------------------- build context
+
+class Builder:
+    def __init__(self, preview: bool):
+        self.preview = preview
+        self.site = load_yaml("site.yml", {})
+        self.env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=True,
+                               trim_blocks=True, lstrip_blocks=True)
+        self.md = markdown.Markdown(extensions=["extra", "sane_lists", "toc"],
+                                    extension_configs={"toc": {"permalink": False}})
+        self.missing_images: set[str] = set()
+        self.used_images: set[str] = set()
+        # "/repo" when served at https://user.github.io/repo/ before the domain is connected
+        self.base = "" if preview else os.environ.get("SITE_BASEURL", self.site.get("baseurl", "")).rstrip("/")
+
+    # ---- urls
+    def href(self, url: str) -> str:
+        if self.preview and url.startswith("/"):
+            slug = url.strip("/") or "home"
+            return "#" + slug.split("#")[0].split("/")[0]
+        return self.base + url if url.startswith("/") else url
+
+    def asset(self, rel: str) -> str:
+        return f"{self.base}/assets/{rel}"
+
+    def image_src(self, name: str) -> str | None:
+        p = find_image(name)
+        if not p:
+            self.missing_images.add(name)
+            return None
+        rel = p.relative_to(IMG).as_posix()
+        self.used_images.add(rel)
+        if self.preview:
+            mime = mimetypes.guess_type(p.name)[0] or "image/jpeg"
+            return f"data:{mime};base64," + base64.b64encode(p.read_bytes()).decode()
+        return f"{self.base}/assets/img/{rel}"
+
+    def figure(self, name: str, caption: str = "", link: bool = False) -> Markup:
+        src = self.image_src(name)
+        if not src:
+            return Markup(placeholder_svg(name, f"assets/img/{name}"))
+        img = f'<img src="{src}" alt="{html.escape(caption)}" loading="lazy">'
+        return Markup(img)
+
+    def md_inline(self, text: str) -> Markup:
+        out = markdown.markdown(text or "")
+        out = re.sub(r"^<p>(.*)</p>$", r"\1", out.strip(), flags=re.S)
+        return Markup(self.fix_links(out))
+
+    # ---- markdown post-processing
+    def fix_links(self, html_text: str) -> str:
+        soup = BeautifulSoup(html_text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            h = a["href"]
+            if h.startswith("http"):
+                a["target"], a["rel"] = "_blank", "noopener"
+            elif h.startswith("/") and not (self.base and h.startswith(self.base + "/")):
+                a["href"] = self.href(h)
+        return str(soup)
+
+    def render_markdown(self, body: str) -> str:
+        self.md.reset()
+        raw = self.md.convert(body)
+        soup = BeautifulSoup(raw, "html.parser")
+
+        # images -> real file, figure with caption, or placeholder
+        for img in soup.find_all("img"):
+            name, caption = img.get("src", ""), img.get("alt", "")
+            if name.startswith(("http", "/", "data:")):
+                continue
+            src = self.image_src(name)
+            if src:
+                new = soup.new_tag("img", src=src, alt=caption, loading="lazy")
+                inner = soup.new_tag("a", href=src if not self.preview else "#", target="_blank")
+                inner.append(new)
+                node = inner
+            else:
+                node = BeautifulSoup(placeholder_svg(name, f"assets/img/{name}"), "html.parser")
+            fig = soup.new_tag("figure")
+            if "wide" in (img.get("class") or []):
+                fig["class"] = ["wide"]
+            fig.append(node)
+            if caption:
+                fc = soup.new_tag("figcaption")
+                fc.string = caption
+                fig.append(fc)
+            parent = img.parent
+            if parent.name == "p" and len([c for c in parent.contents if str(c).strip()]) == 1:
+                parent.replace_with(fig)
+            else:
+                img.replace_with(fig)
+
+        # CV rows:  "- 2024-2026 | text"  ->  two columns (works for tight and loose lists)
+        for li in soup.find_all("li"):
+            target = li.find("p", recursive=False) or li
+            first = next((c for c in target.contents if not (isinstance(c, str) and not c.strip())), None)
+            if not (isinstance(first, str) and " | " in first):
+                continue
+            when, rest = first.split(" | ", 1)
+            if len(when.strip()) > 24:
+                continue
+            first.replace_with(rest.lstrip())
+            span_t = soup.new_tag("span")
+            for c in list(target.contents):
+                span_t.append(c.extract())
+            span_w = soup.new_tag("span", attrs={"class": "when"})
+            span_w.string = when.strip()
+            li.clear()
+            li["class"] = li.get("class", []) + ["row"]
+            li.append(span_w)
+            li.append(span_t)
+
+        # <!-- highlights: id1, id2 -->  ->  a row of highlight cards
+        from bs4 import Comment
+        for c in soup.find_all(string=lambda t: isinstance(t, Comment) and t.strip().startswith("highlights:")):
+            ids = [i.strip() for i in c.strip()[len("highlights:"):].split(",") if i.strip()]
+            cards, _ = self.highlight_cards(only=ids)
+            html_cards = self.env.get_template("_cards.html").render(cards=cards, md_inline=self.md_inline)
+            c.replace_with(BeautifulSoup('<div class="related">' + html_cards + "</div>", "html.parser"))
+
+        return self.fix_links(str(soup))
+
+    # ---- pages
+    def pages(self):
+        pages = []
+        for path in sorted(CONTENT.glob("*.md")):
+            fm, body = split_front(path.read_text(encoding="utf-8"))
+            slug = path.stem
+            fm.setdefault("title", slug.replace("-", " ").title())
+            fm["slug"] = slug
+            fm["url"] = "/" if slug == "home" else f"/{slug}/"
+            pages.append((fm, body))
+        for slug, layout, title in [("highlights", "highlights", "Highlights"), ("members", "members", "Members")]:
+            if not (CONTENT / f"{slug}.md").exists():
+                pages.append(({"slug": slug, "url": f"/{slug}/", "title": title, "layout": layout}, ""))
+        return pages
+
+    def highlight_cards(self, limit=None, only=None):
+        items = load_yaml("highlights.yml", []) or []
+        if only:
+            by_id = {h["id"]: h for h in items}
+            items = [by_id[i] for i in only if i in by_id]
+        cards = []
+        for h in items[:limit] if limit else items:
+            name = h.get("image") or f"highlights/{h['id']}.jpg"
+            cards.append({**h, "figure": self.figure(name, h.get("title", ""))})
+        return cards, len(items)
+
+    def pubs_by_year(self):
+        pubs = load_yaml("publications.yml", []) or []
+        years = {}
+        for p in pubs:
+            authors = p.get("authors") or []
+            short = (authors[0].split(",")[0] + (" et al." if len(authors) > 1 else "")) if authors else ""
+            years.setdefault(p.get("year"), []).append({**p, "authors_short": short})
+        return sorted(years.items(), key=lambda kv: -(kv[0] or 0))
+
+    def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:
+        layout = fm.get("layout", "page")
+        tpl = self.env.get_template(f"{layout}.html")
+        banner_name = fm.get("banner") or (self.site.get("banners") or {}).get(fm["slug"])
+        banner = self.image_src(banner_name) if banner_name else None
+        logo = self.image_src(self.site.get("logo")) if self.site.get("logo") else None
+        ctx = dict(site=self.site, page=fm, content=Markup(self.render_markdown(body)) if body.strip() else "",
+                   banner=banner, logo=logo, href=self.href, asset=self.asset, md_inline=self.md_inline,
+                   photo=self.figure(fm["photo"], "") if fm.get("photo") else None)
+        if layout in ("home", "highlights"):
+            limit = self.site.get("home_highlights", 6) if layout == "home" else None
+            ctx["cards"], ctx["highlights_total"] = self.highlight_cards(limit)
+        if layout == "members":
+            ctx["members"] = load_yaml("members.yml", {})
+        if layout == "publications":
+            ctx["pubs_by_year"] = self.pubs_by_year()
+        ctx.update(extra or {})
+        return tpl.render(**ctx)
+
+
+# --------------------------------------------------------------------------- outputs
+
+def build_site(out: Path) -> Builder:
+    b = Builder(preview=False)
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+    shutil.copytree(ASSETS, out / "assets", ignore=shutil.ignore_patterns("README*", ".*"))
+    urls = []
+    for fm, body in b.pages():
+        html_out = b.render_page(fm, body)
+        dest = out / "index.html" if fm["slug"] == "home" else out / fm["slug"] / "index.html"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(html_out, encoding="utf-8")
+        urls.append(fm["url"])
+    # 404, redirects, sitemap, CNAME
+    (out / "404.html").write_text(b.render_page({"slug": "404", "url": "", "title": "Page not found", "layout": "404"}, ""),
+                                  encoding="utf-8")
+    for old, new in (b.site.get("redirects") or {}).items():
+        new = b.href(new)
+        d = out / old.strip("/") / "index.html"
+        d.parent.mkdir(parents=True, exist_ok=True)
+        d.write_text(f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={new}">'
+                     f'<link rel="canonical" href="{new}"><a href="{new}">Moved here</a>', encoding="utf-8")
+    domain = b.site.get("domain")
+    if domain:
+        (out / "CNAME").write_text(domain + "\n", encoding="utf-8")
+        (out / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            + "".join(f"  <url><loc>https://{domain}{u}</loc></url>\n" for u in sorted(urls)) + "</urlset>\n",
+            encoding="utf-8")
+    (out / ".nojekyll").write_text("", encoding="utf-8")
+    return b
+
+
+PREVIEW_ROUTER = """
+(function(){
+  var secs=[].slice.call(document.querySelectorAll('[data-page]'));
+  function show(){
+    var k=(location.hash||'#home').slice(1).split('/')[0]||'home';
+    if(!document.querySelector('[data-page="'+k+'"]')) k='home';
+    secs.forEach(function(s){ s.hidden = s.getAttribute('data-page')!==k; });
+    [].forEach.call(document.querySelectorAll('nav.tabs a'),function(a){
+      if(a.getAttribute('href')==='#'+k) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+    });
+    window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange',show); show();
+})();
+"""
+
+
+def build_preview(out_file: Path) -> Builder:
+    """Every page in one self-contained HTML file (for sharing a preview)."""
+    b = Builder(preview=True)
+    css = (ASSETS / "css" / "site.css").read_text(encoding="utf-8")
+    sections = []
+    for fm, body in b.pages():
+        full = b.render_page(fm, body)
+        soup = BeautifulSoup(full, "html.parser")
+        banner = soup.select_one(".banner")
+        main = soup.select_one("main")
+        sections.append(f'<div data-page="{fm["slug"]}" hidden>{banner or ""}<main>{main.decode_contents()}</main></div>')
+    shell = b.render_page({"slug": "home", "url": "/", "title": b.site.get("title"), "layout": "page"}, "",
+                          {"inline_css": Markup(css), "extra_script": Markup(PREVIEW_ROUTER)})
+    soup = BeautifulSoup(shell, "html.parser")
+    soup.select_one(".banner").decompose()
+    main = soup.select_one("main")
+    main.replace_with(BeautifulSoup("".join(sections), "html.parser"))
+    for a in soup.select("nav.tabs a"):
+        a.attrs.pop("aria-current", None)
+    for f in soup.select("iframe.map"):          # embedded frames are blocked in previews: link instead
+        link = soup.new_tag("a", href=f["src"], target="_blank", rel="noopener")
+        link.string = "Open the map (Google Maps)"
+        wrap = soup.new_tag("p")
+        wrap.append(link)
+        f.replace_with(wrap)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    out_file.write_text(str(soup), encoding="utf-8")
+    return b
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--preview", action="store_true", help="write _preview/index.html instead of _site/")
+    args = ap.parse_args()
+    if args.preview:
+        b = build_preview(ROOT / "_preview" / "index.html")
+        print("preview -> _preview/index.html")
+    else:
+        b = build_site(ROOT / "_site")
+        print(f"site -> _site/  ({sum(1 for _ in (ROOT/'_site').rglob('index.html'))} pages)")
+    if b.missing_images:
+        print(f"{len(b.missing_images)} image(s) not added yet (placeholders shown). "
+              f"Run scripts/fetch_images.py, or see IMAGES.md.")
+
+
+if __name__ == "__main__":
+    sys.exit(main())

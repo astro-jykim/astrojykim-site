@@ -1,0 +1,33 @@
+# Site-wide settings. Edit freely.
+
+title: UNIST Observational Astrophysics Group
+domain: www.astrojykim.com
+copyright: © Jae-Young Kim. All rights reserved.
+
+# Header logo (put the file in assets/img/site/). If the file is missing, a drawn mark is used.
+logo: site/logo.png
+
+# Top navigation, in order.
+nav:
+  - {title: Home, url: /}
+  - {title: Jae-Young Kim, url: /jae-young-kim/}
+  - {title: Research, url: /research/}
+  - {title: Highlights, url: /highlights/}
+  - {title: Publications, url: /publications/}
+  - {title: Members, url: /members/}
+  - {title: Join Us, url: /join-us/}
+  - {title: 2027 Positions, url: /positions-2027/}
+  - {title: Contact, url: /contact/}
+  - {title: 2.3m Radio Telescope, url: /2-3m-radio-telescope/}
+
+# Banner images per page (files in assets/img/banners/). Missing files fall back to a plain band.
+banners:
+  highlights: banners/highlights.jpg
+  members: banners/members.jpg
+
+# How many highlights to show on the home page.
+home_highlights: 6
+
+# Old Google Sites addresses that should keep working.
+redirects:
+  /home/: /

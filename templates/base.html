@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{ page.lang or 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% if page.slug == 'home' %}{{ site.title }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description or site.description or '' }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+{% if inline_css %}<style>{{ inline_css }}</style>{% else %}<link rel="stylesheet" href="{{ asset('css/site.css') }}">{% endif %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="masthead-in">
+    <div class="brandrow">
+      <a class="brand" href="{{ href('/') }}">
+        {% if logo %}<img src="{{ logo }}" alt="">{% else %}
+        <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><g fill="none" stroke="currentColor"><ellipse cx="15" cy="15" rx="12.5" ry="9"/><ellipse cx="15" cy="15" rx="8.6" ry="6.2"/><ellipse cx="15" cy="15" rx="5" ry="3.6"/></g><circle cx="15" cy="15" r="2" fill="#d98a1f"/></svg>
+        {% endif %}
+        <span class="brand-name">{{ site.title }}</span>
+      </a>
+      <button class="themebtn" id="themebtn" type="button" aria-label="Switch light or dark theme">THEME</button>
+    </div>
+    <nav class="tabs" aria-label="Site">
+      {% for item in site.nav %}<a href="{{ href(item.url) }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+
+{% block banner %}
+<div class="banner{% if not banner %} plain{% endif %}"{% if banner %} style="background-image:url('{{ banner }}'){% if page.banner_position %};background-position:{{ page.banner_position }}{% endif %}"{% endif %}>
+  <div class="banner-in"><h1>{{ page.title }}</h1></div>
+</div>
+{% endblock %}
+
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+
+<footer><div class="in"><div>{{ site.copyright }}</div><div>{{ site.domain }}</div></div></footer>
+<script>
+(function () {
+  var root = document.documentElement, btn = document.getElementById('themebtn');
+  try { var t = localStorage.getItem('theme'); if (t) root.setAttribute('data-theme', t); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var dark = root.getAttribute('data-theme') === 'dark' ||
+      (!root.hasAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    var next = dark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+})();
+</script>
+{% if extra_script %}<script>{{ extra_script }}</script>{% endif %}
+</body>
+</html>

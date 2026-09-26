@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block banner %}
+<div class="banner hero{% if not banner %} plain{% endif %}"{% if banner %} style="background-image:url('{{ banner }}')"{% endif %}>
+  <div class="banner-in">
+    <h1>{{ page.hero_title }}</h1>
+    <p class="sub">{{ page.hero_subtitle }}</p>
+  </div>
+</div>
+{% endblock %}
+{% block main %}
+<div class="prose">{{ content }}</div>
+{% if page.notice %}
+<div class="notice">
+  <span class="tag">2027</span>
+  <div>
+    <p>{{ md_inline(page.notice) }}</p>
+    {% if page.notice_ko %}<p class="ko" lang="ko">{{ md_inline(page.notice_ko) }}</p>{% endif %}
+  </div>
+</div>
+{% endif %}
+<h2 class="section-label">Highlights</h2>
+{% include "_cards.html" %}
+<p class="more"><a href="{{ href('/highlights/') }}">All {{ highlights_total }} highlights →</a></p>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block main %}
+<p class="members-intro">{{ md_inline(members.intro) }}</p>
+{% for g in members.groups %}
+<section class="group">
+  <h2>{{ g.label }}</h2>
+  <ul class="people">
+  {% for p in g.people %}
+    <li>
+      <p class="who"><strong>{% if p.link %}<a href="{{ href(p.link) }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</strong>{% if p.detail %} ({{ p.detail }}){% endif %}{% if p.period %}, {{ p.period }}{% endif %}</p>
+      {% if p.topic %}<p class="topic">{{ p.topic }}</p>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

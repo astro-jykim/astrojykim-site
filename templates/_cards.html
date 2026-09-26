@@ -1,0 +1,12 @@
+<div class="cards">
+{% for h in cards %}
+  <article class="card" id="{{ h.id }}">
+    <a class="img" href="{{ h.links[0].url if h.links else '#' }}" target="_blank" rel="noopener" aria-label="{{ h.title }}">{{ h.figure }}</a>
+    <div class="body">
+      <h3>{{ h.title }}</h3>
+      {% if h.links %}<p class="links">{% for l in h.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endfor %}</p>{% endif %}
+      {% for n in h.notes or [] %}<p class="note">{{ md_inline(n) }}</p>{% endfor %}
+    </div>
+  </article>
+{% endfor %}
+</div>

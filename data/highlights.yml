@@ -1,0 +1,163 @@
+# =============================================================================
+# Highlights — rendered in this order on /highlights/ (and the first 6 on Home).
+#
+# Image: put a file named <id>.jpg (or .png/.webp) in assets/img/highlights/.
+#        No setting needed here; the file name is the link.
+# links: shown under the title (paper, press release, ...).
+# notes: optional extra lines; Markdown links allowed.
+# bibcode / doi: used by scripts/sync_ads.py to recognise papers already listed.
+# =============================================================================
+
+- id: ryu2026
+  title: Compact Nuclei in Spiral-hosted Double-lobed Radio-loud Active Galactic Nuclei
+  links:
+  - text: Mingyu Ryu and Jae-Young Kim, 2026 (ApJ)
+    url: https://ui.adsabs.harvard.edu/abs/2026ApJ..1000..174R/abstract
+  bibcode: 2026ApJ..1000..174R
+- id: eht2025
+  title: Horizon-scale variability of the M87 black hole from 2017-2021 EHT observations
+  links:
+  - text: EHT Collaboration (w/ Kim JY) 2025
+    url: https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..91E/abstract
+  notes:
+  - International press releases by [the EHTC](https://eventhorizontelescope.org/new-eht-images-reveal-unexpected-polarization-flips-at-m87)
+    and Korean media and agency coverages ([Korea AeroSpace Agency (KASA)](https://www.kasa.go.kr/bbs/BBSMSTR_000000000010/view.do),
+    [DongA science](https://www.dongascience.com/news.php?idx=74071), [Chosun](https://news.google.com/u/1/read/CBMijAFBVV95cUxPd1h6X09oTnRkMWdTb1AtSUViNXZMSHNaRUREV0xiMWRhSWg5UmlpNUdBZklGVmZnQWxEaE5PaHI1b0VvVWljVHBTejZSUVhuZzk3VTd3dTNyWEZpQU9VcGJrVE9MYVNuS0ZkVllfalVRdGFmMTlaYmdocEdlLWZVQ0o5VmZ5OTc5YkFjWtIBoAFBVV95cUxPSFdTSUg2VmxUMlFQMjljQ2RnbTRhZkx2b3FzcS03cURxM3R2VzRJOTQtQUJSTGxSai14WHRVdENlRUJnVUJhSU8xNmNsRUdpdnFtUDVNaHd6eWFZdXl1Nzc4eVZDQkJlc2w1SjNBMEZkWDJTMkd4dDRWLVFmeUdzWVM3bjBsaEN5eXhJQW9EVlFyVWItdDBnVU9mTjVoWTZv?hl=ko&gl=KR&ceid=KR%3Ako),
+    [Yonhap news](https://www.yna.co.kr/view/AKR20250916066500017?input=fb) etc.)
+  - 'Official UNIST press releases: [Eng](https://news.unist.ac.kr/professor-jae-young-kim-leads-breakthrough-in-detecting-magnetic-field-reversals-around-the-m87-black-hole/)
+    and [Kor](https://news.unist.ac.kr/kor/20250918/)'
+  - 'Media echoes: example [Kor](https://biz.chosun.com/science-chosun/science/2025/09/16/QWOZITO6EVHDZGWDWRR36PSXIU/)
+    version (Chosun daily)'
+  bibcode: 2025A&A...704A..91E
+- id: lee2025
+  title: Jet Collimation in a Spiral-hosted Active Galactic Nucleus
+  links:
+  - text: Seung Yeon Lee and Jae-Young Kim, 2025 (ApJL)
+    url: https://ui.adsabs.harvard.edu/abs/2025ApJ...991L...5L/abstract
+  bibcode: 2025ApJ...991L...5L
+- id: kim2025
+  title: Structure and dynamics of relativistic jet in a neutrino-emitting black hole PKS 0735+178
+  links:
+  - text: Yu-Sik Kim and Jae-Young Kim, 2025 (A&A)
+    url: https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.381K/abstract
+  bibcode: 2025A&A...699A.381K
+- id: paraschos2024
+  title: Ordered magnetic fields around the 3C 84 central black hole
+  links:
+  - text: Paraschos, Kim JY, Wielgus et al. (EHT Collaboration), 2024, A&A
+    url: https://ui.adsabs.harvard.edu/abs/2024A%26A...682L...3P/abstract
+  notes:
+  - Press release by [MPIfR](https://www.mpifr-bonn.mpg.de/pressreleases/2024/4)
+  bibcode: 2024A&A...682L...3P
+- id: eht2024
+  title: The persistent shadow of the supermassive black hole of M 87. I. Observations, calibration, imaging,
+    and analysis
+  links:
+  - text: EHT Collaboration, 2024, A&A
+    url: https://ui.adsabs.harvard.edu/abs/2024A%26A...681A..79E/abstract
+  notes:
+  - Press release by the [EHT Collaboration](https://eventhorizontelescope.org/M87-one-year-later-proof-of-a-persistent-black-hole-shadow)
+  bibcode: 2024A&A...681A..79E
+- id: lu2023
+  title: The first image of the accretion flow and jet surrounding the black hole shadow in M87
+  links:
+  - text: Lu et al. (w/ Kim JY) 2023, Nature
+    url: https://www.nature.com/articles/s41586-023-05843-w
+  notes:
+  - Press releases by [KNU](https://www.knu.ac.kr/wbbs/wbbs/bbs/btin/viewBtin.action?bbs_cde=28&btin.bbs_cde=28&btin.doc_no=1328913&btin.appl_no=000000&btin.page=1&btin.search_type=&btin.search_text=&popupDeco=false&btin.note_div=row&menu_idx=214),
+    [ESO](https://www.eso.org/public/unitedkingdom/news/eso2305/?lang), and [MPIfR](https://www.mpifr-bonn.mpg.de/pressreleases/2023/6)
+  doi: 10.1038/s41586-023-05843-w
+- id: fuentes2023
+  title: Filamentary structures as the origin of blazar jet radio variability
+  links:
+  - text: Fuentes et al. (w/ Kim JY) 2023, Nature Astronomy
+    url: https://www.nature.com/articles/s41550-023-02105-7
+  doi: 10.1038/s41550-023-02105-7
+- id: cui2023
+  title: Precessing jet nozzle connecting to a spinning black hole in M87
+  links:
+  - text: Cui et al. (w/ Kim JY) 2023, Nature
+    url: https://www.nature.com/articles/s41586-023-06479-6
+  doi: 10.1038/s41586-023-06479-6
+- id: kim2023
+  title: The first space-VLBI imaging of M87 at 22 GHz by RadioAstron
+  links:
+  - text: Kim JY et al. 2023, ApJ
+    url: https://ui.adsabs.harvard.edu/abs/2023ApJ...952...34K/abstract
+  bibcode: 2023ApJ...952...34K
+- id: eht2022
+  title: The first direct image of the galactic center supermassive black hole Sgr A*
+  links:
+  - text: EHT Collaboration 2022, ApJL
+    url: https://iopscience.iop.org/article/10.3847/2041-8213/ac6674
+  - text: EHT Collaboration 2024, ApJL
+    url: https://ui.adsabs.harvard.edu/abs/2024ApJ...964L..25E/abstract
+  - text: Press release
+    url: https://eventhorizontelescope.org/blog/astronomers-reveal-first-image-black-hole-heart-our-galaxy
+  doi: 10.3847/2041-8213/ac6674
+  bibcode: 2024ApJ...964L..25E
+- id: eht2019
+  title: The first image of the black hole shadow in M87*
+  links:
+  - text: EHT Collaboration, 2019, ApJL
+    url: https://iopscience.iop.org/article/10.3847/2041-8213/ab0ec7
+  - text: EHT Collaboration, 2021, ApJL
+    url: https://iopscience.iop.org/article/10.3847/2041-8213/abe71d
+  - text: EHT Collaboration, 2023, ApJL
+    url: https://ui.adsabs.harvard.edu/abs/2023ApJ...957L..20A/abstract
+  - text: Press release
+    url: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
+  doi: 10.3847/2041-8213/ab0ec7
+  bibcode: 2023ApJ...957L..20A
+- id: kim2018
+  title: The jet launching region in M87 imaged at 7 Schwarzschild radii spatial resolution
+  links: []
+  notes:
+  - '[Kim JY et al. 2018, A&A](https://www.aanda.org/articles/aa/abs/2018/08/aa32921-18/aa32921-18.html)[Cover
+    page](https://www.aanda.org/articles/aa/abs/2018/08/contents/contents.html) of A&A vol. 616'
+- id: paraschos2023
+  title: Multi-band study of radio-gamma ray connection in 3C 84
+  links:
+  - text: Paraschos, Mpisketzis, Kim JY et al. 2023, A&A
+    url: https://ui.adsabs.harvard.edu/abs/2023A%26A...669A..32P/abstract
+  bibcode: 2023A&A...669A..32P
+- id: janssen2021
+  title: Imaging the jet launching and collimation region in Centaurus A
+  links:
+  - text: Janssen et al. (w/ Kim JY), 2021, Nature Astronomy
+    url: https://www.nature.com/articles/s41550-021-01417-w
+  - text: Press release
+    url: https://eventhorizontelescope.org/blog/eht-pinpoints-dark-heart-nearest-radio-galaxy
+  doi: 10.1038/s41550-021-01417-w
+- id: kim2020
+  title: The sharpest image of the gamma-ray emitting AGN 3C 279
+  links:
+  - text: Kim JY et al. 2020, A&A
+    url: https://ui.adsabs.harvard.edu/abs/2020A%26A...640A..69K/abstract
+  - text: Press Release
+    url: https://eventhorizontelescope.org/blog/something-is-lurking-in-the-heart-of-quasar-3c-279
+  bibcode: 2020A&A...640A..69K
+- id: paraschos2021
+  title: Pinpointing the black hole in the jet base of radio galaxy 3C 84
+  links:
+  - text: Paraschos, Kim JY et al. 2021, A&A
+    url: https://www.aanda.org/articles/aa/full_html/2021/06/aa40776-21/aa40776-21.html
+  doi: 10.1051/0004-6361/202140776
+- id: kim2019
+  title: Detection of millimeter-wave linear polarization in the nuclear region of 3C 84
+  links:
+  - text: Kim JY et al. 2019, A&A
+    url: https://www.aanda.org/articles/aa/full_html/2019/02/aa32920-18/aa32920-18.html
+  doi: 10.1051/0004-6361/201832920
+- id: paraschos2022
+  title: Two-decades monitoring of jet kinematics and gamma-ray emission in AGN 3C 84
+  links:
+  - text: Paraschos, Krichbaum, Kim JY et al. 2022, A&A
+    url: https://www.aanda.org/articles/aa/full_html/2022/09/aa43343-22/aa43343-22.html
+  doi: 10.1051/0004-6361/202243343
+- id: larionov2020
+  title: Decade-long study of 3C 279 from gamma-ray to radio wavelengths
+  links:
+  - text: Larionov et al. (w/ Kim JY), 2020, MNRAS
+    url: https://academic.oup.com/mnras/article/492/3/3829/5700737
+  bibcode: 2020MNRAS.492.3829L

@@ -1,0 +1,121 @@
+# =============================================================================
+# Members — rendered on /members/ in this order.
+# Each person renders as:  Name (detail), period   followed by the topic.
+# To add someone, copy an entry. To move someone to Alumni, cut & paste the entry.
+# =============================================================================
+
+intro: I am happy to talk with prospective students and researchers interested in joining our group and
+  working with me. Please feel free to directly [contact](/contact/) me.
+groups:
+- label: Group lead
+  people:
+  - name: Jae-Young Kim
+    link: /jae-young-kim/
+- label: Graduates
+  people:
+  - name: Deokhyeong Lee
+    detail: 이덕형, UNIST
+    period: since Mar 2026
+    topic: Highest-resolution imaging of radio galaxies and blazars by EHT and GMVA
+  - name: Seung-Yeon Lee
+    detail: 이승연, UNIST
+    period: since Mar 2024
+    topic: Peculiar jetted AGNs in spiral and disk galaxies
+  - name: Mingyu Ryu
+    detail: 류민규, UNIST
+    period: since Mar 2024
+    topic: Small dark matter halos and artificial intelligence for the SKA
+  - name: Taeho Kang
+    detail: 강태호, UNIST
+    period: since Mar 2024
+    topic: Optics, instrumentation, and simulations of ground and space millimeter radio telescopes
+  - name: Yu-Sik Kim
+    detail: 김유식, UNIST
+    period: since Mar 2025
+    topic: High-frequency radio astronomy study of extragalactic neutrino emitters
+  - name: Ho Jun Jeong
+    detail: 정호준, UNIST
+    period: since Mar 2026
+    topic: Spectro-polarimetric properties of neutrino blazars
+- label: Undergraduates
+  people:
+  - name: Chaewon Kim
+    detail: 김채원, UNIST
+    period: since Sep 2026
+    topic: Searching for IMBH candidates in dwarf galaxies by multi-epoch ASKAP, MWA, and other radio
+      survey datasets
+  - name: Yoojin Choi
+    detail: 최유진, UNIST
+    period: Jul-Aug 2026
+    topic: Probing circular polarization in the core of M87 using multi-year VLBA 15 GHz observations
+- label: Advisory students
+  people:
+  - name: Hyeon-Woo Chung
+    detail: 정현우; Ph.D. student at UST and KASI
+    period: since 2021
+  - name: Myeongseok Nam
+    detail: 남명석; Ph.D. student at UST and KASI
+    period: since 2024
+  - name: Georgios F. Paraschos
+    detail: advisory Ph.D. student at MPIfR
+    period: 2019-2022
+- label: Alumni
+  people:
+  - name: Deokhyeong Lee
+    detail: 이덕형, MSc., KNU
+    period: Mar 2023 - Feb 2025
+    topic: Global mm-VLBI study of M87 at 86 and 230 GHz using the GMVA and EHT data
+- label: Past supervisions, internships, or members
+  people:
+  - name: Byeongmin Park
+    detail: 박병민, UNIST
+    period: Mar-Jul 2026
+    topic: Assembly of SKAO table-top radio telescope (TTRT) and 1.4 GHz radio observations
+  - name: Changyeol Lee
+    detail: 이창열, UNIST
+    period: Aug 2025-Feb 2026
+    topic: A study of tethered galaxies as a novel source of energy in an expanding universe
+  - name: Jaejun Cho
+    detail: 조재준, KNU
+    period: Jul-Aug 2025
+    topic: Neural network processing of ultra wide-field radio interferometric images from the SKA
+  - name: Ho Jun Jeong
+    detail: 정호준, UNIST
+    period: Jan-Feb 2025
+    topic: Polarization of synchrotron emission from jet in the neutrino blazar PKS 0735+178
+  - name: Chaewon Kim
+    detail: 김채원, UNIST
+    period: Jan-Feb 2025
+    topic: Searching for intermediate-mass black hole (IMBH) candidates in the LOFAR radio survey data
+  - name: Yu-Sik Kim
+    detail: 김유식, KNU
+    period: Jul 2022 - Feb 2025
+    topic: Millimeter-VLBI imaging of the neutrino blazar PKS 0735+178
+  - name: Juhee Seo
+    detail: 서주희, B.Sc. internship at KNU
+    period: Jun-Dec 2024
+    topic: Broadband SED modeling of the central AGN in a spiral galaxy 0313-192 using JetSet
+  - name: Seung-Yeon Lee
+    detail: 이승연, B.Sc. internship at KNU
+    period: Jul 2022 - Feb 2024
+    topic: Collimation profile of relativistic jet in a spiral galaxy 0313-192
+  - name: Taeho Kang
+    detail: 강태호, B.Sc. internship and thesis project at KNU
+    period: Mar 2023 - Feb 2024
+    topic: Installation, calibration, and operation of the KNU 2.3m radio telescope
+  - name: Mingyu Ryu
+    detail: 류민규, CBNU B.Sc. internship at KNU
+    period: Jul 2023 - Feb 2024
+    topic: VLBI-scale sample study of giant double-lobed radio AGNs hosted by spiral galaxies
+  - name: Minchan Kang
+    detail: 강민찬, B. Sc. internship at KNU
+    period: Apr - Aug 2023
+    topic: Installation and test of the KNU 2.3m radio telescope
+  - name: Myeong-Won Kim
+    detail: 김명원, B.Sc. internship and thesis project at KNU
+    period: Jul 2022 - Dec 2023
+    topic: Synthetic observation and imaging study of EHT+eKVN observations of M87*
+  - name: Jihoo Kim
+    detail: 김지후, B.Sc. internship at KNU
+    period: Aug 2022 - Feb 2023
+    topic: VLBI-scale spectral analysis of compact symmetric objects (CSOs)

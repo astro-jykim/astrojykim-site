@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block main %}
+{% if photo %}
+<div class="profile">
+  <div class="prose">{{ content }}</div>
+  <div class="photo">{{ photo }}</div>
+</div>
+{% else %}
+<div class="prose">{{ content }}</div>
+{% endif %}
+{% endblock %}
