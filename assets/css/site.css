@@ -119,8 +119,8 @@ nav.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--
 /* ---------------------------------------------------------------- banners */
 .banner {
   position: relative;
-  aspect-ratio: 2.1 / 1;
-  max-height: 78vh;
+  width: 100%;
+  height: min(calc(100vw / 2.1), 78vh);
   min-height: 240px;
   display: flex;
   align-items: flex-end;
@@ -134,7 +134,7 @@ nav.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--
   background: linear-gradient(180deg, rgba(0,0,0,0) 30%, var(--banner-shade));
 }
 .banner.plain {
-  aspect-ratio: auto;
+  height: auto;
   min-height: 200px;
   background-image:
     radial-gradient(ellipse 60% 90% at 78% 40%, rgba(217,138,31,.28), transparent 60%),
@@ -143,7 +143,7 @@ nav.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--
 }
 .banner-in { position: relative; width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 28px 16px 22px; }
 .banner h1 { font-size: clamp(28px, 4.6vw, 40px); letter-spacing: -0.02em; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
-.hero { aspect-ratio: 1.55 / 1; max-height: 90vh; min-height: 420px; background-position: center 70%; }
+.hero { height: min(calc(100vw / 1.55), 90vh); min-height: 420px; background-position: center 70%; }
 .hero h1 { font-size: clamp(32px, 6vw, 56px); }
 .hero .sub { margin: 10px 0 0; font-size: clamp(15px, 2vw, 19px); opacity: .92; text-shadow: 0 1px 10px rgba(0,0,0,.4); }
 
