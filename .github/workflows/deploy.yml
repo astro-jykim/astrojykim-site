@@ -1,9 +1,13 @@
 name: Build and deploy
 
 # Every push to main rebuilds the site and publishes it on GitHub Pages.
+# Every Monday 09:00 KST it also rebuilds, so the publication list and citation
+# numbers stay current (they are fetched from NASA ADS at build time, nothing is committed).
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 0 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -24,6 +28,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Refresh the publication list from NASA ADS
+        env:
+          ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
+        run: python scripts/sync_ads.py --write --only pubs || echo "::warning::ADS not reachable, using the list in the repository"
       - id: pages
         uses: actions/configure-pages@v5
       - name: Build

@@ -255,6 +255,16 @@ iframe.map { width: 100%; max-width: none; aspect-ratio: 16 / 9; min-height: 360
 .people .topic { margin: 3px 0 0; color: var(--ink-2); font-size: 14.5px; }
 
 /* ---------------------------------------------------------------- publications */
+.pubstats { margin: 26px 0 8px; }
+.pubstats .nums { display: flex; gap: 14px; flex-wrap: wrap; }
+.pubstats .nums div { flex: 1 1 160px; border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; }
+.pubstats .nums b { display: block; font-size: 30px; font-weight: 600; color: var(--accent); line-height: 1.1; }
+.pubstats .nums span { font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
+.pubchart { width: 100%; height: auto; margin-top: 18px; display: block; }
+.pubchart rect { fill: var(--accent-bright); }
+.pubchart text { font-family: var(--mono); font-size: 10px; fill: var(--ink-3); text-anchor: middle; }
+.pubchart text.n { fill: var(--ink); }
+.pubstats .src { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-align: center; margin: 6px 0 0; }
 .pubyear { font-family: var(--mono); font-size: 13px; color: var(--ink-3); margin: 30px 0 0; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
 .pubs { list-style: none; padding: 0; margin: 0; }
 .pubs li { padding-block: 11px; border-bottom: 1px solid var(--line); }

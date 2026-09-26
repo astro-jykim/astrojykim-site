@@ -1,9 +1,11 @@
 name: ADS sync
 
-# 1st of every month, 09:00 KST — or run it by hand from the Actions tab.
+# Every Monday 09:30 KST — or run it by hand from the Actions tab.
+# Opens a pull request only when a NEW highlight paper appears
+# (the publication list itself is refreshed by every build, see deploy.yml).
 on:
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "30 0 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -22,19 +24,17 @@ jobs:
       - name: Fetch from NASA ADS
         env:
           ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
-        run: python scripts/sync_ads.py --write
+        run: python scripts/sync_ads.py --write --only highlights
       - name: Open a pull request if anything changed
         uses: peter-evans/create-pull-request@v6
         with:
           branch: auto/ads-sync
           delete-branch: true
-          commit-message: "Publications update from NASA ADS"
+          commit-message: "New highlight papers from NASA ADS"
           title: "New papers from ADS"
           body: |
-            Automatic monthly update from NASA ADS.
-
-            - `data/publications.yml` — full list, citation counts refreshed
-            - `data/highlights.yml` — new papers (if any) were added at the top
+            Automatic weekly check of NASA ADS: new papers were added at the top of
+            `data/highlights.yml`.
 
             Before merging: check the new highlight entries (title, links), delete any you
             don't want, and add an image named `<id>.jpg` to `assets/img/highlights/`.

@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% block main %}
 <div class="prose">{{ content }}</div>
+{% if stats %}
+<section class="pubstats">
+  <div class="nums">
+    <div><b>{{ stats.papers }}</b><span>refereed papers</span></div>
+    <div><b>{{ "{:,}".format(stats.citations) }}</b><span>citations</span></div>
+    <div><b>{{ stats.h }}</b><span>h-index</span></div>
+  </div>
+  {{ stats.chart }}
+  <p class="src">Refereed papers per year · from NASA ADS, updated weekly</p>
+</section>
+{% endif %}
 {% if pubs_by_year %}
   {% for year, items in pubs_by_year %}
   <h2 class="pubyear">{{ year }}</h2>

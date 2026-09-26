@@ -254,6 +254,35 @@ class Builder:
             years.setdefault(p.get("year"), []).append({**p, "authors_short": short, "title_html": Markup(title)})
         return sorted(years.items(), key=lambda kv: -(kv[0] or 0))
 
+    def pub_stats(self):
+        """Numbers and a papers-per-year bar chart for the top of the Publications page."""
+        pubs = load_yaml("publications.yml", []) or []
+        if not pubs:
+            return None
+        cites = sorted((p.get("citations") or 0 for p in pubs), reverse=True)
+        h = sum(1 for i, c in enumerate(cites, 1) if c >= i)
+        per_year = {}
+        for p in pubs:
+            if p.get("year"):
+                per_year[p["year"]] = per_year.get(p["year"], 0) + 1
+        y0, y1 = min(per_year), max(per_year)
+        years = list(range(y0, y1 + 1))
+        top = max(per_year.values())
+        w, hgt, bw = 720, 150, 720 / len(years)
+        bars = []
+        for i, y in enumerate(years):
+            n = per_year.get(y, 0)
+            bh = (hgt - 34) * n / top
+            x = i * bw
+            bars.append(f'<rect x="{x + bw*0.18:.1f}" y="{hgt - 18 - bh:.1f}" width="{bw*0.64:.1f}" height="{bh:.1f}"><title>{y}: {n}</title></rect>')
+            if n:
+                bars.append(f'<text class="n" x="{x + bw/2:.1f}" y="{hgt - 22 - bh:.1f}">{n}</text>')
+            if y % 2 == y1 % 2 or len(years) <= 12:
+                bars.append(f'<text x="{x + bw/2:.1f}" y="{hgt - 4}">{y}</text>')
+        svg = (f'<svg class="pubchart" viewBox="0 0 {w} {hgt}" role="img" '
+               f'aria-label="Refereed papers per year">{"".join(bars)}</svg>')
+        return {"papers": len(pubs), "citations": sum(cites), "h": h, "chart": Markup(svg)}
+
     def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:
         layout = fm.get("layout", "page")
         tpl = self.env.get_template(f"{layout}.html")
@@ -270,6 +299,7 @@ class Builder:
             ctx["members"] = load_yaml("members.yml", {})
         if layout == "publications":
             ctx["pubs_by_year"] = self.pubs_by_year()
+            ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
         ctx.update(extra or {})
         return tpl.render(**ctx)
 
