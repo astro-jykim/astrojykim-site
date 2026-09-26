@@ -115,7 +115,10 @@ class Builder:
         return self.base + url if url.startswith("/") else url
 
     def asset(self, rel: str) -> str:
-        return f"{self.base}/assets/{rel}"
+        # ?v=<hash> makes browsers fetch the file again whenever it changes
+        f = ASSETS / rel
+        v = hashlib.sha1(f.read_bytes()).hexdigest()[:8] if f.exists() else ""
+        return f"{self.base}/assets/{rel}" + (f"?v={v}" if v else "")
 
     def image_src(self, name: str) -> str | None:
         p = find_image(name)
