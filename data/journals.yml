@@ -1,7 +1,7 @@
 # Journal metrics shown in "Where we publish" on the Publications page (from the CV).
 # jif:  Journal Impact Factor;  rank: rank by JIF within the journal's JCR category ("15/84").
 # Update once a year when the new Journal Citation Reports come out.
-source: Journal Impact Factor 2024 (Clarivate Journal Citation Reports 2025). "Top N%" is the rank by impact factor within each journal's JCR category
+source: Clarivate Journal Citation Reports (JCR) 2025, which lists each journal's impact factor for 2024. "Top N%" is the rank by impact factor within the journal's JCR category
 journals:
   Nature:                                            {jif: 48.5, rank: 2/136}
   Nature Astronomy:                                  {jif: 14.3, rank: 5/84}
