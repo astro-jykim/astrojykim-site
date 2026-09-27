@@ -72,7 +72,7 @@ Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, Me
 
 <div class="figpair" markdown="1">
 
-![A seed of the first supermassive black holes? UHZ1, a growing black hole seen in X-rays (purple, Chandra) in a galaxy only 470 million years after the Big Bang (infrared, JWST). Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1.jpg)
+![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its centre seen by Chandra — the most distant black hole detected in X-rays. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
 
 ![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas — less than 1% of the telescope. About 85 bright galaxies, all hosting supermassive black holes, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
 
