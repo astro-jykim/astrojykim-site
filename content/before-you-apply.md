@@ -42,16 +42,24 @@ Browsing the openings for a while is the most direct way to see how many positio
 - [Korean Space Science Society](https://ksss.or.kr/board/recruitment) — space science and space industry positions.
 - [AAS Job Register](https://aas.org/jobregister) — the main international list of astronomy jobs. It is US-centred, but it shows the size and shape of the job market worldwide.
 
-### Before you apply: choosing graduate school and a supervisor
+### Why (not) go to graduate school
 
-- [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) (US News). A general article, including the reasons *not* to go.
+- [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, *Dynamics of Cats*, 2012). An astrophysicist's frank view: the science you get to do, and the costs, such as moving every few years and depending on one advisor.
+- [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011). The world produces far more PhDs than academic jobs. Worth reading before you decide what the degree is for.
+- [The Ph.D. Grind](http://pgbovine.net/PhD-memoir-prologue.htm) (Philip Guo, 2012). A free memoir of six years as a PhD student, including a very hard first year. The field is computer science, but the experience is universal.
+- [Why I chose grad school](https://astrobites.org/2011/07/01/why-i-chose-grad-school/) (astrobites, 2011). An astronomy graduate student on seeing the PhD as a job you are free to leave, and on the careers it opens beyond academia.
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might). What a PhD actually adds to human knowledge, in a few pictures.
 - [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7) (Nature, 2019). A survey of more than 6,000 PhD students: finances, working hours and career uncertainty.
 - ["I don't want this kind of life": graduate students question career options](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022). What PhD students themselves say about their prospects.
 - [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025). Graduate school is demanding; it is worth knowing this in advance, and worth asking for help early.
+
+### Before you apply: choosing a program and a supervisor
+
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021).
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021).
-- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students — useful before you apply and again once you are in.
+- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students. Useful before you apply and again once you are in.
+- [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie). How competitive astronomy admissions are, how to choose where to apply, and why a first round of rejections is common and survivable.
+- [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might). Short and practical: the traps that most often derail a PhD.
 
 ### Once you are in graduate school
 
@@ -116,16 +124,24 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [한국우주과학회 채용안내](https://ksss.or.kr/board/recruitment) — 우주과학·우주산업 분야 공고
 - [AAS Job Register](https://aas.org/jobregister) — 천문학 분야의 대표적인 국제 채용 목록입니다. 미국 중심이지만, 전 세계 천문학 job market의 규모와 흐름을 가늠하는 데 쓸 수 있습니다.
 
-### 지원하기 전에: 대학원 진학, 프로그램, 지도교수 정하기
+### 대학원에 가야 할까, 말아야 할까
 
-- [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) (US News) — 일반적인 글이지만, 대학원에 가지 "말아야" 할 이유들을 써 놨습니다.
-- [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might) — 박사학위가 인류의 지식에 실제로 무엇을 더하는지 그림 몇 장으로 보여 줍니다.
-- [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7) (Nature, 2019) — 대학원생 6,000여 명 설문: 경제적 어려움, 긴 근무시간, 진로 불확실성.
-- ["I don't want this kind of life"](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022) — 대학원생들이 직접 말하는 진로 고민입니다.
-- [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025) — 대학원 생활은 힘든 부분이 있습니다. 미리 알아 두고, 힘들 때는 일찍 도움을 청하세요.
+- [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, 2012): 천체물리학자가 솔직하게 쓴 글입니다. 할 수 있는 연구의 매력과 함께, 몇 년마다 이사해야 하는 삶이나 지도교수 한 사람에게 크게 좌우되는 점 같은 비용도 짚습니다.
+- [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011): 전 세계적으로 박사 배출이 학계 일자리보다 훨씬 많다는 기사입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 볼 만합니다.
+- [The Ph.D. Grind](http://pgbovine.net/PhD-memoir-prologue.htm) (Philip Guo, 2012): 박사과정 6년을 솔직하게 쓴 무료 회고록입니다. 특히 첫해가 얼마나 힘들었는지 나옵니다. 컴퓨터과학 분야지만 경험은 어느 분야나 비슷합니다.
+- [Why I chose grad school](https://astrobites.org/2011/07/01/why-i-chose-grad-school/) (astrobites, 2011): 천문학 대학원생이 박사과정을 "언제든 그만둘 수 있는 직업"으로 보게 된 이야기와, 학계 밖으로도 열리는 진로에 관한 글입니다.
+- [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might): 박사학위가 인류의 지식에 실제로 무엇을 더하는지 그림 몇 장으로 보여 줍니다.
+- [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7) (Nature, 2019): 대학원생 6,000여 명 설문. 경제적 어려움, 긴 근무시간, 진로 불확실성.
+- ["I don't want this kind of life"](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022): 대학원생들이 직접 말하는 진로 고민입니다.
+- [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025): 대학원 생활은 힘든 부분이 있습니다. 미리 알아 두고, 힘들 때는 일찍 도움을 청하세요.
+
+### 지원하기 전에: 프로그램과 지도교수 정하기
+
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021)
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021)
-- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites) — 천문학 대학원생들이 쓴 안내서: 프로그램과 지도교수 선택, 연구비, 연구·논문, 생활의 균형. 지원 전에도, 입학 후에도 도움이 됩니다.
+- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites): 천문학 대학원생들이 쓴 안내서. 프로그램과 지도교수 선택, 연구비, 연구·논문, 생활의 균형. 지원 전에도, 입학 후에도 도움이 됩니다.
+- [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie): 천문학 대학원 입시가 얼마나 경쟁적인지, 어디에 지원할지 고르는 법, 그리고 첫해에 여러 곳에서 떨어지는 일이 흔하고 극복할 수 있다는 이야기입니다.
+- [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might): 박사과정을 망치는 흔한 함정들을 짧고 실용적으로 정리했습니다.
 
 ### 대학원에 들어온 뒤
 
