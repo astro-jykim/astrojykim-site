@@ -1,21 +1,16 @@
-# Journal metrics shown in "Where we publish" on the Publications page.
-# jif:  Journal Impact Factor (Clarivate Journal Citation Reports), with its data year
-# rank: rank in the JCR category, e.g. "20/86" (Astronomy & Astrophysics); leave out if unknown
-# Fill in or correct from JCR (jcr.clarivate.com, via the UNIST library) — journals without a value show none.
-year: 2025
-source: Journal Impact Factor 2025 (Clarivate JCR, released 2026), as published by each journal
+# Journal metrics shown in "Where we publish" on the Publications page (from the CV).
+# jif:  Journal Impact Factor;  rank: rank by JIF within the journal's JCR category ("15/84").
+# Update once a year when the new Journal Citation Reports come out.
+source: Journal Impact Factor 2024 (Clarivate Journal Citation Reports 2025). "Top N%" is the rank by impact factor within each journal's JCR category
 journals:
-  Nature:                                           {jif: 56.1}
-  Nature Astronomy:                                 {jif: 15.2}
-  Physical Review Letters:                          {jif: 9.4}
-  Astronomy and Astrophysics:                       {jif: 6.1}
-  Monthly Notices of the Royal Astronomical Society: {jif: 5.2, rank: 20/86}
-  Galaxies:                                         {jif: 4.0, quartile: Q2}
-  # To add (values from JCR):
-  # The Astrophysical Journal Letters:              {jif: , rank: }
-  # The Astrophysical Journal:                      {jif: , rank: }
-  # The Astrophysical Journal Supplement Series:    {jif: , rank: }
-  # The Astronomical Journal:                       {jif: , rank: }
-  # Physical Review D:                              {jif: , rank: }
-  # Journal of Korean Astronomical Society:         {jif: , rank: }
-  # Publication of Korean Astronomical Society:     {jif: , rank: }
+  Nature:                                            {jif: 48.5, rank: 2/136}
+  Nature Astronomy:                                  {jif: 14.3, rank: 5/84}
+  The Astrophysical Journal Letters:                 {jif: 11.7, rank: 7/84}
+  Physical Review Letters:                           {jif: 9.0,  rank: 9/85}
+  The Astrophysical Journal Supplement Series:       {jif: 8.5,  rank: 9/69}
+  Astronomy and Astrophysics:                        {jif: 6.1,  rank: 15/84}
+  The Astrophysical Journal:                         {jif: 5.4,  rank: 17/84}
+  Physical Review D:                                 {jif: 5.3,  rank: 7/29}
+  The Astronomical Journal:                          {jif: 5.1,  rank: 17/69}
+  Monthly Notices of the Royal Astronomical Society: {jif: 4.8,  rank: 18/69}
+  Journal of Korean Astronomical Society:            {jif: 0.8,  rank: 59/69}

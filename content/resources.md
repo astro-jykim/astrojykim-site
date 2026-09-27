@@ -90,6 +90,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - Ghisellini, *Radiative Processes in High Energy Astrophysics* (Lecture Notes in Physics 873, Springer, 2013)
 - Longair, *High Energy Astrophysics*, 3rd ed. (Cambridge University Press, 2011)
 - Böttcher, Harris & Krawczynski (eds.), *Relativistic Jets from Active Galactic Nuclei* (Wiley-VCH, 2012)
+- Hughes (ed.), *Beams and Jets in Astrophysics* (Cambridge University Press, 1991): includes Birkinshaw's classic chapter on the stability of jets
 - Meier, *Black Hole Astrophysics: The Engine Paradigm* (Springer, 2012)
 - Peterson, *An Introduction to Active Galactic Nuclei* (Cambridge University Press, 1997)
 - Netzer, *The Physics and Evolution of Active Galactic Nuclei* (Cambridge University Press, 2013)
