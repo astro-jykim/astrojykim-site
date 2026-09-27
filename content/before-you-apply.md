@@ -73,11 +73,12 @@ Some titles are provocative on purpose, such as reasons *not* to go to graduate 
 </details>
 
 <details class="topic" markdown="1">
-<summary>Once you are in graduate school <span class="n">4</span><small class="d">Advice for the PhD years, from the most common traps to Hamming's classic talk on doing important research.</small></summary>
+<summary>Once you are in graduate school <span class="n">5</span><small class="d">Advice for the PhD years: the most common traps, getting papers through peer review, and Hamming's classic talk on doing important research.</small></summary>
 
 - [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might). Short and practical: the traps that most often derail a PhD once you are in it.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool). Some pages are gone, but the wiki still has plenty; click around.
+- [The Martial Art of Scientific Publication](https://aas.org/jobs/martial-art-scientific-publication) (Eugene N. Parker, *Eos*, 1997). A witty and practical guide to submitting papers, dealing with referees and editors, and answering criticism, from one of the great solar physicists. Read it before your first paper goes out.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research.
     The talk is long; four points stand out:
     1. Keep asking yourself, explicitly, what the important problems in your field are.
@@ -177,11 +178,12 @@ Many people leave academia after the degree, for all kinds of personal and profe
 </details>
 
 <details class="topic" markdown="1">
-<summary>대학원에 들어온 뒤 <span class="n">4</span><small class="d">박사과정 중에 빠지기 쉬운 함정부터, 중요한 연구에 관한 Hamming의 고전적인 강연까지.</small></summary>
+<summary>대학원에 들어온 뒤 <span class="n">5</span><small class="d">박사과정 중에 빠지기 쉬운 함정, 논문 투고와 심사 과정, 그리고 중요한 연구에 관한 Hamming의 고전적인 강연까지.</small></summary>
 
 - [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might): 박사과정 중에 빠지기 쉬운 흔한 함정들을 짧고 실용적으로 정리했습니다.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool) — 일부 자료는 없어졌지만 wiki 전체로 보면 여러 자료가 있으니 이것저것 눌러 보세요.
+- [The Martial Art of Scientific Publication](https://aas.org/jobs/martial-art-scientific-publication) (Eugene N. Parker, Eos, 1997): 태양풍을 예측한 Eugene Parker가 논문 투고, 심사위원·편집자와의 공방, 비판에 답하는 법까지 출판 과정을 재미있고 실용적으로 풀어 쓴 글입니다. 첫 논문을 내기 전에 꼭 읽어 보세요.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986) — 중요한 연구를 하는 사람들은 무엇이 다른지에 대한 고전적인 강연입니다.
     글이 길지만, 지금 연구자 입장에서도 살아 있는 부분은 네 가지입니다.
     1. 내 분야에서 중요한 문제가 무엇인지 계속 명시적으로 생각할 것
