@@ -865,3 +865,17 @@ details.numdefs { border-bottom: 0; }
 /* Resources: a one-line comment under each reference */
 .prose .annot { display: block; font-size: 14.5px; color: var(--ink-3); line-height: 1.5; margin-top: 2px; }
 .prose .annot { text-align: left; hyphens: manual; }
+
+/* Resources: reading list in collapsible topics */
+.prose details.topic { border-top: 1px solid var(--line); margin: 0; }
+.prose details.topic:last-of-type { border-bottom: 1px solid var(--line); }
+.prose details.topic > summary { cursor: pointer; list-style: none; padding: 13px 34px 13px 0; font-weight: 700; color: var(--ink); position: relative; }
+.prose details.topic > summary::-webkit-details-marker { display: none; }
+.prose details.topic > summary::after { content: "+"; position: absolute; right: 4px; top: 8px; font-size: 22px; font-weight: 400; color: var(--accent); }
+.prose details.topic[open] > summary::after { content: "–"; }
+.prose details.topic > summary:hover { color: var(--accent); }
+.prose details.topic > summary .n { font-weight: 400; font-size: 13px; color: var(--ink-3); margin-left: 6px; }
+.prose details.topic > ul { margin: 0 0 18px; }
+.prose details.topic + details.topic { margin-top: 0; }
+.prose details.topic + p, .prose details.topic + h2 { margin-top: 1.6em; }
+.prose p + details.topic { margin-top: 1em; }
