@@ -59,10 +59,10 @@ Browsing the openings for a while is the most direct way to see how many positio
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021).
 - [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students. Useful before you apply and again once you are in.
 - [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie). How competitive astronomy admissions are, how to choose where to apply, and why a first round of rejections is common and survivable.
-- [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might). Short and practical: the traps that most often derail a PhD.
 
 ### Once you are in graduate school
 
+- [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might). Short and practical: the traps that most often derail a PhD once you are in it.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool). Some pages have disappeared, but the wiki as a whole still has plenty. Click around.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research.
@@ -141,10 +141,10 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021)
 - [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites): 천문학 대학원생들이 쓴 안내서. 프로그램과 지도교수 선택, 연구비, 연구·논문, 생활의 균형. 지원 전에도, 입학 후에도 도움이 됩니다.
 - [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie): 천문학 대학원 입시가 얼마나 경쟁적인지, 어디에 지원할지 고르는 법, 그리고 첫해에 여러 곳에서 떨어지는 일이 흔하고 극복할 수 있다는 이야기입니다.
-- [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might): 박사과정을 망치는 흔한 함정들을 짧고 실용적으로 정리했습니다.
 
 ### 대학원에 들어온 뒤
 
+- [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might): 박사과정 중에 빠지기 쉬운 흔한 함정들을 짧고 실용적으로 정리했습니다.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool) — 일부 자료는 없어졌지만 wiki 전체로 보면 여러 자료가 있으니 이것저것 눌러 보세요.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986) — 중요한 연구를 하는 사람들은 무엇이 다른지에 대한 고전적인 강연입니다.
