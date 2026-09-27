@@ -279,7 +279,9 @@ class Builder:
             ids = [i.strip() for i in c.strip()[len("highlights:"):].split(",") if i.strip()]
             cards, _ = self.highlight_cards(only=ids)
             html_cards = self.env.get_template("_results.html").render(cards=cards, md_inline=self.md_inline)
-            c.replace_with(BeautifulSoup('<div class="related">' + html_cards + "</div>", "html.parser"))
+            wrap = (f'<details class="topic papers"><summary>Selected papers <span class="n">{len(cards)}</span></summary>'
+                    f'<div class="related">{html_cards}</div></details>')
+            c.replace_with(BeautifulSoup(wrap, "html.parser"))
 
         # <!-- projects -->  ->  project / facility cards from data/projects.yml
         for c in soup.find_all(string=lambda t: isinstance(t, Comment) and t.strip() == "projects"):
@@ -289,7 +291,8 @@ class Builder:
                 imgs = [imgs] if isinstance(imgs, str) else imgs
                 name = next((i for i in imgs if find_image(i)), imgs[0])
                 projects.append({**p, "figure": self.figure(name, p.get("name", ""), thumb=True)})
-            c.replace_with(BeautifulSoup(self.env.get_template("_projects.html").render(projects=projects), "html.parser"))
+            html_p = self.env.get_template("_projects.html").render(projects=projects)
+            c.replace_with(BeautifulSoup(f'<details class="topic"><summary>Facility details <span class="n">{len(projects)}</span></summary>{html_p}</details>', "html.parser"))
 
         return self.fix_links(str(soup))
 

@@ -14,7 +14,7 @@ If you’d like to understand our research more easily, you can also check out a
 [NASA ADS (recommended)](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-8229-7183&sort=date%20desc%2C%20bibcode%20desc) [Google Scholar](https://scholar.google.com/citations?user=G3x3HkAAAAAJ&hl=en) [ORCID](https://orcid.org/0000-0001-8229-7183)
 {: .buttons}
 
-![Our three research programs: (1) direct horizon-scale black hole imaging, (2) multi-wavelength and multi-messenger black hole astrophysics, and (3) black holes in the distant and early universe, together with the facilities we use for them: ALMA and the EHT, neutrino observatories, and the Square Kilometre Array.](research/figure-1.jpg){: .wide}
+An overview figure of our three research programs, with the facilities we use for each, is on the [Home page](/).
 
 [1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
 {: .chips}
@@ -143,9 +143,9 @@ Therefore, we conduct active collaborative research with many international and 
 
 <div class="figpair" markdown="1">
 
-![The Event Horizon Telescope: radio telescopes around the world combined into one planet-scale array. Credit: ESO/L. Calçada](research/eht-array.jpg)
+![The Event Horizon Telescope: radio telescopes around the world combined into one planet-scale array. Credit: ESO/L. Calçada](research/eht-array.jpg){: .cover}
 
-![ALMA on the Chajnantor plateau in Chile, the most sensitive station of the EHT and GMVA. Credit: P. Horálek/ESO](research/alma.jpg)
+![ALMA on the Chajnantor plateau in Chile, the most sensitive station of the EHT and GMVA. Credit: P. Horálek/ESO](research/alma.jpg){: .cover}
 
 </div>
 
@@ -171,6 +171,9 @@ Our work starts at the telescope. We write observing proposals, carry out the ob
 ![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network, ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .top}
 
 </div>
+
+<details class="topic" markdown="1">
+<summary>Methods in detail <span class="n">8</span></summary>
 
 <div class="methods" markdown="1">
 <div class="method" markdown="1">
@@ -206,6 +209,8 @@ Synthetic observations for the next-generation EHT, expanded KVN and space milli
 Comparing images, spectra and light curves with models of accretion flows, jets and particle acceleration.
 </div>
 </div>
+
+</details>
 
 Looking ahead, we are preparing for the next-generation EHT, expanded Korean millimeter-VLBI facilities, space-based millimeter VLBI (e.g. the proposed [Black Hole Explorer](https://www.blackholeexplorer.org/)), and the [Square Kilometre Array](https://www.skao.int/) in the 2030s.
 

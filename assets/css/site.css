@@ -909,3 +909,9 @@ nav.tabs .sub a + a { border-top: 1px solid var(--line); }
   .masthead.nav-open nav.tabs .sub a b { font-weight: inherit; color: inherit; font-size: inherit; }
   .masthead.nav-open nav.tabs .sub a + a { border-top: 0; }
 }
+/* Research: folded lists sit close to the text they belong to */
+.prose details.topic.papers { margin-top: 1.2em; border-bottom: 1px solid var(--line); }
+.prose details.topic > .related, .prose details.topic > .projects, .prose details.topic > .methods { margin: 4px 0 20px; }
+.prose details.topic { border-bottom: 1px solid var(--line); }
+.prose details.topic + details.topic { border-top: 0; }
+.prose .figpair figure.cover img { object-fit: cover; }
