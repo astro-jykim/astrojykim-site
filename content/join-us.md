@@ -10,10 +10,15 @@ We are looking for motivated students who want to understand black holes, relati
 
 Students from physics and astronomy, as well as engineering, computer science, applied mathematics and other quantitative fields, are welcome. Prior experience in astronomy is not required; the technical skills can be learned in the group. What matters most is curiosity, persistence, and a real interest in the astrophysical questions behind the tools.
 
-Our projects are connected to major international facilities and collaborations. UNIST provides strong research and computing resources, and Ulsan hosts a station of the Korean VLBI Network (KVN).
-
 **Two graduate positions for 2027.** See [2027 Positions](/positions-2027/).
 {: .callout}
+
+## Why UNIST
+
+- **A radio telescope next door.** The [KVN Ulsan Radio Observatory](https://www.kasi.re.kr/eng/pageView/255), one of the 21-m telescopes of the Korean VLBI Network, is in the same city, about half an hour from campus. Students can go to the telescope, take part in observations, and learn how a VLBI station works — receivers, recording, calibration — instead of only receiving data files.
+- **Inside international projects.** Our work is part of the Event Horizon Telescope, the GMVA, KVN / KaVA / EAVN and SKA-related activities. Students join collaboration meetings and working groups, write observing proposals, and contribute to collaboration papers alongside their own first-author work.
+- **Korea's next facilities.** Korea is expanding its millimeter-VLBI facilities and its role in the next-generation EHT, space-based millimeter VLBI and the SKA. Students trained now can take leading roles as these projects start.
+- **A good place to work.** Full financial support for graduate students (below), strong research and computing resources, teaching in English, and a modern campus set amid beautiful natural surroundings.
 
 ## Graduate Students
 

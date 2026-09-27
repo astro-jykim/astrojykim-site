@@ -5,6 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.slug == 'home' %}{{ site.title }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}</title>
 <meta name="description" content="{{ page.description or site.description or '' }}">
+{% if abs_url %}<link rel="canonical" href="{{ abs_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{% if page.slug == 'home' %}{{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ page.description or site.description or '' }}">
+<meta property="og:url" content="{{ abs_url }}">
+{% if og_image %}<meta property="og:image" content="{{ og_image }}">
+<meta name="twitter:card" content="summary_large_image">{% endif %}{% endif %}
+{% if site.analytics and site.analytics.ga4 and not is_preview %}<script>
+(function () {   // Google Analytics 4 — not loaded on local previews
+  if (/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) return;
+  var id = '{{ site.analytics.ga4 }}', s = document.createElement('script');
+  s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id; document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { dataLayer.push(arguments); };
+  gtag('js', new Date()); gtag('config', id);
+})();
+</script>{% endif %}
 {% if inline_css %}<style>{{ inline_css }}</style>{% else %}<link rel="stylesheet" href="{{ asset('css/site.css') }}">{% endif %}
 </head>
 <body>
@@ -38,7 +56,7 @@
 {% block main %}{% endblock %}
 </main>
 
-<footer><div class="in"><div>{{ site.copyright }}</div><div>{{ site.domain }}</div></div></footer>
+<footer><div class="in"><div>{{ site.copyright }}</div><div>{{ site.domain }} · updated {{ build_date }}{% if site.analytics and site.analytics.ga4 %} · visits are counted with Google Analytics{% endif %}</div></div></footer>
 <script>
 (function () {
   var root = document.documentElement, btn = document.getElementById('themebtn');

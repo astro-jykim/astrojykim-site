@@ -8,11 +8,13 @@ nav: false
 [한국어 버전](#korean)
 {: .langswitch}
 
-This page collects articles on graduate school and careers in astronomy, shared for information.
+This page collects articles on graduate school and careers in astronomy.
+
+Why share them? Not to discourage anyone. A PhD is the first step of a professional research career, and — as in any profession — it is worth knowing what the work and the job market actually look like before committing several years to it. Students who start with a realistic picture, rather than with a dream alone, make better decisions along the way: which questions to work on, which skills to build, and when to ask for help or look at other paths. The enthusiasm matters; a realistic view is what makes it last.
 
 I usually ask students who join our group to read them before they start their graduate program, and we talk once more afterwards. (Admittedly, not every one of my students has read them all.) A degree takes a reasonable amount of research and a reasonable number of papers; the harder part comes after graduation — finding a good position and continuing to do good research. It helps to know what that road looks like before starting.
 
-Some titles are deliberately provocative, such as reasons *not* to go to graduate school, but most of the articles are about academic careers in general.
+Some titles are deliberately provocative, such as reasons *not* to go to graduate school; read them in the same spirit. Most of the articles are about academic careers in general.
 
 ### The academic career and the job market
 
@@ -38,7 +40,7 @@ Browsing the openings for a while is the most direct way to see how many positio
 - [Korean Space Science Society](https://ksss.or.kr/board/recruitment) — space science and space industry positions.
 - [AAS Job Register](https://aas.org/jobregister) — the main international list of astronomy jobs. It is US-centred, but it shows the size and shape of the job market worldwide.
 
-### Deciding on graduate school
+### Before you apply: deciding on graduate school, a program and a supervisor
 
 - [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) (US News). A general article, including the reasons *not* to go.
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might). What a PhD actually adds to human knowledge, in a few pictures.
@@ -46,12 +48,13 @@ Browsing the openings for a while is the most direct way to see how many positio
 - ["I don't want this kind of life": graduate students question career options](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022). What PhD students themselves say about their prospects.
 - [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025). Graduate school is demanding; it is worth knowing this in advance, and worth asking for help early.
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021).
+- [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021).
+- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students — useful before you apply and again once you are in.
 
 ### Once you are in graduate school
 
-- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students.
+- [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool). Some pages have disappeared, but the wiki as a whole still has plenty. Click around.
-- [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021) and [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (2007).
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research.
 
 ### Careers outside academia
@@ -71,11 +74,13 @@ Many people choose careers outside academia after their degree, for all kinds of
 한국어 버전
 {: #korean .langmark}
 
-대학원 진학과 천문학 분야 커리어에 관한 글들을 정보 차원에서 모아 두었습니다.
+대학원 진학과 천문학 분야 커리어에 관한 글들을 모아 두었습니다.
+
+이 글들을 공유하는 것은 학생들의 의욕을 꺾으려는 것이 아닙니다. 박사과정은 전문 연구자로서의 커리어가 시작되는 첫 단계이고, 다른 어떤 직업과 마찬가지로 몇 년을 투자하기 전에 실제 연구 생활과 job market이 어떤지 알고 시작하는 것이 중요합니다. 꿈만 갖고 오기보다 현실적인 그림을 갖고 시작한 학생이, 어떤 문제를 연구할지, 어떤 능력을 기를지, 언제 도움을 청하고 언제 다른 길도 살펴볼지를 더 잘 판단합니다. 열정은 중요합니다. 현실적인 시각은 그 열정을 오래 이어 갈 수 있게 해 줍니다.
 
 우리 그룹에 대학원생으로 오는 학생들에게는 보통 이 자료들을 먼저 읽게 하고, 다시 한번 면담한 뒤 본격적으로 과정을 시작합니다. (물론 제 학생들 중에도 다 읽지 않은 학생이 있기는 합니다.) 학위 자체는 어느 정도 연구하고 어느 정도 논문을 쓰면 받을 수 있지만, 졸업 후 좋은 자리를 잡고 계속 좋은 연구를 하는 것이 더 어려운 부분입니다. 그 길이 어떤지 미리 알고 시작하는 것이 도움이 됩니다.
 
-제목이 자극적인 글도 있지만(대학원에 *가지 말아야 할* 이유 등), 대부분은 학계 커리어 전반에 관한 내용입니다.
+제목이 자극적인 글도 있지만(대학원에 *가지 말아야 할* 이유 등), 같은 취지로 읽어 주세요. 대부분은 학계 커리어 전반에 관한 내용입니다.
 
 ### 학계 커리어와 job market
 
@@ -101,7 +106,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [한국우주과학회 채용안내](https://ksss.or.kr/board/recruitment) — 우주과학·우주산업 분야 공고
 - [AAS Job Register](https://aas.org/jobregister) — 천문학 분야의 대표적인 국제 채용 목록입니다. 미국 중심이지만, 전 세계 천문학 job market의 규모와 흐름을 가늠하는 데 쓸 수 있습니다.
 
-### 대학원 진학을 결정하기 전에
+### 지원하기 전에: 대학원 진학, 프로그램, 지도교수 정하기
 
 - [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) (US News) — 일반적인 글이지만, 대학원에 가지 "말아야" 할 이유들을 써 놨습니다.
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might) — 박사학위가 인류의 지식에 실제로 무엇을 더하는지 그림 몇 장으로 보여 줍니다.
@@ -109,12 +114,13 @@ Many people choose careers outside academia after their degree, for all kinds of
 - ["I don't want this kind of life"](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022) — 대학원생들이 직접 말하는 진로 고민입니다.
 - [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025) — 대학원 생활은 힘든 부분이 있습니다. 미리 알아 두고, 힘들 때는 일찍 도움을 청하세요.
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021)
+- [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021)
+- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites) — 천문학 대학원생들이 쓴 안내서: 프로그램과 지도교수 선택, 연구비, 연구·논문, 생활의 균형. 지원 전에도, 입학 후에도 도움이 됩니다.
 
 ### 대학원에 들어온 뒤
 
-- [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites) — 천문학 대학원생들이 쓴 안내서: 프로그램과 지도교수 선택, 연구비, 연구·논문, 생활의 균형.
+- [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool) — 일부 자료는 없어졌지만 wiki 전체로 보면 여러 자료가 있으니 이것저것 눌러 보세요.
-- [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021), [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (2007)
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986) — 중요한 연구를 하는 사람들은 무엇이 다른지에 대한 고전적인 강연입니다.
 
 ### 학계 밖의 커리어

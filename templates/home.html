@@ -19,15 +19,13 @@
 </div>
 {% endif %}
 {% if programs %}
-<h2 class="section-label">Research programs</h2>
-<div class="programs">
+<h2 class="section-label">Research</h2>
+{% if research_figure %}<figure class="home-figure"><a href="{{ href('/research/') }}">{{ research_figure }}</a>{% if page.research_caption %}<figcaption>{{ page.research_caption }}</figcaption>{% endif %}</figure>{% endif %}
+<ol class="programs-text">
 {% for p in programs %}
-  <a class="program" href="{{ p.url }}">
-    {{ p.figure }}
-    <span class="body"><span class="num">{{ loop.index }}</span><strong>{{ p.title }}</strong><span class="txt">{{ p.text }}</span></span>
-  </a>
+  <li><a href="{{ p.url }}"><strong>{{ p.title }}</strong></a><span class="txt">{{ p.text }}</span></li>
 {% endfor %}
-</div>
+</ol>
 {% endif %}
 <h2 class="section-label">Highlights</h2>
 {% include "_cards.html" %}

@@ -11,12 +11,12 @@ If you’d like to understand our research more easily, you can also check out a
 
 ![Our three research programs: (1) direct horizon-scale black hole imaging, (2) multi-wavelength and multi-messenger black hole astrophysics, and (3) black holes in the distant and early universe — with the facilities that drive them: ALMA and the EHT, neutrino observatories, and the Square Kilometre Array.](research/figure-1.jpg){: .wide}
 
-[1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-we-use)
+[1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
 {: .chips}
 
 ## List of publications
 
-[NASA ADS (recommended)](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-8229-7183&sort=date%20desc%2C%20bibcode%20desc) [ORCID](https://orcid.org/0000-0001-8229-7183) [Google Scholar](https://scholar.google.com/citations?user=G3x3HkAAAAAJ&hl=en)
+[NASA ADS (recommended)](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-8229-7183&sort=date%20desc%2C%20bibcode%20desc) [Google Scholar](https://scholar.google.com/citations?user=G3x3HkAAAAAJ&hl=en) [ORCID](https://orcid.org/0000-0001-8229-7183)
 {: .buttons}
 
 ## Active galaxies and supermassive black holes
@@ -24,6 +24,9 @@ If you’d like to understand our research more easily, you can also check out a
 ![The giant elliptical galaxy M87 and the 3,000-light-year-long jet launched by its central black hole. Credit: NASA, ESA, A. Lessing, E. Baltz (Stanford), M. Shara (AMNH), J. DePasquale (STScI)](research/m87-hubble.jpg){: .side}
 
 Like normal galaxies, active galaxies are systems of stars, gases, and dust clouds bound to each other by self-gravitation. However, their nuclei contain "active" supermassive black holes that absorb gas from the surroundings and convert the gas's gravitational energy into intense radiation and (sometimes relativistic) outflows. We study the physics of active galactic nuclei (AGNs) and supermassive black holes with the following particular approaches:
+
+For an overview of how black holes launch jets and how these jets look across scales, Figure 1 of the review by [Blandford, Meier & Readhead (2019, ARA&A 57, 467)](https://doi.org/10.1146/annurev-astro-081817-051948) is a good place to start.
+{: .note}
 
 <!-- PROGRAMS: the three sections below are meant to be updated as the research evolves.
      Each program starts with the original description; the second paragraph and the
@@ -71,7 +74,7 @@ Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, Me
 
 ![A seed of the first supermassive black holes? UHZ1, a growing black hole seen in X-rays (purple, Chandra) in a galaxy only 470 million years after the Big Bang (infrared, JWST). Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1.jpg)
 
-![An intermediate-mass black hole tearing apart a star (artist's impression). Credit: ESA/Hubble, M. Kornmesser](research/imbh.jpg)
+![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas — less than 1% of the telescope. About 85 bright galaxies, all hosting supermassive black holes, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
 
 </div>
 
@@ -100,20 +103,45 @@ Therefore, we conduct active collaborative research with many international and 
 | | Facilities | What we use them for |
 |---|---|---|
 | Millimeter VLBI | [EHT](https://eventhorizontelescope.org/), [GMVA](https://www3.mpifr-bonn.mpg.de/div/vlbi/globalmm/), [KVN](https://radio.kasi.re.kr/kvn/main_kvn.php) and KaVA / EAVN | horizon-scale and jet-base imaging, polarimetry of M87, Sgr A*, 3C 84, 3C 279 |
-| Centimeter and space VLBI | [VLBA](https://public.nrao.edu/telescopes/vlba/) (incl. the Boston University blazar monitoring), [RadioAstron](https://en.wikipedia.org/wiki/Spektr-R) | jet kinematics, collimation profiles, brightness temperatures |
-| Connected-element interferometers | [ALMA](https://www.almaobservatory.org/), [VLA](https://public.nrao.edu/telescopes/vla/), [MeerKAT](https://www.sarao.ac.za/science/meerkat/) | spectra, polarization and follow-up of new sources |
+| Centimeter VLBI | [VLBA](https://public.nrao.edu/telescopes/vlba/), [EVN](https://www.evlbi.org/), High Sensitivity Array (VLBA with the phased [VLA](https://public.nrao.edu/telescopes/vla/), [GBT](https://public.nrao.edu/telescopes/gbt/) and Effelsberg) | jet kinematics, collimation profiles, brightness temperatures, faint compact cores |
+| Space VLBI | [RadioAstron](https://en.wikipedia.org/wiki/Spektr-R) | the highest angular resolutions at centimeter wavelengths |
+| Connected-element interferometers and single dishes | [ALMA](https://www.almaobservatory.org/), [VLA](https://public.nrao.edu/telescopes/vla/), [MeerKAT](https://www.sarao.ac.za/science/meerkat/), [GBT](https://public.nrao.edu/telescopes/gbt/), [Effelsberg](https://www.mpifr-bonn.mpg.de/en/effelsberg) | spectra, polarization and follow-up of new sources |
 | Wide-field radio surveys | [LOFAR](https://www.astron.nl/telescopes/lofar/) LoTSS, [ASKAP](https://www.csiro.au/en/about/facilities-collections/atnf/askap-radio-telescope) RACS / VAST, [MWA](https://www.mwatelescope.org/) GLEAM-X, toward the [SKA](https://www.skao.int/) | finding unusual, faint and distant black holes |
-| High-energy and multi-messenger | [Fermi](https://fermi.gsfc.nasa.gov/) (gamma rays), [IceCube](https://icecube.wisc.edu/) (neutrino alerts) | flares, and which black holes produce neutrinos |
+| High-energy and multi-messenger | [Fermi](https://fermi.gsfc.nasa.gov/) Large Area Telescope (gamma rays), [IceCube](https://icecube.wisc.edu/) (neutrino alerts) | flares, and which black holes produce neutrinos |
 
 <!-- projects -->
 
 ### Methods
 
-- **VLBI calibration and imaging** — fringe fitting, self-calibration, CLEAN and regularized maximum-likelihood imaging, tested on synthetic data.
-- **Polarimetry** — instrumental polarization calibration, Faraday rotation and magnetic-field structure near black holes.
-- **Jet structure and kinematics** — component tracking, jet width and collimation profiles, brightness temperatures and spectral-index maps.
-- **Time-domain and multi-messenger analysis** — long-term radio-to-gamma-ray light curves, flare timing and neutrino coincidences.
-- **Survey mining and machine learning** — source finding and classification in large radio surveys.
-- **Simulations for future arrays** — synthetic observations for the next-generation EHT, expanded KVN and space millimeter VLBI, compared with GRMHD models.
+![Key concepts in interferometry — the technique behind the Event Horizon Telescope: telescopes far apart are combined into one virtual telescope as large as the distance between them (click to enlarge). Credit: NRAO/AUI/NSF; S. Dagnello](research/interferometry.jpg){: .side}
+
+Most of what we do starts from interferometric data: the signals of many telescopes are recorded, correlated and turned into images. We work through the whole chain — from calibration to physical interpretation — and develop our own tools where needed.
+
+<div class="methods" markdown="1">
+<div class="method" markdown="1">
+#### VLBI calibration and imaging
+Fringe fitting, self-calibration, CLEAN and regularized maximum-likelihood imaging, tested on synthetic data.
+</div>
+<div class="method" markdown="1">
+#### Polarimetry
+Instrumental polarization calibration, Faraday rotation and the magnetic-field structure near black holes.
+</div>
+<div class="method" markdown="1">
+#### Jet structure and kinematics
+Component tracking, jet width and collimation profiles, brightness temperatures and spectral-index maps.
+</div>
+<div class="method" markdown="1">
+#### Time-domain and multi-messenger analysis
+Long-term radio-to-gamma-ray light curves, flare timing and neutrino coincidences.
+</div>
+<div class="method" markdown="1">
+#### Survey mining and machine learning
+Source finding and classification in large radio surveys.
+</div>
+<div class="method" markdown="1">
+#### Simulations for future arrays
+Synthetic observations for the next-generation EHT, expanded KVN and space millimeter VLBI, compared with GRMHD models.
+</div>
+</div>
 
 Looking ahead, we are preparing for the next-generation EHT, expanded Korean millimeter-VLBI facilities, space-based millimeter VLBI (e.g. the proposed [Black Hole Explorer](https://www.blackholeexplorer.org/)), and the [Square Kilometre Array](https://www.skao.int/) in the 2030s.

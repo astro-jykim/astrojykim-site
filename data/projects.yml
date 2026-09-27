@@ -46,10 +46,10 @@
 - id: vla
   name: Karl G. Jansky Very Large Array (VLA)
   url: https://public.nrao.edu/telescopes/vla/
-  image: [banners/vla.jpg]
+  image: [banners/vla-night.jpg, banners/vla.jpg]
   credit: "Photo: NRAO/AUI/NSF"
-  text: 27 antennas in New Mexico, the workhorse of centimeter radio astronomy.
-  role: Follow-up of new radio sources found in wide-field surveys.
+  text: 27 antennas in New Mexico, the workhorse of centimeter radio astronomy. Phased together, the VLA also joins VLBI as part of the High Sensitivity Array.
+  role: Follow-up of new radio sources found in wide-field surveys, and sensitive VLBI of faint jets.
 
 - id: ska
   name: SKA and its pathfinders
@@ -66,3 +66,11 @@
   credit: "Photo: Ilya Bodo, IceCube/NSF"
   text: A cubic-kilometre neutrino detector in the ice at the South Pole, sending public alerts for high-energy neutrinos.
   role: Radio and VLBI follow-up of neutrino alerts, e.g. the blazar PKS 0735+178.
+
+- id: fermi
+  name: Fermi Gamma-ray Space Telescope
+  url: https://fermi.gsfc.nasa.gov/
+  image: [facilities/fermi.jpg]
+  credit: "Image: NASA"
+  text: NASA's gamma-ray observatory; its Large Area Telescope scans the whole sky every three hours.
+  role: Gamma-ray light curves of flaring blazars, compared with our radio and VLBI monitoring.

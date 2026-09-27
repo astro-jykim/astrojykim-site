@@ -24,6 +24,7 @@ import argparse
 import base64
 import os
 import hashlib
+import datetime
 import html
 import mimetypes
 import re
@@ -413,7 +414,21 @@ class Builder:
             j = (p.get("journal") or "").strip()
             if j:
                 journals[j] = journals.get(j, 0) + 1
+        def hindex(cs):
+            cs = sorted(cs, reverse=True)
+            return sum(1 for i, c in enumerate(cs, 1) if c >= i)
+
+        # Context numbers: m-index (Hirsch 2005) = h / years since the first paper,
+        # with and without large-collaboration papers (>50 authors).
+        small = [p.get("citations") or 0 for p in pubs if kind(p) != "collab"]
+        h_small = hindex(small)
+        this_year = datetime.date.today().year
+        career = max(1, this_year - years[0] + 1)
+        high_profile = {"nature", "nature astronomy", "science", "physical review letters"}
         return {
+            "h_small": h_small, "n_small": len(small), "first_year": years[0], "career": career,
+            "m": round(h / career, 1), "m_small": round(h_small / career, 1),
+            "high_profile": sum(1 for p in pubs if (p.get("journal") or "").strip().lower() in high_profile),
             "papers": len(pubs), "citations": sum(cites), "h": h, "i10": i10,
             "first": sum(v["first"] for v in per.values()),
             "recent": sum(1 for p in pubs if (p.get("year") or 0) >= years[-1] - 4),
@@ -436,16 +451,23 @@ class Builder:
         banner = self.image_src(banner_name) if banner_name else None
         banner_credit = (self.site.get("banner_credits") or {}).get(banner_name) if banner else None
         logo = self.image_src(self.site.get("logo")) if self.site.get("logo") else None
+        # Link previews (OpenGraph) and canonical address — absolute URLs on the live domain
+        domain = self.site.get("domain", "")
+        og_file = find_image(banner_name) if banner_name else None
+        og_file = og_file or find_image(self.site.get("og_image", "banners/home.jpg"))
+        og_image = f"https://{domain}/assets/img/{og_file.relative_to(IMG).as_posix()}" if og_file and domain else None
+        abs_url = f"https://{domain}{fm.get('url', '/')}" if domain else None
         ctx = dict(site=self.site, page=fm, content=Markup(self.render_markdown(body)) if body.strip() else "",
                    banner=banner, banner_credit=banner_credit, logo=logo, href=self.href, asset=self.asset, md_inline=self.md_inline,
-                   photo=self.figure(fm["photo"], "") if fm.get("photo") else None)
+                   photo=self.figure(fm["photo"], "") if fm.get("photo") else None,
+                   og_image=og_image, abs_url=abs_url, is_preview=self.preview,
+                   build_date=datetime.date.today().isoformat())
         if layout in ("home", "highlights"):
             limit = self.site.get("home_highlights", 6) if layout == "home" else None
             ctx["cards"], ctx["highlights_total"] = self.highlight_cards(limit)
         if layout == "home":
-            pick = lambda im: next((i for i in im if find_image(i)), im[-1]) if isinstance(im, list) else im
-            ctx["programs"] = [{**p, "figure": self.figure(pick(p["image"]), p["title"], thumb=True),
-                                "url": self.href(p["link"])} for p in fm.get("programs") or []]
+            ctx["programs"] = [{**p, "url": self.href(p["link"])} for p in fm.get("programs") or []]
+            ctx["research_figure"] = self.figure(fm["research_figure"], fm.get("research_caption", "")) if fm.get("research_figure") else None
             ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
         if layout == "members":
             ctx["members"] = load_yaml("members.yml", {})

@@ -16,7 +16,17 @@
     <div class="pubpanel wide">
       <h3>Papers per year</h3>
       {{ stats.chart }}
-      <div class="legend"><span><i style="background:var(--brand)"></i>first author</span><span><i style="background:var(--accent)"></i>team papers</span><span><i style="background:var(--accent-bright);opacity:.75"></i>large collaborations (&gt;50 authors)</span></div>
+      <div class="legend"><span><i style="background:var(--brand)"></i>first / corresponding author</span><span><i style="background:var(--accent)"></i>team papers</span><span><i style="background:var(--accent-bright);opacity:.75"></i>large collaborations (&gt;50 authors)</span></div>
+    </div>
+    <div class="pubpanel wide context">
+      <h3>In context</h3>
+      <table class="ctx">
+        <tr><th></th><th>All refereed papers</th><th>Without large collaborations<br><small>(≤50 authors, {{ stats.n_small }} papers)</small></th></tr>
+        <tr><td>h-index</td><td>{{ stats.h }}</td><td>{{ stats.h_small }}</td></tr>
+        <tr><td>m-index <small>(h ÷ {{ stats.career }} years since the first paper in {{ stats.first_year }})</small></td><td>{{ stats.m }}</td><td>{{ stats.m_small }}</td></tr>
+      </table>
+      <p>For comparison: <a href="https://doi.org/10.1073/pnas.0507655102" target="_blank" rel="noopener">Hirsch (2005)</a>, who introduced the h-index, suggested that m ≈ 1 characterizes a successful scientist and m ≈ 2 an outstanding one. Large collaborations such as the EHT raise the numbers in the first column, so both are shown. {{ stats.high_profile }} papers appeared in <i>Nature</i>, <i>Nature Astronomy</i>, <i>Science</i> or <i>Physical Review Letters</i>.</p>
+      <p class="caveat">Citation metrics differ a lot between fields and career stages, and are no substitute for reading the papers.</p>
     </div>
     <div class="pubpanel">
       <h3>Most cited</h3>

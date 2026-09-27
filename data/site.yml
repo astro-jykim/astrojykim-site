@@ -7,6 +7,14 @@ construction: "**Under construction** — we are moving from our old website; so
 
 copyright: © Jae-Young Kim. All rights reserved.
 
+# Short description shown by search engines and in link previews (Slack, KakaoTalk, X ...).
+description: "Jae-Young Kim's research group at UNIST, Korea: black holes and relativistic jets studied with radio interferometry — the Event Horizon Telescope, VLBI, multi-messenger astrophysics and the SKA."
+
+# Visitor statistics. Paste the Google Analytics 4 "Measurement ID" (looks like G-XXXXXXXXXX)
+# between the quotes; leave it empty to switch analytics off.
+analytics:
+  ga4: ""
+
 # Header logo (put the file in assets/img/site/). If the file is missing, a drawn mark is used.
 logo: site/logo.png
 
@@ -37,7 +45,7 @@ redirects:
   /home/: /
 
 # Banner height per page: small | medium | large  (pages can also set banner_size in their front matter)
-banner_sizes: {members: large}
+banner_sizes: {members: small}
 banner_positions: {members: center 62%}
 
 # Credit line shown in the corner of a banner (required for ESO / NASA / NRAO pictures)
@@ -46,5 +54,6 @@ banner_credits:
   banners/join-us-kvn.jpg: "KVN. Photo: KASI"
   research/m87-polarized.jpg: "M87 in polarised light. Image: EHT Collaboration"
   banners/vla.jpg: "Karl G. Jansky Very Large Array. Photo: NRAO/AUI/NSF"
+  banners/vla-night.jpg: "Karl G. Jansky Very Large Array at night. Photo: NRAO/AUI/NSF"
   banners/m87-jet-art.jpg: "The jet of M87 (artist's impression). Credit: S. Dagnello (NRAO/AUI/NSF)"
   banners/highlights.jpg: "The gamma-ray sky. Credit: NASA/DOE/Fermi LAT Collaboration"
