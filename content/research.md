@@ -153,3 +153,7 @@ Comparing images, spectra and light curves with models of accretion flows, jets 
 </div>
 
 Looking ahead, we are preparing for the next-generation EHT, expanded Korean millimeter-VLBI facilities, space-based millimeter VLBI (e.g. the proposed [Black Hole Explorer](https://www.blackholeexplorer.org/)), and the [Square Kilometre Array](https://www.skao.int/) in the 2030s.
+
+### Funding
+
+Our research is currently supported by the National Research Foundation of Korea (NRF), the Korea AeroSpace Administration (KASA) and the Korea Astronomy and Space Science Institute (KASI) through the SKA program, and the UNIST InnoCORE Center for Basic Research in Space Exploration. Students in the group also hold their own NRF research grants. See the [list of grants](/jae-young-kim/#grants).

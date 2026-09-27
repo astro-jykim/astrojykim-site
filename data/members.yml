@@ -2,6 +2,9 @@
 # Members — rendered on /members/ in this order.
 # Each person renders as:  Name (detail), period   followed by the topic.
 # To add someone, copy an entry. To move someone to Alumni, cut & paste the entry.
+# Optional per person:
+#   bio:   2-3 sentences on the research (shown under the topic)
+#   links: {Website: https://..., GitHub: https://github.com/..., ORCID: https://orcid.org/...}
 # =============================================================================
 
 intro: I am happy to talk with prospective students and researchers interested in joining our group and

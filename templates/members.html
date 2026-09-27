@@ -9,6 +9,8 @@
     <li>
       <p class="who"><strong>{% if p.link %}<a href="{{ href(p.link) }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</strong>{% if p.detail %} ({{ p.detail }}){% endif %}{% if p.period %}, {{ p.period }}{% endif %}</p>
       {% if p.topic %}<p class="topic">{{ p.topic }}</p>{% endif %}
+      {% if p.bio %}<p class="bio">{{ md_inline(p.bio) }}</p>{% endif %}
+      {% if p.links %}<p class="links">{% for label, url in p.links.items() %}<a href="{{ url }}" target="_blank" rel="noopener">{{ label }}</a>{% endfor %}</p>{% endif %}
     </li>
   {% endfor %}
   </ul>

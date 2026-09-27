@@ -537,3 +537,13 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 
 /* Banner captions: short description + credit */
 .banner-credit { max-width: min(560px, 70%); text-align: right; line-height: 1.35; }
+
+/* Teaching: course lists (definition lists) */
+.prose dl { margin: 0.6em 0 1.4em; }
+.prose dl dt { margin-top: 1em; color: var(--ink); }
+.prose dl dd { margin: 3px 0 0 0; padding-left: 14px; border-left: 2px solid var(--line-2); color: var(--ink-2); }
+
+/* Members: optional short bio and links */
+.people .bio { margin: 4px 0 0; font-size: 14.5px; color: var(--ink-2); }
+.people .links { margin: 4px 0 0; font-size: 13.5px; }
+.people .links a + a::before { content: " · "; color: var(--ink-3); }

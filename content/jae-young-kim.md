@@ -140,5 +140,11 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 - SOC member of various large international (e.g., IAU Symposium, COSPAR) and domestic meetings/conferences
 
+- SOC chair of the international EHT Collaboration Meeting 2026 in Seoul, Korea
+
+- Host of the SKA-Korea Online Colloquium Series (since 2021)
+
+- Member of the International Astronomical Union (IAU), the Korean Astronomical Society (KAS) and the Korean Physical Society (KPS)
+
 Besides academic activities, I also love and enjoy: nature, photography, bike riding, swimming, traveling to new places, and playing piano.
 {: .aside}

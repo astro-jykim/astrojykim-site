@@ -21,21 +21,22 @@ logo: site/logo.png
 # Top navigation, in order.
 nav:
   - {title: Home, url: /}
-  - {title: Jae-Young Kim, url: /jae-young-kim/}
   - {title: Research, url: /research/}
   - {title: Highlights, url: /highlights/}
   - {title: Publications, url: /publications/}
   - {title: Members, url: /members/}
+  - {title: Jae-Young Kim, url: /jae-young-kim/}
+  - {title: Teaching, url: /teaching/}
   - {title: Join Us, url: /join-us/}
   - {title: 2027 Positions, url: /positions-2027/}
   - {title: For Students, url: /before-you-apply/}
+  - {title: Resources, url: /resources/}
   - {title: Contact, url: /contact/}
-  - {title: 2.3m Radio Telescope, url: /2-3m-radio-telescope/}
 
 # Banner images per page (files in assets/img/banners/). Missing files fall back to a plain band.
 banners:
   highlights: banners/highlights.jpg
-  members: telescope/04-inspection.jpg
+  members: [banners/members-apex.jpg]
 
 # How many highlights to show on the home page.
 home_highlights: 6
@@ -46,7 +47,7 @@ redirects:
 
 # Banner height per page: small | medium | large  (pages can also set banner_size in their front matter)
 banner_sizes: {members: small}
-banner_positions: {members: center 42%}
+banner_positions: {members: center 40%}
 
 # Credit line shown in the corner of a banner (required for ESO / NASA / NRAO pictures)
 banner_credits:
@@ -57,8 +58,8 @@ banner_credits:
   banners/highlights.jpg: "The whole sky in gamma rays, seen by Fermi: the bright band is our Galaxy, and many of the dots are distant blazars. Credit: NASA/DOE/Fermi LAT Collaboration"
   banners/vla-night.jpg: "The Very Large Array at night, New Mexico: 27 antennas working as one telescope up to 36 km across. Photo: NRAO/AUI/NSF"
   banners/vla.jpg: "The Karl G. Jansky Very Large Array, New Mexico. Photo: NRAO/AUI/NSF"
-  telescope/04-inspection.jpg: "Our students assembling the UNIST 2.3 m radio telescope on a campus rooftop. Photo: UNIST Observational Astrophysics Group"
+  banners/members-apex.jpg: "APEX under the Milky Way on the Chajnantor plateau, Chile — one of the telescopes of the Event Horizon Telescope. Photo: ESO/B. Tafreshi (twanight.org)"
   banners/join-us-alma.jpg: "The Milky Way over ALMA on the Chajnantor plateau, 5,000 m up in the Chilean Andes. Photo: P. Horálek/ESO"
   banners/join-us-kvn.jpg: "KVN Ulsan, ten minutes by car from UNIST. Photo: KASI"
   banners/m87-jet-art.jpg: "The jet of M87 and the ring around its black hole (artist's impression), first seen together in 2023. Credit: S. Dagnello (NRAO/AUI/NSF)"
-  banners/2-3m-radio-telescope.jpg: "The UNIST 2.3 m radio telescope. Photo: UNIST Observational Astrophysics Group"
+  banners/2-3m-radio-telescope.jpg: "The 2.3 m radio telescope at Kyungpook National University (2023)."

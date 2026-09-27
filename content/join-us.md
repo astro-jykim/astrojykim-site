@@ -26,7 +26,11 @@ MSc, MSc–PhD integrated and PhD projects are available depending on ongoing pr
 
 We recommend gaining some research experience in the group before applying: a semester-long internship for UNIST undergraduates, or official programs such as U-SURF and U-WURF for students from other universities.
 
-UNIST graduate students typically receive full tuition support and a monthly stipend, following university and program regulations.
+### Funding for graduate students
+
+- **UNIST support.** Graduate students typically receive full tuition support and a monthly stipend; UNIST guarantees a minimum level of support, following university and program regulations.
+- **Your own fellowship.** The National Research Foundation of Korea (NRF, funded by the Ministry of Education) offers research grants that students apply for themselves: the *Master's Student Research Encouragement Grant* (석사과정생 연구장려금, 12 million KRW for one year) and the *Doctoral Student Research Encouragement Grant* (박사과정생 연구장려금, 25 million KRW per year for one to two years), announced every spring. Four of our students have held the master's grant since 2024. Writing such a proposal is also good training — we help with it.
+- Other scholarships and travel support for conferences and observing runs are available through the university and our research projects.
 
 ## Undergraduate Research Internships
 
@@ -34,6 +38,17 @@ Internships range from introductory computational, observational and instrumenta
 
 ## Postdoctoral Researchers
 
-We welcome inquiries from researchers working on black holes, relativistic jets, AGN, radio interferometry and VLBI, multi-messenger astrophysics, wide-field radio surveys and related areas. Funded positions are not always open, but national and international fellowships (e.g. NRF) are possible — please get in touch well before the deadline.
+We welcome inquiries from researchers working on black holes, relativistic jets, AGN, radio interferometry and VLBI, multi-messenger astrophysics, wide-field radio surveys and related areas. Funded positions are not always open, but several fellowships can bring you to the group — please get in touch well before the deadline so that we can prepare the application together:
+
+- **Sejong Science Fellowship** (세종과학펠로우십) of the Ministry of Science and ICT, through the NRF — independent early-career funding for up to five years.
+- **Post-doctoral fellowships of the Ministry of Education** (학문후속세대지원, 박사후국내연수), through the NRF — for one to three years after the PhD.
+- **Project-funded positions** in the group, advertised whenever our grants allow, and calls from partner institutes such as KASI that open during the year.
+
+## How we work
+
+- **Mission- and outcome-driven.** There are no fixed working hours; what matters is clear goals and good results. Work–life balance is important to us, and a sustainable pace is part of doing good research.
+- **Weekly group meeting**, where everyone shares progress and problems — plus one-to-one discussions whenever needed.
+- **Intensive weekly meetings when a paper is being finished**, so that drafts move quickly from analysis to submission.
+- **In-depth individual interviews at the end of each semester and each vacation**, to look back at progress and plan the next steps — research, skills and career.
 
 For students considering graduate school, see also [For Students](/before-you-apply/).
