@@ -10,7 +10,7 @@ If you’d like to understand our research more easily, you can also check out a
 
 ![Our three research programs: (1) direct horizon-scale black hole imaging, (2) multi-wavelength and multi-messenger black hole astrophysics, and (3) black holes in the distant and early universe — with the facilities that drive them: ALMA and the EHT, neutrino observatories, and the Square Kilometre Array.](research/figure-1.jpg){: .wide}
 
-[1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Projects & facilities](#projects-and-facilities-we-work-with)
+[1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-we-use)
 {: .chips}
 
 ## List of publications
@@ -35,7 +35,7 @@ Directly image the matter and magnetic field distribution around the cosmic blac
 **In plain words.** The shadow of the black hole in M87 is only about 40 micro-arcseconds across on the sky — the size of an orange on the Moon seen from Earth. No single telescope is sharp enough to see it, so we link radio dishes across the globe into one Earth-sized virtual telescope (very long baseline interferometry, VLBI). At millimeter wavelengths this lets us look through the hot gas down to the edge of the shadow. By repeating the observations every year and measuring polarization, we watch the ring change, map the magnetic fields, and trace where the jet is born.
 </div>
 
-![Illustration: VLBI links telescopes across Earth into one Earth-sized telescope.](explain/vlbi.svg)
+![The Event Horizon Telescope: radio telescopes around the world combined into one planet-scale array. Credit: ESO/L. Calçada](research/eht-array.jpg)
 </div>
 
 Our laboratories are the nearest and best-resolved systems — M87, Sgr A*, 3C 84, Centaurus A and 3C 279 — observed with the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space-VLBI. We follow how accretion flows and magnetic fields just outside the event horizon connect to the base of relativistic jets, and how they change from year to year. Next come the next-generation EHT, expanded Korean millimeter-VLBI facilities, and space-based millimeter VLBI in the 2030s.
@@ -51,7 +51,7 @@ Analyze complex time-variable signals (both photons and particles such as neutri
 **In plain words.** When a jet points almost straight at us, relativistic beaming makes it enormously bright, variable within hours or even minutes, and visible from radio waves to the highest-energy gamma rays — a blazar. In 2017 a high-energy neutrino detected by IceCube arrived from the direction of a flaring blazar: the first evidence that such jets also accelerate protons, because neutrinos are made when protons collide with light or matter. Each messenger tells part of the story — light curves tell us when, VLBI images tell us where — and together they locate the black hole's particle accelerator.
 </div>
 
-![Illustration: photons and neutrinos from a flaring blazar jet.](explain/multimessenger.svg)
+![The IceCube Neutrino Observatory at the South Pole, which detects high-energy neutrinos from space. Credit: Ilya Bodo, IceCube/NSF](research/icecube-lab.jpg)
 </div>
 
 Blazars — jets pointed almost straight at us — flare across the whole spectrum, and a few now coincide with high-energy neutrinos. We combine VLBI imaging and polarimetry with long-term radio-to-gamma-ray monitoring to find where in the jet particles are accelerated, what drives the variability, and which black holes produce neutrinos.
@@ -67,7 +67,7 @@ Discover and investigate new types of active (and inactive) black holes in the n
 **In plain words.** Most black holes are not bright quasars — many are faint, hidden in dust, or small. Intermediate-mass black holes, from about a hundred to a hundred thousand times the mass of the Sun, may be the missing link between stellar black holes and the giants in galaxy centres, and perhaps the seeds of the first supermassive black holes. Radio waves pass through dust and gas, so wide-field radio surveys reveal black holes that optical surveys miss, and oddities such as powerful jets in spiral galaxies. The Square Kilometre Array will detect millions of radio sources, so we use machine learning to find the few that matter.
 </div>
 
-![Illustration: black holes from a few to billions of solar masses.](explain/mass-scale.svg)
+![Artist's impression of an intermediate-mass black hole tearing apart a star. Credit: ESA/Hubble, M. Kornmesser](research/imbh.jpg)
 </div>
 
 Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, MeerKAT — make it possible to take a census of black holes that classical samples miss: powerful jets in spiral galaxies, faint and low-luminosity nuclei, candidate intermediate-mass black holes in dwarf galaxies, and black holes in the early universe. Machine learning helps us find them in very large datasets, in preparation for the Square Kilometre Array in the 2030s.
@@ -86,6 +86,8 @@ In particular, we specialize in radio astronomical observations where the interf
 
 Therefore, we conduct active collaborative research with many international and domestic research organizations and researchers in Europe, the US, and Asia,  who are involved in global radio astronomical, VLBI, and space-based observations of cosmic black holes.
 
-### Projects and facilities we work with
+### Facilities we use
+
+Click a picture to visit the facility's official website.
 
 <!-- projects -->

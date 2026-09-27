@@ -1,72 +1,75 @@
-# Projects and facilities shown on the Research page (<!-- projects --> marker).
-# image: first file that exists is used. Put your own photo at assets/img/projects/<id>.jpg
-#        and it replaces the fallback automatically.
-# role:  what OUR GROUP does in it — please check these lines.
+# Facilities shown at the end of the Research page (<!-- projects --> marker).
+# image:  first file that exists is used (photos are downloaded by ops/get-images.sh).
+# credit: shown under the text — required by the image licences.
+# role:   what OUR GROUP does with it — edit freely.
 
 - id: eht
   name: Event Horizon Telescope (EHT)
   url: https://eventhorizontelescope.org/
-  image: [projects/eht.jpg, highlights/eht2019.jpg]
+  image: [facilities/eht-m87.jpg, highlights/eht2019.jpg]
+  credit: "Image: EHT Collaboration"
   text: >-
-    Millimeter radio telescopes around the world linked into one Earth-sized array. It produced
-    the first images of the black holes in M87 (2019) and at the centre of the Milky Way (2022).
+    A global array of millimeter radio telescopes — including ALMA in Chile — working as one
+    Earth-sized telescope. It produced the first images of the black holes in M87 (2019) and at the
+    centre of the Milky Way (2022).
   role: >-
-    We are members of the EHT Collaboration, working on M87, Sgr A* and jets in active galaxies
-    such as 3C 279 and 3C 84, and on the next-generation EHT.
+    Member of the EHT Collaboration (Science Board 2024–2026; AGN working group co-coordinator
+    2022–2024): M87, Sgr A* and AGN jets such as 3C 279 and 3C 84, and the next-generation EHT.
 
 - id: gmva
   name: Global Millimeter VLBI Array (GMVA)
   url: https://www3.mpifr-bonn.mpg.de/div/vlbi/globalmm/
-  image: [projects/gmva.jpg, highlights/kim2018.png]
+  image: [research/effelsberg.jpg]
+  credit: "Effelsberg 100-m telescope. Photo: Dr. Schorsch"
   text: >-
-    VLBI at 3 mm (86 GHz) with telescopes in Europe, the US, Korea and ALMA. Its images connect the
-    EHT's horizon-scale view to the larger jet.
+    VLBI at 3 mm (86 GHz) with telescopes in Europe, the US, Korea and ALMA, connecting the EHT's
+    horizon-scale view to the larger jet.
   role: >-
-    We imaged the jet-launching region of M87 at about 7 Schwarzschild radii resolution and study
-    blazar and radio-galaxy jets with GMVA and EHT data.
+    Imaging of the jet-launching region of M87 and of blazar and radio-galaxy jets.
 
 - id: kvn
   name: Korean VLBI Network (KVN)
   url: https://radio.kasi.re.kr/kvn/main_kvn.php
-  image: [projects/kvn.jpg, explain/kvn.svg]
+  image: [facilities/kvn.jpg]
+  credit: "Photo: KASI"
   text: >-
-    21-m radio telescopes of the Korea Astronomy and Space Science Institute, including one in Ulsan.
-    KVN observes at 22, 43, 86 and 129 GHz simultaneously — a unique way to correct atmospheric
-    distortion at millimeter wavelengths.
+    21-m radio telescopes of the Korea Astronomy and Space Science Institute in Seoul, Ulsan, Jeju and
+    Pyeongchang, observing at 22, 43, 86 and 129 GHz simultaneously.
   role: >-
-    We use KVN for multi-frequency studies of jets and work toward expanded Korean millimeter-VLBI
-    facilities that can join the EHT.
+    Multi-frequency studies of jets, and the path toward expanded Korean millimeter-VLBI facilities.
 
 - id: space-vlbi
   name: Space millimeter VLBI
   url: https://www.blackholeexplorer.org/
-  image: [projects/space-vlbi.jpg, explain/space-vlbi.svg]
+  image: [facilities/bh-simulation.jpg]
+  credit: "Simulation: Jordy Davelaar et al. / Radboud University / BlackHoleCam"
   text: >-
-    A millimeter radio antenna in orbit, linked to ground telescopes, makes baselines longer than
-    Earth — sharp enough to see the thin "photon ring" predicted by general relativity. Concepts such
-    as the Black Hole Explorer (BHEX) aim for the 2030s.
+    A millimeter antenna in orbit, linked to ground telescopes, would make baselines longer than
+    Earth and resolve the thin photon ring around a black hole. Concepts such as the Black Hole
+    Explorer (BHEX) aim for the 2030s.
   role: >-
-    We study telescope optics, instrumentation and imaging simulations for ground and space
-    millimeter VLBI.
+    Telescope optics, instrumentation and imaging simulations for ground and space millimeter VLBI.
 
 - id: ska
-  name: Square Kilometre Array (SKA) and pathfinders
+  name: Square Kilometre Array (SKA)
   url: https://www.skao.int/
-  image: [projects/ska.jpg, explain/ska.svg]
+  image: [facilities/ska-mid.jpg]
+  credit: "SKA-Mid (artist's impression with MeerKAT). Credit: SKAO"
   text: >-
     The world's largest radio telescope, under construction in South Africa and Australia. Its
     pathfinders and precursors — LOFAR, ASKAP, MWA and MeerKAT — already survey the whole sky.
   role: >-
-    We search wide-field surveys for faint, small and distant black holes, develop machine learning
-    for SKA-scale data, and assembled an SKAO table-top radio telescope for training.
+    Searches for faint, small and distant black holes in wide-field surveys, and machine learning
+    for SKA-scale data.
 
-- id: neutrino
-  name: Neutrino observatories
+- id: icecube
+  name: IceCube Neutrino Observatory
   url: https://icecube.wisc.edu/
-  image: [projects/neutrino.jpg, highlights/kim2025.png]
+  image: [facilities/icecube.jpg, highlights/kim2025.png]
+  credit: "Photo: Yuya Makino, IceCube/NSF"
   text: >-
-    IceCube at the South Pole (and KM3NeT in the Mediterranean) detect high-energy neutrinos from
-    space — particles that come straight from where protons are accelerated.
+    A cubic-kilometre neutrino detector in the ice at the South Pole, sending real-time alerts when
+    a high-energy neutrino arrives from space.
   role: >-
-    We follow up neutrino alerts with radio and VLBI observations to find which black holes produce
-    them, for example the blazar PKS 0735+178.
+    Radio and VLBI follow-up of neutrino alerts to identify which black holes produce them, e.g. the
+    blazar PKS 0735+178.

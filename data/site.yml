@@ -2,6 +2,9 @@
 
 title: UNIST Observational Astrophysics Group
 domain: www.astrojykim.com
+# Thin notice under the menu on every page. Delete this line when the site is finished.
+construction: "**Under construction** — we are moving from our old website; some pages are still being updated."
+
 copyright: © Jae-Young Kim. All rights reserved.
 
 # Header logo (put the file in assets/img/site/). If the file is missing, a drawn mark is used.
@@ -32,3 +35,7 @@ home_highlights: 6
 # Old Google Sites addresses that should keep working.
 redirects:
   /home/: /
+
+# Banner height per page: small | medium | large  (pages can also set banner_size in their front matter)
+banner_sizes: {members: large, highlights: medium, publications: small, 2-3m-radio-telescope: medium}
+banner_positions: {members: center 62%}

@@ -201,8 +201,8 @@ class Builder:
             else:
                 node = BeautifulSoup(placeholder_svg(name, f"assets/img/{name}"), "html.parser")
             fig = soup.new_tag("figure")
-            if "wide" in (img.get("class") or []):
-                fig["class"] = ["wide"]
+            if img.get("class"):            # {: .wide}, {: .logo} ... carried over to the figure
+                fig["class"] = list(img.get("class"))
             fig.append(node)
             if caption:
                 fc = soup.new_tag("figcaption")
@@ -292,38 +292,87 @@ class Builder:
         return sorted(years.items(), key=lambda kv: -(kv[0] or 0))
 
     def pub_stats(self):
-        """Numbers and a papers-per-year bar chart for the top of the Publications page."""
+        """Numbers, two charts and short lists for the top of the Publications page."""
         pubs = load_yaml("publications.yml", []) or []
         if not pubs:
             return None
+
+        def is_me(name: str) -> bool:
+            n = (name or "").lower()
+            return n.startswith("kim, j") and ("young" in n or "j.-y" in n or "j. -y" in n or "j.y" in n)
+
+        def kind(p):
+            a = p.get("authors") or []
+            if a and is_me(a[0]):
+                return "first"
+            return "collab" if (p.get("n_authors") or len(a)) > 50 else "team"
+
         cites = sorted((p.get("citations") or 0 for p in pubs), reverse=True)
         h = sum(1 for i, c in enumerate(cites, 1) if c >= i)
-        per_year = {}
+        i10 = sum(1 for c in cites if c >= 10)
+        years = sorted({p["year"] for p in pubs if p.get("year")})
+        years = list(range(years[0], years[-1] + 1))
+        per = {y: {"first": 0, "team": 0, "collab": 0} for y in years}
+        cit_year = {y: 0 for y in years}
         for p in pubs:
-            if p.get("year"):
-                per_year[p["year"]] = per_year.get(p["year"], 0) + 1
-        y0, y1 = min(per_year), max(per_year)
-        years = list(range(y0, y1 + 1))
-        top = max(per_year.values())
-        w, hgt, bw = 720, 150, 720 / len(years)
-        bars = []
-        for i, y in enumerate(years):
-            n = per_year.get(y, 0)
-            bh = (hgt - 34) * n / top
-            x = i * bw
-            bars.append(f'<rect x="{x + bw*0.18:.1f}" y="{hgt - 18 - bh:.1f}" width="{bw*0.64:.1f}" height="{bh:.1f}"><title>{y}: {n}</title></rect>')
-            if n:
-                bars.append(f'<text class="n" x="{x + bw/2:.1f}" y="{hgt - 22 - bh:.1f}">{n}</text>')
-            if y % 2 == y1 % 2 or len(years) <= 12:
-                bars.append(f'<text x="{x + bw/2:.1f}" y="{hgt - 4}">{y}</text>')
-        svg = (f'<svg class="pubchart" viewBox="0 0 {w} {hgt}" role="img" '
-               f'aria-label="Refereed papers per year">{"".join(bars)}</svg>')
-        return {"papers": len(pubs), "citations": sum(cites), "h": h, "chart": Markup(svg)}
+            if p.get("year") in per:
+                per[p["year"]][kind(p)] += 1
+                cit_year[p["year"]] += p.get("citations") or 0
+
+        def chart(values_by_year, stacked, label):
+            w, hgt = 720, 230
+            bw = w / len(years)
+            top = max((sum(v.values()) if stacked else v) for v in values_by_year.values()) or 1
+            out = []
+            for i, y in enumerate(years):
+                v = values_by_year[y]
+                x = i * bw + bw * 0.18
+                base = hgt - 18
+                parts = [("first", v["first"]), ("team", v["team"]), ("collab", v["collab"])] if stacked else [("team", v)]
+                total = 0
+                for cls, n in parts:
+                    bh = (hgt - 40) * n / top
+                    if n:
+                        out.append(f'<rect class="{cls}" x="{x:.1f}" y="{base - bh:.1f}" width="{bw*0.64:.1f}" height="{bh:.1f}"><title>{y}: {n}</title></rect>')
+                    base -= bh
+                    total += n
+                if total:
+                    lab = f"{total:,}" if not stacked else str(total)
+                    out.append(f'<text class="n" x="{i*bw + bw/2:.1f}" y="{base - 4:.1f}">{lab}</text>')
+                if y % 2 == years[-1] % 2 or len(years) <= 12:
+                    out.append(f'<text x="{i*bw + bw/2:.1f}" y="{hgt - 4}">{y}</text>')
+            return Markup(f'<svg class="pubchart" viewBox="0 0 {w} {hgt}" role="img" aria-label="{label}">{"".join(out)}</svg>')
+
+        def title_html(t):
+            t = html.escape(t or "")
+            return Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))
+
+        top_cited = [{**p, "title_html": title_html(p.get("title"))}
+                     for p in sorted(pubs, key=lambda p: -(p.get("citations") or 0))[:5]]
+        journals = {}
+        for p in pubs:
+            j = (p.get("journal") or "").strip()
+            if j:
+                journals[j] = journals.get(j, 0) + 1
+        return {
+            "papers": len(pubs), "citations": sum(cites), "h": h, "i10": i10,
+            "first": sum(v["first"] for v in per.values()),
+            "collab": sum(v["collab"] for v in per.values()),
+            "chart": chart(per, True, "Refereed papers per year by authorship"),
+            "cite_chart": chart(cit_year, False, "Citations to papers published each year"),
+            "top_cited": top_cited,
+            "journals": sorted(journals.items(), key=lambda kv: -kv[1])[:6],
+        }
 
     def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:
         layout = fm.get("layout", "page")
+        fm = dict(fm)
+        fm.setdefault("banner_size", (self.site.get("banner_sizes") or {}).get(fm["slug"]))
+        fm.setdefault("banner_position", (self.site.get("banner_positions") or {}).get(fm["slug"]))
         tpl = self.env.get_template(f"{layout}.html")
         banner_name = fm.get("banner") or (self.site.get("banners") or {}).get(fm["slug"])
+        if isinstance(banner_name, list):   # first existing file wins
+            banner_name = next((n for n in banner_name if find_image(n)), banner_name[-1])
         banner = self.image_src(banner_name) if banner_name else None
         logo = self.image_src(self.site.get("logo")) if self.site.get("logo") else None
         ctx = dict(site=self.site, page=fm, content=Markup(self.render_markdown(body)) if body.strip() else "",

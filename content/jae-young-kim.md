@@ -2,7 +2,8 @@
 title: Jae-Young Kim
 layout: page
 banner: about/profile.jpg
-banner_position: center 30%
+banner_position: center 42%
+banner_size: small
 ---
 
 Jae-Young Kim  
@@ -139,5 +140,5 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 - SOC member of various large international (e.g., IAU Symposium, COSPAR) and domestic meetings/conferences
 
-🍪 **Thank you for reading all the way down here.** You found the cookie! Here is the part no CV asks for: besides academic activities, I also love and enjoy nature, photography, bike riding, swimming, traveling to new places, and playing piano. If you want to talk about black holes or any of these, a coffee in my office works better than an email.
-{: .cookie}
+Besides academic activities, I also love and enjoy: nature, photography, bike riding, swimming, traveling to new places, and playing piano.
+{: .aside}

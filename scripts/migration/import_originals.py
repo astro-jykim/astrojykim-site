@@ -69,14 +69,33 @@ EDITS = [
     ("2-3m-radio-telescope", "digianl", "digital", 1, "Typo"),
     ("home", "(see [here](/join-us))", "(see [here](/positions-2027/))", 1,
      "The 2027 positions now have their own page"),
-    ("jae-young-kim", "Besides academic activities, I also love and enjoy: nature, photography, bike riding, swimming, traveling to new places, and playing piano.",
-     "🍪 Thank you for reading all the way down here. You found the cookie! Here is the part no CV asks for: besides academic activities, I also love and enjoy nature, photography, bike riding, swimming, traveling to new places, and playing piano. If you want to talk about black holes or any of these, a coffee in my office works better than an email.", 1,
-     "Requested: turn the last line into a light-hearted ‘cookie’"),
     ("2-3m-radio-telescope", "[contact me](https://www.astrojykim.com/contact)", "[contact me](/contact/)", 1,
      "Absolute link to the old site made relative"),
 ]
 
 # Additions of new text (not in the original). Logged separately in CHANGES.md.
+# --- 2026-09-27: changes requested after the first review --------------------------------
+# Member group labels made clearer.
+EDITS += [
+    ("members", "Group lead", "Group Leader", 1, "Clearer group label"),
+    ("members", "Graduates", "Graduate Students", 1, "Clearer group label"),
+    ("members", "Undergraduates", "Undergraduate Researchers", 1, "Clearer group label"),
+    ("members", "Advisory students", "Advisory Students", 1, "Clearer group label"),
+    ("members", "Past supervisions, internships, or members", "Former Students and Interns", 1, "Clearer group label"),
+]
+# Join Us (general part) rewritten more concisely on request. The original wording stays in
+# _originals/join-us.md; here each rewritten paragraph is simply dropped from the check.
+_JOIN_US_REWRITTEN = ("We are always looking", "Our group welcomes", "Curiosity, scientific",
+                      "UNIST provides substantial", "Various MSc", "Students considering",
+                      "UNIST provides competitive", "We welcome undergraduate", "Typical internships",
+                      "Students from outside", "We welcome inquiries", "While funded positions")
+try:
+    _orig = (Path(__file__).resolve().parents[2] / "_originals" / "join-us.md").read_text(encoding="utf-8")
+    EDITS += [("join-us", line.strip(), "", 1, "Join Us rewritten more concisely (2026-09-27)")
+              for line in _orig.split("\n") if line.strip().startswith(_JOIN_US_REWRITTEN)]
+except FileNotFoundError:
+    pass
+
 ADDITIONS = [
     ("home", "One Korean line under the 2027 positions notice, linking to /ko/", "requested: 한글 병기"),
     ("join-us", "One Korean line under “NEW: Two Open Graduate Student Positions in 2027”", "requested: 한글 병기"),

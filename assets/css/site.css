@@ -8,8 +8,8 @@
   --surface: #ffffff;
   --surface-2: #e9eef3;
   --ink: #121922;
-  --ink-2: #44505c;
-  --ink-3: #737f8b;
+  --ink-2: #2f3a46;
+  --ink-3: #56616d;
   --line: #dce2e8;
   --line-2: #c6cfd8;
   /* UNIST colours, taken from the official logo: navy #001B54, teal #44C1C4 */
@@ -22,9 +22,9 @@
   --banner-ink: #ffffff;
   --banner-shade: rgba(8, 13, 20, 0.55);
 
-  --serif: "IBM Plex Serif", Georgia, "Times New Roman", serif;
-  --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: "Helvetica Neue", Helvetica, Arial, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --serif: var(--sans);   /* one family everywhere: Helvetica */
+  --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --maxw: 1100px;
   --prose: 100%;
@@ -37,8 +37,8 @@
     --surface: #0f1720;
     --surface-2: #18212d;
     --ink: #e7edf4;
-    --ink-2: #a8b3bf;
-    --ink-3: #707c89;
+    --ink-2: #c3ccd6;
+    --ink-3: #8f9aa6;
     --line: #1e2936;
     --line-2: #2c3947;
     --brand: #9dbcff;
@@ -56,8 +56,8 @@
   --surface: #0f1720;
   --surface-2: #18212d;
   --ink: #e7edf4;
-  --ink-2: #a8b3bf;
-  --ink-3: #707c89;
+  --ink-2: #c3ccd6;
+  --ink-3: #8f9aa6;
   --line: #1e2936;
   --line-2: #2c3947;
   --brand: #9dbcff;
@@ -124,7 +124,7 @@ nav.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--
 .banner {
   position: relative;
   width: 100%;
-  height: min(calc(100vw / 2.1), 78vh);
+  height: min(calc(100vw / 2.1), 78vh);   /* medium (default) */
   min-height: 240px;
   display: flex;
   align-items: flex-end;
@@ -369,3 +369,62 @@ footer .in { max-width: var(--maxw); margin: 0 auto; padding-inline: 16px; displ
 .project p { margin: 0 0 8px; font-size: 14.5px; line-height: 1.55; color: var(--ink-2); text-align: left; hyphens: manual; }
 .project .role { margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed var(--line-2); }
 .project .role span { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin-bottom: 3px; }
+
+/* ---------------------------------------------------------------- 2026-09-27 revision */
+/* banner sizes per page (front matter: banner_size: small | medium | large) */
+.banner.size-small  { height: min(calc(100vw / 4.2), 320px); min-height: 180px; }
+.banner.size-medium { height: min(calc(100vw / 2.6), 62vh); }
+.banner.size-large  { height: min(calc(100vw / 1.8), 82vh); }
+
+/* under-construction notice */
+.construction { background: var(--accent-soft); border-bottom: 1px solid var(--line); font-size: 13.5px; color: var(--ink-2); }
+.construction .in { max-width: var(--maxw); margin: 0 auto; padding: 7px 16px; }
+.construction strong { color: var(--brand); }
+
+/* headings: Helvetica, a little bolder */
+h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter-spacing: -0.01em; }
+.card h3, .program strong, .project h3 { font-weight: 700; }
+
+/* readability: slightly larger small text */
+.card .note { font-size: 13.5px; }
+.card .links { font-size: 14px; }
+.people .topic { font-size: 15.5px; color: var(--ink-2); }
+.people .who { font-size: 17px; }
+
+/* members: clear group headings */
+.group h2 { font-family: var(--sans); font-size: 21px; font-weight: 700; letter-spacing: -0.01em; text-transform: none;
+  color: var(--brand); padding-bottom: 8px; border-bottom: 2px solid var(--accent-bright); }
+.group { margin-top: 44px; }
+
+/* profile page: personal note, small and quiet */
+.prose .aside { font-size: 14px; color: var(--ink-3); margin-top: 3em; text-align: left; }
+
+/* figures inside "In plain words" and facility cards: show the credit */
+.prose .explain figcaption { display: block; font-size: 12px; color: var(--ink-3); margin-top: 6px; text-align: left; }
+.project .credit { font-size: 11.5px; color: var(--ink-3); margin: 8px 0 0; }
+
+/* contact page */
+.contact-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 28px; align-items: stretch; margin-top: 8px; }
+.contact-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; }
+.contact-card figure.logo { margin: 0 0 18px; max-width: 360px; }
+.contact-card figure.logo img { width: 100%; height: auto; border-radius: 4px; }
+.contact-card p { margin: 0 0 14px; line-height: 1.65; text-align: left; }
+.contact-card p.ko { font-size: 14.5px; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 14px; }
+.contact-grid iframe { width: 100%; height: 100%; min-height: 420px; border: 1px solid var(--line); border-radius: 10px; }
+@media (max-width: 820px) { .contact-grid { grid-template-columns: 1fr; } }
+
+/* publications: insight panels */
+.pubgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin-top: 22px; }
+@media (max-width: 820px) { .pubgrid { grid-template-columns: 1fr; } }
+.pubpanel .pubchart text { font-size: 15px; }
+.pubpanel .pubchart text.n { font-size: 13px; }
+.pubpanel { border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; background: var(--surface); }
+.pubpanel h3 { font-size: 15px; margin: 0 0 10px; color: var(--ink); }
+.pubpanel ol, .pubpanel ul { margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.5; }
+.pubpanel li { margin-bottom: 6px; text-align: left; }
+.pubpanel li .c { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
+.pubchart rect.first { fill: var(--brand); }
+.pubchart rect.team { fill: var(--accent); }
+.pubchart rect.collab { fill: var(--accent-bright); opacity: .75; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12.5px; color: var(--ink-2); margin-top: 6px; justify-content: center; }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }

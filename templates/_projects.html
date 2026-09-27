@@ -6,6 +6,7 @@
       <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
       <p>{{ p.text }}</p>
       {% if p.role %}<p class="role"><span>Our work</span>{{ p.role }}</p>{% endif %}
+      {% if p.credit %}<p class="credit">{{ p.credit }}</p>{% endif %}
     </div>
   </article>
 {% endfor %}

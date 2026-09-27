@@ -7,11 +7,11 @@
 intro: I am happy to talk with prospective students and researchers interested in joining our group and
   working with me. Please feel free to directly [contact](/contact/) me.
 groups:
-- label: Group lead
+- label: Group Leader
   people:
   - name: Jae-Young Kim
     link: /jae-young-kim/
-- label: Graduates
+- label: Graduate Students
   people:
   - name: Deokhyeong Lee
     detail: 이덕형, UNIST
@@ -37,7 +37,7 @@ groups:
     detail: 정호준, UNIST
     period: since Mar 2026
     topic: Spectro-polarimetric properties of neutrino blazars
-- label: Undergraduates
+- label: Undergraduate Researchers
   people:
   - name: Chaewon Kim
     detail: 김채원, UNIST
@@ -48,7 +48,7 @@ groups:
     detail: 최유진, UNIST
     period: Jul-Aug 2026
     topic: Probing circular polarization in the core of M87 using multi-year VLBA 15 GHz observations
-- label: Advisory students
+- label: Advisory Students
   people:
   - name: Hyeon-Woo Chung
     detail: 정현우; Ph.D. student at UST and KASI
@@ -65,7 +65,7 @@ groups:
     detail: 이덕형, MSc., KNU
     period: Mar 2023 - Feb 2025
     topic: Global mm-VLBI study of M87 at 86 and 230 GHz using the GMVA and EHT data
-- label: Past supervisions, internships, or members
+- label: Former Students and Interns
   people:
   - name: Byeongmin Park
     detail: 박병민, UNIST

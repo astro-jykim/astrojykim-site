@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.slug == 'home' %}{{ site.title }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}</title>
 <meta name="description" content="{{ page.description or site.description or '' }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
 {% if inline_css %}<style>{{ inline_css }}</style>{% else %}<link rel="stylesheet" href="{{ asset('css/site.css') }}">{% endif %}
 </head>
 <body>
@@ -28,9 +25,10 @@
     </nav>
   </div>
 </header>
+{% if site.construction %}<div class="construction"><div class="in">{{ md_inline(site.construction) }}</div></div>{% endif %}
 
 {% block banner %}
-<div class="banner{% if not banner %} plain{% endif %}"{% if banner %} style="background-image:url('{{ banner }}'){% if page.banner_position %};background-position:{{ page.banner_position }}{% endif %}"{% endif %}>
+<div class="banner size-{{ page.banner_size or 'medium' }}{% if not banner %} plain{% endif %}"{% if banner %} style="background-image:url('{{ banner }}'){% if page.banner_position %};background-position:{{ page.banner_position }}{% endif %}"{% endif %}>
   <div class="banner-in"><h1>{{ page.title }}</h1></div>
 </div>
 {% endblock %}

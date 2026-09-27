@@ -7,9 +7,30 @@
     <div><b>{{ stats.papers }}</b><span>refereed papers</span></div>
     <div><b>{{ "{:,}".format(stats.citations) }}</b><span>citations</span></div>
     <div><b>{{ stats.h }}</b><span>h-index</span></div>
+    <div><b>{{ stats.i10 }}</b><span>i10-index</span></div>
+    <div><b>{{ stats.first }}</b><span>first-author papers</span></div>
   </div>
-  {{ stats.chart }}
-  <p class="src">Refereed papers per year · from NASA ADS, updated weekly</p>
+  <div class="pubgrid">
+    <div class="pubpanel">
+      <h3>Papers per year</h3>
+      {{ stats.chart }}
+      <div class="legend"><span><i style="background:var(--brand)"></i>first author</span><span><i style="background:var(--accent)"></i>team papers</span><span><i style="background:var(--accent-bright);opacity:.75"></i>large collaborations (&gt;50 authors)</span></div>
+    </div>
+    <div class="pubpanel">
+      <h3>Citations, by year of publication</h3>
+      {{ stats.cite_chart }}
+      <div class="legend"><span>Total citations to the papers published in each year</span></div>
+    </div>
+    <div class="pubpanel">
+      <h3>Most cited</h3>
+      <ol>{% for p in stats.top_cited %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a> <span class="c">{{ p.year }} · {{ "{:,}".format(p.citations) }}×</span></li>{% endfor %}</ol>
+    </div>
+    <div class="pubpanel">
+      <h3>Where we publish</h3>
+      <ul>{% for j, n in stats.journals %}<li>{{ j }} <span class="c">{{ n }}</span></li>{% endfor %}</ul>
+    </div>
+  </div>
+  <p class="src">From NASA ADS, refereed papers only · updated weekly</p>
 </section>
 {% endif %}
 {% if pubs_by_year %}

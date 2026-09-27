@@ -29,14 +29,6 @@
 {% endfor %}
 </div>
 {% endif %}
-{% if stats %}
-<a class="statline" href="{{ href('/publications/') }}">
-  <span><b>{{ stats.papers }}</b> refereed papers</span>
-  <span><b>{{ "{:,}".format(stats.citations) }}</b> citations</span>
-  <span><b>{{ stats.h }}</b> h-index</span>
-  <span class="go">Publications →</span>
-</a>
-{% endif %}
 <h2 class="section-label">Highlights</h2>
 {% include "_cards.html" %}
 <p class="more"><a href="{{ href('/highlights/') }}">All {{ highlights_total }} highlights →</a></p>

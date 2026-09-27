@@ -1,7 +1,9 @@
 ---
 title: Before You Apply to Graduate School
 layout: page
-banner: banners/join-us.jpg
+banner: telescope/04-inspection.jpg
+banner_size: medium
+banner_position: center 45%
 nav: false
 ---
 
@@ -10,11 +12,11 @@ nav: false
 
 ## English {: #english}
 
-Every student who has joined our group so far read the material below first, and then we talked once more before the graduate program really began. I ask this of everyone.
+This page collects articles on graduate school and careers in astronomy, shared for information.
 
-Getting a degree is, in a sense, the easy part: do a reasonable amount of research and write a reasonable number of papers. The real goal comes after graduation — finding a good position at a research institute or university and continuing to do good research there. That road is not an easy one, so it is important to know what it looks like before you start.
+I usually ask students who join our group to read them before they start their graduate program, and we talk once more afterwards. (Admittedly, not every one of my students has read them all.) A degree takes a reasonable amount of research and a reasonable number of papers; the harder part comes after graduation — finding a good position and continuing to do good research. It helps to know what that road looks like before starting.
 
-The titles of some articles below are deliberately provocative ("reasons *not* to go to graduate school"), but most of them are really about academic careers in general. If you read everything and decide to think again about graduate school, that is completely fine with me.
+Some titles are deliberately provocative, such as reasons *not* to go to graduate school, but most of the articles are about academic careers in general.
 
 ### The academic career and the job market
 
@@ -46,16 +48,13 @@ Some people work hard for their degree and then need to move to industry to make
 
 The AAS keeps many resources of this kind: [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops) (recorded sessions on academic and non-academic careers) and [Employment Statistics](https://aas.org/careers/employment-statistics).
 
-A student once received this list and applied without reading any of it. From now on, I will ask whether you have read everything. :)
-{: .cookie}
-
-When you have read them, [come and talk](/contact/). See also [Join Us](/join-us/).
-
 ## 한국어 {: #korean}
 
-제가 이제까지 받은 대학원생들은 모두 아래 자료들을 한 번씩은 읽고, 다시 면담을 한 다음 본격적으로 대학원 과정을 시작했습니다. 대학원 진학 전 참고자료이자, 마지막으로 길을 돌릴 수 있는 기회이기도 합니다.
+대학원 진학과 천문학 분야 커리어에 관한 글들을 정보 차원에서 모아 두었습니다.
 
-단순히 학위를 하는 것은 어느 정도 연구하고 어느 정도 논문을 쓰면 되지만, 사실 그것보다는 졸업하고 좋은 연구소나 학교에 자리 잡고 좋은 연구를 하는 것이 최종적인 목적입니다. 그 길이 그렇게 녹록하지는 않기 때문에 현실을 아는 것도 중요해서 이런 측면을 강조합니다. 제목은 자극적인 것도 있지만(대학원에 *오지 말아야 할* 이유), 사실 전반적인 academic career에 관한 글들입니다. 모두 읽어 보고 다시 한번 진학을 생각해 봐야겠다면, 그것도 저는 관계없습니다.
+우리 그룹에 대학원생으로 오는 학생들에게는 보통 이 자료들을 먼저 읽게 하고, 다시 한번 면담한 뒤 본격적으로 과정을 시작합니다. (물론 제 학생들 중에도 다 읽지 않은 학생이 있기는 합니다.) 학위 자체는 어느 정도 연구하고 어느 정도 논문을 쓰면 받을 수 있지만, 졸업 후 좋은 자리를 잡고 계속 좋은 연구를 하는 것이 더 어려운 부분입니다. 그 길이 어떤지 미리 알고 시작하는 것이 도움이 됩니다.
+
+제목이 자극적인 글도 있지만(대학원에 *가지 말아야 할* 이유 등), 대부분은 학계 커리어 전반에 관한 내용입니다.
 
 ### 학계 커리어와 job market
 
@@ -86,8 +85,3 @@ When you have read them, [come and talk](/contact/). See also [Join Us](/join-us
 ### 더 보기
 
 AAS 홈페이지에도 비슷한 자료가 많이 있습니다: [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops), [Employment Statistics](https://aas.org/careers/employment-statistics).
-
-참고로, 예전에 이 자료를 받고도 하나도 안 읽고 대학원에 지원한 학생이 있었습니다. 그래서 앞으로는 꼭 다 읽었는지 물어보려고 합니다. :)
-{: .cookie}
-
-다 읽었다면 [연락 주세요](/contact/). [Join Us](/join-us/)도 참고하세요.
