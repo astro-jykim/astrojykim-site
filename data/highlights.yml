@@ -111,10 +111,12 @@
   bibcode: 2023ApJ...957L..20A
 - id: kim2018
   title: The jet launching region in M87 imaged at 7 Schwarzschild radii spatial resolution
-  links: []
+  links:
+  - text: Kim JY et al. 2018, A&A
+    url: https://www.aanda.org/articles/aa/abs/2018/08/aa32921-18/aa32921-18.html
   notes:
-  - '[Kim JY et al. 2018, A&A](https://www.aanda.org/articles/aa/abs/2018/08/aa32921-18/aa32921-18.html)[Cover
-    page](https://www.aanda.org/articles/aa/abs/2018/08/contents/contents.html) of A&A vol. 616'
+  - '[Cover page](https://www.aanda.org/articles/aa/abs/2018/08/contents/contents.html) of A&A vol. 616'
+  bibcode: 2018A&A...616A.188K
 - id: paraschos2023
   title: Multi-band study of radio-gamma ray connection in 3C 84
   links:

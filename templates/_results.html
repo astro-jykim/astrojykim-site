@@ -4,7 +4,8 @@
     <a class="img" href="{{ h.links[0].url if h.links else '#' }}" target="_blank" rel="noopener" aria-label="{{ h.title }}">{{ h.figure }}</a>
     <div class="body">
       <p class="t">{% if h.links %}<a href="{{ h.links[0].url }}" target="_blank" rel="noopener">{{ h.title }}</a>{% else %}{{ h.title }}{% endif %}</p>
-      {% if h.links %}<p class="links">{% for l in h.links %}{% if loop.first %}<span>{{ l.text }}</span>{% else %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endif %}{% endfor %}</p>{% endif %}
+      {% if h.links %}<p class="links">{% for l in h.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endfor %}</p>{% endif %}
+      {% for n in h.notes or [] %}<p class="note">{{ md_inline(n) }}</p>{% endfor %}
     </div>
   </li>
 {% endfor %}
