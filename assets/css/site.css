@@ -12,9 +12,11 @@
   --ink-3: #737f8b;
   --line: #dce2e8;
   --line-2: #c6cfd8;
-  --accent: #a55e07;
-  --accent-bright: #d98a1f;
-  --accent-soft: #faf0df;
+  /* UNIST colours, taken from the official logo: navy #001B54, teal #44C1C4 */
+  --brand: #001b54;
+  --accent: #1a6f8d;
+  --accent-bright: #44c1c4;
+  --accent-soft: #e3f5f6;
   --cool: #16636e;
   --cool-soft: #e2f0f1;
   --banner-ink: #ffffff;
@@ -39,9 +41,10 @@
     --ink-3: #707c89;
     --line: #1e2936;
     --line-2: #2c3947;
-    --accent: #f0a830;
-    --accent-bright: #f7be5c;
-    --accent-soft: #241a0c;
+    --brand: #9dbcff;
+    --accent: #62d0d3;
+    --accent-bright: #44c1c4;
+    --accent-soft: #0b2830;
     --cool: #55b9c4;
     --cool-soft: #0e2427;
     --banner-shade: rgba(0, 0, 0, 0.6);
@@ -57,9 +60,10 @@
   --ink-3: #707c89;
   --line: #1e2936;
   --line-2: #2c3947;
-  --accent: #f0a830;
-  --accent-bright: #f7be5c;
-  --accent-soft: #241a0c;
+  --brand: #9dbcff;
+  --accent: #62d0d3;
+  --accent-bright: #44c1c4;
+  --accent-soft: #0b2830;
   --cool: #55b9c4;
   --cool-soft: #0e2427;
   --banner-shade: rgba(0, 0, 0, 0.6);
@@ -97,7 +101,7 @@ h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.24; text-wrap: balanc
 }
 .masthead-in { max-width: var(--maxw); margin: 0 auto; padding-inline: 16px; }
 .brandrow { display: flex; align-items: center; gap: 12px; padding-block: 12px 8px; }
-.brand { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--brand); }
 .brand:hover { text-decoration: none; }
 .brand img { height: 34px; width: auto; display: block; }
 .brand svg { display: block; color: var(--ink-2); }
@@ -186,7 +190,7 @@ figcaption { font-size: 13px; color: var(--ink-3); margin-top: 8px; line-height:
 .buttons { display: flex; flex-wrap: wrap; gap: 10px; }
 .buttons a {
   display: inline-block; padding: 8px 15px; border-radius: 5px; font-size: 14px; font-weight: 500;
-  background: var(--ink); color: var(--bg);
+  background: var(--brand); color: var(--surface);
 }
 .buttons a:hover { background: var(--accent); text-decoration: none; }
 

@@ -4,8 +4,8 @@ layout: home
 banner: banners/home.jpg
 hero_title: Black Holes and Radio Astronomy
 hero_subtitle: Ulsan National Institute of Science and Technology (UNIST)
-notice: 'NEW: Two Graduate Student Positions in 2027 (see [here](/positions-2027/))'
-notice_ko: 2027학년도 대학원생 2명을 모집합니다. [한국어 안내](/ko/)
+notice: 'NEW: Two Graduate Student Positions in 2027 (see [here](/positions-2027/)). Before applying, please read [this](/before-you-apply/).'
+notice_ko: 2027학년도 대학원생 2명을 모집합니다. [한국어 안내](/ko/) · 지원 전에 [꼭 읽어볼 자료](/before-you-apply/#korean)
 # Three research programs shown on the home page (text = first sentence on the Research page).
 programs:
   - title: Nearby supermassive black holes and direct imaging
