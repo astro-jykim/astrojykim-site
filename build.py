@@ -219,6 +219,11 @@ class Builder:
             else:
                 img.replace_with(fig)
 
+        # Wide tables scroll sideways inside their own box on small screens (the page itself never does)
+        for table in soup.find_all("table"):
+            if table.parent and "table-wrap" not in (table.parent.get("class") or []):
+                table.wrap(soup.new_tag("div", attrs={"class": "table-wrap"}))
+
         # CV rows:  "- 2024-2026 | text"  ->  two columns (works for tight and loose lists)
         for li in soup.find_all("li"):
             target = li.find("p", recursive=False) or li

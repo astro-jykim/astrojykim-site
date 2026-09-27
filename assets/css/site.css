@@ -551,3 +551,12 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 /* Labelled list items written as  "Label | text"  (no year) */
 .prose li.labelled { margin-bottom: 0.8em; }
 .prose li.labelled .label { display: block; font-weight: 600; color: var(--ink); }
+
+/* Publications number tiles: even rows at every width (no single tile left alone on a row) */
+.pubstats .nums { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+.pubstats .nums div { min-width: 0; padding: 12px 14px; }
+@media (max-width: 1000px) { .pubstats .nums { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 520px)  { .pubstats .nums { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.prose .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+.prose .table-wrap table { margin: 0; }
+.prose a { overflow-wrap: anywhere; }
