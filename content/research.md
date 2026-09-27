@@ -14,6 +14,54 @@ If you’d like to understand our research more easily, you can also check out a
 [1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
 {: .chips}
 
+<details class="fold" markdown="1">
+<summary>Terms used on this page</summary>
+
+AGN (active galactic nucleus)
+:   The centre of a galaxy where a supermassive black hole is swallowing gas and shines brightly.
+
+Relativistic jet
+:   A narrow beam of plasma launched from near a black hole at almost the speed of light.
+
+Blazar
+:   An AGN whose jet points almost straight at us, so that it looks very bright and changes quickly.
+
+VLBI (very long baseline interferometry)
+:   Radio telescopes far apart observe together and act as one telescope as large as the distance between them, up to the size of the Earth.
+
+Event Horizon Telescope (EHT)
+:   A worldwide VLBI array at 1.3 mm wavelength, sharp enough to see the ring around the black holes in M87 and at the centre of our Galaxy.
+
+Polarimetry
+:   Measuring the polarization of light, which shows the direction and order of magnetic fields.
+
+Schwarzschild radius
+:   The size of the event horizon of a black hole that does not spin; a way to measure distances close to a black hole.
+
+GRMHD simulation
+:   A computer model of magnetized plasma flowing around a black hole, including Einstein's general relativity.
+
+Multi-messenger astronomy
+:   Studying an object with light together with other signals, such as neutrinos or gravitational waves.
+
+Square Kilometre Array (SKA)
+:   The next-generation radio telescope, being built in South Africa and Australia for the 2030s.
+
+</details>
+
+<details class="fold" lang="ko" markdown="1">
+<summary>한국어 요약</summary>
+
+우리 연구실은 전파간섭계, 특히 초장기선 전파간섭계(VLBI)를 중심으로 초대질량블랙홀과 상대론적 제트를 연구합니다. 연구 주제는 세 가지입니다.
+
+1. **가까운 초대질량블랙홀의 직접 영상화**: 사건지평선망원경(EHT)과 GMVA 등으로 M87, Sgr A\*, 3C 84, 3C 279 등 가까운 블랙홀 바로 주변의 물질과 자기장을 직접 영상화합니다.
+2. **다파장·다중신호 블랙홀 천체물리**: 전파부터 감마선, 중성미자까지의 관측을 결합하여 블레이저의 변광과 입자 가속, 중성미자 방출의 기원을 연구합니다.
+3. **먼 우주와 어둡고 작은 블랙홀**: SKA 선행 망원경의 광시야 탐사 자료에서 기존 표본에서 놓친 새로운 종류의 블랙홀을 찾고, 2030년대 SKA 시대를 준비합니다.
+
+관측 제안서 작성과 관측부터 자료 보정·영상화, 물리적 해석까지 연구의 전 과정에 학생들이 직접 참여합니다.
+
+</details>
+
 ## List of publications
 
 [NASA ADS (recommended)](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-8229-7183&sort=date%20desc%2C%20bibcode%20desc) [Google Scholar](https://scholar.google.com/citations?user=G3x3HkAAAAAJ&hl=en) [ORCID](https://orcid.org/0000-0001-8229-7183)

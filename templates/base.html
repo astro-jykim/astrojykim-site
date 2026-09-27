@@ -25,7 +25,7 @@
 </script>{% endif %}
 {% if inline_css %}<style>{{ inline_css }}</style>{% else %}<link rel="stylesheet" href="{{ asset('css/site.css') }}">{% endif %}
 </head>
-<body>
+<body class="l-{{ page.layout or 'page' }} p-{{ page.slug }}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="masthead-in">

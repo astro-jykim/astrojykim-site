@@ -19,6 +19,7 @@
   </div>
 </div>
 {% endif %}
+<p class="start"><span>Start here</span><a href="{{ href('/research/') }}">What we study</a><a href="{{ href('/join-us/') }}">Joining the group</a><a href="{{ href('/before-you-apply/') }}">Reading before graduate school</a><a href="{{ href('/publications/') }}">Publications</a></p>
 {% if programs %}
 <h2 class="section-label">Research</h2>
 {% if research_figure %}<figure class="home-figure"><a href="{{ href('/research/') }}">{{ research_figure }}</a>{% if page.research_caption %}<figcaption>{{ page.research_caption }}</figcaption>{% endif %}</figure>{% endif %}
@@ -28,7 +29,7 @@
 {% endfor %}
 </ol>
 {% endif %}
-<h2 class="section-label">Highlights</h2>
-{% include "_cards.html" %}
+<h2 class="section-label">Recent highlights</h2>
+{% set hide_notes = true %}{% include "_cards.html" %}
 <p class="more"><a href="{{ href('/highlights/') }}">All {{ highlights_total }} highlights →</a></p>
 {% endblock %}

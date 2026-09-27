@@ -278,7 +278,7 @@ class Builder:
         for c in soup.find_all(string=lambda t: isinstance(t, Comment) and t.strip().startswith("highlights:")):
             ids = [i.strip() for i in c.strip()[len("highlights:"):].split(",") if i.strip()]
             cards, _ = self.highlight_cards(only=ids)
-            html_cards = self.env.get_template("_cards.html").render(cards=cards, md_inline=self.md_inline)
+            html_cards = self.env.get_template("_results.html").render(cards=cards, md_inline=self.md_inline)
             c.replace_with(BeautifulSoup('<div class="related">' + html_cards + "</div>", "html.parser"))
 
         # <!-- projects -->  ->  project / facility cards from data/projects.yml

@@ -27,7 +27,6 @@ nav:
   - {title: Members, url: /members/}
   - {title: Jae-Young Kim, url: /jae-young-kim/}
   - {title: Join Us, url: /join-us/}
-  - {title: 2027 Positions, url: /positions-2027/}
   - {title: For Students, url: /before-you-apply/}
   - {title: Resources, url: /resources/}
   - {title: Contact, url: /contact/}
@@ -38,7 +37,7 @@ banners:
   members: [banners/members-meerkat.jpg]
 
 # How many highlights to show on the home page.
-home_highlights: 6
+home_highlights: 3
 
 # Old Google Sites addresses that should keep working.
 redirects:

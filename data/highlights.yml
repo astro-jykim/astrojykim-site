@@ -1,5 +1,5 @@
 # =============================================================================
-# Highlights — rendered in this order on /highlights/ (and the first 6 on Home).
+# Highlights — rendered in this order on /highlights/ (the first few also on Home: home_highlights in site.yml).
 #
 # Image: put a file named <id>.jpg (or .png/.webp) in assets/img/highlights/.
 #        No setting needed here; the file name is the link.

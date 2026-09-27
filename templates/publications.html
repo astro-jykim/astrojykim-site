@@ -13,22 +13,22 @@
     <div><b>{{ led.first + led.corresponding }}</b><span>first / corresponding author</span></div>
     <div><b>{{ stats.recent }}</b><span>papers since {{ stats.recent_from }}</span></div>
   </div>
+  <details class="numdefs">
+    <summary>What the numbers mean</summary>
+      <dl class="defs">
+      <div><dt>Refereed papers</dt><dd>Peer-reviewed journal papers, as listed by <a href="https://ui.adsabs.harvard.edu/" target="_blank" rel="noopener">NASA ADS</a>, the standard bibliographic database of astronomy.</dd></div>
+      <div><dt>Citations</dt><dd>How many times these papers have been cited by other papers indexed in ADS.</dd></div>
+      <div><dt>h-index</dt><dd>The largest number h such that h papers have each been cited at least h times. Proposed by J. E. Hirsch (<a href="https://doi.org/10.1073/pnas.0507655102" target="_blank" rel="noopener">2005, PNAS 102, 16569</a>) as a single number combining productivity and impact.</dd></div>
+      <div><dt>i10-index</dt><dd>The number of papers cited at least 10 times; introduced by <a href="https://scholar.google.com/intl/en/scholar/citations.html" target="_blank" rel="noopener">Google Scholar</a> in 2011.</dd></div>
+      <div><dt>First / corresponding author</dt><dd>Papers led by our group: Jae-Young Kim as first author, or as corresponding author of papers written with a student.</dd></div>
+      <div><dt>Papers since {{ stats.recent_from }}</dt><dd>Refereed papers in the last five years, including large collaborations such as the EHT.</dd></div>
+    </dl>
+  </details>
   <div class="pubgrid">
     <div class="pubpanel wide">
       <h3>Papers per year</h3>
       {{ stats.chart }}
       <div class="legend"><span><i style="background:var(--brand)"></i>first / corresponding author</span><span><i style="background:var(--accent)"></i>team papers</span><span><i style="background:var(--accent-bright);opacity:.75"></i>large collaborations (&gt;50 authors)</span></div>
-    </div>
-    <div class="pubpanel wide context">
-      <h3>What the numbers mean</h3>
-      <dl class="defs">
-        <div><dt>Refereed papers</dt><dd>Peer-reviewed journal papers, as listed by <a href="https://ui.adsabs.harvard.edu/" target="_blank" rel="noopener">NASA ADS</a>, the standard bibliographic database of astronomy.</dd></div>
-        <div><dt>Citations</dt><dd>How many times these papers have been cited by other papers indexed in ADS.</dd></div>
-        <div><dt>h-index</dt><dd>The largest number h such that h papers have each been cited at least h times. Proposed by J. E. Hirsch (<a href="https://doi.org/10.1073/pnas.0507655102" target="_blank" rel="noopener">2005, PNAS 102, 16569</a>) as a single number combining productivity and impact.</dd></div>
-        <div><dt>i10-index</dt><dd>The number of papers cited at least 10 times; introduced by <a href="https://scholar.google.com/intl/en/scholar/citations.html" target="_blank" rel="noopener">Google Scholar</a> in 2011.</dd></div>
-        <div><dt>First / corresponding author</dt><dd>Papers led by our group: Jae-Young Kim as first author, or as corresponding author of papers written with a student.</dd></div>
-        <div><dt>Papers since {{ stats.recent_from }}</dt><dd>Refereed papers in the last five years, including large collaborations such as the EHT.</dd></div>
-      </dl>
     </div>
     <div class="pubpanel">
       <h3>Most cited</h3>
