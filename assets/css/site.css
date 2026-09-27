@@ -879,3 +879,5 @@ details.numdefs { border-bottom: 0; }
 .prose details.topic + details.topic { margin-top: 0; }
 .prose details.topic + p, .prose details.topic + h2 { margin-top: 1.6em; }
 .prose p + details.topic { margin-top: 1em; }
+@media (min-width: 761px) and (max-width: 900px) { nav.tabs { gap: 0 11px; } nav.tabs a { font-size: 13px; } }
+@media (min-width: 761px) and (max-width: 810px) { nav.tabs { gap: 0 8px; } nav.tabs a { font-size: 12.5px; } }

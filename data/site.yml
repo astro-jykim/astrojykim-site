@@ -30,6 +30,7 @@ nav:
   - {title: For Students, url: /before-you-apply/}
   - {title: Resources, url: /resources/}
   - {title: Contact, url: /contact/}
+  - {title: 2.3m Telescope, url: /2-3m-radio-telescope/}
 
 # Banner images per page (files in assets/img/banners/). Missing files fall back to a plain band.
 banners:
