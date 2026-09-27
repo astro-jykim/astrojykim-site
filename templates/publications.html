@@ -36,7 +36,7 @@
     </div>
     <div class="pubpanel">
       <h3>Where we publish</h3>
-      <ul class="journals">{% for j, n in stats.journals %}{% set m = journal_metrics.get(j, {}) %}<li><span class="jn">{{ j }} <span class="c">{{ n }}</span></span>{% if m.jif %}<span class="jm">IF {{ m.jif }}{% if m.top %} · top {{ m.top }}%{% elif m.quartile %} · {{ m.quartile }}{% endif %}</span>{% endif %}</li>{% endfor %}</ul>
+      <ul class="journals">{% for j, n in stats.journals %}{% set m = journal_metrics.get(j, {}) %}{% if not m.hide %}<li><span class="jn">{{ m.name or j }} <span class="c">{{ n }}</span></span>{% if m.jif %}<span class="jm">IF {{ m.jif }}{% if m.top %} · top {{ m.top }}%{% elif m.quartile %} · {{ m.quartile }}{% endif %}</span>{% endif %}</li>{% endif %}{% endfor %}</ul>
       {% if journal_source %}<p class="jsrc">{{ journal_source }}.</p>{% endif %}
     </div>
   </div>
