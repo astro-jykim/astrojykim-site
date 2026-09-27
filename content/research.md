@@ -1,7 +1,8 @@
 ---
 title: Research
 layout: page
-banner: banners/research.jpg
+banner: [research/m87-polarized.jpg, banners/research.jpg]
+banner_position: center 45%
 ---
 
 Below you can find brief explanations of our research areas and recent highlights. People interested in the list of published results should click the buttons. See also [highlights](/highlights/) for our recent interesting results.
@@ -20,7 +21,7 @@ If you’d like to understand our research more easily, you can also check out a
 
 ## Active galaxies and supermassive black holes
 
-![Picture: Multi-wavelength view of active galaxy Centaurus A. Credit: ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)](research/centaurus-a.jpg){: .side}
+![The giant elliptical galaxy M87 and the 3,000-light-year-long jet launched by its central black hole. Credit: NASA, ESA, A. Lessing, E. Baltz (Stanford), M. Shara (AMNH), J. DePasquale (STScI)](research/m87-hubble.jpg){: .side}
 
 Like normal galaxies, active galaxies are systems of stars, gases, and dust clouds bound to each other by self-gravitation. However, their nuclei contain "active" supermassive black holes that absorb gas from the surroundings and convert the gas's gravitational energy into intense radiation and (sometimes relativistic) outflows. We study the physics of active galactic nuclei (AGNs) and supermassive black holes with the following particular approaches:
 
@@ -38,7 +39,7 @@ Our laboratories are the nearest and best-resolved systems — M87, Sgr A*, 3C 8
 
 ![Theory: a general-relativistic simulation of plasma swirling around a supermassive black hole, with light bent by its gravity. Credit: Jordy Davelaar et al., Radboud University / BlackHoleCam (via ESO)](research/grmhd-simulation.jpg)
 
-![Observation: the M87 black hole in polarised light, tracing the magnetic field at the edge of the shadow (EHT, 2021). Credit: EHT Collaboration](research/m87-polarized.jpg)
+![Observation: the ring around the black hole in M87 and the base of its jet, imaged together at 3.5 mm with the GMVA, ALMA and the Greenland Telescope (Lu et al. 2023, Nature). Credit: R.-S. Lu (SHAO), E. Ros (MPIfR), S. Dagnello (NRAO/AUI/NSF)](research/lu2023-m87.jpg)
 
 </div>
 
@@ -52,9 +53,9 @@ Blazars — jets pointed almost straight at us — flare across the whole spectr
 
 <div class="figpair" markdown="1">
 
-![Illustration: a blazar — a jet pointed at Earth — emitting neutrinos and gamma rays that are caught by IceCube and other telescopes. Credit: IceCube/NASA](research/blazar-neutrino.jpg)
+![A blazar — a jet pointed at Earth — emitting neutrinos and gamma rays that are caught by IceCube and other telescopes (artist's impression). Credit: IceCube/NASA](research/blazar-neutrino.jpg)
 
-![Observation: the jet of the blazar 3C 279 from the VLBA and GMVA down to the Event Horizon Telescope (Kim JY et al. 2020, A&A). Credit: J.Y. Kim (MPIfR), Boston University Blazar Program, EHT Collaboration](research/3c279-eht.png)
+![Multi-messenger: some twenty observatories on the ground and in space followed up the neutrino IceCube-170922A and found the flaring blazar TXS 0506+056. Credit: Nicolle R. Fuller/NSF/IceCube](research/multimessenger-map.jpg)
 
 </div>
 
@@ -64,13 +65,13 @@ Blazars — jets pointed almost straight at us — flare across the whole spectr
 
 Discover and investigate new types of active (and inactive) black holes in the nearby and early universe, to reveal what physical conditions ultimately lead to the birth and death of an active black hole.
 
-Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, MeerKAT — make it possible to take a census of black holes that classical samples miss: powerful jets in spiral galaxies, faint and low-luminosity nuclei, candidate intermediate-mass black holes in dwarf galaxies, and black holes in the early universe. Machine learning helps us find them in very large datasets, in preparation for the Square Kilometre Array in the 2030s.
+Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, MeerKAT — make it possible to take a census of black holes that classical samples miss: powerful jets in spiral galaxies, faint and low-luminosity nuclei, candidate intermediate-mass black holes in dwarf galaxies, and black holes in the early universe — including the candidate seeds of the first supermassive black holes now being found by JWST and X-ray telescopes less than a billion years after the Big Bang. Machine learning helps us find them in very large datasets, in preparation for the Square Kilometre Array in the 2030s.
 
 <div class="figpair" markdown="1">
 
-![Illustration: an intermediate-mass black hole tearing apart a star. Credit: ESA/Hubble, M. Kornmesser](research/imbh.jpg)
+![A seed of the first supermassive black holes? UHZ1, a growing black hole seen in X-rays (purple, Chandra) in a galaxy only 470 million years after the Big Bang (infrared, JWST). Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1.jpg)
 
-![Observation: the first image from an early SKA-Low — about 85 galaxies, each hosting a supermassive black hole (2025). Credit: SKA Observatory](research/ska-low-first-image.png)
+![An intermediate-mass black hole tearing apart a star (artist's impression). Credit: ESA/Hubble, M. Kornmesser](research/imbh.jpg)
 
 </div>
 
@@ -96,8 +97,23 @@ Therefore, we conduct active collaborative research with many international and 
 
 ### Facilities and data we use
 
-Click a picture to visit the facility's website.
+| | Facilities | What we use them for |
+|---|---|---|
+| Millimeter VLBI | [EHT](https://eventhorizontelescope.org/), [GMVA](https://www3.mpifr-bonn.mpg.de/div/vlbi/globalmm/), [KVN](https://radio.kasi.re.kr/kvn/main_kvn.php) and KaVA / EAVN | horizon-scale and jet-base imaging, polarimetry of M87, Sgr A*, 3C 84, 3C 279 |
+| Centimeter and space VLBI | [VLBA](https://public.nrao.edu/telescopes/vlba/) (incl. the Boston University blazar monitoring), [RadioAstron](https://en.wikipedia.org/wiki/Spektr-R) | jet kinematics, collimation profiles, brightness temperatures |
+| Connected-element interferometers | [ALMA](https://www.almaobservatory.org/), [VLA](https://public.nrao.edu/telescopes/vla/), [MeerKAT](https://www.sarao.ac.za/science/meerkat/) | spectra, polarization and follow-up of new sources |
+| Wide-field radio surveys | [LOFAR](https://www.astron.nl/telescopes/lofar/) LoTSS, [ASKAP](https://www.csiro.au/en/about/facilities-collections/atnf/askap-radio-telescope) RACS / VAST, [MWA](https://www.mwatelescope.org/) GLEAM-X, toward the [SKA](https://www.skao.int/) | finding unusual, faint and distant black holes |
+| High-energy and multi-messenger | [Fermi](https://fermi.gsfc.nasa.gov/) (gamma rays), [IceCube](https://icecube.wisc.edu/) (neutrino alerts) | flares, and which black holes produce neutrinos |
 
 <!-- projects -->
+
+### Methods
+
+- **VLBI calibration and imaging** — fringe fitting, self-calibration, CLEAN and regularized maximum-likelihood imaging, tested on synthetic data.
+- **Polarimetry** — instrumental polarization calibration, Faraday rotation and magnetic-field structure near black holes.
+- **Jet structure and kinematics** — component tracking, jet width and collimation profiles, brightness temperatures and spectral-index maps.
+- **Time-domain and multi-messenger analysis** — long-term radio-to-gamma-ray light curves, flare timing and neutrino coincidences.
+- **Survey mining and machine learning** — source finding and classification in large radio surveys.
+- **Simulations for future arrays** — synthetic observations for the next-generation EHT, expanded KVN and space millimeter VLBI, compared with GRMHD models.
 
 Looking ahead, we are preparing for the next-generation EHT, expanded Korean millimeter-VLBI facilities, space-based millimeter VLBI (e.g. the proposed [Black Hole Explorer](https://www.blackholeexplorer.org/)), and the [Square Kilometre Array](https://www.skao.int/) in the 2030s.

@@ -443,7 +443,8 @@ class Builder:
             limit = self.site.get("home_highlights", 6) if layout == "home" else None
             ctx["cards"], ctx["highlights_total"] = self.highlight_cards(limit)
         if layout == "home":
-            ctx["programs"] = [{**p, "figure": self.figure(p["image"], p["title"], thumb=True),
+            pick = lambda im: next((i for i in im if find_image(i)), im[-1]) if isinstance(im, list) else im
+            ctx["programs"] = [{**p, "figure": self.figure(pick(p["image"]), p["title"], thumb=True),
                                 "url": self.href(p["link"])} for p in fm.get("programs") or []]
             ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
         if layout == "members":

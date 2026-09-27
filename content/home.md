@@ -9,15 +9,15 @@ notice_ko: 2027학년도 대학원생 2명을 모집합니다. [한국어 안내
 # Three research programs shown on the home page (text = first sentence on the Research page).
 programs:
   - title: Nearby supermassive black holes and direct imaging
-    image: highlights/eht2019.jpg
+    image: [research/lu2023-m87.jpg, highlights/eht2019.jpg]
     link: /research/#1-nearby-supermassive-black-holes-and-direct-imaging
     text: Directly image the matter and magnetic field distribution around the cosmic black holes on the event horizon scales.
   - title: Multi-wavelength and multi-messenger black hole astrophysics
-    image: highlights/kim2025.png
+    image: [research/blazar-neutrino.jpg, highlights/kim2025.png]
     link: /research/#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics
     text: Analyze complex time-variable signals (both photons and particles such as neutrinos) from the vicinity of cosmic black holes.
   - title: Black holes in the distant universe — and the faint and small ones
-    image: highlights/lee2025.png
+    image: [research/uhz1.jpg, research/imbh.jpg]
     link: /research/#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones
     text: Discover and investigate new types of active (and inactive) black holes in the nearby and early universe.
 ---

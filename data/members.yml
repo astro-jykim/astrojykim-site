@@ -81,6 +81,10 @@ groups:
     detail: 김채원, UNIST
     period: Jan-Feb 2025
     topic: Searching for intermediate-mass black hole (IMBH) candidates in the LOFAR radio survey data
+  - name: Deokhyeong Lee
+    detail: 이덕형, MSc., KNU
+    period: Mar 2023 - Feb 2025
+    topic: Global mm-VLBI study of M87 at 86 and 230 GHz using the GMVA and EHT data
   - name: Yu-Sik Kim
     detail: 김유식, KNU
     period: Jul 2022 - Feb 2025
@@ -113,9 +117,3 @@ groups:
     detail: 김지후, B.Sc. internship at KNU
     period: Aug 2022 - Feb 2023
     topic: VLBI-scale spectral analysis of compact symmetric objects (CSOs)
-- label: Alumni
-  people:
-  - name: Deokhyeong Lee
-    detail: 이덕형, MSc., KNU
-    period: Mar 2023 - Feb 2025
-    topic: Global mm-VLBI study of M87 at 86 and 230 GHz using the GMVA and EHT data

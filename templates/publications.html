@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block main %}
+<div class="prose publinks-top">{{ content }}</div>
 {% if stats %}
 <section class="pubstats">
   <p class="metrics-note">Metrics from <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8229-7183" target="_blank" rel="noopener">NASA ADS</a> · refereed papers only · updated weekly</p>
@@ -28,7 +29,6 @@
   </div>
 </section>
 {% endif %}
-<div class="prose publinks">{{ content }}</div>
 {% if led and led.papers %}
 <section class="led">
   <h2>First- and corresponding-author papers ({{ led.papers|length }})</h2>

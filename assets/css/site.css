@@ -373,7 +373,7 @@ footer .in { max-width: var(--maxw); margin: 0 auto; padding-inline: 16px; displ
 /* ---------------------------------------------------------------- 2026-09-27 revision */
 /* banner sizes per page (front matter: banner_size: small | medium | large) */
 .banner.size-small  { height: min(calc(100vw / 4.2), 320px); min-height: 180px; }
-.banner.size-medium { height: min(calc(100vw / 2.1), 78vh); }   /* same as before sizes existed */
+.banner.size-medium { height: min(calc(100vw / 3.4), 440px); min-height: 200px; }   /* all pages except Home */
 .banner.size-large  { height: min(calc(100vw / 1.8), 82vh); }
 
 /* under-construction notice */
@@ -497,3 +497,13 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 .card .thumb { aspect-ratio: auto; background: none !important; }
 .card .img .thumb img, .card .thumb img { height: auto; }
 .pubstats .nums span { font-family: var(--sans); font-size: 13px; }
+
+/* Contact: the UNIST logo file has a white background */
+.contact-card figure.logo img { background: #fff; border: 0; }
+/* facility table */
+.prose table { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 1em 0 1.6em; }
+.prose table th, .prose table td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+.prose table td:first-child { font-weight: 600; color: var(--brand); white-space: nowrap; }
+.projects { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.project p { font-size: 14px; }
+.publinks-top { margin-bottom: 24px; }

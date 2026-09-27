@@ -1,49 +1,68 @@
-# Facilities shown at the end of the Research page (<!-- projects --> marker).
-# image:  first file that exists is used (photos are downloaded by ops/get-images.sh).
+# Facility cards on the Research page (<!-- projects --> marker).
+# image:  first file that exists is used (official photos are downloaded by ops/get-images.sh).
 # credit: shown on the card — required by the image licences.
 # role:   how we use it — edit freely.
 
 - id: eht
   name: Event Horizon Telescope (EHT)
   url: https://eventhorizontelescope.org/
-  image: [facilities/eht-m87.jpg, highlights/eht2019.jpg]
+  image: [facilities/eht-m87.jpg]
   credit: "Image: EHT Collaboration"
-  text: >-
-    A global array of millimeter radio telescopes working as one Earth-sized telescope. It produced
-    the first images of the black holes in M87 (2019) and at the centre of the Milky Way (2022).
-  role: >-
-    Jae-Young Kim is a member of the EHT Collaboration (Science Board 2024–2026). We work on M87,
-    Sgr A* and AGN jets such as 3C 279 and 3C 84.
+  text: A global array of millimeter telescopes working as one Earth-sized telescope; first images of the black holes in M87 (2019) and Sgr A* (2022).
+  role: Jae-Young Kim is a member of the EHT Collaboration (Science Board 2024–2026). M87, Sgr A*, 3C 279, 3C 84.
 
 - id: gmva
   name: Global Millimeter VLBI Array (GMVA)
   url: https://www3.mpifr-bonn.mpg.de/div/vlbi/globalmm/
   image: [research/effelsberg.jpg]
   credit: "Effelsberg 100-m telescope. Photo: Dr. Schorsch"
-  text: >-
-    VLBI at 3 mm (86 GHz) with telescopes in Europe, the US, Korea and ALMA, bridging the EHT's
-    horizon-scale view and the larger jet.
-  role: >-
-    We use GMVA data to image the jet base of M87 and of blazars and radio galaxies.
+  text: VLBI at 3 mm (86 GHz) with telescopes in Europe, the US, Korea and ALMA.
+  role: The jet base of M87, 3C 84 and blazars; the M87 ring and jet imaged together (Lu et al. 2023).
+
+- id: vlba
+  name: Very Long Baseline Array (VLBA)
+  url: https://public.nrao.edu/telescopes/vlba/
+  image: [facilities/vlba.jpg]
+  credit: "VLBA Pie Town antenna. Photo: NRAO/AUI/NSF"
+  text: Ten 25-m radio telescopes across the United States, from Hawaii to the Virgin Islands.
+  role: Jet kinematics and multi-frequency imaging, including long-term blazar monitoring.
 
 - id: kvn
   name: Korean VLBI Network (KVN)
   url: https://radio.kasi.re.kr/kvn/main_kvn.php
   image: [facilities/kvn.jpg]
   credit: "Photo: KASI"
-  text: >-
-    Four 21-m radio telescopes of KASI in Seoul, Ulsan, Jeju and Pyeongchang, observing at 22, 43,
-    86 and 129 GHz simultaneously.
-  role: >-
-    We use KVN for multi-frequency observations of jets.
+  text: Four 21-m telescopes of KASI in Seoul, Ulsan, Jeju and Pyeongchang, observing at 22, 43, 86 and 129 GHz at once.
+  role: Multi-frequency polarimetry and monitoring of AGN jets, also within KaVA and EAVN.
+
+- id: alma
+  name: Atacama Large Millimeter/submillimeter Array (ALMA)
+  url: https://www.almaobservatory.org/
+  image: [research/alma.jpg]
+  credit: "Photo: P. Horálek/ESO"
+  text: 66 antennas on the Chajnantor plateau in Chile — and the most sensitive station of the EHT and GMVA.
+  role: Millimeter VLBI with the EHT and GMVA, and ALMA data of AGN.
+
+- id: vla
+  name: Karl G. Jansky Very Large Array (VLA)
+  url: https://public.nrao.edu/telescopes/vla/
+  image: [banners/vla.jpg]
+  credit: "Photo: NRAO/AUI/NSF"
+  text: 27 antennas in New Mexico, the workhorse of centimeter radio astronomy.
+  role: Follow-up of new radio sources found in wide-field surveys.
 
 - id: ska
   name: SKA and its pathfinders
   url: https://www.skao.int/
   image: [facilities/ska-mid.jpg]
   credit: "SKA-Mid (artist's impression with MeerKAT). Credit: SKAO"
-  text: >-
-    The Square Kilometre Array, under construction in South Africa and Australia, and its
-    pathfinders and precursors LOFAR, ASKAP, MWA and MeerKAT.
-  role: >-
-    We use public wide-field surveys to find unusual, faint and distant black holes.
+  text: The Square Kilometre Array, and the LOFAR, ASKAP, MWA and MeerKAT surveys that lead to it.
+  role: Finding unusual, faint and distant black holes in wide-field surveys.
+
+- id: icecube
+  name: IceCube Neutrino Observatory
+  url: https://icecube.wisc.edu/
+  image: [facilities/icecube.jpg]
+  credit: "Photo: Ilya Bodo, IceCube/NSF"
+  text: A cubic-kilometre neutrino detector in the ice at the South Pole, sending public alerts for high-energy neutrinos.
+  role: Radio and VLBI follow-up of neutrino alerts, e.g. the blazar PKS 0735+178.

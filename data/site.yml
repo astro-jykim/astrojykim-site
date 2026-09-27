@@ -40,7 +40,11 @@ redirects:
 banner_sizes: {members: large}
 banner_positions: {members: center 62%}
 
-# Credit line shown in the corner of a banner (required for ESO / agency photos)
+# Credit line shown in the corner of a banner (required for ESO / NASA / NRAO pictures)
 banner_credits:
   banners/join-us-alma.jpg: "ALMA. Photo: P. Horálek/ESO"
   banners/join-us-kvn.jpg: "KVN. Photo: KASI"
+  research/m87-polarized.jpg: "M87 in polarised light. Image: EHT Collaboration"
+  banners/vla.jpg: "Karl G. Jansky Very Large Array. Photo: NRAO/AUI/NSF"
+  banners/m87-jet-art.jpg: "The jet of M87 (artist's impression). Credit: S. Dagnello (NRAO/AUI/NSF)"
+  banners/highlights.jpg: "The gamma-ray sky. Credit: NASA/DOE/Fermi LAT Collaboration"

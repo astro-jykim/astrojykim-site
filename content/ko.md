@@ -2,8 +2,9 @@
 title: 2027학년도 대학원생 모집
 layout: page
 lang: ko
-banner: banners/join-us.jpg
 nav: false
+banner: [banners/m87-jet-art.jpg, banners/join-us.jpg]
+banner_position: center 40%
 ---
 
 [English version](/positions-2027/)

@@ -1,7 +1,8 @@
 ---
 title: 'NEW: Two Open Graduate Student Positions in 2027'
 layout: page
-banner: banners/join-us.jpg
+banner: [banners/m87-jet-art.jpg, banners/join-us.jpg]
+banner_position: center 40%
 ---
 
 2027학년도 대학원생 2명을 모집합니다. [한국어 안내](/ko/)
