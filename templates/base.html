@@ -36,9 +36,11 @@
         {% endif %}
         <span class="brand-name">{{ site.title }}</span>
       </a>
+      {% set cur = site.nav | selectattr("url", "equalto", page.url) | list %}
+      <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="sitenav"><span>{{ cur[0].title if cur else "Menu" }}</span><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
       <button class="themebtn" id="themebtn" type="button" aria-label="Switch light or dark theme">THEME</button>
     </div>
-    <nav class="tabs" aria-label="Site">
+    <nav class="tabs" id="sitenav" aria-label="Site">
       {% for item in site.nav %}<a href="{{ href(item.url) }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
     </nav>
   </div>
@@ -63,6 +65,11 @@
 <footer><div class="in"><div>{{ site.copyright }}</div><div>{{ site.domain }} · updated {{ build_date }}{% if site.analytics and site.analytics.ga4 %} · visits are counted with Google Analytics{% endif %}</div></div></footer>
 <script>
 (function () {
+  var nb = document.getElementById('navbtn'), mh = document.querySelector('.masthead');
+  if (nb) nb.addEventListener('click', function () {
+    var open = mh.classList.toggle('nav-open');
+    nb.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
   var root = document.documentElement, btn = document.getElementById('themebtn');
   try { var t = localStorage.getItem('theme'); if (t) root.setAttribute('data-theme', t); } catch (e) {}
   btn.addEventListener('click', function () {

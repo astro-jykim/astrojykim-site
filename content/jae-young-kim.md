@@ -1,10 +1,11 @@
 ---
 title: Jae-Young Kim
 layout: page
-banner_size: small
+banner: none
+toc: h2
 ---
 
-![](about/profile.jpg){: .portrait}
+![Presenting EHT results on the blazar 3C 279 at the European Astronomical Society Annual Meeting 2022 in Valencia](about/profile.jpg){: .portrait}
 
 Jae-Young Kim  
 Associate Professor  
@@ -117,6 +118,62 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 - Since 2016 | Interferometric Monitoring of Gamma-ray Bright AGNs (iMOGABA) using the Korean VLBI Network (PI : Sang-Sung Lee)
 
 - Since 2021 | The next-generation Event Horizon Telescope (ngEHT) collaboration, jet & accretion Science Working Group
+
+## Invited talks
+
+Selected invited talks, colloquia and seminars. The talk at the 15th European VLBI Network Symposium (2020) was cancelled because of COVID-19.
+
+- Jan 2026 | *Search for binary supermassive black holes by radio astronomical observations*, 2026 KGWG General Assembly, Ulsan, Korea
+
+- Dec 2025 | *High precision black hole astrophysics at extreme resolution*, String Theory, Gravity and Cosmology 2025 (SGC2025), POSTECH, Pohang, Korea
+
+- Aug 2025 | *SKA Korea group science report: continuum observations*, Korea Radio Astronomy Users' Meeting, Daejeon, Korea
+
+- Jul 2025 | *Introduction to (radio) interferometry, very long baseline interferometry (VLBI) and space VLBI*, Seminar at the Space Exploration Division, Korea AeroSpace Administration (KASA), Sacheon, Korea
+
+- Jun 2025 | *Origin of extraterrestrial TeV–PeV neutrinos and multi-messenger astrophysics*, Korean Physical Society, Busan-Ulsan-Gyeongnam branch meeting, Busan, Korea
+
+- Jun 2025 | *Exploring the evolution of SMBHs and the origins of extragalactic high-energy neutrinos*, 2025 SKA-Korea Spring Workshop, Daejeon, Korea
+
+- Nov 2024 | *Multi-messenger astrophysics of extragalactic TeV–PeV neutrino emitters*, 2024 KSHEP Fall Meeting, UNIST, Ulsan, Korea
+
+- Nov 2024 | *Unveiling the Universe with radio interferometry: from black hole imaging to multi-messenger astronomy*, 73rd Workshop on Gravitational Waves and Numerical Relativity, APCTP, Pohang, Korea
+
+- Oct 2024 | *Understanding the origin and physics of jetted AGNs with the SKA and SKA-VLBI*, SKA-VLBI Workshop in Korea, Daejeon, Korea
+
+- Oct 2024 | Young Astronomers Award lecture, Korean Astronomical Society Fall Meeting, Gangneung, Korea
+
+- Apr 2024 | *Exploring the origin of relativistic jets, high-energy emission and neutrinos from supermassive black holes*, Department of Physics & Astronomy Colloquium, Sejong University, Seoul, Korea
+
+- Mar 2024 | *Understanding mass accretion, jet formation and gamma-ray emission mechanisms in the vicinity of cosmic black holes on event-horizon scales*, Physics Department Colloquium, UNIST, Ulsan, Korea
+
+- Jan 2024 | *Understanding the accretion and outflow of jetted AGNs from multiple perspectives*, Colloquium, Institute of Astrophysics, FORTH, Crete, Greece
+
+- Oct 2023 | *SKA and SKA-VLBI: the next frontier in AGN*, Korean Astronomical Society Fall Meeting, SKA special session, Jeju, Korea
+
+- Aug 2023 | *Understanding the accretion and outflow of jetted AGNs from multiple perspectives*, VLBI group seminar, Max Planck Institute for Radio Astronomy, Bonn, Germany
+
+- Apr 2023 | *Unveiling the origin and physics of jets in AGNs: insights from high-angular-resolution and multi-wavelength observations*, Department of Physics and Astronomy Colloquium, Seoul National University, Seoul, Korea
+
+- Dec 2022 | *EHT observations of M87, Sgr A* and blazar jets*, IAU Symposium 375: The Multimessenger Chakra of Blazar Jets, Kathmandu, Nepal
+
+- Jul 2022 | *EHT observations of the archetypal blazar 3C 279 at 20 microarcsecond resolution*, European Astronomical Society Annual Meeting 2022, Valencia, Spain
+
+- Feb 2020 | *EHT observations of the archetypal blazar 3C 279 at 20 microarcsecond resolution*, Special Colloquium, Metsähovi Radio Observatory, Aalto University, Finland
+
+- Jan 2020 | *Millimeter VLBI view of 3C 279*, Workshop "Active Galactic Nucleus Jets in the Event Horizon Telescope Era", Tohoku University, Japan
+
+- Oct 2019 | *Millimeter VLBI imaging of supermassive black holes*, German Long Wavelength Consortium (GLOW) Annual Assembly, Dortmund, Germany
+
+- Apr 2019 | *Imaging the supermassive black hole in M87*, Special colloquium on the first results of the Event Horizon Telescope, Max Planck Institute for Radio Astronomy, Bonn, Germany
+
+- Apr 2019 | *Event Horizon Telescope: an Earth-sized mm-VLBI array to image supermassive black holes*, Colloquium, Korea Astronomy and Space Science Institute (KASI), Daejeon, Korea
+
+- Oct 2018 | *Millimeter VLBI observations of M87 and 3C 84*, Lunch colloquium, Max Planck Institute for Radio Astronomy, Bonn, Germany
+
+- Jan 2018 | *Spatially resolved origin of mm-wave linear polarization in the nuclear region of 3C 84*, Friday seminar, KASI, Daejeon, Korea
+
+- Jan 2017 | *VLBI observations toward the origin of AGN jets at extreme angular resolution*, Special colloquium, KASI, Daejeon, Korea
 
 ## Services
 

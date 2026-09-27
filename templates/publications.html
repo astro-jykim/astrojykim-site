@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% block main %}
 <div class="prose publinks-top">{{ content }}</div>
+<div class="prose"><p class="chips toc"><a href="#metrics">Metrics</a>{% if led and led.papers %}<a href="#led">First- and corresponding-author papers</a><a href="#all-papers">All refereed papers</a>{% endif %}</p></div>
 {% if stats %}
-<section class="pubstats">
+<section class="pubstats" id="metrics">
   <p class="metrics-note">Metrics from <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8229-7183" target="_blank" rel="noopener">NASA ADS</a> · refereed papers only · updated weekly</p>
   <div class="nums">
     <div><b>{{ stats.papers }}</b><span>refereed papers</span></div>
@@ -35,20 +36,21 @@
     </div>
     <div class="pubpanel">
       <h3>Where we publish</h3>
-      <ul class="journals">{% for j, n in stats.journals %}<li>{{ j }} <span class="c">{{ n }}</span></li>{% endfor %}</ul>
+      <ul class="journals">{% for j, n in stats.journals %}{% set m = journal_metrics.get(j, {}) %}<li><span class="jn">{{ j }} <span class="c">{{ n }}</span></span>{% if m.jif %}<span class="jm">IF {{ m.jif }}{% if m.top %} · top {{ m.top }}%{% elif m.quartile %} · {{ m.quartile }}{% endif %}</span>{% endif %}</li>{% endfor %}</ul>
+      {% if journal_source %}<p class="jsrc">{{ journal_source }}.{% if journal_metrics.values() | selectattr("top") | list %} "Top N%": rank within the JCR category Astronomy &amp; Astrophysics.{% endif %}</p>{% endif %}
     </div>
   </div>
 </section>
 {% endif %}
 {% if led and led.papers %}
-<section class="led">
+<section class="led" id="led">
   <h2>First- and corresponding-author papers ({{ led.papers|length }})</h2>
   <ul class="pubs">{% for p in led.papers %}
     <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
         <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }} · {{ p.role }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}
   </ul>
 </section>
-<h2 class="section-label" style="margin-top:40px">All refereed papers</h2>
+<h2 class="section-label" id="all-papers" style="margin-top:40px">All refereed papers</h2>
 {% endif %}
 {% if pubs_by_year %}
   {% for year, items in pubs_by_year %}

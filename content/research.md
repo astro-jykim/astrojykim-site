@@ -9,7 +9,7 @@ Below you can find brief explanations of our research areas and recent highlight
 
 If you’d like to understand our research more easily, you can also check out an interview with our research group featured by the Korea Aerospace Administration (KASA; 우주항공청) [here](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000142/view.do?bbsId=BBSMSTR_000000000142&nttId=B000000002372Hj2jN0) (in Korean).
 
-![Our three research programs: (1) direct horizon-scale black hole imaging, (2) multi-wavelength and multi-messenger black hole astrophysics, and (3) black holes in the distant and early universe — with the facilities that drive them: ALMA and the EHT, neutrino observatories, and the Square Kilometre Array.](research/figure-1.jpg){: .wide}
+![Our three research programs: (1) direct horizon-scale black hole imaging, (2) multi-wavelength and multi-messenger black hole astrophysics, and (3) black holes in the distant and early universe, together with the facilities we use for them: ALMA and the EHT, neutrino observatories, and the Square Kilometre Array.](research/figure-1.jpg){: .wide}
 
 [1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
 {: .chips}
@@ -21,12 +21,12 @@ If you’d like to understand our research more easily, you can also check out a
 
 ## Active galaxies and supermassive black holes
 
-![The giant elliptical galaxy M87 and the 3,000-light-year-long jet launched by its central black hole. Credit: NASA, ESA, A. Lessing, E. Baltz (Stanford), M. Shara (AMNH), J. DePasquale (STScI)](research/m87-hubble.jpg){: .side}
-
 Like normal galaxies, active galaxies are systems of stars, gases, and dust clouds bound to each other by self-gravitation. However, their nuclei contain "active" supermassive black holes that absorb gas from the surroundings and convert the gas's gravitational energy into intense radiation and (sometimes relativistic) outflows. We study the physics of active galactic nuclei (AGNs) and supermassive black holes with the following particular approaches:
 
 For an overview of how black holes launch jets and how these jets look across scales, Figure 1 of the review by [Blandford, Meier & Readhead (2019, ARA&A 57, 467)](https://doi.org/10.1146/annurev-astro-081817-051948) is a good place to start.
 {: .note}
+
+![One black hole at every scale. In 2017, telescopes across the spectrum observed M87 together with the EHT: the panels zoom from the whole galaxy and its jet (gamma rays, X-rays, optical, radio) down to the ring around the black hole. Credit: EHT Multi-wavelength Science Working Group; EHT Collaboration; ALMA (ESO/NAOJ/NRAO); EVN; EAVN Collaboration; VLBA (NRAO); GMVA; Hubble Space Telescope; Neil Gehrels Swift Observatory; Chandra X-ray Observatory; NuSTAR; Fermi-LAT Collaboration; H.E.S.S., MAGIC and VERITAS Collaborations; NASA and ESA](research/m87-multiscale.jpg){: .wide}
 
 <!-- PROGRAMS: the three sections below are meant to be updated as the research evolves.
      Each program starts with the original description; the second paragraph and the
@@ -36,7 +36,7 @@ For an overview of how black holes launch jets and how these jets look across sc
 
 Directly image the matter and magnetic field distribution around the cosmic black holes on the event horizon scales (down to a few Schwarzschild radii) to understand how the mass inflow and outflow occur under extreme gravity.
 
-Our laboratories are the nearest and best-resolved systems — M87, Sgr A*, 3C 84, Centaurus A and 3C 279 — observed with the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space-VLBI. We follow how accretion flows and magnetic fields just outside the event horizon connect to the base of relativistic jets, and how they change from year to year. Next come the next-generation EHT, expanded Korean millimeter-VLBI facilities, and space-based millimeter VLBI in the 2030s.
+We focus on the nearest and best-resolved systems, such as M87, Sgr A*, 3C 84, Centaurus A and 3C 279, using the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space VLBI. The main questions are how the accretion flow and magnetic fields just outside the event horizon connect to the base of the jet, and how both change from year to year. The next steps are the next-generation EHT, expanded Korean millimeter-VLBI facilities, and space-based millimeter VLBI in the 2030s.
 
 <div class="figpair" markdown="1">
 
@@ -52,11 +52,11 @@ Our laboratories are the nearest and best-resolved systems — M87, Sgr A*, 3C 8
 
 Analyze complex time-variable signals (both photons and particles such as neutrinos) from the vicinity of cosmic black holes on short (&lt;hour) and long (>decades) timescales to provide new models of energy generation and transfer mechanisms behind the observed complex and dramatic phenomena.
 
-Blazars — jets pointed almost straight at us — flare across the whole spectrum, and a few now coincide with high-energy neutrinos. We combine VLBI imaging and polarimetry with long-term radio-to-gamma-ray monitoring to find where in the jet particles are accelerated, what drives the variability, and which black holes produce neutrinos.
+Blazars are active galaxies whose jets point almost straight at us. They flare across the whole electromagnetic spectrum, and a few flares have now been linked to high-energy neutrinos. We combine VLBI imaging and polarimetry with long-term monitoring from radio to gamma rays to locate where in the jet particles are accelerated, what drives the variability, and which black holes can produce neutrinos.
 
 <div class="figpair" markdown="1">
 
-![A blazar — a jet pointed at Earth — emitting neutrinos and gamma rays that are caught by IceCube and other telescopes (artist's impression). Credit: IceCube/NASA](research/blazar-neutrino.jpg)
+![A blazar, a jet pointed at Earth, emitting neutrinos and gamma rays that are caught by IceCube and other telescopes (artist's impression). Credit: IceCube/NASA](research/blazar-neutrino.jpg)
 
 ![Multi-messenger: some twenty observatories on the ground and in space followed up the neutrino IceCube-170922A and found the flaring blazar TXS 0506+056. Credit: Nicolle R. Fuller/NSF/IceCube](research/multimessenger-map.jpg)
 
@@ -68,13 +68,13 @@ Blazars — jets pointed almost straight at us — flare across the whole spectr
 
 Discover and investigate new types of active (and inactive) black holes in the nearby and early universe, to reveal what physical conditions ultimately lead to the birth and death of an active black hole.
 
-Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, MeerKAT — make it possible to take a census of black holes that classical samples miss: powerful jets in spiral galaxies, faint and low-luminosity nuclei, candidate intermediate-mass black holes in dwarf galaxies, and black holes in the early universe — including the candidate seeds of the first supermassive black holes now being found by JWST and X-ray telescopes less than a billion years after the Big Bang. Machine learning helps us find them in very large datasets, in preparation for the Square Kilometre Array in the 2030s.
+Wide-field surveys with the SKA pathfinders and precursors (LOFAR, ASKAP, MWA and MeerKAT) let us look for black holes that classical samples miss. These include powerful jets in spiral galaxies, faint and low-luminosity nuclei, candidate intermediate-mass black holes in dwarf galaxies, and black holes in the early universe, such as the possible seeds of the first supermassive black holes that JWST and X-ray telescopes now find less than a billion years after the Big Bang. We use machine learning to search the very large survey datasets, in preparation for the Square Kilometre Array in the 2030s.
 
 <div class="figpair" markdown="1">
 
-![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its centre seen by Chandra — the most distant black hole detected in X-rays. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
+![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its centre seen by Chandra. It is the most distant black hole detected in X-rays so far. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
 
-![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas — less than 1% of the telescope. About 85 bright galaxies, all hosting supermassive black holes, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
+![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas, less than 1% of the telescope. About 85 bright galaxies, all hosting supermassive black holes, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
 
 </div>
 
@@ -113,9 +113,9 @@ Therefore, we conduct active collaborative research with many international and 
 
 ### Methods
 
-![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network — ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .side}
+![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network, ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .side}
 
-Our work starts at the telescope. We write observing proposals, observe, and record the signals, then correlate, calibrate and image the data before interpreting them physically — and we develop our own tools where needed. Students take part in every step, from the observing run to the paper.
+Our work starts at the telescope. We write observing proposals, carry out the observations and record the signals. The data are then correlated, calibrated and imaged, and finally interpreted physically. We develop our own tools where existing ones are not enough, and students take part in every step, from the observing run to the paper.
 
 <div class="methods" markdown="1">
 <div class="method" markdown="1">

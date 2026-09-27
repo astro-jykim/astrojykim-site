@@ -4,16 +4,17 @@ layout: page
 banner: banners/students-webb.jpg
 banner_position: center 40%
 nav: false
+toc: {level: h3, stop: korean}
 ---
 
 [한국어 버전](#korean)
 {: .langswitch}
 
-This page presents articles on graduate school and careers in astronomy.
+This page presents articles on graduate school and careers in astronomy. A PhD is the first step of a professional research career, and as in any profession, it helps to know what the work and the job market actually look like before committing several years to it. That is why I have collected a range of information here, from career statistics to personal accounts.
 
-Why share them? Not to discourage anyone. A PhD is the first step of a professional research career, and — as in any profession — it is worth knowing what the work and the job market actually look like before committing several years to it. Students who start with a realistic picture, rather than with a dream alone, make better decisions along the way: which questions to work on, which skills to build, and when to ask for help or look at other paths. The enthusiasm matters; a realistic view is what makes it last.
+Students who start with a realistic picture, and not only with a dream, make better decisions along the way: which questions to work on, which skills to build, and when to ask for help or look at other paths. Enthusiasm matters, and a realistic view helps it last.
 
-I usually ask students who join our group to read them before they start their graduate program, and we talk once more afterwards. (Admittedly, not every one of my students has read them all.) A degree takes a reasonable amount of research and a reasonable number of papers; the harder part comes after graduation — finding a good position and continuing to do good research. It helps to know what that road looks like before starting.
+I ask every student who plans to join our group to read these articles before applying, and we talk about them once more before the application is submitted, to make sure they have been read and understood. A degree takes a reasonable amount of research and a reasonable number of papers; the harder part comes after graduation: finding a good position and continuing to do good research. It helps to know what that road looks like before starting.
 
 Some titles are deliberately provocative, such as reasons *not* to go to graduate school; read them in the same spirit. Most of the articles are about academic careers in general.
 
@@ -32,7 +33,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 - [Korea Astronomy and Space Science Institute (KASI)](https://www.kasi.re.kr/) and the [Korea AeroSpace Administration (KASA)](https://www.kasa.go.kr/): the national research institute and the space agency, both major employers of astronomers in Korea.
 - [National Research Foundation of Korea (NRF)](https://www.nrf.re.kr/): postdoctoral and early-career grants, e.g. the Sejong Science Fellowship, announced every year.
 
-### Job boards — to get a feel for the market
+### Job boards: getting a feel for the market
 
 Browsing the openings for a while is the most direct way to see how many positions there are, and what they ask for.
 
@@ -41,7 +42,7 @@ Browsing the openings for a while is the most direct way to see how many positio
 - [Korean Space Science Society](https://ksss.or.kr/board/recruitment) — space science and space industry positions.
 - [AAS Job Register](https://aas.org/jobregister) — the main international list of astronomy jobs. It is US-centred, but it shows the size and shape of the job market worldwide.
 
-### Before you apply: deciding on graduate school, a program and a supervisor
+### Before you apply: choosing graduate school and a supervisor
 
 - [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) (US News). A general article, including the reasons *not* to go.
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might). What a PhD actually adds to human knowledge, in a few pictures.
@@ -83,11 +84,11 @@ Many people choose careers outside academia after their degree, for all kinds of
 한국어 버전
 {: #korean .langmark}
 
-대학원 진학과 천문학 분야 커리어에 관한 글들을 모아 두었습니다.
+대학원 진학과 천문학 분야 커리어에 관한 글들을 소개합니다. 박사과정은 전문 연구자로서의 커리어가 시작되는 첫 단계이고, 다른 직업과 마찬가지로 몇 년을 투자하기 전에 실제 연구 생활과 job market이 어떤지 알고 시작하는 것이 중요합니다. 그래서 통계 자료부터 개인의 경험담까지 여러 정보를 모아 두었습니다.
 
-이 글들을 공유하는 것은 학생들의 의욕을 꺾으려는 것이 아닙니다. 박사과정은 전문 연구자로서의 커리어가 시작되는 첫 단계이고, 다른 어떤 직업과 마찬가지로 몇 년을 투자하기 전에 실제 연구 생활과 job market이 어떤지 알고 시작하는 것이 중요합니다. 꿈만 갖고 오기보다 현실적인 그림을 갖고 시작한 학생이, 어떤 문제를 연구할지, 어떤 능력을 기를지, 언제 도움을 청하고 언제 다른 길도 살펴볼지를 더 잘 판단합니다. 열정은 중요합니다. 현실적인 시각은 그 열정을 오래 이어 갈 수 있게 해 줍니다.
+꿈만 갖고 오기보다 현실적인 그림을 갖고 시작한 학생이 어떤 문제를 연구할지, 어떤 능력을 기를지, 언제 도움을 청하고 언제 다른 길도 살펴볼지를 더 잘 판단합니다. 열정은 중요하고, 현실적인 시각은 그 열정을 오래 이어 가게 해 줍니다.
 
-우리 그룹에 대학원생으로 오는 학생들에게는 보통 이 자료들을 먼저 읽게 하고, 다시 한번 면담한 뒤 본격적으로 과정을 시작합니다. (물론 제 학생들 중에도 다 읽지 않은 학생이 있기는 합니다.) 학위 자체는 어느 정도 연구하고 어느 정도 논문을 쓰면 받을 수 있지만, 졸업 후 좋은 자리를 잡고 계속 좋은 연구를 하는 것이 더 어려운 부분입니다. 그 길이 어떤지 미리 알고 시작하는 것이 도움이 됩니다.
+우리 그룹에 오려는 학생들에게는 지원 전에 이 자료들을 읽게 하고, 지원서를 내기 전에 한 번 더 면담하면서 실제로 읽고 이해했는지 확인합니다. 학위 자체는 어느 정도 연구하고 어느 정도 논문을 쓰면 받을 수 있지만, 졸업 후 좋은 자리를 잡고 계속 좋은 연구를 하는 것이 더 어려운 부분입니다. 그 길이 어떤지 미리 알고 시작하는 것이 도움이 됩니다.
 
 제목이 자극적인 글도 있지만(대학원에 *가지 말아야 할* 이유 등), 같은 취지로 읽어 주세요. 대부분은 학계 커리어 전반에 관한 내용입니다.
 

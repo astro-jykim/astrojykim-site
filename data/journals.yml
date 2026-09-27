@@ -1,0 +1,21 @@
+# Journal metrics shown in "Where we publish" on the Publications page.
+# jif:  Journal Impact Factor (Clarivate Journal Citation Reports), with its data year
+# rank: rank in the JCR category, e.g. "20/86" (Astronomy & Astrophysics); leave out if unknown
+# Fill in or correct from JCR (jcr.clarivate.com, via the UNIST library) — journals without a value show none.
+year: 2025
+source: Journal Impact Factor 2025 (Clarivate JCR, released 2026), as published by each journal
+journals:
+  Nature:                                           {jif: 56.1}
+  Nature Astronomy:                                 {jif: 15.2}
+  Physical Review Letters:                          {jif: 9.4}
+  Astronomy and Astrophysics:                       {jif: 6.1}
+  Monthly Notices of the Royal Astronomical Society: {jif: 5.2, rank: 20/86}
+  Galaxies:                                         {jif: 4.0, quartile: Q2}
+  # To add (values from JCR):
+  # The Astrophysical Journal Letters:              {jif: , rank: }
+  # The Astrophysical Journal:                      {jif: , rank: }
+  # The Astrophysical Journal Supplement Series:    {jif: , rank: }
+  # The Astronomical Journal:                       {jif: , rank: }
+  # Physical Review D:                              {jif: , rank: }
+  # Journal of Korean Astronomical Society:         {jif: , rank: }
+  # Publication of Korean Astronomical Society:     {jif: , rank: }

@@ -575,3 +575,55 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 .prose .faq details[open] summary::after { content: "–"; }
 .prose .faq summary:hover { color: var(--accent); }
 .prose .faq details > *:not(summary) { margin: 0 2px 14px; color: var(--ink-2); }
+
+/* Mobile menu: a button with the current page name opens the full list */
+.navbtn { display: none; }
+@media (max-width: 760px) {
+  .navbtn {
+    display: inline-flex; align-items: center; gap: 6px; margin-left: auto;
+    background: none; border: 1px solid var(--line-2); border-radius: 6px; color: var(--ink);
+    font: 600 14px var(--sans); padding: 7px 10px; cursor: pointer;
+  }
+  .navbtn svg { transition: transform .15s; }
+  .masthead.nav-open .navbtn svg { transform: rotate(180deg); }
+  .brandrow .themebtn { margin-left: 8px; }
+  .brand-name { font-size: 15px; }
+  nav.tabs { display: none; }
+  .masthead.nav-open nav.tabs {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2px 8px; margin: 0; padding: 4px 0 12px;
+  }
+  .masthead.nav-open nav.tabs a {
+    border-bottom: 0; border-left: 3px solid transparent; padding: 10px 10px; font-size: 15px; white-space: normal;
+  }
+  .masthead.nav-open nav.tabs a[aria-current="page"] { border-left-color: var(--accent); background: var(--accent-soft); }
+}
+@media (max-width: 380px) { .brand-name { font-size: 13.5px; } }
+
+/* Quick links at the top of long pages */
+.prose .chips.toc { margin: 0 0 1.6em; gap: 8px; }
+.prose .chips.toc a { font-size: 13.5px; padding: 4px 12px; background: var(--surface); }
+.prose .chips.toc a[href="#frequently-asked-questions"] { background: var(--accent-soft); border-color: var(--accent-bright); font-weight: 600; }
+.publinks-top + .prose .chips.toc { margin-top: 14px; }
+
+/* Where we publish: journal metrics */
+.journals li { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.journals .jm { font-size: 12.5px; color: var(--ink-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pubpanel .jsrc { font-size: 12px; color: var(--ink-3); margin: 10px 0 0; line-height: 1.45; }
+@media (max-width: 760px) {
+  .brand { min-width: 0; flex: 1 1 auto; }
+  .brand-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .navbtn, .brandrow .themebtn { flex: none; }
+}
+@media (max-width: 760px) {
+  .brand-name { white-space: normal; overflow: hidden; text-overflow: clip; font-size: 13.5px; line-height: 1.2;
+                display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .brand img { height: 30px; }
+  .brandrow .themebtn { font-size: 0; width: 32px; height: 32px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+  .brandrow .themebtn::before { content: "◐"; font-size: 15px; }
+}
+/* Banner credits move just below the picture on phones, so they never cover the title */
+@media (max-width: 560px) {
+  .banner:has(.banner-credit) { margin-bottom: 46px; overflow: visible; }
+  .banner .banner-credit { top: 100%; bottom: auto; right: 0; left: 0; max-width: none; padding: 5px 16px 0;
+                           color: var(--ink-3); text-shadow: none; font-size: 10.5px; text-align: right; }
+}

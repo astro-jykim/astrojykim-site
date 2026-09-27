@@ -187,6 +187,34 @@ class Builder:
                 a["href"] = self.href(h)
         return str(soup)
 
+    @staticmethod
+    def add_toc(html_body: str, spec) -> str:
+        """Quick links to the sections of a long page, placed at the top.
+        Front matter:  toc: h2   (or h3; optional "stop: <id>" to ignore headings after that id)."""
+        if isinstance(spec, str):
+            spec = {"level": spec}
+        level, stop = spec.get("level", "h2"), spec.get("stop")
+        soup = BeautifulSoup(html_body, "html.parser")
+        links = []
+        for h in soup.find_all(["h2", "h3", "p"]):
+            if stop and h.get("id") == stop:
+                break
+            if h.name == level and h.get("id"):
+                links.append((h["id"], h.get_text(" ", strip=True)))
+        if not links:
+            return html_body
+        nav = soup.new_tag("p", attrs={"class": "chips toc"})
+        for hid, text in links:
+            a = soup.new_tag("a", href=f"#{hid}")
+            a.string = text
+            nav.append(a)
+        first = soup.find(True)
+        if first and "langswitch" in (first.get("class") or []):
+            first.insert_after(nav)
+        else:
+            soup.insert(0, nav)
+        return str(soup)
+
     def render_markdown(self, body: str) -> str:
         self.md.reset()
         raw = self.md.convert(body)
@@ -453,7 +481,10 @@ class Builder:
         og_file = og_file or find_image(self.site.get("og_image", "banners/home.jpg"))
         og_image = f"https://{domain}/assets/img/{og_file.relative_to(IMG).as_posix()}" if og_file and domain else None
         abs_url = f"https://{domain}{fm.get('url', '/')}" if domain else None
-        ctx = dict(site=self.site, page=fm, content=Markup(self.render_markdown(body)) if body.strip() else "",
+        html_body = self.render_markdown(body) if body.strip() else ""
+        if html_body and fm.get("toc"):
+            html_body = self.add_toc(html_body, fm["toc"])
+        ctx = dict(site=self.site, page=fm, content=Markup(html_body) if html_body else "",
                    banner=banner, banner_credit=banner_credit, logo=logo, href=self.href, asset=self.asset, md_inline=self.md_inline,
                    photo=self.figure(fm["photo"], "") if fm.get("photo") else None,
                    og_image=og_image, abs_url=abs_url, is_preview=self.preview,
@@ -468,6 +499,15 @@ class Builder:
         if layout == "members":
             ctx["members"] = load_yaml("members.yml", {})
         if layout == "publications":
+            jm = load_yaml("journals.yml", {}) or {}
+            metrics = {}
+            for name, m in (jm.get("journals") or {}).items():
+                m = dict(m or {})
+                if m.get("rank") and "/" in str(m["rank"]):
+                    r, n = (int(x) for x in str(m["rank"]).split("/"))
+                    m["top"] = max(1, round(100 * r / n))
+                metrics[name] = m
+            ctx["journal_metrics"], ctx["journal_source"] = metrics, jm.get("source")
             ctx["pubs_by_year"] = self.pubs_by_year()
             ctx["led"] = self.led_papers()
             ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
