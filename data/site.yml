@@ -18,7 +18,7 @@ analytics:
 # Header logo (put the file in assets/img/site/). If the file is missing, a drawn mark is used.
 logo: site/logo.png
 
-# Top navigation, in order.
+# Top navigation, in order. Pages left out (e.g. /positions-2027/) still work; they are reached from links on other pages.
 nav:
   - {title: Home, url: /}
   - {title: Research, url: /research/}
@@ -27,7 +27,6 @@ nav:
   - {title: Members, url: /members/}
   - {title: Jae-Young Kim, url: /jae-young-kim/}
   - {title: Join Us, url: /join-us/}
-  - {title: 2027 Positions, url: /positions-2027/}
   - {title: For Students, url: /before-you-apply/}
   - {title: Resources, url: /resources/}
   - {title: Contact, url: /contact/}

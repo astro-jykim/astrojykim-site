@@ -834,3 +834,5 @@ details.numdefs { border-bottom: 0; }
 .prose .table-wrap + .projects, .prose .table-wrap + * { margin-top: 2em; }
 /* the menu wraps onto a second line on medium screens instead of scrolling sideways */
 @media (min-width: 761px) { nav.tabs { flex-wrap: wrap; overflow: visible; } }
+/* menu stays on one line down to tablet width */
+@media (min-width: 761px) and (max-width: 940px) { nav.tabs { gap: 0 14px; } nav.tabs a { font-size: 13.5px; } }
