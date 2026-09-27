@@ -36,7 +36,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Jet acceleration and collimation <span class="n">17</span></summary>
+<summary>Jet acceleration and collimation <span class="n">16</span></summary>
 
 - Review: Blandford, Meier & Readhead (2019), [Relativistic jets from active galactic nuclei](https://doi.org/10.1146/annurev-astro-081817-051948), ARA&A 57, 467 <span class="annot">A broad modern review of AGN jets, from history and observations to theory; its Figure 1 is the M87 montage on our Research page.</span>
 - Vlahakis & Königl (2004), [Magnetic driving of relativistic outflows in active galactic nuclei. I. Interpretation of parsec-scale accelerations](https://doi.org/10.1086/382670), ApJ 605, 656 <span class="annot">Magnetic acceleration of AGN jets out to parsec scales, as an explanation of the accelerating features seen with VLBI.</span>
@@ -48,7 +48,6 @@ Papers that are widely read across the field, from classic theory and observatio
 - Kim et al. (2018), [The limb-brightened jet of M87 down to the 7 Schwarzschild radii scale](https://doi.org/10.1051/0004-6361/201832921), A&A 616, A188 <span class="annot">GMVA images of the M87 jet base at 86 GHz: the jet is already limb-brightened and wide close to the black hole (our work).</span>
 - Walker et al. (2018), [The structure and dynamics of the subparsec jet in M87 based on 50 VLBA observations over 17 years at 43 GHz](https://ui.adsabs.harvard.edu/abs/2018ApJ...855..128W), ApJ 855, 128 <span class="annot">Seventeen years of VLBA monitoring of M87 at 43 GHz: jet structure, limb brightening, speeds and the counter-jet.</span>
 - Mertens et al. (2016), [Kinematics of the jet in M 87 on scales of 100–1000 Schwarzschild radii](https://doi.org/10.1051/0004-6361/201628829), A&A 595, A54 <span class="annot">Wavelet-based velocity field of the M87 jet: gradual acceleration and a stratified, possibly rotating flow.</span>
-- Park et al. (2019), [Kinematics of the M87 jet in the collimation zone: gradual acceleration and velocity stratification](https://doi.org/10.3847/1538-4357/ab5584), ApJ 887, 147 <span class="annot">KaVA and VLBA monitoring of M87: the jet accelerates slowly over the same distances where it is collimated.</span>
 - Lister et al. (2009), [MOJAVE. VI. Kinematics analysis of a complete sample of blazar jets](https://ui.adsabs.harvard.edu/abs/2009AJ....138.1874L), AJ 138, 1874 <span class="annot">Speeds of jet features from the MOJAVE 15 GHz VLBA monitoring of a complete sample of blazars: the reference statistics of superluminal motion.</span>
 - Jorstad et al. (2017), [Kinematics of parsec-scale jets of gamma-ray blazars at 43 GHz within the VLBA-BU-BLAZAR program](https://ui.adsabs.harvard.edu/abs/2017ApJ...846...98J), ApJ 846, 98 <span class="annot">Kinematics of the jets of gamma-ray blazars from roughly monthly 43 GHz VLBA monitoring.</span>
 - Pushkarev et al. (2009), [Jet opening angles and gamma-ray brightness of AGN](https://doi.org/10.1051/0004-6361/200913422), A&A 507, L33 <span class="annot">Apparent and intrinsic jet opening angles for MOJAVE jets, and why gamma-ray bright jets look wider.</span>
@@ -75,12 +74,13 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Radio galaxies on large scales: FR classes, jets and lobes <span class="n">9</span></summary>
+<summary>Radio galaxies on large scales: FR classes, jets and lobes <span class="n">10</span></summary>
 
 - Fanaroff & Riley (1974), [The morphology of extragalactic radio sources of high and low luminosity](https://doi.org/10.1093/mnras/167.1.31P), MNRAS 167, 31P <span class="annot">The FR I / FR II division: edge-darkened, lower-power sources versus edge-brightened, higher-power ones.</span>
 - Begelman, Blandford & Rees (1984), [Theory of extragalactic radio sources](https://ui.adsabs.harvard.edu/abs/1984RvMP...56..255B), Rev. Mod. Phys. 56, 255 <span class="annot">The classic review of how radio galaxies and quasars work, from the central engine through the jets to the hot spots and lobes.</span>
 - Bicknell (1995), [Relativistic jets and the Fanaroff-Riley classification of radio galaxies](https://doi.org/10.1086/192232), ApJS 101, 29 <span class="annot">FR I jets as relativistic flows that slow down by entraining gas, and why this depends on jet power and host galaxy.</span>
 - Laing & Bridle (2002), [Relativistic models and the jet velocity field in the radio galaxy 3C 31](https://doi.org/10.1046/j.1365-8711.2002.05756.x), MNRAS 336, 328 <span class="annot">Deceleration of an FR I jet measured by modeling the brightness of jet and counter-jet: a template for later work.</span>
+- Laing & Bridle (2014), [Systematic properties of decelerating relativistic jets in low-luminosity radio galaxies](https://doi.org/10.1093/mnras/stt2138), MNRAS 437, 3405 <span class="annot">The same modeling applied to ten FR I jets: they start relativistic, decelerate over a few kiloparsecs and share a common velocity and magnetic-field structure.</span>
 - Harris & Krawczynski (2006), [X-ray emission from extragalactic jets](https://doi.org/10.1146/annurev.astro.44.051905.092446), ARA&A 44, 463 <span class="annot">Kiloparsec-scale jets in X-rays with Chandra: synchrotron or inverse-Compton, and what it implies for particle acceleration.</span>
 - Review: Hardcastle & Croston (2020), [Radio galaxies and feedback from AGN jets](https://ui.adsabs.harvard.edu/abs/2020NewAR..8801539H), New Astron. Rev. 88, 101539 <span class="annot">Radio galaxies today: jets, lobes, particle content and their feedback on host galaxies and clusters.</span>
 - Condon et al. (1998), [The NRAO VLA Sky Survey](https://ui.adsabs.harvard.edu/abs/1998AJ....115.1693C), AJ 115, 1693 <span class="annot">NVSS, the 1.4 GHz survey of the sky north of declination −40°, still a basic reference for radio sources.</span>
@@ -193,7 +193,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Technical: imaging, calibration, modeling and statistics <span class="n">15</span></summary>
+<summary>Technical: imaging, calibration, modeling and statistics <span class="n">14</span></summary>
 
 - Jennison (1958), [A phase sensitive interferometer technique for the measurement of the Fourier transforms of spatial brightness distributions of small angular extent](https://doi.org/10.1093/mnras/118.3.276), MNRAS 118, 276 <span class="annot">Closure phase: a combination of visibility phases that is immune to antenna-based errors, the basis of VLBI imaging.</span>
 - Högbom (1974), [Aperture synthesis with a non-regular distribution of interferometer baselines](https://ui.adsabs.harvard.edu/abs/1974A%26AS...15..417H), A&AS 15, 417 <span class="annot">The CLEAN algorithm, still the standard way to make images from interferometer data.</span>
@@ -203,13 +203,25 @@ Papers that are widely read across the field, from classic theory and observatio
 - Event Horizon Telescope Collaboration (2019), [First M87 Event Horizon Telescope results. IV. Imaging the central supermassive black hole](https://ui.adsabs.harvard.edu/abs/2019ApJ...875L...4E), ApJL 875, L4 <span class="annot">How the first EHT image was made and tested with independent imaging methods.</span>
 - Martí-Vidal et al. (2021), [Polarization calibration techniques for the new-generation VLBI](https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..52M), A&A 646, A52 <span class="annot">Polarization calibration for modern VLBI, with the CASA tools [PolSolve and PolSimulate](https://github.com/marti-vidal-i/casa-poltools).</span>
 - Review: Janssen, Radcliffe & Wagner (2022), [Software and techniques for VLBI data processing and analysis](https://doi.org/10.3390/universe8100527), Universe 8, 527 <span class="annot">An overview of the software used to process and analyze VLBI data today.</span>
-- Porth et al. (2019), [The Event Horizon General Relativistic Magnetohydrodynamic Code Comparison Project](https://doi.org/10.3847/1538-4365/ab29fd), ApJS 243, 26 <span class="annot">Nine GRMHD codes run on the same accretion problem: how far simulation results can be trusted.</span>
 - Edelson & Krolik (1988), [The discrete correlation function: a new method for analyzing unevenly sampled variability data](https://doi.org/10.1086/166773), ApJ 333, 646 <span class="annot">The discrete correlation function, the standard way to cross-correlate unevenly sampled light curves.</span>
 - Vaughan et al. (2003), [On characterizing the variability properties of X-ray light curves from active galaxies](https://doi.org/10.1046/j.1365-2966.2003.07042.x), MNRAS 345, 1271 <span class="annot">Power spectra, excess variance and their uncertainties for red-noise light curves; applies well beyond X-rays.</span>
 - Emmanoulopoulos, McHardy & Papadakis (2013), [Generating artificial light curves: revisited and updated](https://doi.org/10.1093/mnras/stt764), MNRAS 433, 907 <span class="annot">How to simulate red-noise light curves with a realistic flux distribution, needed to judge whether a correlation or a periodicity is significant.</span>
 - Scargle et al. (2013), [Studies in astronomical time series analysis. VI. Bayesian block representations](https://doi.org/10.1088/0004-637X/764/2/167), ApJ 764, 167 <span class="annot">Bayesian blocks: an objective way to find flares and changes in light curves.</span>
 - VanderPlas (2018), [Understanding the Lomb–Scargle periodogram](https://doi.org/10.3847/1538-4365/aab766), ApJS 236, 16 <span class="annot">A practical guide to periodograms for unevenly sampled data, and their pitfalls.</span>
 - Foreman-Mackey et al. (2013), [emcee: the MCMC hammer](https://doi.org/10.1086/670067), PASP 125, 306 <span class="annot">The widely used MCMC sampler for fitting models to data.</span>
+
+</details>
+
+<details class="topic" markdown="1">
+<summary>Machine learning and deep learning in astronomy <span class="n">7</span></summary>
+
+- Review: Ball & Brunner (2010), [Data mining and machine learning in astronomy](https://doi.org/10.1142/S0218271810017160), Int. J. Mod. Phys. D 19, 1049 <span class="annot">An early, broad overview of machine-learning methods and where they are used in astronomy.</span>
+- Review: Fluke & Jacobs (2020), [Surveying the reach and maturity of machine learning and artificial intelligence in astronomy](https://doi.org/10.1002/widm.1349), WIREs Data Min. Knowl. Discov. 10, e1349 <span class="annot">Where machine learning is actually used across astronomy, and how mature each application is.</span>
+- Review: Huertas-Company & Lanusse (2023), [The Dawes Review 10: the impact of deep learning for the analysis of galaxy surveys](https://doi.org/10.1017/pasa.2022.55), PASA 40, e001 <span class="annot">Deep learning for galaxy surveys: classification, detection, inference and the pitfalls to watch for.</span>
+- Review: Smith & Geach (2023), [Astronomia ex machina: a history, primer and outlook on neural networks in astronomy](https://doi.org/10.1098/rsos.221454), R. Soc. Open Sci. 10, 221454 <span class="annot">A readable history and primer on neural networks in astronomy, from early perceptrons to foundation models.</span>
+- Aniyan & Thorat (2017), [Classifying radio galaxies with the convolutional neural network](https://doi.org/10.3847/1538-4365/aa7333), ApJS 230, 20 <span class="annot">One of the first convolutional neural networks for sorting radio galaxies into FR I, FR II and bent-tailed sources.</span>
+- Lukic et al. (2018), [Radio Galaxy Zoo: compact and extended radio source classification with deep learning](https://doi.org/10.1093/mnras/sty163), MNRAS 476, 246 <span class="annot">Deep learning trained on citizen-science labels from Radio Galaxy Zoo to classify radio source morphologies.</span>
+- Mostert et al. (2021), [Unveiling the rarest morphologies of the LOFAR Two-metre Sky Survey radio source population with self-organised maps](https://doi.org/10.1051/0004-6361/202038500), A&A 645, A89 <span class="annot">Unsupervised learning on LoTSS images to find rare and unusual radio morphologies among hundreds of thousands of sources.</span>
 
 </details>
 
