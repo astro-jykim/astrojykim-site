@@ -307,7 +307,7 @@ footer .in { max-width: var(--maxw); margin: 0 auto; padding-inline: 16px; displ
 
 /* fixed-shape image frame for cards: the whole figure stays visible, a blurred copy fills the frame */
 .thumb { position: relative; display: block; aspect-ratio: 4 / 3; overflow: hidden; background: #10151c; }
-.thumb::before { content: ""; position: absolute; inset: -24px; background: var(--img) center / cover no-repeat;
+.thumb::before { content: none;
   filter: blur(22px) brightness(.6) saturate(1.1); }
 .thumb img { position: relative; display: block; width: 100%; height: 100%; object-fit: contain; }
 .card .img .thumb img { height: 100%; }
@@ -373,7 +373,7 @@ footer .in { max-width: var(--maxw); margin: 0 auto; padding-inline: 16px; displ
 /* ---------------------------------------------------------------- 2026-09-27 revision */
 /* banner sizes per page (front matter: banner_size: small | medium | large) */
 .banner.size-small  { height: min(calc(100vw / 4.2), 320px); min-height: 180px; }
-.banner.size-medium { height: min(calc(100vw / 2.6), 62vh); }
+.banner.size-medium { height: min(calc(100vw / 2.1), 78vh); }   /* same as before sizes existed */
 .banner.size-large  { height: min(calc(100vw / 1.8), 82vh); }
 
 /* under-construction notice */
@@ -482,3 +482,18 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 .prose .publinks-row { text-align: left; font-size: 15px; color: var(--ink-2); }
 .prose .publinks-row a { display: inline-block; margin: 4px 0 4px 10px; padding: 5px 14px; border: 1px solid var(--line-2); border-radius: 999px; text-decoration: none; }
 .prose .publinks-row a:hover { border-color: var(--accent-bright); }
+
+/* small language switch / divider */
+.prose .langswitch { text-align: right; font-size: 13.5px; margin: 0 0 8px; }
+.prose .langmark { margin-top: 3.5em; padding-top: 1.2em; border-top: 1px solid var(--line); font-size: 13px; color: var(--ink-3); letter-spacing: .04em; }
+/* contact: photo above the map, both in the right column */
+.contact-side { display: flex; flex-direction: column; gap: 16px; }
+.contact-side figure { margin: 0; }
+.contact-side figure img { width: 100%; height: auto; border-radius: 10px; }
+.contact-side iframe.map { margin: 0; min-height: 320px; }
+
+/* highlight cards: show each picture whole, at its own shape (like the original site) */
+.cards { align-items: start; }
+.card .thumb { aspect-ratio: auto; background: none !important; }
+.card .img .thumb img, .card .thumb img { height: auto; }
+.pubstats .nums span { font-family: var(--sans); font-size: 13px; }

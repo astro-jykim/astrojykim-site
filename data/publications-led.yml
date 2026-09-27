@@ -1,6 +1,6 @@
-# "Papers led by our group" on the Publications page.
-# Found automatically: papers where Jae-Young Kim is first author, and papers first-authored by a
-# group member (data/members.yml) with Jae-Young Kim as a co-author (usually the corresponding author).
-# Fix mistakes here with ADS bibcodes (e.g. 2025A&A...699A.381K):
-include: []    # add papers the automatic rule missed
-exclude: []    # remove papers that are not ours
+# "First- and corresponding-author papers" on the Publications page.
+# Found automatically: papers with Jae-Young Kim as first author, and two-author papers with
+# Jae-Young Kim as second author (student + supervisor = corresponding author).
+# Add or remove papers here with their ADS bibcode (e.g. 2025A&A...699A.381K):
+include: []    # corresponding-author papers with more than two authors
+exclude: []    # papers that should not be listed

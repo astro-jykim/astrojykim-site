@@ -81,9 +81,21 @@ def placeholder_svg(key: str, label: str) -> str:
 
 # --------------------------------------------------------------------------- build context
 
-# Journals always listed first on the Publications page (edit freely)
-HIGH_IMPACT = ["Nature", "Science", "Nature Astronomy", "Nature Physics", "Physical Review Letters",
-               "Science Advances", "Nature Communications"]
+def edge_colour(path) -> str:
+    """Average colour of a picture's outer border, so the frame around it looks seamless."""
+    try:
+        from PIL import Image
+        im = Image.open(path).convert("RGB")
+        im.thumbnail((200, 200))
+        w, h = im.size
+        px = [im.getpixel((x, y)) for x in range(w) for y in (0, 1, h - 2, h - 1)] + \
+             [im.getpixel((x, y)) for y in range(h) for x in (0, 1, w - 2, w - 1)]
+        from collections import Counter
+        q = Counter((c[0] // 16, c[1] // 16, c[2] // 16) for c in px).most_common(1)[0][0]
+        r, g, b = (v * 16 + 8 for v in q)          # the most common border colour
+        return f"rgb({r},{g},{b})"
+    except Exception:
+        return "#10151c"
 
 
 class Builder:
@@ -154,8 +166,8 @@ class Builder:
         if not src:
             return Markup(placeholder_svg(name, f"assets/img/{name}"))
         img = f'<img src="{src}" alt="{html.escape(caption)}" loading="lazy">'
-        if thumb:   # fixed-shape frame: whole figure visible, blurred copy fills the rest
-            return Markup(f'<span class="thumb" style="--img:url(\'{src}\')">{img}</span>')
+        if thumb:   # fixed-shape frame: whole figure visible, empty space in the picture's own edge colour
+            return Markup(f'<span class="thumb" style="background:{edge_colour(find_image(name))}">{img}</span>')
         return Markup(img)
 
     def md_inline(self, text: str) -> Markup:
@@ -313,21 +325,28 @@ class Builder:
             full, ini = "".join(chunks), "".join(c[0] for c in chunks)
             return any(last == l and (full == f or (len(ini) >= 2 and ini == i)) for l, f, i in keys)
 
-        first, student = [], []
+        led = []
         for p in pubs:
             a = p.get("authors") or []
             bib = p.get("bibcode")
             if bib in exc:
                 continue
-            t = html.escape(p.get("title") or "")
-            item = {**p, "authors_short": (a[0].split(",")[0] + (" et al." if len(a) > 1 else "")) if a else "",
-                    "title_html": Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))}
+            n = p.get("n_authors") or len(a)
             if a and is_me(a[0]):
-                first.append(item)
-            elif bib in inc or (a and by_member(a[0]) and any(is_me(x) for x in a[1:])):
-                student.append(item)
+                role = "first author"
+            elif (n == 2 and len(a) > 1 and is_me(a[1])) or bib in inc:
+                role = "corresponding author"
+            else:
+                continue
+            t = html.escape(p.get("title") or "")
+            names = [x.split(",")[0] for x in a]
+            short = " & ".join(names) if n == 2 else (names[0] + (" et al." if n > 1 else "")) if names else ""
+            led.append({**p, "role": role, "authors_short": short,
+                        "title_html": Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))})
         key = lambda p: (-(p.get("year") or 0), p.get("title") or "")
-        return {"first": sorted(first, key=key), "student": sorted(student, key=key)}
+        return {"papers": sorted(led, key=key),
+                "first": sum(1 for p in led if p["role"] == "first author"),
+                "corresponding": sum(1 for p in led if p["role"] != "first author")}
 
     def pub_stats(self):
         """Numbers, two charts and short lists for the top of the Publications page."""
@@ -339,9 +358,11 @@ class Builder:
             n = (name or "").lower()
             return n.startswith("kim, j") and ("young" in n or "j.-y" in n or "j. -y" in n or "j.y" in n)
 
+        led_bibs = {p.get("bibcode") for p in self.led_papers()["papers"]}
+
         def kind(p):
             a = p.get("authors") or []
-            if a and is_me(a[0]):
+            if p.get("bibcode") in led_bibs:
                 return "first"
             return "collab" if (p.get("n_authors") or len(a)) > 50 else "team"
 
@@ -395,12 +416,12 @@ class Builder:
         return {
             "papers": len(pubs), "citations": sum(cites), "h": h, "i10": i10,
             "first": sum(v["first"] for v in per.values()),
+            "recent": sum(1 for p in pubs if (p.get("year") or 0) >= years[-1] - 4),
+            "recent_from": years[-1] - 4,
             "collab": sum(v["collab"] for v in per.values()),
             "chart": chart(per, True, "Refereed papers per year by authorship"),
             "top_cited": top_cited,
-            "high_impact": [(j, journals[j], [p for p in pubs if (p.get("journal") or "").strip() == j])
-                            for j in HIGH_IMPACT if j in journals],
-            "journals": [kv for kv in sorted(journals.items(), key=lambda kv: -kv[1]) if kv[0] not in HIGH_IMPACT][:6],
+            "journals": sorted(journals.items(), key=lambda kv: (-kv[1], kv[0])),
         }
 
     def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:

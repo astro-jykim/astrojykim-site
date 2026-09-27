@@ -8,7 +8,8 @@
     <div><b>{{ "{:,}".format(stats.citations) }}</b><span>citations</span></div>
     <div><b>{{ stats.h }}</b><span>h-index</span></div>
     <div><b>{{ stats.i10 }}</b><span>i10-index</span></div>
-    <div><b>{{ stats.first }}</b><span>first-author papers</span></div>
+    <div><b>{{ led.first + led.corresponding }}</b><span>first / corresponding author</span></div>
+    <div><b>{{ stats.recent }}</b><span>papers since {{ stats.recent_from }}</span></div>
   </div>
   <div class="pubgrid">
     <div class="pubpanel wide">
@@ -22,27 +23,19 @@
     </div>
     <div class="pubpanel">
       <h3>Where we publish</h3>
-      {% if stats.high_impact %}<ul class="hi">{% for j, n, ps in stats.high_impact %}<li><details><summary><strong>{{ j }}</strong> <span class="c">{{ n }}</span></summary><ol>{% for p in ps %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title|striptags }}</a> <span class="c">{{ p.year }}</span></li>{% endfor %}</ol></details></li>{% endfor %}</ul>{% endif %}
-      <ul>{% for j, n in stats.journals %}<li>{{ j }} <span class="c">{{ n }}</span></li>{% endfor %}</ul>
+      <ul class="journals">{% for j, n in stats.journals %}<li>{{ j }} <span class="c">{{ n }}</span></li>{% endfor %}</ul>
     </div>
   </div>
 </section>
 {% endif %}
 <div class="prose publinks">{{ content }}</div>
-{% if led and (led.first or led.student) %}
+{% if led and led.papers %}
 <section class="led">
-  <h2>Papers led by our group</h2>
-  <p class="sub">First-author papers, and papers led by group members with Jae-Young Kim as corresponding author.</p>
-  {% if led.first %}<h3>First author ({{ led.first|length }})</h3>
-  <ul class="pubs">{% for p in led.first %}
+  <h2>First- and corresponding-author papers ({{ led.papers|length }})</h2>
+  <ul class="pubs">{% for p in led.papers %}
     <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
-        <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}
-  </ul>{% endif %}
-  {% if led.student %}<h3>Led by students and group members ({{ led.student|length }})</h3>
-  <ul class="pubs">{% for p in led.student %}
-    <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
-        <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}
-  </ul>{% endif %}
+        <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }} · {{ p.role }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}
+  </ul>
 </section>
 <h2 class="section-label" style="margin-top:40px">All refereed papers</h2>
 {% endif %}

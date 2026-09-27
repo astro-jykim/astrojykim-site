@@ -37,7 +37,7 @@ redirects:
   /home/: /
 
 # Banner height per page: small | medium | large  (pages can also set banner_size in their front matter)
-banner_sizes: {members: large, highlights: medium, publications: small, 2-3m-radio-telescope: medium}
+banner_sizes: {members: large}
 banner_positions: {members: center 62%}
 
 # Credit line shown in the corner of a banner (required for ESO / agency photos)

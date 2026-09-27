@@ -5,10 +5,8 @@ banner_size: small
 nav: false
 ---
 
-[English](#english) · [한국어](#korean)
-{: .toc}
-
-## English {: #english}
+[한국어 버전](#korean)
+{: .langswitch}
 
 This page collects articles on graduate school and careers in astronomy, shared for information.
 
@@ -55,7 +53,8 @@ Some people work hard for their degree and then need to move to industry to make
 - Korean Astronomical Society: [homepage](https://www.kas.org/), [job board](https://www.kas.org/board27/list.php)
 - [AstroBetter](https://www.astrobetter.com/) — tips and tools for astronomers
 
-## 한국어 {: #korean}
+한국어 버전
+{: #korean .langmark}
 
 대학원 진학과 천문학 분야 커리어에 관한 글들을 정보 차원에서 모아 두었습니다.
 

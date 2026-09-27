@@ -1,9 +1,7 @@
 ---
 title: Contact
 layout: page
-banner: contact/image-2.jpg
 banner_size: small
-banner_position: center 60%
 ---
 
 <div class="contact-grid" markdown="1">
@@ -27,6 +25,12 @@ Phone: +82 52 217 2241
 
 </div>
 
+<div class="contact-side" markdown="1">
+
+![](contact/image-2.jpg)
+
 <iframe class="map" src="https://maps-api-ssl.google.com/maps?hl=en-US&ll=35.573418,129.189629&output=embed&q=50+UNIST-gil,+Eonyang-eup,+Ulju-gun,+Ulsan,+South+Korea+(UNIST+%7C+Ulsan+National+Institute+of+Science+%26+Technology)&z=17" loading="lazy" title="Map: UNIST"></iframe>
+
+</div>
 
 </div>

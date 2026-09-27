@@ -38,11 +38,11 @@ Our laboratories are the nearest and best-resolved systems — M87, Sgr A*, 3C 8
 
 ![Theory: a general-relativistic simulation of plasma swirling around a supermassive black hole, with light bent by its gravity. Credit: Jordy Davelaar et al., Radboud University / BlackHoleCam (via ESO)](research/grmhd-simulation.jpg)
 
-![Observation: the ring around the black hole in M87 and the base of its jet, imaged together with the GMVA, ALMA and the Greenland Telescope at 3.5 mm (Lu et al. 2023, Nature; with Kim JY).](highlights/lu2023.jpg)
+![Observation: the M87 black hole in polarised light, tracing the magnetic field at the edge of the shadow (EHT, 2021). Credit: EHT Collaboration](research/m87-polarized.jpg)
 
 </div>
 
-<!-- highlights: eht2025, cui2023, eht2024, eht2022, eht2019, paraschos2024, kim2018 -->
+<!-- highlights: eht2025, lu2023, cui2023, eht2024, eht2022, eht2019, paraschos2024, kim2018 -->
 
 ### 2. Multi-wavelength and multi-messenger black hole astrophysics
 
@@ -54,11 +54,11 @@ Blazars — jets pointed almost straight at us — flare across the whole spectr
 
 ![Illustration: a blazar — a jet pointed at Earth — emitting neutrinos and gamma rays that are caught by IceCube and other telescopes. Credit: IceCube/NASA](research/blazar-neutrino.jpg)
 
-![Our observation: the jet of the neutrino-emitting blazar PKS 0735+178 followed with VLBI around the time of an IceCube neutrino (Kim YS & Kim JY 2025, A&A).](highlights/kim2025.png)
+![Observation: the jet of the blazar 3C 279 from the VLBA and GMVA down to the Event Horizon Telescope (Kim JY et al. 2020, A&A). Credit: J.Y. Kim (MPIfR), Boston University Blazar Program, EHT Collaboration](research/3c279-eht.png)
 
 </div>
 
-<!-- highlights: fuentes2023, paraschos2023, paraschos2022, kim2020, larionov2020 -->
+<!-- highlights: kim2025, fuentes2023, paraschos2023, paraschos2022, kim2020, larionov2020 -->
 
 ### 3. Black holes in the distant universe — and the faint and small ones
 
@@ -70,11 +70,11 @@ Wide-field surveys with SKA pathfinders and precursors — LOFAR, ASKAP, MWA, Me
 
 ![Illustration: an intermediate-mass black hole tearing apart a star. Credit: ESA/Hubble, M. Kornmesser](research/imbh.jpg)
 
-![Our observation: a collimated relativistic jet from a black hole in a spiral galaxy, an unusual host for such jets (Lee SY & Kim JY 2025, ApJL).](highlights/lee2025.png)
+![Observation: the first image from an early SKA-Low — about 85 galaxies, each hosting a supermassive black hole (2025). Credit: SKA Observatory](research/ska-low-first-image.png)
 
 </div>
 
-<!-- highlights: ryu2026 -->
+<!-- highlights: ryu2026, lee2025 -->
 
 
 
