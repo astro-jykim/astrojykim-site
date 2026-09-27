@@ -861,3 +861,7 @@ details.numdefs { border-bottom: 0; }
 /* buttons: a light fill so they read as buttons */
 .buttons a { background: var(--surface-2); border-color: var(--line-2); color: var(--ink); font-weight: 600; }
 .buttons a:hover { background: var(--surface-2); border-color: var(--accent); color: var(--accent); }
+
+/* Resources: a one-line comment under each reference */
+.prose .annot { display: block; font-size: 14.5px; color: var(--ink-3); line-height: 1.5; margin-top: 2px; }
+.prose .annot { text-align: left; hyphens: manual; }
