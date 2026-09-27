@@ -69,7 +69,7 @@ Yes, and we recommend it. UNIST undergraduates can join for a semester-long inte
 </details>
 
 <details markdown="1">
-<summary>What does a normal week look like?</summary>
+<summary>What does a normal working week look like in the group?</summary>
 
 Mostly your own research: analysing data, reading papers and writing code, at the hours that work for you. Once a week the whole group meets to share progress and problems, and we talk one-to-one whenever needed. Some weeks are busier: observing runs, proposal deadlines, conference talks or a paper about to be submitted.
 </details>
