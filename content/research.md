@@ -5,7 +5,7 @@ banner: [research/m87-polarized.jpg, banners/research.jpg]
 banner_position: center 45%
 ---
 
-Below you can find brief explanations of our research areas and recent highlights. People interested in the list of published results should click the buttons. See also [highlights](/highlights/) for our recent interesting results.
+Below you can find brief explanations of our research areas and recent highlights. See also [highlights](/highlights/) for our recent interesting results.
 
 If you’d like to understand our research more easily, you can also check out an interview with our research group featured by the Korea Aerospace Administration (KASA; 우주항공청) [here](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000142/view.do?bbsId=BBSMSTR_000000000142&nttId=B000000002372Hj2jN0) (in Korean).
 
