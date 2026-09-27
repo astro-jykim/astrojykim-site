@@ -915,3 +915,5 @@ nav.tabs .sub a + a { border-top: 1px solid var(--line); }
 .prose details.topic { border-bottom: 1px solid var(--line); }
 .prose details.topic + details.topic { border-top: 0; }
 .prose .figpair figure.cover img { object-fit: cover; }
+/* a folded section with a one-line description under its title */
+.prose details.topic > summary small.d { display: block; font-weight: 400; font-size: 14px; color: var(--ink-3); margin-top: 3px; line-height: 1.45; }

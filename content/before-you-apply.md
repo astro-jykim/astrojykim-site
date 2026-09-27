@@ -18,7 +18,7 @@ I ask every student who plans to join our group to read these articles before ap
 Some titles are deliberately provocative, such as reasons *not* to go to graduate school; read them in the same spirit. Most of the articles are about academic careers in general.
 
 <details class="topic" markdown="1">
-<summary>The academic career and the job market <span class="n">6</span></summary>
+<summary>The academic career and the job market <span class="n">6</span><small class="d">These articles show how many astronomy PhDs are produced, how many jobs there are for them, and what an academic career actually looks like.</small></summary>
 
 - [About Careers in Astronomy](https://aas.org/sites/default/files/2023-05/01-About_Careers_in_Astronomy-Final.pdf) — American Astronomical Society (AAS). The official overview, and a good picture of the field today. It is US-centered and calmly written, but the realities are all there.
 - [So you want to be a professional astronomer!](https://arxiv.org/abs/0805.2624) (arXiv, 2008). Written a while ago, but it describes the job market and career tracks in astronomy well, anywhere in the world. The key message: a permanent job is not easy to get.
@@ -30,7 +30,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 </details>
 
 <details class="topic" markdown="1">
-<summary>Astronomy in Korea <span class="n">3</span></summary>
+<summary>Astronomy in Korea <span class="n">3</span><small class="d">Where astronomy in Korea is heading over the next ten years, and the institutes and agencies that employ astronomers.</small></summary>
 
 - 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (Korean Astronomical Society, 2025; [webpage](https://www.kas.org/notice/view.php?idx=9851), [PDF of the final report](/assets/docs/kas-decadal-survey-2026-2035.pdf)). Korea's own "decadal survey": research priorities, facilities and the community for the next ten years — a final report and nine working-group reports (in Korean). Worth reading to see where the field in Korea is heading.
 - [Korea Astronomy and Space Science Institute (KASI)](https://www.kasi.re.kr/) and the [Korea AeroSpace Administration (KASA)](https://www.kasa.go.kr/): the national research institute and the space agency, both major employers of astronomers in Korea.
@@ -39,9 +39,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 </details>
 
 <details class="topic" markdown="1">
-<summary>Job boards: getting a feel for the market <span class="n">4</span></summary>
-
-Browsing the openings for a while is the most direct way to see how many positions there are, and what they ask for.
+<summary>Job boards: getting a feel for the market <span class="n">4</span><small class="d">Browsing the openings for a while is the most direct way to see how many positions there are, and what they ask for.</small></summary>
 
 - [Korean Astronomical Society](https://www.kas.org/board27/list.php) — astronomy faculty and postdoc openings in Korea.
 - [Korean Physical Society](https://www.kps.or.kr/content/community/post_list.php?bt=6) — physics faculty and research positions in Korea, including astrophysics.
@@ -51,7 +49,7 @@ Browsing the openings for a while is the most direct way to see how many positio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Why (not) go to graduate school <span class="n">8</span></summary>
+<summary>Why (not) go to graduate school <span class="n">8</span><small class="d">Frank accounts of what a PhD gives you and what it costs, worth reading before you decide what the degree is for.</small></summary>
 
 - [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, *Dynamics of Cats*, 2012). An astrophysicist's frank view: the science you get to do, and the costs, such as moving every few years and depending on one advisor.
 - [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011). The world produces far more PhDs than academic jobs. Worth reading before you decide what the degree is for.
@@ -65,7 +63,7 @@ Browsing the openings for a while is the most direct way to see how many positio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Before you apply: choosing a program and a supervisor <span class="n">4</span></summary>
+<summary>Before you apply: choosing a program and a supervisor <span class="n">4</span><small class="d">Practical guides to choosing a program and a supervisor that suit you.</small></summary>
 
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021).
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021).
@@ -75,7 +73,7 @@ Browsing the openings for a while is the most direct way to see how many positio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Once you are in graduate school <span class="n">4</span></summary>
+<summary>Once you are in graduate school <span class="n">4</span><small class="d">Advice for the PhD years, from the most common traps to Hamming's classic talk on doing important research.</small></summary>
 
 - [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might). Short and practical: the traps that most often derail a PhD once you are in it.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
@@ -93,7 +91,7 @@ Browsing the openings for a while is the most direct way to see how many positio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Careers outside academia <span class="n">5</span></summary>
+<summary>Careers outside academia <span class="n">5</span><small class="d">Many people build good careers outside academia; these articles are about making that move well.</small></summary>
 
 Many people choose careers outside academia after their degree, for all kinds of personal and professional reasons, and research training is valued in many fields. These articles are about making that move well; they apply to graduate study in basic science in general.
 
@@ -106,7 +104,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>More from the AAS</summary>
+<summary>More from the AAS<small class="d">Career resources, recorded workshops and employment statistics from the American Astronomical Society.</small></summary>
 
 [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops) (recorded sessions on academic and non-academic careers) and [Employment Statistics](https://aas.org/careers/employment-statistics).
 
@@ -124,7 +122,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 제목이 자극적인 글도 있지만(대학원에 *가지 말아야 할* 이유 등), 같은 취지로 읽어 주세요. 대부분은 학계 커리어 전반에 관한 내용입니다.
 
 <details class="topic" markdown="1">
-<summary>학계 커리어와 job market <span class="n">6</span></summary>
+<summary>학계 커리어와 job market <span class="n">6</span><small class="d">천문학 박사가 얼마나 배출되고 일자리는 얼마나 되는지, 학계 커리어가 실제로 어떤지 보여 주는 글들입니다.</small></summary>
 
 - [About Careers in Astronomy](https://aas.org/sites/default/files/2023-05/01-About_Careers_in_Astronomy-Final.pdf) — 미국천문학회 공식 자료입니다. 최신 분야를 조망하는 자료이기도 합니다. 미국 중심이고 좀 덤덤하게 쓰여 있는데, 현실적인 내용들은 충실히 반영되어 있습니다.
 - [So you want to be a professional astronomer!](https://arxiv.org/abs/0805.2624) — 조금 오래전에 쓰인 글이지만, 전 세계 어디서나 천문학·천체물리학 job market과 career track 사정을 정성적으로 잘 설명해 놨습니다. 핵심은 permanent job 구하기가 만만치 않다는 내용입니다.
@@ -136,7 +134,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>한국의 천문학 <span class="n">3</span></summary>
+<summary>한국의 천문학 <span class="n">3</span><small class="d">앞으로 10년 한국 천문학이 어디로 가는지, 그리고 천문학자를 채용하는 기관들입니다.</small></summary>
 
 - 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (한국천문학회, 2025; [웹페이지](https://www.kas.org/notice/view.php?idx=9851), [최종보고서 PDF](/assets/docs/kas-decadal-survey-2026-2035.pdf)) — 한국판 decadal survey입니다. 앞으로 10년의 연구 우선순위, 시설, 인력 계획을 담은 최종보고서와 9개 워킹그룹 보고서로 되어 있습니다. 한국 천문학계가 어디로 가는지 보려면 꼭 읽어 볼 만합니다.
 - [한국천문연구원(KASI)](https://www.kasi.re.kr/), [우주항공청(KASA)](https://www.kasa.go.kr/) — 국내 천문학자의 주요 연구기관과 우주 전담 기관입니다.
@@ -145,9 +143,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>채용 공고 — 시장을 가늠해 보기 <span class="n">4</span></summary>
-
-채용 공고를 한동안 꾸준히 보는 것이 자리가 얼마나 나는지, 어떤 사람을 찾는지 아는 가장 직접적인 방법입니다.
+<summary>채용 공고 — 시장을 가늠해 보기 <span class="n">4</span><small class="d">채용 공고를 한동안 꾸준히 보는 것이 자리가 얼마나 나는지, 어떤 사람을 찾는지 아는 가장 직접적인 방법입니다.</small></summary>
 
 - [한국천문학회 채용 게시판](https://www.kas.org/board27/list.php) — 국내 천문학 교수·박사후연구원 공고
 - [한국물리학회 구인안내](https://www.kps.or.kr/content/community/post_list.php?bt=6) — 천체물리를 포함한 국내 물리학 교수·연구직 공고
@@ -157,7 +153,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>대학원에 가야 할까, 말아야 할까 <span class="n">8</span></summary>
+<summary>대학원에 가야 할까, 말아야 할까 <span class="n">8</span><small class="d">박사학위가 주는 것과 치러야 할 대가를 솔직하게 다룬 글들입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 보세요.</small></summary>
 
 - [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, 2012): 천체물리학자가 솔직하게 쓴 글입니다. 할 수 있는 연구의 매력과 함께, 몇 년마다 이사해야 하는 삶이나 지도교수 한 사람에게 크게 좌우되는 점 같은 비용도 짚습니다.
 - [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011): 전 세계적으로 박사 배출이 학계 일자리보다 훨씬 많다는 기사입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 볼 만합니다.
@@ -171,7 +167,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>지원하기 전에: 프로그램과 지도교수 정하기 <span class="n">4</span></summary>
+<summary>지원하기 전에: 프로그램과 지도교수 정하기 <span class="n">4</span><small class="d">나에게 맞는 프로그램과 지도교수를 고르는 데 도움이 되는 실용적인 안내입니다.</small></summary>
 
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021)
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021)
@@ -181,7 +177,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>대학원에 들어온 뒤 <span class="n">4</span></summary>
+<summary>대학원에 들어온 뒤 <span class="n">4</span><small class="d">박사과정 중에 빠지기 쉬운 함정부터, 중요한 연구에 관한 Hamming의 고전적인 강연까지.</small></summary>
 
 - [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might): 박사과정 중에 빠지기 쉬운 흔한 함정들을 짧고 실용적으로 정리했습니다.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
@@ -199,7 +195,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>학계 밖의 커리어 <span class="n">5</span></summary>
+<summary>학계 밖의 커리어 <span class="n">5</span><small class="d">학계 밖에서 좋은 커리어를 쌓는 사람도 많습니다. 그 전환을 잘 하는 방법에 관한 글들입니다.</small></summary>
 
 학위 후 학계 밖의 길을 택하는 사람도 많고, 그 이유는 개인적·직업적으로 다양합니다. 연구 훈련은 여러 분야에서 가치 있게 쓰입니다. 아래 글들은 그 전환을 잘 하는 방법에 관한 것이며, 천문학뿐 아니라 기초과학 대학원 전반에 해당합니다.
 
@@ -212,7 +208,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 </details>
 
 <details class="topic" markdown="1">
-<summary>AAS 자료 더 보기</summary>
+<summary>AAS 자료 더 보기<small class="d">미국천문학회의 커리어 자료, 녹화된 워크숍, 고용 통계입니다.</small></summary>
 
 [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops), [Employment Statistics](https://aas.org/careers/employment-statistics)
 
