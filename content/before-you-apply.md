@@ -4,7 +4,6 @@ layout: page
 banner: banners/students-webb.jpg
 banner_position: center 40%
 nav: false
-toc: {level: h3, stop: korean}
 ---
 
 [한국어 버전](#korean)
@@ -18,7 +17,8 @@ I ask every student who plans to join our group to read these articles before ap
 
 Some titles are deliberately provocative, such as reasons *not* to go to graduate school; read them in the same spirit. Most of the articles are about academic careers in general.
 
-### The academic career and the job market
+<details class="topic" markdown="1">
+<summary>The academic career and the job market <span class="n">6</span></summary>
 
 - [About Careers in Astronomy](https://aas.org/sites/default/files/2023-05/01-About_Careers_in_Astronomy-Final.pdf) — American Astronomical Society (AAS). The official overview, and a good picture of the field today. It is US-centered and calmly written, but the realities are all there.
 - [So you want to be a professional astronomer!](https://arxiv.org/abs/0805.2624) (arXiv, 2008). Written a while ago, but it describes the job market and career tracks in astronomy well, anywhere in the world. The key message: a permanent job is not easy to get.
@@ -27,13 +27,19 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 - [Careers in astronomy in Germany and the UK](https://arxiv.org/abs/1404.2610) (Astronomy & Geophysics, 2014). The same question for Germany and the UK — places where getting an academic job is even harder than in Korea, though Korea seems to be following the same trend.
 - **Newer numbers:** [New Astronomy PhDs: What Comes Next](https://www.aip.org/statistics/new-astronomy-phds-what-comes-next) (AIP, 2023) — about two thirds of new US astronomy PhDs take a postdoc first; and [The Evolving Astronomy Job Market: Fall 2025 Update](https://aas.org/posts/news/2026/01/evolving-astronomy-job-market-fall-2025-update) (AAS, 2026) — job advertisements fell year-on-year for the first time since 2020.
 
-### Astronomy in Korea
+</details>
+
+<details class="topic" markdown="1">
+<summary>Astronomy in Korea <span class="n">3</span></summary>
 
 - 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (Korean Astronomical Society, 2025; [webpage](https://www.kas.org/notice/view.php?idx=9851), [PDF of the final report](/assets/docs/kas-decadal-survey-2026-2035.pdf)). Korea's own "decadal survey": research priorities, facilities and the community for the next ten years — a final report and nine working-group reports (in Korean). Worth reading to see where the field in Korea is heading.
 - [Korea Astronomy and Space Science Institute (KASI)](https://www.kasi.re.kr/) and the [Korea AeroSpace Administration (KASA)](https://www.kasa.go.kr/): the national research institute and the space agency, both major employers of astronomers in Korea.
 - [National Research Foundation of Korea (NRF)](https://www.nrf.re.kr/): postdoctoral and early-career grants, e.g. the Sejong Science Fellowship, announced every year.
 
-### Job boards: getting a feel for the market
+</details>
+
+<details class="topic" markdown="1">
+<summary>Job boards: getting a feel for the market <span class="n">4</span></summary>
 
 Browsing the openings for a while is the most direct way to see how many positions there are, and what they ask for.
 
@@ -42,7 +48,10 @@ Browsing the openings for a while is the most direct way to see how many positio
 - [Korean Space Science Society](https://ksss.or.kr/board/recruitment) — space science and space industry positions.
 - [AAS Job Register](https://aas.org/jobregister) — the main international list of astronomy jobs. It is US-centered, but it shows the size and shape of the job market worldwide.
 
-### Why (not) go to graduate school
+</details>
+
+<details class="topic" markdown="1">
+<summary>Why (not) go to graduate school <span class="n">8</span></summary>
 
 - [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, *Dynamics of Cats*, 2012). An astrophysicist's frank view: the science you get to do, and the costs, such as moving every few years and depending on one advisor.
 - [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011). The world produces far more PhDs than academic jobs. Worth reading before you decide what the degree is for.
@@ -53,14 +62,20 @@ Browsing the openings for a while is the most direct way to see how many positio
 - ["I don't want this kind of life": graduate students question career options](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022). What PhD students themselves say about their prospects.
 - [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025). Graduate school is demanding; it is worth knowing this in advance, and worth asking for help early.
 
-### Before you apply: choosing a program and a supervisor
+</details>
+
+<details class="topic" markdown="1">
+<summary>Before you apply: choosing a program and a supervisor <span class="n">4</span></summary>
 
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021).
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021).
 - [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students. Useful before you apply and again once you are in.
 - [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie). How competitive astronomy admissions are, how to choose where to apply, and why a first round of rejections is common and survivable.
 
-### Once you are in graduate school
+</details>
+
+<details class="topic" markdown="1">
+<summary>Once you are in graduate school <span class="n">4</span></summary>
 
 - [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might). Short and practical: the traps that most often derail a PhD once you are in it.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
@@ -75,7 +90,10 @@ Browsing the openings for a while is the most direct way to see how many positio
 **Hamming's hardest question.** He noticed, looking back at his week on Fridays, that he kept saying the important work lay in one direction while spending his time in another. His advice: change one of the two — either your goal, or what you actually do.
 {: .note}
 
-### Careers outside academia
+</details>
+
+<details class="topic" markdown="1">
+<summary>Careers outside academia <span class="n">5</span></summary>
 
 Many people choose careers outside academia after their degree, for all kinds of personal and professional reasons, and research training is valued in many fields. These articles are about making that move well; they apply to graduate study in basic science in general.
 
@@ -85,9 +103,14 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [Transition from PhD to industry: simple steps from a fellow PhD](https://careerkaizen.com/transition-from-phd-to-industry-10-simple-steps-from-a-fellow-phd/) (Career Kaizen)
 - From astrobites: [Careers beyond the academic horizon](https://astrobites.org/2013/02/18/jobs-for-astronomers-careers-beyond-the-academic-horizon/) (2013), [Leveraging your astronomy degree for data science](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/) (2016), [Bridging astronomy and the space industry](https://astrobites.org/2023/05/15/guest-astro-space-industry/) (2023)
 
-### More from the AAS
+</details>
+
+<details class="topic" markdown="1">
+<summary>More from the AAS</summary>
 
 [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops) (recorded sessions on academic and non-academic careers) and [Employment Statistics](https://aas.org/careers/employment-statistics).
+
+</details>
 
 한국어 버전
 {: #korean .langmark}
@@ -100,7 +123,8 @@ Many people choose careers outside academia after their degree, for all kinds of
 
 제목이 자극적인 글도 있지만(대학원에 *가지 말아야 할* 이유 등), 같은 취지로 읽어 주세요. 대부분은 학계 커리어 전반에 관한 내용입니다.
 
-### 학계 커리어와 job market
+<details class="topic" markdown="1">
+<summary>학계 커리어와 job market <span class="n">6</span></summary>
 
 - [About Careers in Astronomy](https://aas.org/sites/default/files/2023-05/01-About_Careers_in_Astronomy-Final.pdf) — 미국천문학회 공식 자료입니다. 최신 분야를 조망하는 자료이기도 합니다. 미국 중심이고 좀 덤덤하게 쓰여 있는데, 현실적인 내용들은 충실히 반영되어 있습니다.
 - [So you want to be a professional astronomer!](https://arxiv.org/abs/0805.2624) — 조금 오래전에 쓰인 글이지만, 전 세계 어디서나 천문학·천체물리학 job market과 career track 사정을 정성적으로 잘 설명해 놨습니다. 핵심은 permanent job 구하기가 만만치 않다는 내용입니다.
@@ -109,13 +133,19 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [Careers in astronomy in Germany and the UK](https://arxiv.org/abs/1404.2610) — 독일·영국 기준 비슷한 글입니다. 학계 취업 난이도로만 보면 한국보다 더 어려운 곳이지만, 한국도 비슷한 추세로 가는 것 같습니다.
 - **최근 수치:** [New Astronomy PhDs: What Comes Next](https://www.aip.org/statistics/new-astronomy-phds-what-comes-next) (AIP, 2023) — 미국 천문학 박사 졸업생의 약 3분의 2가 먼저 박사후연구원으로 갑니다. [The Evolving Astronomy Job Market: Fall 2025 Update](https://aas.org/posts/news/2026/01/evolving-astronomy-job-market-fall-2025-update) (AAS, 2026) — 채용 공고 수가 2020년 이후 처음으로 전년보다 줄었습니다.
 
-### 한국의 천문학
+</details>
+
+<details class="topic" markdown="1">
+<summary>한국의 천문학 <span class="n">3</span></summary>
 
 - 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (한국천문학회, 2025; [웹페이지](https://www.kas.org/notice/view.php?idx=9851), [최종보고서 PDF](/assets/docs/kas-decadal-survey-2026-2035.pdf)) — 한국판 decadal survey입니다. 앞으로 10년의 연구 우선순위, 시설, 인력 계획을 담은 최종보고서와 9개 워킹그룹 보고서로 되어 있습니다. 한국 천문학계가 어디로 가는지 보려면 꼭 읽어 볼 만합니다.
 - [한국천문연구원(KASI)](https://www.kasi.re.kr/), [우주항공청(KASA)](https://www.kasa.go.kr/) — 국내 천문학자의 주요 연구기관과 우주 전담 기관입니다.
 - [한국연구재단(NRF)](https://www.nrf.re.kr/) — 세종과학펠로우십 등 박사후연구원·신진연구자 지원 사업이 매년 공고됩니다.
 
-### 채용 공고 — 시장을 가늠해 보기
+</details>
+
+<details class="topic" markdown="1">
+<summary>채용 공고 — 시장을 가늠해 보기 <span class="n">4</span></summary>
 
 채용 공고를 한동안 꾸준히 보는 것이 자리가 얼마나 나는지, 어떤 사람을 찾는지 아는 가장 직접적인 방법입니다.
 
@@ -124,7 +154,10 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [한국우주과학회 채용안내](https://ksss.or.kr/board/recruitment) — 우주과학·우주산업 분야 공고
 - [AAS Job Register](https://aas.org/jobregister) — 천문학 분야의 대표적인 국제 채용 목록입니다. 미국 중심이지만, 전 세계 천문학 job market의 규모와 흐름을 가늠하는 데 쓸 수 있습니다.
 
-### 대학원에 가야 할까, 말아야 할까
+</details>
+
+<details class="topic" markdown="1">
+<summary>대학원에 가야 할까, 말아야 할까 <span class="n">8</span></summary>
 
 - [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, 2012): 천체물리학자가 솔직하게 쓴 글입니다. 할 수 있는 연구의 매력과 함께, 몇 년마다 이사해야 하는 삶이나 지도교수 한 사람에게 크게 좌우되는 점 같은 비용도 짚습니다.
 - [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011): 전 세계적으로 박사 배출이 학계 일자리보다 훨씬 많다는 기사입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 볼 만합니다.
@@ -135,14 +168,20 @@ Many people choose careers outside academia after their degree, for all kinds of
 - ["I don't want this kind of life"](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022): 대학원생들이 직접 말하는 진로 고민입니다.
 - [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025): 대학원 생활은 힘든 부분이 있습니다. 미리 알아 두고, 힘들 때는 일찍 도움을 청하세요.
 
-### 지원하기 전에: 프로그램과 지도교수 정하기
+</details>
+
+<details class="topic" markdown="1">
+<summary>지원하기 전에: 프로그램과 지도교수 정하기 <span class="n">4</span></summary>
 
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021)
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021)
 - [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites): 천문학 대학원생들이 쓴 안내서. 프로그램과 지도교수 선택, 연구비, 연구·논문, 생활의 균형. 지원 전에도, 입학 후에도 도움이 됩니다.
 - [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie): 천문학 대학원 입시가 얼마나 경쟁적인지, 어디에 지원할지 고르는 법, 그리고 첫해에 여러 곳에서 떨어지는 일이 흔하고 극복할 수 있다는 이야기입니다.
 
-### 대학원에 들어온 뒤
+</details>
+
+<details class="topic" markdown="1">
+<summary>대학원에 들어온 뒤 <span class="n">4</span></summary>
 
 - [10 easy ways to fail a Ph.D.](https://matt.might.net/articles/ways-to-fail-a-phd/) (Matt Might): 박사과정 중에 빠지기 쉬운 흔한 함정들을 짧고 실용적으로 정리했습니다.
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
@@ -157,7 +196,10 @@ Many people choose careers outside academia after their degree, for all kinds of
 **Hamming의 가장 매서운 질문.** 그는 금요일마다 한 주를 돌아보다가, 중요한 것은 저쪽이라고 말하면서 실제로는 전혀 다른 방향으로 한 주를 보내고 있었다는 것을 깨달았다고 합니다. 그래서 둘 중 하나를 바꾸라고 합니다. 목표를 바꾸든, 실제로 하는 일을 바꾸든.
 {: .note}
 
-### 학계 밖의 커리어
+</details>
+
+<details class="topic" markdown="1">
+<summary>학계 밖의 커리어 <span class="n">5</span></summary>
 
 학위 후 학계 밖의 길을 택하는 사람도 많고, 그 이유는 개인적·직업적으로 다양합니다. 연구 훈련은 여러 분야에서 가치 있게 쓰입니다. 아래 글들은 그 전환을 잘 하는 방법에 관한 것이며, 천문학뿐 아니라 기초과학 대학원 전반에 해당합니다.
 
@@ -167,6 +209,11 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [Transition from PhD to industry](https://careerkaizen.com/transition-from-phd-to-industry-10-simple-steps-from-a-fellow-phd/) (Career Kaizen)
 - astrobites: [학계 밖 천문학자의 진로](https://astrobites.org/2013/02/18/jobs-for-astronomers-careers-beyond-the-academic-horizon/) (2013), [천문학 학위와 데이터 사이언스](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/) (2016), [천문학과 우주산업](https://astrobites.org/2023/05/15/guest-astro-space-industry/) (2023)
 
-### AAS 자료 더 보기
+</details>
+
+<details class="topic" markdown="1">
+<summary>AAS 자료 더 보기</summary>
 
 [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops), [Employment Statistics](https://aas.org/careers/employment-statistics)
+
+</details>
