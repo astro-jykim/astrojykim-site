@@ -2,6 +2,7 @@
 title: Teaching
 layout: page
 banner_size: small
+nav: false
 ---
 
 I teach physics and astrophysics at UNIST, from first-year general physics to advanced astrophysics, and before that taught astronomy courses at Kyungpook National University (KNU). Research students in the group often start from these courses. Syllabi are available on request.

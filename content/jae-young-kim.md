@@ -11,7 +11,7 @@ Associate Professor
 Department of Physics ([Link](https://physics.unist.ac.kr/))  
 Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac.kr/))  
 
-[CONTACT](/contact/) · [ORCID](https://orcid.org/0000-0001-8229-7183)
+[CONTACT](/contact/) · [ORCID](https://orcid.org/0000-0001-8229-7183) · [TEACHING](/teaching/)
 {: .profile-lines}
 
 ## Employment

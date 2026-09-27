@@ -28,9 +28,9 @@ We recommend gaining some research experience in the group before applying: a se
 
 ### Funding for graduate students
 
-- **UNIST support.** Graduate students typically receive full tuition support and a monthly stipend; UNIST guarantees a minimum level of support, following university and program regulations.
+- **UNIST stipend.** Every graduate student receives full tuition support and the UNIST monthly stipend, following university and program regulations. On top of this, students are paid from the group's research projects.
 - **Your own fellowship.** The National Research Foundation of Korea (NRF, funded by the Ministry of Education) offers research grants that students apply for themselves: the *Master's Student Research Encouragement Grant* (석사과정생 연구장려금, 12 million KRW for one year) and the *Doctoral Student Research Encouragement Grant* (박사과정생 연구장려금, 25 million KRW per year for one to two years), announced every spring. Four of our students have held the master's grant since 2024. Writing such a proposal is also good training — we help with it.
-- Other scholarships and travel support for conferences and observing runs are available through the university and our research projects.
+- **Travel.** Conferences, schools and observing runs are supported by our research projects.
 
 ## Undergraduate Research Internships
 
