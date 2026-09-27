@@ -858,3 +858,6 @@ details.numdefs { border-bottom: 0; }
 .prose .textfig { margin-top: 1em; }
 .prose .textfig > figure > a { margin-top: 6px; margin-bottom: 4px; }
 .prose .textfig > figure.top img { object-position: 50% 25%; }
+/* buttons: a light fill so they read as buttons */
+.buttons a { background: var(--surface-2); border-color: var(--line-2); color: var(--ink); font-weight: 600; }
+.buttons a:hover { background: var(--surface-2); border-color: var(--accent); color: var(--accent); }

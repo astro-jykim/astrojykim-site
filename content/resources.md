@@ -12,7 +12,7 @@ Papers, books, data archives and schools that we find useful. The list is meant 
 
 ## Reading list
 
-Papers that are widely read across the field, from classic theory and observations to recent reviews. This is not a list of our own work. New students usually begin with the reviews and then go back to the original papers.
+Papers that are widely read across the field, from classic theory and observations to recent reviews.
 
 **Black holes, accretion and jets: theory**
 
@@ -75,8 +75,8 @@ Papers that are widely read across the field, from classic theory and observatio
 
 **Radio astronomy and interferometry**
 
-- Burke, Graham-Smith & Wilkinson, *An Introduction to Radio Astronomy*, 4th ed. (Cambridge University Press, 2019)
-- Wilson, Rohlfs & Hüttemeister, *Tools of Radio Astronomy*, 6th ed. (Springer, 2013)
+- Burke, Graham-Smith & Wilkinson, [*An Introduction to Radio Astronomy*](https://doi.org/10.1017/9781316987506), 4th ed. (Cambridge University Press, 2019)
+- Wilson, Rohlfs & Hüttemeister, [*Tools of Radio Astronomy*](https://doi.org/10.1007/978-3-642-39950-3), 6th ed. (Springer, 2013)
 - Condon & Ransom, [*Essential Radio Astronomy*](https://www.cv.nrao.edu/~sransom/web/xxx.html) (Princeton University Press, 2016): free online
 - Thompson, Moran & Swenson, [*Interferometry and Synthesis in Radio Astronomy*](https://doi.org/10.1007/978-3-319-44431-4), 3rd ed. (Springer, 2017): open access
 - Taylor, Carilli & Perley (eds.), [*Synthesis Imaging in Radio Astronomy II*](https://ui.adsabs.harvard.edu/abs/1999ASPC..180.....T) (ASP Conf. Ser. 180, 1999): the classic lecture notes of the NRAO synthesis imaging school
@@ -85,24 +85,24 @@ Papers that are widely read across the field, from classic theory and observatio
 
 **Radiation, jets and AGN**
 
-- Rybicki & Lightman, *Radiative Processes in Astrophysics* (Wiley, 1979)
-- Pacholczyk, *Radio Astrophysics: Nonthermal Processes in Galactic and Extragalactic Sources* (Freeman, 1970)
-- Ghisellini, *Radiative Processes in High Energy Astrophysics* (Lecture Notes in Physics 873, Springer, 2013)
-- Longair, *High Energy Astrophysics*, 3rd ed. (Cambridge University Press, 2011)
-- Böttcher, Harris & Krawczynski (eds.), *Relativistic Jets from Active Galactic Nuclei* (Wiley-VCH, 2012)
-- Hughes (ed.), *Beams and Jets in Astrophysics* (Cambridge University Press, 1991): includes Birkinshaw's classic chapter on the stability of jets
-- Meier, *Black Hole Astrophysics: The Engine Paradigm* (Springer, 2012)
-- Peterson, *An Introduction to Active Galactic Nuclei* (Cambridge University Press, 1997)
-- Netzer, *The Physics and Evolution of Active Galactic Nuclei* (Cambridge University Press, 2013)
+- Rybicki & Lightman, [*Radiative Processes in Astrophysics*](https://doi.org/10.1002/9783527618170) (Wiley, 1979)
+- Pacholczyk, [*Radio Astrophysics: Nonthermal Processes in Galactic and Extragalactic Sources*](https://ui.adsabs.harvard.edu/abs/1970ranp.book.....P) (Freeman, 1970)
+- Ghisellini, [*Radiative Processes in High Energy Astrophysics*](https://doi.org/10.1007/978-3-319-00612-3) (Lecture Notes in Physics 873, Springer, 2013)
+- Longair, [*High Energy Astrophysics*](https://doi.org/10.1017/CBO9780511778346), 3rd ed. (Cambridge University Press, 2011)
+- Böttcher, Harris & Krawczynski (eds.), [*Relativistic Jets from Active Galactic Nuclei*](https://doi.org/10.1002/9783527641741) (Wiley-VCH, 2012)
+- Hughes (ed.), [*Beams and Jets in Astrophysics*](https://doi.org/10.1017/CBO9780511564703) (Cambridge University Press, 1991): includes Birkinshaw's classic chapter on the stability of jets
+- Meier, [*Black Hole Astrophysics: The Engine Paradigm*](https://doi.org/10.1007/978-3-642-01936-4) (Springer, 2012)
+- Peterson, [*An Introduction to Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139170901) (Cambridge University Press, 1997)
+- Netzer, [*The Physics and Evolution of Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139109291) (Cambridge University Press, 2013)
 
 **Getting started: astronomy, galaxies and cosmology**
 
-- Bennett, Donahue, Schneider & Voit, *The Cosmic Perspective* (Pearson): a very readable introduction to astronomy, also for non-majors
-- Carroll & Ostlie, *An Introduction to Modern Astrophysics*, 2nd ed. (Cambridge University Press, 2017)
-- Sparke & Gallagher, *Galaxies in the Universe: An Introduction*, 2nd ed. (Cambridge University Press, 2007)
-- Schneider, *Extragalactic Astronomy and Cosmology: An Introduction*, 2nd ed. (Springer, 2015)
-- Ryden, *Introduction to Cosmology*, 2nd ed. (Cambridge University Press, 2016)
-- Mo, van den Bosch & White, *Galaxy Formation and Evolution* (Cambridge University Press, 2010)
+- Bennett, Donahue, Schneider & Voit, [*The Cosmic Perspective*](https://www.pearson.com/en-us/subject-catalog/p/cosmic-perspective-the/P200000009792) (Pearson): a very readable introduction to astronomy, also for non-majors
+- Carroll & Ostlie, [*An Introduction to Modern Astrophysics*](https://doi.org/10.1017/9781108380980), 2nd ed. (Cambridge University Press, 2017)
+- Sparke & Gallagher, [*Galaxies in the Universe: An Introduction*](https://doi.org/10.1017/CBO9780511807237), 2nd ed. (Cambridge University Press, 2007)
+- Schneider, [*Extragalactic Astronomy and Cosmology: An Introduction*](https://doi.org/10.1007/978-3-642-54083-7), 2nd ed. (Springer, 2015)
+- Ryden, [*Introduction to Cosmology*](https://doi.org/10.1017/9781316651087), 2nd ed. (Cambridge University Press, 2016)
+- Mo, van den Bosch & White, [*Galaxy Formation and Evolution*](https://doi.org/10.1017/CBO9780511807244) (Cambridge University Press, 2010)
 
 ## Methods: imaging, calibration and polarimetry
 
