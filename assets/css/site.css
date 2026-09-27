@@ -832,3 +832,5 @@ details.numdefs { border-bottom: 0; }
 .prose table th:first-child, .prose table td:first-child { padding-left: 0; }
 .prose table th:last-child, .prose table td:last-child { padding-right: 0; }
 .prose .table-wrap + .projects, .prose .table-wrap + * { margin-top: 2em; }
+/* the menu wraps onto a second line on medium screens instead of scrolling sideways */
+@media (min-width: 761px) { nav.tabs { flex-wrap: wrap; overflow: visible; } }
