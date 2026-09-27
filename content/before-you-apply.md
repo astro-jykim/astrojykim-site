@@ -29,7 +29,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 
 ### Astronomy in Korea
 
-- [한국 천문학 발전을 위한 중장기 비전: 2026–2035](https://www.kas.org/notice/view.php?idx=9851) (Korean Astronomical Society, 2025). Korea's own "decadal survey": research priorities, facilities and the community for the next ten years — a final report and nine working-group reports (in Korean). Worth reading to see where the field in Korea is heading.
+- 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (Korean Astronomical Society, 2025; [webpage](https://www.kas.org/notice/view.php?idx=9851), [PDF of the final report](/assets/docs/kas-decadal-survey-2026-2035.pdf)). Korea's own "decadal survey": research priorities, facilities and the community for the next ten years — a final report and nine working-group reports (in Korean). Worth reading to see where the field in Korea is heading.
 - [Korea Astronomy and Space Science Institute (KASI)](https://www.kasi.re.kr/) and the [Korea AeroSpace Administration (KASA)](https://www.kasa.go.kr/): the national research institute and the space agency, both major employers of astronomers in Korea.
 - [National Research Foundation of Korea (NRF)](https://www.nrf.re.kr/): postdoctoral and early-career grants, e.g. the Sejong Science Fellowship, announced every year.
 
@@ -111,7 +111,7 @@ Many people choose careers outside academia after their degree, for all kinds of
 
 ### 한국의 천문학
 
-- [한국 천문학 발전을 위한 중장기 비전: 2026–2035](https://www.kas.org/notice/view.php?idx=9851) (한국천문학회, 2025) — 한국판 decadal survey입니다. 앞으로 10년의 연구 우선순위, 시설, 인력 계획을 담은 최종보고서와 9개 워킹그룹 보고서로 되어 있습니다. 한국 천문학계가 어디로 가는지 보려면 꼭 읽어 볼 만합니다.
+- 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (한국천문학회, 2025; [웹페이지](https://www.kas.org/notice/view.php?idx=9851), [최종보고서 PDF](/assets/docs/kas-decadal-survey-2026-2035.pdf)) — 한국판 decadal survey입니다. 앞으로 10년의 연구 우선순위, 시설, 인력 계획을 담은 최종보고서와 9개 워킹그룹 보고서로 되어 있습니다. 한국 천문학계가 어디로 가는지 보려면 꼭 읽어 볼 만합니다.
 - [한국천문연구원(KASI)](https://www.kasi.re.kr/), [우주항공청(KASA)](https://www.kasa.go.kr/) — 국내 천문학자의 주요 연구기관과 우주 전담 기관입니다.
 - [한국연구재단(NRF)](https://www.nrf.re.kr/) — 세종과학펠로우십 등 박사후연구원·신진연구자 지원 사업이 매년 공고됩니다.
 
