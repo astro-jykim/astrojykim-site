@@ -79,8 +79,6 @@ Like normal galaxies, active galaxies are systems of stars, gases, and dust clou
 
 ![M87 from its outer radio lobes down to the black hole, from Figure 1 of the review by Blandford, Meier & Readhead (2019, ARA&A 57, 467): (a) the lobes and outer jet, VLA 90 cm; (b) the jet and inner lobes, VLA 20 cm; (c) the jet on parsec scales, VLBA 20 cm; (d) the innermost jet, VLBA 7 mm; (e) the jet launching region, global 3-mm VLBI (Kim et al. 2018, our work); (f) the ring around the black hole, EHT 1.3 mm. Figure: © Annual Reviews; images from NRAO, Cheung et al. 2007, Walker et al. 2018, Kim et al. 2018 and the EHT Collaboration](research/m87-bmr2019-fig1.jpg){: .wide}
 
-![The same black hole across the spectrum. In 2017, telescopes across the spectrum observed M87 together with the EHT. At each wavelength, from radio (left) to gamma rays (right), the images zoom from the galaxy and its jet down to the smallest scales, ending with the ring around the black hole seen by the EHT. Credit: EHT Multi-wavelength Science Working Group; EHT Collaboration; ALMA (ESO/NAOJ/NRAO); EVN; EAVN Collaboration; VLBA (NRAO); GMVA; Hubble Space Telescope; Neil Gehrels Swift Observatory; Chandra X-ray Observatory; NuSTAR; Fermi-LAT Collaboration; H.E.S.S., MAGIC and VERITAS Collaborations; NASA and ESA](research/m87-multiscale-wide.jpg){: .wide}
-
 <!-- PROGRAMS: the three sections below are meant to be updated as the research evolves.
      Each program starts with the original description; the second paragraph and the
      highlight list can be edited freely. -->

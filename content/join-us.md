@@ -23,9 +23,9 @@ Students from physics and astronomy, as well as engineering, computer science, a
 - **국제 공동연구**: EHT, GMVA, KVN/KaVA/EAVN, SKA 관련 프로젝트에 참여하며, 본인의 주저자 논문과 함께 공동연구 논문에도 기여합니다.
 - **일하는 방식**: 정해진 근무시간 없이 목표와 결과 중심으로 일합니다. 매주 그룹 미팅이 있고, 관측·제안서·논문 제출 전처럼 바쁜 시기에는 더 자주 만나며, 학기와 방학이 끝날 때 개별 면담을 합니다.
 - **지원**: 모든 대학원생은 등록금 전액과 UNIST 생활장학금을 받고, 연구과제 인건비를 추가로 받습니다. 한국연구재단 석사·박사과정생 연구장려금 지원도 함께 준비합니다. 학회·여름학교·관측 출장비, 계산 서버와 개인 연구용 컴퓨터, 연구 공간을 제공합니다.
-- **학부 인턴과 박사후연구원**: UNIST 학부생은 한 학기 인턴, 타 대학 학생은 U-SURF·U-WURF 프로그램으로 참여할 수 있습니다. 박사후연구원은 세종과학펠로우십, 교육부 박사후국내연수 등으로 함께 지원을 준비합니다.
+- **학부 인턴과 박사후연구원**: UNIST 학부생은 한 학기 인턴, 타 대학 학생은 [U-SURF·U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do) 프로그램으로 참여할 수 있습니다. 박사후연구원은 세종과학펠로우십, 교육부 박사후국내연수 등으로 함께 지원을 준비합니다.
 
-2027학년도 대학원생 모집은 [한국어 안내](/ko/)를 참고하세요.
+입학 전형과 일정은 [UNIST 대학원 입학](https://adm-g.unist.ac.kr/admg/index.do) 페이지에 있습니다. 지원 전에 먼저 교수에게 연락해 연구 주제와 과정을 상의하세요. 2027학년도 대학원생 모집은 [한국어 안내](/ko/)를 참고하세요.
 
 </details>
 
@@ -47,11 +47,11 @@ Students from physics and astronomy, as well as engineering, computer science, a
 
 MSc, MSc–PhD integrated and PhD projects are available depending on ongoing projects and funding. Please contact the professor to discuss research topics and suitable programs.
 
-We recommend gaining some research experience in the group before applying: a semester-long internship for UNIST undergraduates, or official programs such as U-SURF and U-WURF for students from other universities.
+We recommend gaining some research experience in the group before applying: a semester-long internship for UNIST undergraduates, or the official [U-SURF and U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do) summer and winter programs for students from other universities in Korea.
 
 ### Funding and support for graduate students
 
-- **UNIST stipend.** Every graduate student receives full tuition support and the UNIST monthly stipend, following university and program regulations. On top of this, students are paid from the group's research projects.
+- **UNIST stipend.** Every graduate student receives full tuition support and the UNIST monthly stipend, following [university and program regulations](https://www.unist.ac.kr/unist/admissions/scholarship-info-grad.do). On top of this, students are paid from the group's research projects.
 - **Your own grant.** The National Research Foundation of Korea (NRF, funded by the Ministry of Education) offers research grants that students apply for themselves: the *Master's Student Research Encouragement Grant* (석사과정생 연구장려금, 12 million KRW for one year) and the *Doctoral Student Research Encouragement Grant* (박사과정생 연구장려금, 25 million KRW per year for one to two years), announced every spring. Four of our students have held the master's grant since 2024. We help students prepare these applications, which is also good practice in proposal writing.
 - **Travel, computing and office space.** Our research projects pay for conferences, schools and observing trips. The group runs its own computing servers, the lab space is generous, and every student has a personal computer set up for their research.
 
@@ -80,7 +80,7 @@ No. Students with a background in engineering, computer science or mathematics a
 <details markdown="1">
 <summary>Can I try research before applying to graduate school?</summary>
 
-Yes, and we recommend it. UNIST undergraduates can join for a semester-long internship; students from other universities can come through the official U-SURF (summer) and U-WURF (winter) programs. See [Undergraduate Research Internships](#undergraduate-research-internships) below.
+Yes, and we recommend it. UNIST undergraduates can join for a semester-long internship; students from other universities in Korea can come through the official [U-SURF (summer) and U-WURF (winter)](https://adm-g.unist.ac.kr/admg/program/uswurf.do) programs. See [Undergraduate Research Internships](#undergraduate-research-internships) below.
 </details>
 
 <details markdown="1">
@@ -122,7 +122,11 @@ Many paths: postdoctoral research in Korea or abroad, research institutes such a
 <details markdown="1">
 <summary>How do I apply?</summary>
 
-Write to the professor first (jaeyoungkim at unist.ac.kr) with a short note about your background and interests; we then discuss topics and the right program. Current openings are listed under [2027 Positions](/positions-2027/).
+1. **Contact us first.** Write to the professor (jaeyoungkim at unist.ac.kr) with a short note about your background and interests. We then discuss research topics and the right program: MSc, MSc–PhD integrated or PhD.
+2. **If you can, try research with us before applying.** UNIST undergraduates can do a semester-long internship; undergraduates at other universities in Korea can join through [U-SURF and U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do).
+3. **Apply to UNIST Graduate School.** Applications go through UNIST Graduate Admissions, which lists the admission rounds, deadlines and application guidelines: [Graduate Admissions (Korean)](https://adm-g.unist.ac.kr/admg/index.do) and [Graduate Admissions for international applicants](https://admg-intl.unist.ac.kr/).
+
+Current openings in the group are listed under [2027 Positions](/positions-2027/).
 </details>
 
 </div>
