@@ -55,11 +55,11 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 ### Individual
 
-- 2024 | Young Astronomer Award from the Korean Astronomical Society
+- 2024 | Outstanding Young Astronomer Award from the Korean Astronomical Society
 
 - 2020 | Otto Hahn Medal from the Max Planck Society
 
-- 2014 | "Rising Star" award (샛별상) from the Korean Astronomical Society
+- 2015 | "Rising Star" award (샛별상) from the Korean Astronomical Society
 
 - 2013 | Award from the president of the SNU Alumni Association for SNU honor graduates
 
@@ -141,7 +141,7 @@ Selected invited talks, colloquia and seminars.
 
 - Oct 2024 | *Understanding the origin and physics of jetted AGNs with the SKA and SKA-VLBI*, SKA-VLBI Workshop in Korea, Daejeon, Korea
 
-- Oct 2024 | Young Astronomers Award lecture, Korean Astronomical Society Fall Meeting, Gangneung, Korea
+- Oct 2024 | Outstanding Young Astronomer Award lecture, Korean Astronomical Society Fall Meeting, Gangneung, Korea
 
 - Apr 2024 | *Exploring the origin of relativistic jets, high-energy emission and neutrinos from supermassive black holes*, Department of Physics & Astronomy Colloquium, Sejong University, Seoul, Korea
 
