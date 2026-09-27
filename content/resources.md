@@ -32,6 +32,7 @@ Papers that are widely read across the field — theory and observations, classi
 - Abdo et al. (2010), [The spectral energy distribution of Fermi bright blazars](https://ui.adsabs.harvard.edu/abs/2010ApJ...716...30A), ApJ 716, 30
 - Hada et al. (2011), [An origin of the radio jet in M87 at the location of the central black hole](https://ui.adsabs.harvard.edu/abs/2011Natur.477..185H), Nature 477, 185
 - Asada & Nakamura (2012), [The structure of the M87 jet: a transition from parabolic to conical streamlines](https://ui.adsabs.harvard.edu/abs/2012ApJ...745L..28A), ApJL 745, L28
+- Walker et al. (2018), [The structure and dynamics of the subparsec jet in M87 based on 50 VLBA observations over 17 years at 43 GHz](https://ui.adsabs.harvard.edu/abs/2018ApJ...855..128W), ApJ 855, 128
 - Jorstad et al. (2017), [Kinematics of parsec-scale jets of gamma-ray blazars at 43 GHz within the VLBA-BU-BLAZAR program](https://ui.adsabs.harvard.edu/abs/2017ApJ...846...98J), ApJ 846, 98
 - Review: Boccardi et al. (2017), [Radio observations of active galactic nuclei with mm-VLBI](https://ui.adsabs.harvard.edu/abs/2017A%26ARv..25....4B), A&ARv 25, 4
 

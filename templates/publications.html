@@ -30,7 +30,7 @@
       </dl>
     </div>
     <div class="pubpanel">
-      <h3>Most cited papers led by our group</h3>
+      <h3>Most cited</h3>
       <ol>{% for p in stats.top_cited %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a> <span class="c">{{ p.year }} · {{ "{:,}".format(p.citations) }}×</span></li>{% endfor %}</ol>
     </div>
     <div class="pubpanel">

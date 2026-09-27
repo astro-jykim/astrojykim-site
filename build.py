@@ -408,11 +408,8 @@ class Builder:
             t = html.escape(t or "")
             return Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))
 
-        # Most cited among the papers led by the group (first / corresponding author):
-        # the overall list would always be the EHT collaboration papers.
-        led = [p for p in pubs if p.get("bibcode") in led_bibs]
         top_cited = [{**p, "title_html": title_html(p.get("title"))}
-                     for p in sorted(led, key=lambda p: -(p.get("citations") or 0))[:5]]
+                     for p in sorted(pubs, key=lambda p: -(p.get("citations") or 0))[:5]]
         journals = {}
         for p in pubs:
             j = (p.get("journal") or "").strip()
