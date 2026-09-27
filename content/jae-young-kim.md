@@ -65,13 +65,13 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 ### Group awards
 
-- 2025 | Frontiers of Science Award by the International Congress of Basic Science (as member of the Event Horizon Telescope collaboration)
+- 2025 | Frontiers of Science Award by the International Congress of Basic Science (as member of the Event Horizon Telescope Collaboration)
 
-- 2021 | Group Achievement Award of the Royal Astronomical Society (as member of the Event Horizon Telescope collaboration)
+- 2021 | Group Achievement Award of the Royal Astronomical Society (as member of the Event Horizon Telescope Collaboration)
 
-- 2020 | Nelson P. Jackson Aerospace Award (as member of the Event Horizon Telescope collaboration)
+- 2020 | Nelson P. Jackson Aerospace Award (as member of the Event Horizon Telescope Collaboration)
 
-- 2020 | the Bruno Rossi Prize 2020 of the American Astronomical Society (as member of the Event Horizon Telescope Collaboration)
+- 2020 | Bruno Rossi Prize 2020 of the American Astronomical Society (as member of the Event Horizon Telescope Collaboration)
 
 - 2019 | NSF Diamond Achievement Award (as member of the Event Horizon Telescope Collaboration)
 

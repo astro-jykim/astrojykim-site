@@ -51,13 +51,13 @@ banner_positions: {members: center 38%}
 banner_credits:
   # A short description and the credit, shown in the corner of each banner (required by the image licences).
   banners/home.jpg: "ALMA under the Magellanic Clouds, two small galaxies orbiting our Milky Way. Photo: ESO/C. Malin"
-  research/m87-polarized.jpg: "The black hole in M87 in polarised light; the lines trace the magnetic field near the event horizon. Image: EHT Collaboration"
-  banners/research.jpg: "The black hole in M87 in polarised light. Image: EHT Collaboration"
+  research/m87-polarized.jpg: "The black hole in M87 in polarized light; the lines trace the magnetic field near the event horizon. Image: EHT Collaboration"
+  banners/research.jpg: "The black hole in M87 in polarized light. Image: EHT Collaboration"
   banners/highlights.jpg: "The whole sky in gamma rays, seen by Fermi: the bright band is our Galaxy, and many of the dots are distant blazars. Credit: NASA/DOE/Fermi LAT Collaboration"
   banners/vla-night.jpg: "The Very Large Array at night, New Mexico: 27 antennas working as one telescope up to 36 km across. Photo: NRAO/AUI/NSF"
   banners/vla.jpg: "The Karl G. Jansky Very Large Array, New Mexico. Photo: NRAO/AUI/NSF"
   banners/students-webb.jpg: "Webb's first deep field: thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length. Credit: NASA, ESA, CSA and STScI"
-  banners/resources-correlator.jpg: "The ALMA correlator, the supercomputer that combines the signals of the ALMA antennas into images, 5,000 m up in the Andes. Photo: ESO"
+  banners/resources-correlator.jpg: "The ALMA correlator, the supercomputer that combines the signals from the ALMA antennas, 5,000 m up in the Andes. Photo: ESO"
   banners/members-meerkat.jpg: "MeerKAT in the Karoo, South Africa: 64 dishes that will become part of SKA-Mid. Photo: South African Radio Astronomy Observatory (SARAO)"
   banners/join-us-alma.jpg: "The Milky Way over ALMA on the Chajnantor plateau, 5,000 m up in the Chilean Andes. Photo: P. Horálek/ESO"
   banners/join-us-kvn.jpg: "KVN Ulsan, ten minutes by car from UNIST. Photo: KASI"

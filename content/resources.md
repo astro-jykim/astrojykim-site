@@ -123,7 +123,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - [NASA ADS](https://ui.adsabs.harvard.edu/): the literature database of astronomy; set up your own ADS account and libraries
 - [arXiv astro-ph](https://arxiv.org/list/astro-ph/new): new preprints, every weekday
 - [NED](https://ned.ipac.caltech.edu/): the NASA/IPAC Extragalactic Database
-- [SIMBAD](https://simbad.cds.unistra.fr/simbad/) and [VizieR](https://vizier.cds.unistra.fr/): object database and published catalogues (CDS, Strasbourg)
+- [SIMBAD](https://simbad.cds.unistra.fr/simbad/) and [VizieR](https://vizier.cds.unistra.fr/): object database and published catalogs (CDS, Strasbourg)
 
 ## Data archives
 

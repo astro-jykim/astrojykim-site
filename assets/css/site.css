@@ -841,3 +841,20 @@ details.numdefs { border-bottom: 0; }
 .prose .results .links a { color: var(--accent); }
 /* side figures show the whole picture */
 .prose figure.side img { aspect-ratio: auto; object-fit: initial; }
+
+/* a paragraph with a picture beside it: the picture takes one of the three columns and is
+   exactly as tall as the text, so both edges line up; the caption runs underneath */
+.prose .textfig { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gap); row-gap: 8px;
+  grid-template-areas: "t t f" "c c c"; align-items: stretch; margin: 0; }
+.prose .textfig > p { grid-area: t; margin: 0; }
+.prose .textfig > figure { display: contents; }
+.prose .textfig > figure > a { grid-area: f; display: block; min-height: 0; position: relative; }
+.prose .textfig > figure img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 55%; }
+.prose .textfig > figure figcaption { grid-area: c; margin: 0; }
+@media (max-width: 720px) {
+  .prose .textfig { grid-template-columns: 1fr; grid-template-areas: "t" "f" "c"; row-gap: 10px; }
+  .prose .textfig > figure > a { aspect-ratio: 16 / 10; margin-top: 6px; }
+}
+.prose .textfig { margin-top: 1em; }
+.prose .textfig > figure > a { margin-top: 6px; margin-bottom: 4px; }
+.prose .textfig > figure.top img { object-position: 50% 25%; }

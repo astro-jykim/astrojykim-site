@@ -22,7 +22,7 @@ Students from physics and astronomy, as well as engineering, computer science, a
 - **바로 옆의 전파망원경**: UNIST에서 차로 10분 거리에 KVN 울산 전파천문대가 있어, 직접 관측하며 VLBI 관측소가 어떻게 운영되는지 배울 수 있습니다.
 - **국제 공동연구**: EHT, GMVA, KVN/KaVA/EAVN, SKA 관련 프로젝트에 참여하며, 본인의 주저자 논문과 함께 공동연구 논문에도 기여합니다.
 - **일하는 방식**: 정해진 근무시간 없이 목표와 결과 중심으로 일합니다. 매주 그룹 미팅이 있고, 관측·제안서·논문 제출 전처럼 바쁜 시기에는 더 자주 만나며, 학기와 방학이 끝날 때 개별 면담을 합니다.
-- **지원**: 모든 대학원생은 등록금 전액과 UNIST 생활장학금을 받고, 연구과제 인건비를 추가로 받습니다. 한국연구재단 석사·박사과정생 연구장려금 지원도 함께 준비합니다. 학회·학교·관측 출장비, 계산 서버와 개인 연구용 컴퓨터, 연구 공간을 제공합니다.
+- **지원**: 모든 대학원생은 등록금 전액과 UNIST 생활장학금을 받고, 연구과제 인건비를 추가로 받습니다. 한국연구재단 석사·박사과정생 연구장려금 지원도 함께 준비합니다. 학회·여름학교·관측 출장비, 계산 서버와 개인 연구용 컴퓨터, 연구 공간을 제공합니다.
 - **학부 인턴과 박사후연구원**: UNIST 학부생은 한 학기 인턴, 타 대학 학생은 U-SURF·U-WURF 프로그램으로 참여할 수 있습니다. 박사후연구원은 세종과학펠로우십, 교육부 박사후국내연수 등으로 함께 지원을 준비합니다.
 
 2027학년도 대학원생 모집은 [한국어 안내](/ko/)를 참고하세요.
@@ -52,19 +52,19 @@ We recommend gaining some research experience in the group before applying: a se
 ### Funding and support for graduate students
 
 - **UNIST stipend.** Every graduate student receives full tuition support and the UNIST monthly stipend, following university and program regulations. On top of this, students are paid from the group's research projects.
-- **Your own fellowship.** The National Research Foundation of Korea (NRF, funded by the Ministry of Education) offers research grants that students apply for themselves: the *Master's Student Research Encouragement Grant* (석사과정생 연구장려금, 12 million KRW for one year) and the *Doctoral Student Research Encouragement Grant* (박사과정생 연구장려금, 25 million KRW per year for one to two years), announced every spring. Four of our students have held the master's grant since 2024. We help students prepare these applications, which is also good practice in proposal writing.
-- **Travel, computers and space.** Our research projects pay for conferences, schools and observing trips. The group runs its own central computing servers, the lab space is generous, and every student gets a personal computing set-up that is sufficient for their research.
+- **Your own grant.** The National Research Foundation of Korea (NRF, funded by the Ministry of Education) offers research grants that students apply for themselves: the *Master's Student Research Encouragement Grant* (석사과정생 연구장려금, 12 million KRW for one year) and the *Doctoral Student Research Encouragement Grant* (박사과정생 연구장려금, 25 million KRW per year for one to two years), announced every spring. Four of our students have held the master's grant since 2024. We help students prepare these applications, which is also good practice in proposal writing.
+- **Travel, computing and office space.** Our research projects pay for conferences, schools and observing trips. The group runs its own computing servers, the lab space is generous, and every student has a personal computer set up for their research.
 
 ## Undergraduate Research Internships
 
-Internships range from introductory computational, observational and instrumentation projects to independent research, and usually run for one semester or a summer/winter break. Strong projects can continue and lead to conference presentations or publications. Python programming, data analysis or basic physics is useful; astronomy experience is not required.
+Internships range from introductory computational, observational and instrumentation projects to independent research, and usually run for one semester or a summer/winter break. Strong projects can continue and lead to conference presentations or publications. Some Python programming, data analysis or basic physics helps; astronomy experience is not required.
 
 ## Postdoctoral Researchers
 
 We welcome inquiries from researchers working on black holes, relativistic jets, AGN, radio interferometry and VLBI, multi-messenger astrophysics, wide-field radio surveys and related areas. Funded positions are not always open, but several fellowships can bring you to the group. Please get in touch well before the deadline so that we can prepare the application together:
 
 - **Sejong Science Fellowship** (세종과학펠로우십) of the Ministry of Science and ICT, through the NRF: independent early-career funding for up to five years.
-- **Postdoctoral fellowships of the Ministry of Education** (학문후속세대지원, 박사후국내연수), through the NRF: one to three years after the PhD.
+- **Postdoctoral fellowships of the Ministry of Education** (학문후속세대지원, 박사후국내연수), through the NRF, for researchers in the first years after the PhD.
 - **Project-funded positions** in the group, advertised whenever our grants allow, and calls from partner institutes such as KASI that open during the year.
 
 ## Frequently asked questions
@@ -86,11 +86,11 @@ Yes, and we recommend it. UNIST undergraduates can join for a semester-long inte
 <details markdown="1">
 <summary>What does a normal working week look like in the group?</summary>
 
-Mostly your own research: analysing data, reading papers and writing code, at the hours that work for you. Once a week the whole group meets to share progress and problems, and we talk one-to-one whenever needed. Some weeks are busier: observing runs, proposal deadlines, conference talks or a paper about to be submitted.
+Mostly your own research: analyzing data, reading papers and writing code, at the hours that work for you. Once a week the whole group meets to share progress and problems, and we talk one-to-one whenever needed. Some weeks are busier: observing runs, proposal deadlines, conference talks or a paper about to be submitted.
 </details>
 
 <details markdown="1">
-<summary>Will I really use telescopes?</summary>
+<summary>Will I observe with real telescopes?</summary>
 
 Yes. The KVN Ulsan radio telescope is ten minutes by car from campus, and students take part in observations there and learn how a VLBI station works. Through our collaborations you will also work with data from the EHT, GMVA, VLBA, ALMA and other facilities, and write observing proposals yourself.
 </details>
@@ -110,7 +110,7 @@ Every graduate student receives full tuition support and the UNIST monthly stipe
 <details markdown="1">
 <summary>Which language do we use?</summary>
 
-Courses at UNIST and our international collaborations are in English, so you will read, write and present in English every day. It improves quickly with practice.
+English is the official language of UNIST, and courses are taught in English. English is also the common language of our international collaborations, so you will read, write and present in English from the start. Most students find that their English improves quickly with daily use.
 </details>
 
 <details markdown="1">

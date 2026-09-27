@@ -18,7 +18,7 @@ If you’d like to understand our research more easily, you can also check out a
 <summary>Terms used on this page</summary>
 
 AGN (active galactic nucleus)
-:   The centre of a galaxy where a supermassive black hole is swallowing gas and shines brightly.
+:   The center of a galaxy where a supermassive black hole is swallowing gas and shines brightly.
 
 Relativistic jet
 :   A narrow beam of plasma launched from near a black hole at almost the speed of light.
@@ -30,13 +30,13 @@ VLBI (very long baseline interferometry)
 :   Radio telescopes far apart observe together and act as one telescope as large as the distance between them, up to the size of the Earth.
 
 Event Horizon Telescope (EHT)
-:   A worldwide VLBI array at 1.3 mm wavelength, sharp enough to see the ring around the black holes in M87 and at the centre of our Galaxy.
+:   A worldwide VLBI array at 1.3 mm wavelength, sharp enough to see the ring around the black holes in M87 and at the center of our Galaxy.
 
 Polarimetry
 :   Measuring the polarization of light, which shows the direction and order of magnetic fields.
 
 Schwarzschild radius
-:   The size of the event horizon of a black hole that does not spin; a way to measure distances close to a black hole.
+:   The size of the event horizon of a black hole that does not spin; the usual unit for distances close to a black hole.
 
 GRMHD simulation
 :   A computer model of magnetized plasma flowing around a black hole, including Einstein's general relativity.
@@ -69,9 +69,13 @@ Square Kilometre Array (SKA)
 
 ## Active galaxies and supermassive black holes
 
-![The giant elliptical galaxy M87 and the 3,000-light-year-long jet launched by its central black hole. Credit: NASA, ESA, A. Lessing, E. Baltz (Stanford), M. Shara (AMNH), J. DePasquale (STScI)](research/m87-hubble.jpg){: .side}
+<div class="textfig" markdown="1">
 
-Like normal galaxies, active galaxies are systems of stars, gases, and dust clouds bound to each other by self-gravitation. However, their nuclei contain "active" supermassive black holes that absorb gas from the surroundings and convert the gas's gravitational energy into intense radiation and (sometimes relativistic) outflows. We study the physics of active galactic nuclei (AGNs) and supermassive black holes with the following particular approaches:
+Like normal galaxies, active galaxies are systems of stars, gases, and dust clouds bound to each other by self-gravitation. However, their nuclei contain "active" supermassive black holes that absorb gas from the surroundings and convert the gas's gravitational energy into intense radiation and (sometimes relativistic) outflows. We study the physics of active galactic nuclei (AGNs) and supermassive black holes with three particular approaches, described below.
+
+![The giant elliptical galaxy M87 and the 3,000-light-year-long jet launched by its central black hole. Credit: NASA, ESA, A. Lessing, E. Baltz (Stanford), M. Shara (AMNH), J. DePasquale (STScI)](research/m87-hubble.jpg)
+
+</div>
 
 For an overview of how black holes launch jets and how these jets look across scales, Figure 1 of the review by [Blandford, Meier & Readhead (2019, ARA&A 57, 467)](https://doi.org/10.1146/annurev-astro-081817-051948) is a good place to start.
 {: .note}
@@ -106,7 +110,7 @@ Blazars are active galaxies whose jets point almost straight at us. They flare a
 
 <div class="figpair" markdown="1">
 
-![A blazar, a jet pointed at Earth, emitting neutrinos and gamma rays that are caught by IceCube and other telescopes (artist's impression). Credit: IceCube/NASA](research/blazar-neutrino.jpg)
+![A blazar, an active galaxy whose jet points at Earth, sending out neutrinos and gamma rays that are detected by IceCube and other telescopes (artist's impression). Credit: IceCube/NASA](research/blazar-neutrino.jpg)
 
 ![Multi-messenger: some twenty observatories on the ground and in space followed up the neutrino IceCube-170922A and found the flaring blazar TXS 0506+056. Credit: Nicolle R. Fuller/NSF/IceCube](research/multimessenger-map.jpg)
 
@@ -122,9 +126,9 @@ Wide-field surveys with the SKA pathfinders and precursors (LOFAR, ASKAP, MWA an
 
 <div class="figpair" markdown="1">
 
-![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its centre seen by Chandra. It is the most distant black hole detected in X-rays so far. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
+![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its center seen by Chandra. It is the most distant black hole detected in X-rays so far. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
 
-![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas, less than 1% of the telescope. About 85 bright galaxies, all hosting supermassive black holes, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
+![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas, less than 1% of the telescope. It shows about 85 bright galaxies, each hosting a supermassive black hole, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
 
 </div>
 
@@ -134,9 +138,9 @@ Wide-field surveys with the SKA pathfinders and precursors (LOFAR, ASKAP, MWA an
 
 ## Observing cosmic black holes with cutting-edge facilities
 
-We use cutting-edge observing facilities worldwide, across all electromagnetic spectra from radio to gamma-rays, to observe the extreme objects in the universe.
+We use cutting-edge observing facilities worldwide, across the electromagnetic spectrum from radio to gamma rays, to observe the extreme objects in the universe.
 
-In particular, we specialize in radio astronomical observations where the interferometric technique allows the combination of many separate antennas to form a large virtual telescope, whose size can be as big as Earth, to achieve an ultra-high angular resolution that cannot be realized by any other method. This allows us to image regions close to the small black holes and rapidly time-variable emission zones, typically associated with cosmic high energy signals such as gamma rays, neutrinos, and gravitational waves. Also, global networks of telescopes observing variable and transient sources are essential to track the time evolution of flaring black hole objects.
+In particular, we specialize in radio astronomical observations where the interferometric technique allows the combination of many separate antennas to form a large virtual telescope, whose size can be as big as Earth, to achieve an ultra-high angular resolution that cannot be realized by any other method. This allows us to image regions close to the small black holes and rapidly time-variable emission zones, typically associated with cosmic high-energy signals such as gamma rays, neutrinos, and gravitational waves. Also, global networks of telescopes observing variable and transient sources are essential to track the time evolution of flaring black hole objects.
 
 Therefore, we conduct active collaborative research with many international and domestic research organizations and researchers in Europe, the US, and Asia,  who are involved in global radio astronomical, VLBI, and space-based observations of cosmic black holes.
 
@@ -157,15 +161,19 @@ Therefore, we conduct active collaborative research with many international and 
 | Space VLBI | [RadioAstron](https://en.wikipedia.org/wiki/Spektr-R) | the highest angular resolutions at centimeter wavelengths |
 | Connected-element interferometers and single dishes | [ALMA](https://www.almaobservatory.org/), [VLA](https://public.nrao.edu/telescopes/vla/), [MeerKAT](https://www.sarao.ac.za/science/meerkat/), [GBT](https://public.nrao.edu/telescopes/gbt/), [Effelsberg](https://www.mpifr-bonn.mpg.de/en/effelsberg) | spectra, polarization and follow-up of new sources |
 | Wide-field radio surveys | [LOFAR](https://www.astron.nl/telescopes/lofar/) LoTSS, [ASKAP](https://www.csiro.au/en/about/facilities-collections/atnf/askap-radio-telescope) RACS / VAST, [MWA](https://www.mwatelescope.org/) GLEAM-X, toward the [SKA](https://www.skao.int/) | finding unusual, faint and distant black holes |
-| High-energy and multi-messenger | [Fermi](https://fermi.gsfc.nasa.gov/) Large Area Telescope (gamma rays), [IceCube](https://icecube.wisc.edu/) (neutrino alerts) | flares, and which black holes produce neutrinos |
+| High-energy and multi-messenger | [Fermi](https://fermi.gsfc.nasa.gov/) Large Area Telescope (gamma rays), [IceCube](https://icecube.wisc.edu/) (neutrino alerts) | flares, and finding which black holes produce neutrinos |
 
 <!-- projects -->
 
 ### Methods
 
-![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network, ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .side}
+<div class="textfig" markdown="1">
 
 Our work starts at the telescope. We write observing proposals, carry out the observations and record the signals. The data are then correlated, calibrated and imaged, and finally interpreted physically. We develop our own tools where existing ones are not enough, and students take part in every step, from the observing run to the paper.
+
+![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network, ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .top}
+
+</div>
 
 <div class="methods" markdown="1">
 <div class="method" markdown="1">
