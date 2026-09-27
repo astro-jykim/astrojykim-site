@@ -10,7 +10,7 @@ We are looking for motivated students who want to understand black holes, relati
 
 Students from physics and astronomy, as well as engineering, computer science, applied mathematics and other quantitative fields, are welcome. Prior experience in astronomy is not required; the technical skills can be learned in the group. What matters most is curiosity, persistence, and a real interest in the astrophysical questions behind the tools.
 
-**Two graduate positions for 2027.** See [2027 Positions](/positions-2027/).
+**Two graduate positions for 2027.** See [2027 Positions](/positions-2027/). Questions about graduate life here? See the [FAQ](#frequently-asked-questions).
 {: .callout}
 
 ## Why UNIST
@@ -24,7 +24,7 @@ Students from physics and astronomy, as well as engineering, computer science, a
 
 - **Mission- and outcome-driven.** There are no fixed working hours; what matters is clear goals and good results. Work–life balance is important to us, and a sustainable pace is part of doing good research.
 - **Weekly group meeting**, where everyone shares progress and problems — plus one-to-one discussions whenever needed.
-- **Intensive weekly meetings when a paper is being finished**, so that drafts move quickly from analysis to submission.
+- **Busier weeks now and then** — before an observing run or while observing on site, ahead of proposal deadlines and conference talks, and when a paper is about to be submitted. We meet more often in those weeks, and calmer weeks follow.
 - **In-depth individual interviews at the end of each semester and each vacation**, to look back at progress and plan the next steps — research, skills and career.
 
 ## Graduate Students
@@ -50,5 +50,65 @@ We welcome inquiries from researchers working on black holes, relativistic jets,
 - **Sejong Science Fellowship** (세종과학펠로우십) of the Ministry of Science and ICT, through the NRF — independent early-career funding for up to five years.
 - **Post-doctoral fellowships of the Ministry of Education** (학문후속세대지원, 박사후국내연수), through the NRF — for one to three years after the PhD.
 - **Project-funded positions** in the group, advertised whenever our grants allow, and calls from partner institutes such as KASI that open during the year.
+
+## Frequently asked questions
+
+<div class="faq" markdown="1">
+
+<details markdown="1">
+<summary>Do I need a background in astronomy?</summary>
+
+No. Students from physics and astronomy, engineering, computer science, applied mathematics and other quantitative fields are welcome, and the technical skills can be learned in the group. What matters most is curiosity, persistence and a real interest in the astrophysical questions.
+</details>
+
+<details markdown="1">
+<summary>Can I try research before applying to graduate school?</summary>
+
+Yes, and we recommend it. UNIST undergraduates can join for a semester-long internship; students from other universities can come through the official U-SURF (summer) and U-WURF (winter) programs. See [Undergraduate Research Internships](#undergraduate-research-internships) below.
+</details>
+
+<details markdown="1">
+<summary>What does a normal week look like?</summary>
+
+Mostly your own research — analysing data, reading papers, writing code — at the hours that work for you. Once a week the whole group meets to share progress and problems, and we talk one-to-one whenever needed. Some weeks are busier: observing runs, proposal deadlines, conference talks or a paper about to be submitted.
+</details>
+
+<details markdown="1">
+<summary>Will I really use telescopes?</summary>
+
+Yes. The KVN Ulsan radio telescope is ten minutes by car from campus, and students take part in observations there and learn how a VLBI station works. Through our collaborations you will also work with data from the EHT, GMVA, VLBA, ALMA and other facilities, and write observing proposals yourself.
+</details>
+
+<details markdown="1">
+<summary>Will I be part of the big international projects?</summary>
+
+Yes. Our work is part of the Event Horizon Telescope, the GMVA, KVN / KaVA / EAVN and SKA-related activities. Students join collaboration meetings and working groups and contribute to collaboration papers — alongside their own first-author papers, which remain the core of a thesis.
+</details>
+
+<details markdown="1">
+<summary>How are graduate students funded?</summary>
+
+Every graduate student receives full tuition support and the UNIST monthly stipend, plus payment from the group's research projects. Students can also win their own NRF research grants, and travel to conferences, schools and observing runs is supported. See [Funding for graduate students](#funding-for-graduate-students).
+</details>
+
+<details markdown="1">
+<summary>Is English a problem?</summary>
+
+Courses at UNIST and our international collaborations are in English, so you will use it every day — reading, writing and presenting — and it improves quickly with practice.
+</details>
+
+<details markdown="1">
+<summary>What can I do after the PhD?</summary>
+
+Many paths: postdoctoral research in Korea or abroad, research institutes such as KASI, and careers outside academia where research training is valued. We talk about plans regularly, including at the end of each semester. For a realistic picture of the job market, see [For Students](/before-you-apply/).
+</details>
+
+<details markdown="1">
+<summary>How do I apply?</summary>
+
+Write to the professor first (jaeyoungkim at unist.ac.kr) with a short note about your background and interests; we then discuss topics and the right program. Current openings are listed under [2027 Positions](/positions-2027/).
+</details>
+
+</div>
 
 For students considering graduate school, see also [For Students](/before-you-apply/).

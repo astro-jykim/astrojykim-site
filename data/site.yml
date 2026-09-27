@@ -2,8 +2,8 @@
 
 title: UNIST Observational Astrophysics Group
 domain: www.astrojykim.com
-# Thin notice under the menu on every page. Delete this line when the site is finished.
-construction: "**Under construction** — we are moving from our old website; some pages are still being updated."
+# Thin notice under the menu on every page (empty = no notice). Example: "**Under construction** — some pages are still being updated."
+construction: ""
 
 copyright: © Jae-Young Kim. All rights reserved.
 
