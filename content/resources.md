@@ -49,7 +49,6 @@ Papers that are widely read across the field, from classic theory and observatio
 - Hovatta et al. (2009), [Doppler factors, Lorentz factors and viewing angles for quasars, BL Lacertae objects and radio galaxies](https://doi.org/10.1051/0004-6361:200811150), A&A 494, 527 <span class="annot">Doppler factors from the timescales of 37 GHz flares at Metsähovi, combined with VLBI jet speeds, for a large sample of AGN.</span>
 - Hada et al. (2011), [An origin of the radio jet in M87 at the location of the central black hole](https://doi.org/10.1038/nature10387), Nature 477, 185 <span class="annot">The core shift of M87 measured over many frequencies places the black hole within about 20 Schwarzschild radii of the 43 GHz core.</span>
 - Pushkarev et al. (2012), [MOJAVE IX. Nuclear opacity](https://doi.org/10.1051/0004-6361/201219173), A&A 545, A113 <span class="annot">Core shifts for a large MOJAVE sample and the magnetic fields they imply near the jet base.</span>
-- Zamaninasab et al. (2014), [Dynamically important magnetic fields near accreting supermassive black holes](https://doi.org/10.1038/nature13399), Nature 510, 126 <span class="annot">Magnetic flux of jets estimated from core shifts, in line with magnetically arrested disks around the black holes.</span>
 
 **Emission models of jets and blazars**
 
@@ -57,8 +56,32 @@ Papers that are widely read across the field, from classic theory and observatio
 - Maraschi, Ghisellini & Celotti (1992), [A jet model for the gamma-ray emitting blazar 3C 279](https://doi.org/10.1086/186531), ApJ 397, L5 <span class="annot">Synchrotron self-Compton emission from the jet as the origin of the gamma rays of a blazar.</span>
 - Dermer & Schlickeiser (1993), [Model for the high-energy emission from blazars](https://doi.org/10.1086/173251), ApJ 416, 458 <span class="annot">External Compton emission: jet electrons scatter photons from the accretion disk up to gamma-ray energies.</span>
 - Sikora, Begelman & Rees (1994), [Comptonization of diffuse ambient radiation by a relativistic jet: the source of gamma rays from blazars?](https://doi.org/10.1086/173633), ApJ 421, 153 <span class="annot">The same idea with photons from the broad-line region, now a standard ingredient of blazar models.</span>
-- Fossati et al. (1998), [A unifying view of the spectral energy distributions of blazars](https://doi.org/10.1046/j.1365-8711.1998.01828.x), MNRAS 299, 433 <span class="annot">The blazar sequence: the synchrotron peak moves to lower frequencies as blazars become more luminous.</span>
+- Ghisellini & Tavecchio (2009), [Canonical high-power blazars](https://doi.org/10.1111/j.1365-2966.2009.15007.x), MNRAS 397, 985 <span class="annot">A one-zone leptonic model with all the main external photon fields (disk, corona, broad-line region, dusty torus) written out step by step; a practical starting point for fitting blazar spectra.</span>
 - Böttcher et al. (2013), [Leptonic and hadronic modeling of Fermi-detected blazars](https://doi.org/10.1088/0004-637X/768/1/54), ApJ 768, 54 <span class="annot">Leptonic and hadronic models fitted to the same blazars, and what each requires; useful background for the neutrino question.</span>
+
+**Polarization**
+
+- Zavala & Taylor (2004), [A view through Faraday's fog. II. Parsec-scale rotation measures in 40 active galactic nuclei](https://doi.org/10.1086/422741), ApJ 612, 749 <span class="annot">Multi-frequency VLBA polarimetry of 40 AGN: how Faraday rotation is measured on parsec scales and what it says about the plasma around jets.</span>
+- Lister & Homan (2005), [MOJAVE I. First-epoch 15 GHz linear polarization images](https://doi.org/10.1086/432969), AJ 130, 1389 <span class="annot">Linear polarization of a complete sample of blazar jets at 15 GHz: fractional polarization and magnetic-field orientation in cores and jets.</span>
+- Hovatta et al. (2012), [MOJAVE VIII. Faraday rotation in parsec-scale AGN jets](https://doi.org/10.1088/0004-6256/144/4/105), AJ 144, 105 <span class="annot">Rotation measures for a large MOJAVE sample, including gradients across jets that may trace helical magnetic fields.</span>
+- Blinov et al. (2015), [RoboPol: first season rotations of optical polarization plane in blazars](https://doi.org/10.1093/mnras/stv1723), MNRAS 453, 1669 <span class="annot">Rotations of the optical polarization angle in a monitored sample of blazars, with hints of a link to gamma-ray flares.</span>
+- Event Horizon Telescope Collaboration (2021), [First M87 Event Horizon Telescope results. VII. Polarization of the ring](https://doi.org/10.3847/2041-8213/abe71d), ApJL 910, L12 <span class="annot">The first polarized image of a black hole: ordered magnetic fields in the ring around M87*.</span>
+
+**Variability and multi-wavelength light curves**
+
+- Hovatta et al. (2008), [Long-term radio variability of AGN: flare characteristics](https://doi.org/10.1051/0004-6361:200809806), A&A 485, 51 <span class="annot">Decades of Metsähovi and University of Michigan monitoring: how often radio flares occur, how long they last and how strong they are.</span>
+- Abdo et al. (2010), [Gamma-ray light curves and variability of bright Fermi-detected blazars](https://doi.org/10.1088/0004-637X/722/1/520), ApJ 722, 520 <span class="annot">Gamma-ray variability of the brightest Fermi blazars: power spectra and flare profiles.</span>
+- Richards et al. (2011), [Blazars in the Fermi era: the OVRO 40 m telescope monitoring program](https://doi.org/10.1088/0067-0049/194/2/29), ApJS 194, 29 <span class="annot">Twice-weekly 15 GHz light curves of about 1,500 blazars, and how radio variability relates to gamma-ray detection.</span>
+- Emmanoulopoulos, McHardy & Papadakis (2013), [Generating artificial light curves: revisited and updated](https://doi.org/10.1093/mnras/stt764), MNRAS 433, 907 <span class="annot">How to simulate red-noise light curves with a realistic flux distribution, needed to judge whether a correlation or a periodicity is significant.</span>
+- Max-Moerbeck et al. (2014), [Time correlation between the radio and gamma-ray activity in blazars and the production site of the gamma-ray emission](https://doi.org/10.1093/mnras/stu1749), MNRAS 445, 428 <span class="annot">Radio–gamma-ray cross-correlations done carefully, with significance from simulated light curves, and what the time lags say about where gamma rays are made.</span>
+
+**Very-high-energy gamma rays and rapid variability**
+
+- Aharonian et al. (H.E.S.S. Collaboration, 2006), [Fast variability of tera-electron volt γ rays from the radio galaxy M87](https://doi.org/10.1126/science.1134408), Science 314, 1424 <span class="annot">TeV gamma rays from M87 that vary within days, so the emitting region must be very compact, close to the black hole or in a compact jet feature.</span>
+- Aharonian et al. (H.E.S.S. Collaboration, 2007), [An exceptional very high energy gamma-ray flare of PKS 2155-304](https://doi.org/10.1086/520635), ApJ 664, L71 <span class="annot">TeV flux doubling within minutes in a blazar, which requires very high Doppler factors or emission from regions much smaller than the black hole.</span>
+- Acciari et al. (VERITAS, VLBA 43 GHz M87 Monitoring Team, H.E.S.S. and MAGIC, 2009), [Radio imaging of the very-high-energy γ-ray emission region in the central engine of a radio galaxy](https://doi.org/10.1126/science.1175406), Science 325, 444 <span class="annot">A TeV flare of M87 accompanied by a rise of the radio core in VLBA 43 GHz images, locating the gamma rays near the black hole.</span>
+- Aleksić et al. (MAGIC Collaboration, 2014), [Black hole lightning due to particle acceleration at subhorizon scales](https://doi.org/10.1126/science.1256183), Science 346, 1080 <span class="annot">TeV variability of the radio galaxy IC 310 on minute timescales, shorter than the light-crossing time of its black hole, explained by particle acceleration in a magnetospheric gap.</span>
+- Review: Rieger & Levinson (2018), [Radio galaxies at VHE energies](https://doi.org/10.3390/galaxies6040116), Galaxies 6, 116 <span class="annot">Very-high-energy gamma rays from M87, Centaurus A, NGC 1275 and IC 310: observations, variability and the models proposed for them.</span>
 
 **Imaging black holes**
 
