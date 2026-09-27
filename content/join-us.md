@@ -1,7 +1,7 @@
 ---
 title: Join Us
 layout: page
-banner: [banners/kvn-ulsan.jpg, banners/2-3m-radio-telescope.jpg]
+banner: [banners/join-us-kvn.jpg, banners/join-us-alma.jpg, banners/home.jpg]
 banner_size: medium
 banner_position: center 55%
 ---

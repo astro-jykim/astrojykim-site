@@ -1,9 +1,7 @@
 ---
 title: Before You Apply to Graduate School
 layout: page
-banner: telescope/04-inspection.jpg
-banner_size: medium
-banner_position: center 45%
+banner_size: small
 nav: false
 ---
 
@@ -27,6 +25,13 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 - [Careers in astronomy in Germany and the UK](https://arxiv.org/abs/1404.2610) (Astronomy & Geophysics, 2014). The same question for Germany and the UK — places where getting an academic job is even harder than in Korea, though Korea seems to be following the same trend.
 - **Newer numbers:** [New Astronomy PhDs: What Comes Next](https://www.aip.org/statistics/new-astronomy-phds-what-comes-next) (AIP, 2023) — about two thirds of new US astronomy PhDs take a postdoc first; and [The Evolving Astronomy Job Market: Fall 2025 Update](https://aas.org/posts/news/2026/01/evolving-astronomy-job-market-fall-2025-update) (AAS, 2026) — job advertisements fell year-on-year for the first time since 2020.
 
+### Astronomy in Korea
+
+- [한국 천문학 발전을 위한 중장기 비전: 2026–2035](https://www.kas.org/notice/view.php?idx=9851) (Korean Astronomical Society, 2025). Korea's own "decadal survey": research priorities, facilities and the community for the next ten years — a final report and nine working-group reports (in Korean). Worth reading to see where the field in Korea is heading.
+- [KAS job board](https://www.kas.org/board27/list.php) (Korean Astronomical Society). Faculty and postdoc openings in Korea — a realistic picture of how many positions there are.
+- [Korea Astronomy and Space Science Institute (KASI)](https://www.kasi.re.kr/) and the [Korea AeroSpace Administration (KASA)](https://www.kasa.go.kr/): the national research institute and the space agency, both major employers of astronomers in Korea.
+- [National Research Foundation of Korea (NRF)](https://www.nrf.re.kr/): postdoctoral and early-career grants, e.g. the Sejong Science Fellowship, announced every year.
+
 ### Why (not) to go to graduate school
 
 - [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) (US News). A general article, including the reasons *not* to go.
@@ -44,9 +49,11 @@ Some people work hard for their degree and then need to move to industry to make
 - [Transition from PhD to industry: simple steps from a fellow PhD](https://careerkaizen.com/transition-from-phd-to-industry-10-simple-steps-from-a-fellow-phd/) (Career Kaizen)
 - From astrobites: [Careers beyond the academic horizon](https://astrobites.org/2013/02/18/jobs-for-astronomers-careers-beyond-the-academic-horizon/) (2013), [Leveraging your astronomy degree for data science](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/) (2016), [Bridging astronomy and the space industry](https://astrobites.org/2023/05/15/guest-astro-space-industry/) (2023)
 
-### More
+### Useful links
 
-The AAS keeps many resources of this kind: [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops) (recorded sessions on academic and non-academic careers) and [Employment Statistics](https://aas.org/careers/employment-statistics).
+- American Astronomical Society: [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops) (recorded sessions on academic and non-academic careers), [Employment Statistics](https://aas.org/careers/employment-statistics), [AAS Job Register](https://jobregister.aas.org/)
+- Korean Astronomical Society: [homepage](https://www.kas.org/), [job board](https://www.kas.org/board27/list.php)
+- [AstroBetter](https://www.astrobetter.com/) — tips and tools for astronomers
 
 ## 한국어 {: #korean}
 
@@ -65,6 +72,13 @@ The AAS keeps many resources of this kind: [Career Resources](https://aas.org/ca
 - [Careers in astronomy in Germany and the UK](https://arxiv.org/abs/1404.2610) — 독일·영국 기준 비슷한 글입니다. 학계 취업 난이도로만 보면 한국보다 더 어려운 곳이지만, 한국도 비슷한 추세로 가는 것 같습니다.
 - **최근 수치:** [New Astronomy PhDs: What Comes Next](https://www.aip.org/statistics/new-astronomy-phds-what-comes-next) (AIP, 2023) — 미국 천문학 박사 졸업생의 약 3분의 2가 먼저 박사후연구원으로 갑니다. [The Evolving Astronomy Job Market: Fall 2025 Update](https://aas.org/posts/news/2026/01/evolving-astronomy-job-market-fall-2025-update) (AAS, 2026) — 채용 공고 수가 2020년 이후 처음으로 전년보다 줄었습니다.
 
+### 한국의 천문학
+
+- [한국 천문학 발전을 위한 중장기 비전: 2026–2035](https://www.kas.org/notice/view.php?idx=9851) (한국천문학회, 2025) — 한국판 decadal survey입니다. 앞으로 10년의 연구 우선순위, 시설, 인력 계획을 담은 최종보고서와 9개 워킹그룹 보고서로 되어 있습니다. 한국 천문학계가 어디로 가는지 보려면 꼭 읽어 볼 만합니다.
+- [한국천문학회 채용 게시판](https://www.kas.org/board27/list.php) — 국내 교수·박사후연구원 공고가 올라옵니다. 실제로 자리가 얼마나 나는지 감을 잡는 데 도움이 됩니다.
+- [한국천문연구원(KASI)](https://www.kasi.re.kr/), [우주항공청(KASA)](https://www.kasa.go.kr/) — 국내 천문학자의 주요 연구기관과 우주 전담 기관입니다.
+- [한국연구재단(NRF)](https://www.nrf.re.kr/) — 세종과학펠로우십 등 박사후연구원·신진연구자 지원 사업이 매년 공고됩니다.
+
 ### 대학원에 가야 할 (혹은 가지 말아야 할) 이유
 
 - [Why Go to Graduate School? The Best and Worst Reasons](https://www.usnews.com/education/best-graduate-schools/articles/why-go-to-graduate-school-the-best-and-worst-reasons) — 좀 일반적인 글이지만, 대학원에 가지 "말아야" 할 이유들을 써 놨습니다.
@@ -82,6 +96,8 @@ The AAS keeps many resources of this kind: [Career Resources](https://aas.org/ca
 - [Transition from PhD to industry](https://careerkaizen.com/transition-from-phd-to-industry-10-simple-steps-from-a-fellow-phd/) (Career Kaizen)
 - astrobites: [학계 밖 천문학자의 진로](https://astrobites.org/2013/02/18/jobs-for-astronomers-careers-beyond-the-academic-horizon/) (2013), [천문학 학위와 데이터 사이언스](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/) (2016), [천문학과 우주산업](https://astrobites.org/2023/05/15/guest-astro-space-industry/) (2023)
 
-### 더 보기
+### 유용한 링크
 
-AAS 홈페이지에도 비슷한 자료가 많이 있습니다: [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops), [Employment Statistics](https://aas.org/careers/employment-statistics).
+- 미국천문학회(AAS): [Career Resources](https://aas.org/careers/career-resources), [Career Workshops](https://aas.org/careers/career-workshops), [Employment Statistics](https://aas.org/careers/employment-statistics), [AAS Job Register](https://jobregister.aas.org/)
+- 한국천문학회(KAS): [홈페이지](https://www.kas.org/), [채용 게시판](https://www.kas.org/board27/list.php)
+- [AstroBetter](https://www.astrobetter.com/) — 천문학자를 위한 팁과 도구 모음

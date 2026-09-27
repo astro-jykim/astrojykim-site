@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block main %}
-<div class="prose">{{ content }}</div>
 {% if stats %}
 <section class="pubstats">
+  <p class="metrics-note">Metrics from <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8229-7183" target="_blank" rel="noopener">NASA ADS</a> · refereed papers only · updated weekly</p>
   <div class="nums">
     <div><b>{{ stats.papers }}</b><span>refereed papers</span></div>
     <div><b>{{ "{:,}".format(stats.citations) }}</b><span>citations</span></div>
@@ -11,15 +11,10 @@
     <div><b>{{ stats.first }}</b><span>first-author papers</span></div>
   </div>
   <div class="pubgrid">
-    <div class="pubpanel">
+    <div class="pubpanel wide">
       <h3>Papers per year</h3>
       {{ stats.chart }}
       <div class="legend"><span><i style="background:var(--brand)"></i>first author</span><span><i style="background:var(--accent)"></i>team papers</span><span><i style="background:var(--accent-bright);opacity:.75"></i>large collaborations (&gt;50 authors)</span></div>
-    </div>
-    <div class="pubpanel">
-      <h3>Citations, by year of publication</h3>
-      {{ stats.cite_chart }}
-      <div class="legend"><span>Total citations to the papers published in each year</span></div>
     </div>
     <div class="pubpanel">
       <h3>Most cited</h3>
@@ -27,11 +22,29 @@
     </div>
     <div class="pubpanel">
       <h3>Where we publish</h3>
+      {% if stats.high_impact %}<ul class="hi">{% for j, n, ps in stats.high_impact %}<li><details><summary><strong>{{ j }}</strong> <span class="c">{{ n }}</span></summary><ol>{% for p in ps %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title|striptags }}</a> <span class="c">{{ p.year }}</span></li>{% endfor %}</ol></details></li>{% endfor %}</ul>{% endif %}
       <ul>{% for j, n in stats.journals %}<li>{{ j }} <span class="c">{{ n }}</span></li>{% endfor %}</ul>
     </div>
   </div>
-  <p class="src">From NASA ADS, refereed papers only · updated weekly</p>
 </section>
+{% endif %}
+<div class="prose publinks">{{ content }}</div>
+{% if led and (led.first or led.student) %}
+<section class="led">
+  <h2>Papers led by our group</h2>
+  <p class="sub">First-author papers, and papers led by group members with Jae-Young Kim as corresponding author.</p>
+  {% if led.first %}<h3>First author ({{ led.first|length }})</h3>
+  <ul class="pubs">{% for p in led.first %}
+    <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
+        <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}
+  </ul>{% endif %}
+  {% if led.student %}<h3>Led by students and group members ({{ led.student|length }})</h3>
+  <ul class="pubs">{% for p in led.student %}
+    <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
+        <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}
+  </ul>{% endif %}
+</section>
+<h2 class="section-label" style="margin-top:40px">All refereed papers</h2>
 {% endif %}
 {% if pubs_by_year %}
   {% for year, items in pubs_by_year %}

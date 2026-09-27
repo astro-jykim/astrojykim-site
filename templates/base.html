@@ -30,6 +30,7 @@
 {% block banner %}
 <div class="banner size-{{ page.banner_size or 'medium' }}{% if not banner %} plain{% endif %}"{% if banner %} style="background-image:url('{{ banner }}'){% if page.banner_position %};background-position:{{ page.banner_position }}{% endif %}"{% endif %}>
   <div class="banner-in"><h1>{{ page.title }}</h1></div>
+  {% if banner and banner_credit %}<span class="banner-credit">{{ banner_credit }}</span>{% endif %}
 </div>
 {% endblock %}
 

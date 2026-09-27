@@ -1,10 +1,10 @@
 ---
 title: Jae-Young Kim
 layout: page
-banner: about/profile.jpg
-banner_position: center 42%
 banner_size: small
 ---
+
+![](about/profile.jpg){: .portrait}
 
 Jae-Young Kim  
 Associate Professor  

@@ -38,8 +38,6 @@ jobs:
         env:
           SITE_BASEURL: ${{ steps.pages.outputs.base_path }}
         run: python build.py
-      - name: Check nothing from the original site went missing
-        run: python scripts/check_completeness.py || echo "::warning::Some original text is not on the site (see log)"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

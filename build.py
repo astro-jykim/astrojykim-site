@@ -74,25 +74,17 @@ def find_image(name: str | None) -> Path | None:
 
 
 def placeholder_svg(key: str, label: str) -> str:
-    """A calm radio-map style placeholder that is obviously not a real picture."""
-    h = int(hashlib.sha1(key.encode()).hexdigest(), 16)
-    r = lambda n, m: ((h >> n) & 255) / 255 * m
-    rot, n = -60 + r(0, 120), 4 + int(r(3, 3))
-    cx, cy = 38 + r(5, 24), 40 + r(7, 20)
-    rings = "".join(
-        f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{(14 + r(11, 16)) * k:.1f}" ry="{(8 + r(13, 9)) * k:.1f}" '
-        f'transform="rotate({rot:.0f} {cx:.1f} {cy:.1f})" fill="none" stroke="#d98a1f" '
-        f'stroke-width="{0.7 + k * 0.5:.2f}" opacity="{0.25 + k * 0.5:.2f}"/>'
-        for k in [(n - i) / n for i in range(n)])
-    grid = "".join(f'<line x1="0" y1="{i*12}" x2="100" y2="{i*12}"/>' for i in range(7)) + \
-           "".join(f'<line x1="{i*12}" y1="0" x2="{i*12}" y2="80"/>' for i in range(9))
-    return (f'<span class="ph"><svg viewBox="0 0 100 80" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
-            f'<g stroke="currentColor" stroke-width=".3" opacity=".12">{grid}</g>{rings}'
-            f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="1.5" fill="#d98a1f"/></svg>'
-            f'<span class="slot">{html.escape(label)}</span></span>')
+    """Plain grey box naming the missing file (shown only until the picture is added)."""
+    return (f'<span class="ph ph-plain"><svg viewBox="0 0 100 75" aria-hidden="true"></svg>'
+            f'<span class="slot">picture missing: {html.escape(label)}</span></span>')
 
 
 # --------------------------------------------------------------------------- build context
+
+# Journals always listed first on the Publications page (edit freely)
+HIGH_IMPACT = ["Nature", "Science", "Nature Astronomy", "Nature Physics", "Physical Review Letters",
+               "Science Advances", "Nature Communications"]
+
 
 class Builder:
     def __init__(self, preview: bool):
@@ -291,6 +283,52 @@ class Builder:
             years.setdefault(p.get("year"), []).append({**p, "authors_short": short, "title_html": Markup(title)})
         return sorted(years.items(), key=lambda kv: -(kv[0] or 0))
 
+    def led_papers(self):
+        """First-author papers and papers led by group members with JY Kim as (corresponding) co-author."""
+        pubs = load_yaml("publications.yml", []) or []
+        cfg = load_yaml("publications-led.yml", {}) or {}
+        inc, exc = set(cfg.get("include") or []), set(cfg.get("exclude") or [])
+
+        def is_me(name):
+            n = (name or "").lower()
+            return n.startswith("kim, j") and ("young" in n or "j.-y" in n or "j. -y" in n or "j.y" in n)
+
+        # group members as (surname, full given name, initials): "Seung-Yeon Lee" -> ("lee", "seungyeon", "sy")
+        keys = set()
+        for g in (load_yaml("members.yml", {}) or {}).get("groups", []):
+            for person in g.get("people", []):
+                name = person.get("name", "")
+                parts = name.split()
+                if len(parts) < 2 or name == "Jae-Young Kim":
+                    continue
+                given = " ".join(parts[:-1]).lower()
+                chunks = [c for c in re.split(r"[-\s.]+", given) if c]
+                keys.add((parts[-1].lower(), "".join(chunks), "".join(c[0] for c in chunks)))
+
+        def by_member(name):
+            if "," not in (name or ""):
+                return False
+            last, given = [x.strip().lower() for x in name.split(",", 1)]
+            chunks = [c for c in re.split(r"[-\s.]+", given) if c]
+            full, ini = "".join(chunks), "".join(c[0] for c in chunks)
+            return any(last == l and (full == f or (len(ini) >= 2 and ini == i)) for l, f, i in keys)
+
+        first, student = [], []
+        for p in pubs:
+            a = p.get("authors") or []
+            bib = p.get("bibcode")
+            if bib in exc:
+                continue
+            t = html.escape(p.get("title") or "")
+            item = {**p, "authors_short": (a[0].split(",")[0] + (" et al." if len(a) > 1 else "")) if a else "",
+                    "title_html": Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))}
+            if a and is_me(a[0]):
+                first.append(item)
+            elif bib in inc or (a and by_member(a[0]) and any(is_me(x) for x in a[1:])):
+                student.append(item)
+        key = lambda p: (-(p.get("year") or 0), p.get("title") or "")
+        return {"first": sorted(first, key=key), "student": sorted(student, key=key)}
+
     def pub_stats(self):
         """Numbers, two charts and short lists for the top of the Publications page."""
         pubs = load_yaml("publications.yml", []) or []
@@ -320,7 +358,7 @@ class Builder:
                 cit_year[p["year"]] += p.get("citations") or 0
 
         def chart(values_by_year, stacked, label):
-            w, hgt = 720, 230
+            w, hgt = 1100, 240
             bw = w / len(years)
             top = max((sum(v.values()) if stacked else v) for v in values_by_year.values()) or 1
             out = []
@@ -359,9 +397,10 @@ class Builder:
             "first": sum(v["first"] for v in per.values()),
             "collab": sum(v["collab"] for v in per.values()),
             "chart": chart(per, True, "Refereed papers per year by authorship"),
-            "cite_chart": chart(cit_year, False, "Citations to papers published each year"),
             "top_cited": top_cited,
-            "journals": sorted(journals.items(), key=lambda kv: -kv[1])[:6],
+            "high_impact": [(j, journals[j], [p for p in pubs if (p.get("journal") or "").strip() == j])
+                            for j in HIGH_IMPACT if j in journals],
+            "journals": [kv for kv in sorted(journals.items(), key=lambda kv: -kv[1]) if kv[0] not in HIGH_IMPACT][:6],
         }
 
     def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:
@@ -374,9 +413,10 @@ class Builder:
         if isinstance(banner_name, list):   # first existing file wins
             banner_name = next((n for n in banner_name if find_image(n)), banner_name[-1])
         banner = self.image_src(banner_name) if banner_name else None
+        banner_credit = (self.site.get("banner_credits") or {}).get(banner_name) if banner else None
         logo = self.image_src(self.site.get("logo")) if self.site.get("logo") else None
         ctx = dict(site=self.site, page=fm, content=Markup(self.render_markdown(body)) if body.strip() else "",
-                   banner=banner, logo=logo, href=self.href, asset=self.asset, md_inline=self.md_inline,
+                   banner=banner, banner_credit=banner_credit, logo=logo, href=self.href, asset=self.asset, md_inline=self.md_inline,
                    photo=self.figure(fm["photo"], "") if fm.get("photo") else None)
         if layout in ("home", "highlights"):
             limit = self.site.get("home_highlights", 6) if layout == "home" else None
@@ -389,6 +429,7 @@ class Builder:
             ctx["members"] = load_yaml("members.yml", {})
         if layout == "publications":
             ctx["pubs_by_year"] = self.pubs_by_year()
+            ctx["led"] = self.led_papers()
             ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
         ctx.update(extra or {})
         return tpl.render(**ctx)
@@ -488,7 +529,7 @@ def main():
         print(f"site -> _site/  ({sum(1 for _ in (ROOT/'_site').rglob('index.html'))} pages)")
     if b.missing_images:
         print(f"{len(b.missing_images)} image(s) not added yet (placeholders shown). "
-              f"Run scripts/fetch_images.py, or see IMAGES.md.")
+              f"Run ops/get-images.sh (outside the repo) or add the files.")
 
 
 if __name__ == "__main__":
