@@ -81,9 +81,9 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 ## Grants
 
-- 2022-2027 |  "Observational study of black hole jet launching and gamma-ray radiation mechanisms at event-horizon-scales", 507,880,000 KRW from the National Research Foundation (NRF) of Korea (우수신진연구);
+- 2022-2027 |  "Observational study of black hole jet launching and gamma-ray radiation mechanisms at event-horizon-scales", 507,880,000 KRW from the National Research Foundation (NRF) of Korea (우수신진연구)
 
-- 2022-2024 |  "Astronomical Research using Large Radio Telescopes",  420,000,000 KRW, awarded by the NRF of Korea to a group of astronomers from in total of seven institutes and universities (Chosun Univ., Chungnam Natl Univ., Sejong Univ. (PI inst.), Korea Astronomy and Space Sci. Inst., Kyungpook Natl Univ. (JYKim as representing co-I), Ulsan Natl Inst. of Science and Technology, Yonsei Univ.) (해외대형연구시설활용연구지원사업)
+- 2022-2024 |  "Astronomical Research using Large Radio Telescopes",  420,000,000 KRW, awarded by the NRF of Korea to a group of astronomers from seven institutes and universities (Chosun Univ., Chungnam Natl Univ., Sejong Univ. (PI inst.), Korea Astronomy and Space Sci. Inst., Kyungpook Natl Univ. (JYKim as representing co-I), Ulsan Natl Inst. of Science and Technology, Yonsei Univ.) (해외대형연구시설활용연구지원사업)
 
 - 2022-2023 | "Support for First Innovation Labs", 80,000,000 KRW from the NRF of Korea (우수신진연구 최초혁신실험실 지원)
 

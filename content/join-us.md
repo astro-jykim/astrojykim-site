@@ -59,7 +59,7 @@ We welcome inquiries from researchers working on black holes, relativistic jets,
 <details markdown="1">
 <summary>Do I need a background in astronomy?</summary>
 
-No. Students from physics and astronomy, engineering, computer science, applied mathematics and other quantitative fields are welcome, and the technical skills can be learned in the group. What matters most is curiosity, persistence and a real interest in the astrophysical questions.
+No. Students with a background in engineering, computer science or mathematics are just as welcome as physics and astronomy students. The technical skills are learned in the group; interest in the astrophysical questions is what counts.
 </details>
 
 <details markdown="1">

@@ -36,7 +36,7 @@ For an overview of how black holes launch jets and how these jets look across sc
 
 Directly image the matter and magnetic field distribution around the cosmic black holes on the event horizon scales (down to a few Schwarzschild radii) to understand how the mass inflow and outflow occur under extreme gravity.
 
-We focus on the nearest and best-resolved systems, such as M87, Sgr A*, 3C 84, Centaurus A and 3C 279, using the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space VLBI. The main questions are how the accretion flow and magnetic fields just outside the event horizon connect to the base of the jet, and how both change from year to year. The next steps are the next-generation EHT, expanded Korean millimeter-VLBI facilities, and space-based millimeter VLBI in the 2030s.
+We focus on the nearest and best-resolved systems, such as M87, Sgr A*, 3C 84, Centaurus A and 3C 279, using the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space VLBI. The main questions are how the accretion flow and magnetic fields just outside the event horizon connect to the base of the jet, and how both change from year to year.
 
 <div class="figpair" markdown="1">
 
