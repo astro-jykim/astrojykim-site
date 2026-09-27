@@ -9,22 +9,22 @@ nav: false
 [한국어 버전](#korean)
 {: .langswitch}
 
-Below are articles on graduate school and careers in astronomy. A PhD is the first step of a professional research career, and as in any profession, it helps to know what the work and the job market actually look like before committing several years to it. That is why I have collected a range of information here, from career statistics to personal accounts.
+This page collects articles on graduate school and on careers in astronomy. A PhD is the first step of a research career, and it pays to know what the work and the job market look like before committing several years to it. The list ranges from career statistics to personal accounts.
 
-Students who start with a realistic picture, and not only with a dream, make better decisions along the way: which questions to work on, which skills to build, and when to ask for help or look at other paths. Enthusiasm matters, and a realistic view helps it last.
+Students who start with a realistic picture, not just a dream, make better choices along the way: which problems to work on, which skills to build, and when to ask for help or consider other paths. Enthusiasm matters, and realism helps it last.
 
-I ask every student who plans to join our group to read these articles before applying, and we talk about them once more before the application is submitted, to make sure they have been read and understood. Earning the degree takes a reasonable amount of research and a reasonable number of papers. The harder part comes after graduation: finding a good position and continuing to do good research. It helps to know what that road looks like before starting.
+I ask every student who wants to join our group to read these before applying, and we go over them together before the application goes in. Getting the degree takes a fair amount of research and a few good papers; the hard part comes after graduation, when you need to find a good position and keep doing good research. It helps to know what that road looks like before you start.
 
-Some titles are deliberately provocative, such as reasons *not* to go to graduate school; read them in the same spirit. Most of the articles are about academic careers in general.
+Some titles are provocative on purpose, such as reasons *not* to go to graduate school; they are meant to make you think, not to put you off. Most of the articles are about academic careers in general.
 
 <details class="topic" markdown="1">
 <summary>The academic career and the job market <span class="n">6</span><small class="d">These articles show how many astronomy PhDs are produced, how many jobs there are for them, and what an academic career actually looks like.</small></summary>
 
-- [About Careers in Astronomy](https://aas.org/sites/default/files/2023-05/01-About_Careers_in_Astronomy-Final.pdf) — American Astronomical Society (AAS). The official overview, and a good picture of the field today. It is US-centered and calmly written, but the realities are all there.
-- [So you want to be a professional astronomer!](https://arxiv.org/abs/0805.2624) (arXiv, 2008). Written a while ago, but it describes the job market and career tracks in astronomy well, anywhere in the world. The key message: a permanent job is not easy to get.
-- [Astronomy Career Profiles from the AAS Newsletter Archives](https://arxiv.org/abs/1109.1014) (arXiv, 2011). A collection of older AAS Newsletter articles. Read them all and you will see many different perspectives.
-- [The Production Rate and Employment of Ph.D. Astronomers](https://arxiv.org/abs/0712.2820) (PASP, 2008). How many astronomy PhDs are produced in the US and how many jobs there are for them. The data are old and American, but astronomy in Korea has matured a lot over the past ten years and competition is growing, so Korea seems to be moving in a similar direction.
-- [Careers in astronomy in Germany and the UK](https://arxiv.org/abs/1404.2610) (Astronomy & Geophysics, 2014). The same question for Germany and the UK — places where getting an academic job is even harder than in Korea, though Korea seems to be following the same trend.
+- [About Careers in Astronomy](https://aas.org/sites/default/files/2023-05/01-About_Careers_in_Astronomy-Final.pdf) — American Astronomical Society (AAS). The AAS's own overview, and a good picture of the field today. It is US-centered and written in a measured tone, but it does not hide the realities.
+- [So you want to be a professional astronomer!](https://arxiv.org/abs/0805.2624) (arXiv, 2008). Written some time ago, but still a good description of the job market and career paths in astronomy anywhere in the world. The main message: permanent jobs are hard to get.
+- [Astronomy Career Profiles from the AAS Newsletter Archives](https://arxiv.org/abs/1109.1014) (arXiv, 2011). Older AAS Newsletter articles collected in one place; together they give a wide range of perspectives.
+- [The Production Rate and Employment of Ph.D. Astronomers](https://arxiv.org/abs/0712.2820) (PASP, 2008). How many astronomy PhDs the US produces and how many jobs there are for them. The data are old and American, but Korean astronomy has matured quickly over the past decade, competition is growing, and things seem to be heading the same way.
+- [Careers in astronomy in Germany and the UK](https://arxiv.org/abs/1404.2610) (Astronomy & Geophysics, 2014). The same question for Germany and the UK, where academic jobs are even harder to get than in Korea; Korea seems to be following the same trend.
 - **Newer numbers:** [New Astronomy PhDs: What Comes Next](https://www.aip.org/statistics/new-astronomy-phds-what-comes-next) (AIP, 2023) — about two thirds of new US astronomy PhDs take a postdoc first; and [The Evolving Astronomy Job Market: Fall 2025 Update](https://aas.org/posts/news/2026/01/evolving-astronomy-job-market-fall-2025-update) (AAS, 2026) — job advertisements fell year-on-year for the first time since 2020.
 
 </details>
@@ -32,7 +32,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 <details class="topic" markdown="1">
 <summary>Astronomy in Korea <span class="n">3</span><small class="d">Where astronomy in Korea is heading over the next ten years, and the institutes and agencies that employ astronomers.</small></summary>
 
-- 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (Korean Astronomical Society, 2025; [webpage](https://www.kas.org/notice/view.php?idx=9851), [PDF of the final report](/assets/docs/kas-decadal-survey-2026-2035.pdf)). Korea's own "decadal survey": research priorities, facilities and the community for the next ten years — a final report and nine working-group reports (in Korean). Worth reading to see where the field in Korea is heading.
+- 한국 천문학 발전을 위한 중장기 비전: 2026–2035 (Korean Astronomical Society, 2025; [webpage](https://www.kas.org/notice/view.php?idx=9851), [PDF of the final report](/assets/docs/kas-decadal-survey-2026-2035.pdf)). Korea's own "decadal survey": research priorities, facilities and plans for the community over the next ten years, in a final report and nine working-group reports (in Korean). The best place to see where astronomy in Korea is heading.
 - [Korea Astronomy and Space Science Institute (KASI)](https://www.kasi.re.kr/) and the [Korea AeroSpace Administration (KASA)](https://www.kasa.go.kr/): the national research institute and the space agency, both major employers of astronomers in Korea.
 - [National Research Foundation of Korea (NRF)](https://www.nrf.re.kr/): postdoctoral and early-career grants, e.g. the Sejong Science Fellowship, announced every year.
 
@@ -44,21 +44,21 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 - [Korean Astronomical Society](https://www.kas.org/board27/list.php) — astronomy faculty and postdoc openings in Korea.
 - [Korean Physical Society](https://www.kps.or.kr/content/community/post_list.php?bt=6) — physics faculty and research positions in Korea, including astrophysics.
 - [Korean Space Science Society](https://ksss.or.kr/board/recruitment) — space science and space industry positions.
-- [AAS Job Register](https://aas.org/jobregister) — the main international list of astronomy jobs. It is US-centered, but it shows the size and shape of the job market worldwide.
+- [AAS Job Register](https://aas.org/jobregister) — the main international listing of astronomy jobs. It is US-centered, but it gives a sense of the size and shape of the job market worldwide.
 
 </details>
 
 <details class="topic" markdown="1">
 <summary>Why (not) go to graduate school <span class="n">8</span><small class="d">Frank accounts of what a PhD gives you and what it costs, worth reading before you decide what the degree is for.</small></summary>
 
-- [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, *Dynamics of Cats*, 2012). An astrophysicist's frank view: the science you get to do, and the costs, such as moving every few years and depending on one advisor.
-- [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011). The world produces far more PhDs than academic jobs. Worth reading before you decide what the degree is for.
-- [The Ph.D. Grind](http://pgbovine.net/PhD-memoir-prologue.htm) (Philip Guo, 2012). A free memoir of six years as a PhD student, including a very hard first year. The field is computer science, but the experience is universal.
-- [Why I chose grad school](https://astrobites.org/2011/07/01/why-i-chose-grad-school/) (astrobites, 2011). An astronomy graduate student on seeing the PhD as a job you are free to leave, and on the careers it opens beyond academia.
-- [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might). What a PhD actually adds to human knowledge, in a few pictures.
+- [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, *Dynamics of Cats*, 2012). An astrophysicist's candid take: the science you get to do, and the costs, such as moving every few years and depending on a single advisor.
+- [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011). The world produces far more PhDs than there are academic jobs. Worth reading before you decide what you want the degree for.
+- [The Ph.D. Grind](http://pgbovine.net/PhD-memoir-prologue.htm) (Philip Guo, 2012). A free memoir of six years as a PhD student, including a very hard first year. It is about computer science, but most of it applies to any field.
+- [Why I chose grad school](https://astrobites.org/2011/07/01/why-i-chose-grad-school/) (astrobites, 2011). An astronomy graduate student on treating the PhD as a job you are free to leave, and on the careers it opens outside academia.
+- [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might). What a PhD adds to human knowledge, in a few simple pictures.
 - [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7) (Nature, 2019). A survey of more than 6,000 PhD students: finances, working hours and career uncertainty.
 - ["I don't want this kind of life": graduate students question career options](https://www.nature.com/articles/d41586-022-03586-8) (Nature, 2022). What PhD students themselves say about their prospects.
-- [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025). Graduate school is demanding; it is worth knowing this in advance, and worth asking for help early.
+- [Harsh criticism and unreasonable expectations worsen PhD students' mental health](https://www.nature.com/articles/d41586-024-04187-3) (Nature, 2025). Graduate school can be hard on your mental health. Know this in advance, and ask for help early.
 
 </details>
 
@@ -68,7 +68,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 - [Ten simple rules for aspiring graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009276) (PLOS Computational Biology, 2021).
 - [Ten simple rules for choosing a PhD supervisor](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009330) (PLOS Computational Biology, 2021).
 - [Guide to Graduate School](https://astrobites.org/guides/astrobites-graduate-school-guide/) (astrobites). Choosing a program and an advisor, funding, research, publishing and work–life balance, written by astronomy graduate students. Useful before you apply and again once you are in.
-- [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie). How competitive astronomy admissions are, how to choose where to apply, and why a first round of rejections is common and survivable.
+- [Honest advice for the astronomy grad school application process](https://astrophysics.physics.fsu.edu/documents/currie_grad_school_advice.pdf) (Miles Currie). How competitive astronomy admissions are, how to decide where to apply, and why being rejected in the first round is common and not the end of the road.
 
 </details>
 
@@ -79,7 +79,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool). Some pages are gone, but the wiki still has plenty; click around.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research.
-    The talk is long; four of its points are still fresh today:
+    The talk is long; four points stand out:
     1. Keep asking yourself, explicitly, what the important problems in your field are.
     2. Carry ten to twenty such problems around with you, so that you notice when a new technique or new data suddenly makes one of them solvable.
     3. Aim for a line of research that generalizes, not just a single paper.
@@ -93,7 +93,7 @@ Some titles are deliberately provocative, such as reasons *not* to go to graduat
 <details class="topic" markdown="1">
 <summary>Careers outside academia <span class="n">5</span><small class="d">Many people build good careers outside academia; these articles are about making that move well.</small></summary>
 
-Many people choose careers outside academia after their degree, for all kinds of personal and professional reasons, and research training is valued in many fields. These articles are about making that move well; they apply to graduate study in basic science in general.
+Many people leave academia after the degree, for all kinds of personal and professional reasons, and research training is valued in many fields. These articles are about making that move well, and they apply to any graduate degree in the basic sciences.
 
 - [Beyond academia: planning the perfect exit strategy](https://www.nature.com/articles/d41586-022-00198-0) (Nature, 2022)
 - [How to sail smoothly from academia to industry](https://www.nature.com/articles/d41586-018-03306-1) (Nature, 2018)
