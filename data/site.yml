@@ -45,8 +45,8 @@ redirects:
   /home/: /
 
 # Banner height per page: small | medium | large  (pages can also set banner_size in their front matter)
-banner_sizes: {members: small}
-banner_positions: {members: center 62%}
+banner_sizes: {}
+banner_positions: {members: center 38%}
 
 # Credit line shown in the corner of a banner (required for ESO / NASA / NRAO pictures)
 banner_credits:
@@ -57,6 +57,8 @@ banner_credits:
   banners/highlights.jpg: "The whole sky in gamma rays, seen by Fermi: the bright band is our Galaxy, and many of the dots are distant blazars. Credit: NASA/DOE/Fermi LAT Collaboration"
   banners/vla-night.jpg: "The Very Large Array at night, New Mexico: 27 antennas working as one telescope up to 36 km across. Photo: NRAO/AUI/NSF"
   banners/vla.jpg: "The Karl G. Jansky Very Large Array, New Mexico. Photo: NRAO/AUI/NSF"
+  banners/students-webb.jpg: "Webb's first deep field: thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length. Credit: NASA, ESA, CSA and STScI"
+  banners/resources-correlator.jpg: "The ALMA correlator, the supercomputer that combines the signals of the ALMA antennas into images, 5,000 m up in the Andes. Photo: ESO"
   banners/members-meerkat.jpg: "MeerKAT in the Karoo, South Africa: 64 dishes that will become part of SKA-Mid. Photo: South African Radio Astronomy Observatory (SARAO)"
   banners/join-us-alma.jpg: "The Milky Way over ALMA on the Chajnantor plateau, 5,000 m up in the Chilean Andes. Photo: P. Horálek/ESO"
   banners/join-us-kvn.jpg: "KVN Ulsan, ten minutes by car from UNIST. Photo: KASI"

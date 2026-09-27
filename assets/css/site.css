@@ -560,3 +560,8 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 .prose .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
 .prose .table-wrap table { margin: 0; }
 .prose a { overflow-wrap: anywhere; }
+
+/* Pages without a banner: title on the page itself */
+.page-head { max-width: var(--maxw); margin: 0 auto; padding: 36px 16px 0; }
+.page-head + main { padding-top: 24px; }
+.page-head h1 { margin: 0; font-size: clamp(28px, 4vw, 40px); color: var(--ink); border-bottom: 2px solid var(--accent-bright); padding-bottom: 12px; }

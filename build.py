@@ -440,6 +440,8 @@ class Builder:
         fm.setdefault("banner_position", (self.site.get("banner_positions") or {}).get(fm["slug"]))
         tpl = self.env.get_template(f"{layout}.html")
         banner_name = fm.get("banner") or (self.site.get("banners") or {}).get(fm["slug"])
+        if banner_name == "none":            # "banner: none" -> no banner band, just the page title
+            banner_name = None
         if isinstance(banner_name, list):   # first existing file wins
             banner_name = next((n for n in banner_name if find_image(n)), banner_name[-1])
         banner = self.image_src(banner_name) if banner_name else None

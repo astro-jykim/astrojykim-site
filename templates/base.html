@@ -46,10 +46,14 @@
 {% if site.construction %}<div class="construction"><div class="in">{{ md_inline(site.construction) }}</div></div>{% endif %}
 
 {% block banner %}
+{% if page.banner == 'none' %}
+<div class="page-head"><h1>{{ page.title }}</h1></div>
+{% else %}
 <div class="banner size-{{ page.banner_size or 'medium' }}{% if not banner %} plain{% endif %}"{% if banner %} style="background-image:url('{{ banner }}'){% if page.banner_position %};background-position:{{ page.banner_position }}{% endif %}"{% endif %}>
   <div class="banner-in"><h1>{{ page.title }}</h1></div>
   {% if banner and banner_credit %}<span class="banner-credit">{{ banner_credit }}</span>{% endif %}
 </div>
+{% endif %}
 {% endblock %}
 
 <main id="main">

@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: page
-banner_size: small
+banner: none
 ---
 
 <div class="contact-grid" markdown="1">

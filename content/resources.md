@@ -1,7 +1,8 @@
 ---
 title: Resources
 layout: page
-banner_size: small
+banner: banners/resources-correlator.jpg
+banner_position: center 55%
 ---
 
 Reading, data and tools that we use every day — collected for students in the group and for anyone starting in radio astronomy and black hole astrophysics.

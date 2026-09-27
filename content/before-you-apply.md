@@ -1,7 +1,8 @@
 ---
 title: Before You Apply to Graduate School
 layout: page
-banner_size: small
+banner: banners/students-webb.jpg
+banner_position: center 40%
 nav: false
 ---
 
