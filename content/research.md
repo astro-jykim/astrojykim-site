@@ -69,6 +69,8 @@ Square Kilometre Array (SKA)
 
 ## Active galaxies and supermassive black holes
 
+![The giant elliptical galaxy M87 and the 3,000-light-year-long jet launched by its central black hole. Credit: NASA, ESA, A. Lessing, E. Baltz (Stanford), M. Shara (AMNH), J. DePasquale (STScI)](research/m87-hubble.jpg){: .side}
+
 Like normal galaxies, active galaxies are systems of stars, gases, and dust clouds bound to each other by self-gravitation. However, their nuclei contain "active" supermassive black holes that absorb gas from the surroundings and convert the gas's gravitational energy into intense radiation and (sometimes relativistic) outflows. We study the physics of active galactic nuclei (AGNs) and supermassive black holes with the following particular approaches:
 
 For an overview of how black holes launch jets and how these jets look across scales, Figure 1 of the review by [Blandford, Meier & Readhead (2019, ARA&A 57, 467)](https://doi.org/10.1146/annurev-astro-081817-051948) is a good place to start.

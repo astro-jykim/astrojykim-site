@@ -108,7 +108,7 @@ Every graduate student receives full tuition support and the UNIST monthly stipe
 </details>
 
 <details markdown="1">
-<summary>Is English a problem?</summary>
+<summary>Which language do we use?</summary>
 
 Courses at UNIST and our international collaborations are in English, so you will read, write and present in English every day. It improves quickly with practice.
 </details>
