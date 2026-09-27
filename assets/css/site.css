@@ -881,3 +881,18 @@ details.numdefs { border-bottom: 0; }
 .prose p + details.topic { margin-top: 1em; }
 @media (min-width: 761px) and (max-width: 900px) { nav.tabs { gap: 0 11px; } nav.tabs a { font-size: 13px; } }
 @media (min-width: 761px) and (max-width: 810px) { nav.tabs { gap: 0 8px; } nav.tabs a { font-size: 12.5px; } }
+
+/* Menu item with a small sub-menu (e.g. Resources → 2.3m Radio Telescope) */
+nav.tabs .has-sub { position: relative; display: inline-flex; }
+nav.tabs .has-sub > a::after { content: "▾"; font-size: 10px; margin-left: 4px; color: var(--ink-3); }
+nav.tabs .sub { display: none; position: absolute; top: 100%; left: -12px; z-index: 40; min-width: 210px;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: 0 6px 18px rgba(0,0,0,.08); padding: 6px 0; }
+nav.tabs .sub a { display: block; padding: 8px 12px; border: 0; white-space: nowrap; font-size: 14px; color: var(--ink-2); }
+nav.tabs .sub a:hover, nav.tabs .sub a.on { color: var(--accent); background: var(--surface-2); text-decoration: none; }
+nav.tabs .has-sub:hover .sub, nav.tabs .has-sub:focus-within .sub { display: block; }
+@media (max-width: 760px) {
+  nav.tabs .has-sub, nav.tabs .sub, .masthead.nav-open nav.tabs .has-sub, .masthead.nav-open nav.tabs .sub { display: contents; }
+  nav.tabs .has-sub > a::after { content: none; }
+  .masthead.nav-open nav.tabs .sub a { padding: 10px 10px; font-size: 15px; white-space: normal; background: none; border-left: 3px solid transparent; }
+  .masthead.nav-open nav.tabs .sub a.on { border-left-color: var(--accent); background: var(--accent-soft); }
+}

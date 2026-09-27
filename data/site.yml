@@ -18,7 +18,7 @@ analytics:
 # Header logo (put the file in assets/img/site/). If the file is missing, a drawn mark is used.
 logo: site/logo.png
 
-# Top navigation, in order. Pages left out (e.g. /positions-2027/) still work; they are reached from links on other pages.
+# Top navigation, in order. An item can have "children": a small menu that opens under it. Pages left out (e.g. /positions-2027/) still work; they are reached from links on other pages.
 nav:
   - {title: Home, url: /}
   - {title: Research, url: /research/}
@@ -28,9 +28,8 @@ nav:
   - {title: Jae-Young Kim, url: /jae-young-kim/}
   - {title: Join Us, url: /join-us/}
   - {title: For Students, url: /before-you-apply/}
-  - {title: Resources, url: /resources/}
+  - {title: Resources, url: /resources/, children: [{title: 2.3m Radio Telescope, short: 2.3m Telescope, url: /2-3m-radio-telescope/}]}
   - {title: Contact, url: /contact/}
-  - {title: 2.3m Telescope, url: /2-3m-radio-telescope/}
 
 # Banner images per page (files in assets/img/banners/). Missing files fall back to a plain band.
 banners:

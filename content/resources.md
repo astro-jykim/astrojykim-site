@@ -297,3 +297,5 @@ Papers that are widely read across the field, from classic theory and observatio
 - [General Coordinates Network (GCN)](https://gcn.nasa.gov/): real-time alerts, including IceCube neutrinos
 
 For graduate school and careers, see [For Students](/before-you-apply/).
+
+The manuals, memos and pictures of the 2.3m radio telescope at Kyungpook National University are on the [2.3m radio telescope](/2-3m-radio-telescope/) page.

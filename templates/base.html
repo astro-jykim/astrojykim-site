@@ -36,12 +36,12 @@
         {% endif %}
         <span class="brand-name">{{ site.title }}</span>
       </a>
-      {% set cur = site.nav | selectattr("url", "equalto", page.url) | list %}
-      <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="sitenav"><span>{{ cur[0].title if cur else "Menu" }}</span><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+      {% set cur = [] %}{% for item in site.nav %}{% if item.url == page.url %}{% set _ = cur.append(item) %}{% endif %}{% for k in item.children or [] %}{% if k.url == page.url %}{% set _ = cur.append(k) %}{% endif %}{% endfor %}{% endfor %}
+      <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="sitenav"><span>{{ (cur[0].short or cur[0].title) if cur else "Menu" }}</span><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
       <button class="themebtn" id="themebtn" type="button" aria-label="Switch light or dark theme">THEME</button>
     </div>
     <nav class="tabs" id="sitenav" aria-label="Site">
-      {% for item in site.nav %}<a href="{{ href(item.url) }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+      {% for item in site.nav %}{% set kids = item.children or [] %}{% set here = item.url == page.url or (kids | selectattr("url", "equalto", page.url) | list) %}{% if kids %}<span class="has-sub"><a href="{{ href(item.url) }}"{% if here %} aria-current="page"{% endif %}>{{ item.title }}</a><span class="sub">{% for k in kids %}<a href="{{ href(k.url) }}"{% if k.url == page.url %} class="on"{% endif %}>{{ k.title }}</a>{% endfor %}</span></span>{% else %}<a href="{{ href(item.url) }}"{% if here %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endif %}{% endfor %}
     </nav>
   </div>
 </header>
