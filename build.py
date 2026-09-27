@@ -226,16 +226,17 @@ class Builder:
             if not (isinstance(first, str) and " | " in first):
                 continue
             when, rest = first.split(" | ", 1)
-            if len(when.strip()) > 24:
+            labelled = not re.search(r"\d", when)      # "Science cases | ..." -> label above the text
+            if len(when.strip()) > (80 if labelled else 24):
                 continue
             first.replace_with(rest.lstrip())
             span_t = soup.new_tag("span")
             for c in list(target.contents):
                 span_t.append(c.extract())
-            span_w = soup.new_tag("span", attrs={"class": "when"})
+            span_w = soup.new_tag("span", attrs={"class": "label" if labelled else "when"})
             span_w.string = when.strip()
             li.clear()
-            li["class"] = li.get("class", []) + ["row"]
+            li["class"] = li.get("class", []) + ["labelled" if labelled else "row"]
             li.append(span_w)
             li.append(span_t)
 
@@ -407,8 +408,11 @@ class Builder:
             t = html.escape(t or "")
             return Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))
 
+        # Most cited among the papers led by the group (first / corresponding author):
+        # the overall list would always be the EHT collaboration papers.
+        led = [p for p in pubs if p.get("bibcode") in led_bibs]
         top_cited = [{**p, "title_html": title_html(p.get("title"))}
-                     for p in sorted(pubs, key=lambda p: -(p.get("citations") or 0))[:5]]
+                     for p in sorted(led, key=lambda p: -(p.get("citations") or 0))[:5]]
         journals = {}
         for p in pubs:
             j = (p.get("journal") or "").strip()
@@ -422,7 +426,9 @@ class Builder:
             "collab": sum(v["collab"] for v in per.values()),
             "chart": chart(per, True, "Refereed papers per year by authorship"),
             "top_cited": top_cited,
-            "journals": sorted(journals.items(), key=lambda kv: (-kv[1], kv[0])),
+            # journals listed in site.yml "journals_last" go to the end of the list
+            "journals": sorted(journals.items(), key=lambda kv: (
+                kv[0] in (self.site.get("journals_last") or []), -kv[1], kv[0])),
         }
 
     def render_page(self, fm: dict, body: str, extra: dict | None = None) -> str:

@@ -20,6 +20,13 @@ Students from physics and astronomy, as well as engineering, computer science, a
 - **Korea's next facilities.** Korea is expanding its millimeter-VLBI facilities and its role in the next-generation EHT, space-based millimeter VLBI and the SKA. Students trained now can take leading roles as these projects start.
 - **A good place to work.** Full financial support for graduate students (below), strong research and computing resources, teaching in English, and a modern campus set amid beautiful natural surroundings.
 
+## How we work
+
+- **Mission- and outcome-driven.** There are no fixed working hours; what matters is clear goals and good results. Work–life balance is important to us, and a sustainable pace is part of doing good research.
+- **Weekly group meeting**, where everyone shares progress and problems — plus one-to-one discussions whenever needed.
+- **Intensive weekly meetings when a paper is being finished**, so that drafts move quickly from analysis to submission.
+- **In-depth individual interviews at the end of each semester and each vacation**, to look back at progress and plan the next steps — research, skills and career.
+
 ## Graduate Students
 
 MSc, MSc–PhD integrated and PhD projects are available depending on ongoing projects and funding. Please contact the professor to discuss research topics and suitable programs.
@@ -43,12 +50,5 @@ We welcome inquiries from researchers working on black holes, relativistic jets,
 - **Sejong Science Fellowship** (세종과학펠로우십) of the Ministry of Science and ICT, through the NRF — independent early-career funding for up to five years.
 - **Post-doctoral fellowships of the Ministry of Education** (학문후속세대지원, 박사후국내연수), through the NRF — for one to three years after the PhD.
 - **Project-funded positions** in the group, advertised whenever our grants allow, and calls from partner institutes such as KASI that open during the year.
-
-## How we work
-
-- **Mission- and outcome-driven.** There are no fixed working hours; what matters is clear goals and good results. Work–life balance is important to us, and a sustainable pace is part of doing good research.
-- **Weekly group meeting**, where everyone shares progress and problems — plus one-to-one discussions whenever needed.
-- **Intensive weekly meetings when a paper is being finished**, so that drafts move quickly from analysis to submission.
-- **In-depth individual interviews at the end of each semester and each vacation**, to look back at progress and plan the next steps — research, skills and career.
 
 For students considering graduate school, see also [For Students](/before-you-apply/).

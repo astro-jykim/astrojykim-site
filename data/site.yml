@@ -35,7 +35,7 @@ nav:
 # Banner images per page (files in assets/img/banners/). Missing files fall back to a plain band.
 banners:
   highlights: banners/highlights.jpg
-  members: [banners/members-apex.jpg]
+  members: [banners/members-meerkat.jpg]
 
 # How many highlights to show on the home page.
 home_highlights: 6
@@ -46,7 +46,7 @@ redirects:
 
 # Banner height per page: small | medium | large  (pages can also set banner_size in their front matter)
 banner_sizes: {members: small}
-banner_positions: {members: center 40%}
+banner_positions: {members: center 62%}
 
 # Credit line shown in the corner of a banner (required for ESO / NASA / NRAO pictures)
 banner_credits:
@@ -57,8 +57,11 @@ banner_credits:
   banners/highlights.jpg: "The whole sky in gamma rays, seen by Fermi: the bright band is our Galaxy, and many of the dots are distant blazars. Credit: NASA/DOE/Fermi LAT Collaboration"
   banners/vla-night.jpg: "The Very Large Array at night, New Mexico: 27 antennas working as one telescope up to 36 km across. Photo: NRAO/AUI/NSF"
   banners/vla.jpg: "The Karl G. Jansky Very Large Array, New Mexico. Photo: NRAO/AUI/NSF"
-  banners/members-apex.jpg: "APEX under the Milky Way on the Chajnantor plateau, Chile — one of the telescopes of the Event Horizon Telescope. Photo: ESO/B. Tafreshi (twanight.org)"
+  banners/members-meerkat.jpg: "MeerKAT in the Karoo, South Africa: 64 dishes that will become part of SKA-Mid. Photo: South African Radio Astronomy Observatory (SARAO)"
   banners/join-us-alma.jpg: "The Milky Way over ALMA on the Chajnantor plateau, 5,000 m up in the Chilean Andes. Photo: P. Horálek/ESO"
   banners/join-us-kvn.jpg: "KVN Ulsan, ten minutes by car from UNIST. Photo: KASI"
   banners/m87-jet-art.jpg: "The jet of M87 and the ring around its black hole (artist's impression), first seen together in 2023. Credit: S. Dagnello (NRAO/AUI/NSF)"
   banners/2-3m-radio-telescope.jpg: "The 2.3 m radio telescope at Kyungpook National University (2023)."
+
+# Publications page: journals moved to the end of "Where we publish" (e.g. MDPI journals).
+journals_last: [Galaxies, Universe]

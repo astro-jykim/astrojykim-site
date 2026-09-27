@@ -8,7 +8,7 @@ nav: false
 [한국어 버전](#korean)
 {: .langswitch}
 
-This page collects articles on graduate school and careers in astronomy.
+This page presents articles on graduate school and careers in astronomy.
 
 Why share them? Not to discourage anyone. A PhD is the first step of a professional research career, and — as in any profession — it is worth knowing what the work and the job market actually look like before committing several years to it. Students who start with a realistic picture, rather than with a dream alone, make better decisions along the way: which questions to work on, which skills to build, and when to ask for help or look at other paths. The enthusiasm matters; a realistic view is what makes it last.
 
@@ -56,6 +56,14 @@ Browsing the openings for a while is the most direct way to see how many positio
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool). Some pages have disappeared, but the wiki as a whole still has plenty. Click around.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research.
+    The talk is long; four points still read as fresh today:
+    1. Keep asking yourself, explicitly, what the important problems in your field are.
+    2. Carry ten to twenty such problems around with you, so that you notice when a new technique or new data suddenly makes one of them solvable.
+    3. Aim for a line of research that generalises, not just a single paper.
+    4. Check regularly whether what you actually do each week matches what you say is important.
+
+**Hamming's hardest question.** He noticed, looking back at his week on Fridays, that he kept saying the important work lay in one direction while spending his time in another. His advice: change one of the two — either your goal, or what you actually do.
+{: .note}
 
 ### Careers outside academia
 
@@ -122,6 +130,14 @@ Many people choose careers outside academia after their degree, for all kinds of
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool) — 일부 자료는 없어졌지만 wiki 전체로 보면 여러 자료가 있으니 이것저것 눌러 보세요.
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986) — 중요한 연구를 하는 사람들은 무엇이 다른지에 대한 고전적인 강연입니다.
+    글이 길지만, 지금 연구자 입장에서도 살아 있는 부분은 네 가지입니다.
+    1. 내 분야에서 중요한 문제가 무엇인지 계속 명시적으로 생각할 것
+    2. 평소 10–20개의 문제를 들고 다니면서, 새로운 기법이나 데이터가 나오면 연결해 볼 것
+    3. 논문 한 편이 아니라 일반화할 수 있는 연구 프로그램을 만들 것
+    4. 지금 실제로 하는 일과 내가 중요하다고 말하는 일이 일치하는지 주기적으로 확인할 것
+
+**Hamming의 가장 매서운 질문.** 그는 금요일마다 한 주를 돌아보다가, 중요한 것은 저쪽이라고 말하면서 실제로는 전혀 다른 방향으로 한 주를 보내고 있었다는 것을 깨달았다고 합니다. 그래서 둘 중 하나를 바꾸라고 합니다. 목표를 바꾸든, 실제로 하는 일을 바꾸든.
+{: .note}
 
 ### 학계 밖의 커리어
 
