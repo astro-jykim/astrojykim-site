@@ -13,7 +13,7 @@ description: "Jae-Young Kim's research group at UNIST, Korea: black holes and re
 # Visitor statistics. Paste the Google Analytics 4 "Measurement ID" (looks like G-XXXXXXXXXX)
 # between the quotes; leave it empty to switch analytics off.
 analytics:
-  ga4: ""
+  ga4: "G-HS2MD5S2XR"
 
 # Header logo (put the file in assets/img/site/). If the file is missing, a drawn mark is used.
 logo: site/logo.png
