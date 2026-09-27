@@ -30,8 +30,8 @@
 - id: kvn
   name: Korean VLBI Network (KVN)
   url: https://radio.kasi.re.kr/kvn/main_kvn.php
-  image: [facilities/kvn.jpg]
-  credit: "Photo: KASI"
+  image: [facilities/kvn-tamna.jpg]
+  credit: "KVN Tamna, Jeju. Photo: KASI"
   text: Four 21-m telescopes of KASI in Seoul, Ulsan, Jeju and Pyeongchang, observing at 22, 43, 86 and 129 GHz at once.
   role: Multi-frequency polarimetry and monitoring of AGN jets, also within KaVA and EAVN.
 
@@ -70,7 +70,7 @@
 - id: fermi
   name: Fermi Gamma-ray Space Telescope
   url: https://fermi.gsfc.nasa.gov/
-  image: [facilities/fermi.jpg]
-  credit: "Image: NASA"
+  image: [facilities/fermi-orbit.jpg]
+  credit: "Fermi above Earth (illustration). Credit: NASA's Goddard Space Flight Center/Chris Smith (USRA/GESTAR)"
   text: NASA's gamma-ray observatory; its Large Area Telescope scans the whole sky every three hours.
   role: Gamma-ray light curves of flaring blazars, compared with our radio and VLBI monitoring.

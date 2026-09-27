@@ -524,16 +524,16 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 .prose .note { font-size: 14.5px; color: var(--ink-2); border-left: 3px solid var(--accent-bright); padding: 2px 0 2px 14px; }
 .prose .methods { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 1.2em 0 1.6em; }
 .prose .method { border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 6px; padding: 12px 16px; background: var(--surface, transparent); }
-.prose .method h4 { margin: 0 0 6px; font-size: 15px; color: var(--brand-ink, var(--ink)); }
-.prose .method p { margin: 0; font-size: 14.5px; color: var(--ink-2); }
-@media (max-width: 720px) { .prose .methods { grid-template-columns: 1fr; } }
+.prose .method h4 { margin: 0 0 6px; font-size: 15px; color: var(--ink); }
+.prose .method p { margin: 0; font-size: 14px; color: var(--ink-2); text-align: left; hyphens: auto; }
 
-/* Publications: "In context" panel */
-.pubpanel.context table.ctx { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 4px 0 12px; }
-.pubpanel.context .ctx th, .pubpanel.context .ctx td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
-.pubpanel.context .ctx th { font-weight: 600; color: var(--ink-2); font-size: 13.5px; }
-.pubpanel.context .ctx td:not(:first-child) { font-size: 20px; font-weight: 600; color: var(--accent); }
-.pubpanel.context small { color: var(--ink-3); font-weight: 400; font-size: 12.5px; }
-.pubpanel.context p { font-size: 14px; color: var(--ink-2); margin: 0 0 6px; }
-.pubpanel.context .caveat { color: var(--ink-3); font-size: 13px; }
-.prose .method p { text-align: left; hyphens: auto; }
+@media (max-width: 560px) { .prose .methods { grid-template-columns: 1fr; } }
+
+/* Publications: "What the numbers mean" panel */
+.pubpanel.context .defs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 28px; margin: 4px 0 0; }
+.pubpanel.context .defs dt { font-weight: 600; font-size: 14px; color: var(--ink); }
+.pubpanel.context .defs dd { margin: 2px 0 0; font-size: 13.5px; color: var(--ink-2); line-height: 1.5; }
+@media (max-width: 720px) { .pubpanel.context .defs { grid-template-columns: 1fr; } }
+
+/* Banner captions: short description + credit */
+.banner-credit { max-width: min(560px, 70%); text-align: right; line-height: 1.35; }

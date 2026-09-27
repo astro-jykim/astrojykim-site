@@ -15,7 +15,7 @@ Students from physics and astronomy, as well as engineering, computer science, a
 
 ## Why UNIST
 
-- **A radio telescope next door.** The [KVN Ulsan Radio Observatory](https://www.kasi.re.kr/eng/pageView/255), one of the 21-m telescopes of the Korean VLBI Network, is in the same city, about half an hour from campus. Students can go to the telescope, take part in observations, and learn how a VLBI station works — receivers, recording, calibration — instead of only receiving data files.
+- **A radio telescope next door.** The [KVN Ulsan Radio Observatory](https://www.kasi.re.kr/eng/pageView/255), one of the 21-m telescopes of the Korean VLBI Network, is only ten minutes by car from campus. Students can go to the telescope, take part in observations, and learn how a VLBI station works — receivers, recording, calibration — instead of only receiving data files.
 - **Inside international projects.** Our work is part of the Event Horizon Telescope, the GMVA, KVN / KaVA / EAVN and SKA-related activities. Students join collaboration meetings and working groups, write observing proposals, and contribute to collaboration papers alongside their own first-author work.
 - **Korea's next facilities.** Korea is expanding its millimeter-VLBI facilities and its role in the next-generation EHT, space-based millimeter VLBI and the SKA. Students trained now can take leading roles as these projects start.
 - **A good place to work.** Full financial support for graduate students (below), strong research and computing resources, teaching in English, and a modern campus set amid beautiful natural surroundings.

@@ -113,11 +113,15 @@ Therefore, we conduct active collaborative research with many international and 
 
 ### Methods
 
-![Key concepts in interferometry — the technique behind the Event Horizon Telescope: telescopes far apart are combined into one virtual telescope as large as the distance between them (click to enlarge). Credit: NRAO/AUI/NSF; S. Dagnello](research/interferometry.jpg){: .side}
+![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network — ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .side}
 
-Most of what we do starts from interferometric data: the signals of many telescopes are recorded, correlated and turned into images. We work through the whole chain — from calibration to physical interpretation — and develop our own tools where needed.
+Our work starts at the telescope. We write observing proposals, observe, and record the signals, then correlate, calibrate and image the data before interpreting them physically — and we develop our own tools where needed. Students take part in every step, from the observing run to the paper.
 
 <div class="methods" markdown="1">
+<div class="method" markdown="1">
+#### Observing and recording
+Proposals and scheduling, observing at the telescopes, and recording wide-band data for correlation.
+</div>
 <div class="method" markdown="1">
 #### VLBI calibration and imaging
 Fringe fitting, self-calibration, CLEAN and regularized maximum-likelihood imaging, tested on synthetic data.
@@ -141,6 +145,10 @@ Source finding and classification in large radio surveys.
 <div class="method" markdown="1">
 #### Simulations for future arrays
 Synthetic observations for the next-generation EHT, expanded KVN and space millimeter VLBI, compared with GRMHD models.
+</div>
+<div class="method" markdown="1">
+#### Physical interpretation
+Comparing images, spectra and light curves with models of accretion flows, jets and particle acceleration.
 </div>
 </div>
 

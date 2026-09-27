@@ -414,21 +414,7 @@ class Builder:
             j = (p.get("journal") or "").strip()
             if j:
                 journals[j] = journals.get(j, 0) + 1
-        def hindex(cs):
-            cs = sorted(cs, reverse=True)
-            return sum(1 for i, c in enumerate(cs, 1) if c >= i)
-
-        # Context numbers: m-index (Hirsch 2005) = h / years since the first paper,
-        # with and without large-collaboration papers (>50 authors).
-        small = [p.get("citations") or 0 for p in pubs if kind(p) != "collab"]
-        h_small = hindex(small)
-        this_year = datetime.date.today().year
-        career = max(1, this_year - years[0] + 1)
-        high_profile = {"nature", "nature astronomy", "science", "physical review letters"}
         return {
-            "h_small": h_small, "n_small": len(small), "first_year": years[0], "career": career,
-            "m": round(h / career, 1), "m_small": round(h_small / career, 1),
-            "high_profile": sum(1 for p in pubs if (p.get("journal") or "").strip().lower() in high_profile),
             "papers": len(pubs), "citations": sum(cites), "h": h, "i10": i10,
             "first": sum(v["first"] for v in per.values()),
             "recent": sum(1 for p in pubs if (p.get("year") or 0) >= years[-1] - 4),
