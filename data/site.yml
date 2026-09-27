@@ -28,7 +28,11 @@ nav:
   - {title: Jae-Young Kim, url: /jae-young-kim/}
   - {title: Join Us, url: /join-us/}
   - {title: For Students, url: /before-you-apply/}
-  - {title: Resources, url: /resources/, children: [{title: 2.3m Radio Telescope, short: 2.3m Telescope, url: /2-3m-radio-telescope/}]}
+  - title: Resources
+    url: /resources/
+    children:
+      - {title: General resources, note: "Reading list, textbooks, schools and data archives", url: /resources/}
+      - {title: 2.3m Radio Telescope, short: 2.3m Telescope, note: "Manuals, memos and pictures of the KNU 2.3m telescope", url: /2-3m-radio-telescope/}
   - {title: Contact, url: /contact/}
 
 # Banner images per page (files in assets/img/banners/). Missing files fall back to a plain band.
