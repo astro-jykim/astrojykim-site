@@ -26,7 +26,7 @@ Like normal galaxies, active galaxies are systems of stars, gases, and dust clou
 For an overview of how black holes launch jets and how these jets look across scales, Figure 1 of the review by [Blandford, Meier & Readhead (2019, ARA&A 57, 467)](https://doi.org/10.1146/annurev-astro-081817-051948) is a good place to start.
 {: .note}
 
-![One black hole at every scale. In 2017, telescopes across the spectrum observed M87 together with the EHT: the panels zoom from the whole galaxy and its jet (gamma rays, X-rays, optical, radio) down to the ring around the black hole. Credit: EHT Multi-wavelength Science Working Group; EHT Collaboration; ALMA (ESO/NAOJ/NRAO); EVN; EAVN Collaboration; VLBA (NRAO); GMVA; Hubble Space Telescope; Neil Gehrels Swift Observatory; Chandra X-ray Observatory; NuSTAR; Fermi-LAT Collaboration; H.E.S.S., MAGIC and VERITAS Collaborations; NASA and ESA](research/m87-multiscale.jpg){: .wide}
+![One black hole at every scale. In 2017, telescopes across the spectrum observed M87 together with the EHT. At each wavelength, from radio (left) to gamma rays (right), the images zoom from the galaxy and its jet down to the smallest scales, ending with the ring around the black hole seen by the EHT. Credit: EHT Multi-wavelength Science Working Group; EHT Collaboration; ALMA (ESO/NAOJ/NRAO); EVN; EAVN Collaboration; VLBA (NRAO); GMVA; Hubble Space Telescope; Neil Gehrels Swift Observatory; Chandra X-ray Observatory; NuSTAR; Fermi-LAT Collaboration; H.E.S.S., MAGIC and VERITAS Collaborations; NASA and ESA](research/m87-multiscale-wide.jpg){: .wide}
 
 <!-- PROGRAMS: the three sections below are meant to be updated as the research evolves.
      Each program starts with the original description; the second paragraph and the
