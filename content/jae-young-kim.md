@@ -121,7 +121,7 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 ## Invited talks
 
-Selected invited talks, colloquia and seminars. The talk at the 15th European VLBI Network Symposium (2020) was cancelled because of COVID-19.
+Selected invited talks, colloquia and seminars.
 
 - Jan 2026 | *Search for binary supermassive black holes by radio astronomical observations*, 2026 KGWG General Assembly, Ulsan, Korea
 
@@ -158,6 +158,8 @@ Selected invited talks, colloquia and seminars. The talk at the 15th European VL
 - Dec 2022 | *EHT observations of M87, Sgr A* and blazar jets*, IAU Symposium 375: The Multimessenger Chakra of Blazar Jets, Kathmandu, Nepal
 
 - Jul 2022 | *EHT observations of the archetypal blazar 3C 279 at 20 microarcsecond resolution*, European Astronomical Society Annual Meeting 2022, Valencia, Spain
+
+- 2020 | 15th European VLBI Network Symposium, Cork, Ireland (invited; the meeting was cancelled because of COVID-19)
 
 - Feb 2020 | *EHT observations of the archetypal blazar 3C 279 at 20 microarcsecond resolution*, Special Colloquium, Metsähovi Radio Observatory, Aalto University, Finland
 
