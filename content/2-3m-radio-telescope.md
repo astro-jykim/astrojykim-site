@@ -42,7 +42,7 @@ Below you see the manuals provided by Radio2Space to use the 2.3m radio telescop
 
 ## Pictures
 
-Below are some pictures from when the telescope was assembled and installed in our department with the help of [Metaspace](http://metaspace.co.kr/wp/?lang=en), and during recent test works.
+Below are some pictures from when the telescope was assembled and installed in our department with the help of [Metaspace](https://metaspace.co.kr/?lang=en), and during recent test works.
 
 <div class="gallery" markdown="1">
 
