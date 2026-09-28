@@ -14,8 +14,8 @@ Papers, books, data archives and schools that we find useful. The list is far fr
 
 Papers that are widely read across the field, from classic theory and observations to recent reviews.
 
-<span class="ours">Our work</span> marks papers with members of our group among the authors, including collaboration papers.
-{: .legend}
+Papers marked <span class="ours">Our work</span> have members of our group among their authors, including collaboration papers.
+{: .ours-note}
 
 <details class="topic" markdown="1">
 <summary>Near the black hole: accretion, spin, jet launching and tests of gravity <span class="n">24</span></summary>
@@ -180,7 +180,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Variability and the multi-wavelength view <span class="n">11</span></summary>
+<summary>Variability and the multi-wavelength view <span class="n">16</span></summary>
 
 - Review: Ulrich, Maraschi & Urry (1997), [Variability of active galactic nuclei](https://doi.org/10.1146/annurev.astro.35.1.445), ARA&A 35, 445 <span class="annot">The classic review of AGN variability from radio to gamma rays, and what it tells us about sizes and emission mechanisms.</span>
 - Marscher et al. (2008), [The inner jet of an active galactic nucleus as revealed by a radio-to-γ-ray outburst](https://ui.adsabs.harvard.edu/abs/2008Natur.452..966M), Nature 452, 966 <span class="annot">A rotating optical polarization angle during a flare of BL Lacertae, tracing a helical magnetic field in the region where the jet is accelerated.</span>
@@ -193,11 +193,16 @@ Papers that are widely read across the field, from classic theory and observatio
 - Max-Moerbeck et al. (2014), [Time correlation between the radio and gamma-ray activity in blazars and the production site of the gamma-ray emission](https://doi.org/10.1093/mnras/stu1749), MNRAS 445, 428 <span class="annot">Radio–gamma-ray cross-correlations done carefully, with significance from simulated light curves, and what the time lags say about where gamma rays are made.</span>
 - EHT MWL Science Working Group et al. (2021), [Broadband multi-wavelength properties of M87 during the 2017 Event Horizon Telescope campaign](https://doi.org/10.3847/2041-8213/abef71), ApJL 911, L11 <span class="annot">Quasi-simultaneous data from radio to TeV gamma rays taken with the first EHT images, and the broadband spectrum of M87. <span class="ours">Our work</span></span>
 - Larionov et al. (2020), [Multiwavelength behaviour of the blazar 3C 279: decade-long study from γ-ray to radio](https://doi.org/10.1093/mnras/staa082), MNRAS 492, 3829 <span class="annot">Ten years of 3C 279 from gamma rays to radio, with polarimetry and 43 GHz VLBA images, relating the flares to fast-moving knots and a helical magnetic field. <span class="ours">Our work</span></span>
+- Hodgson et al. (2018), [KVN observations reveal multiple γ-ray emission regions in 3C 84?](https://doi.org/10.1093/mnras/stx3041), MNRAS 475, 368 <span class="annot">Multi-frequency KVN monitoring of 3C 84 compared with Fermi light curves, suggesting that the gamma rays come from more than one place in the jet. <span class="ours">Our work</span></span>
+- Raiteri et al. (2021), [The complex variability of blazars: time-scales and periodicity analysis in S4 0954+65](https://doi.org/10.1093/mnras/stab1268), MNRAS 504, 5629 <span class="annot">Two-minute TESS light curves with WEBT optical and radio monitoring: characteristic time-scales that come and go, and a radio delay of about three weeks. <span class="ours">Our work</span></span>
+- Algaba et al. (2024), [Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode](https://doi.org/10.1051/0004-6361/202450497), A&A 692, A140 <span class="annot">More than two dozen facilities from radio to TeV observing M87 with the 2018 EHT campaign, and the first very-high-energy flare caught together with horizon-scale imaging. <span class="ours">Our work</span></span>
+- Event Horizon Telescope Collaboration (2025), [Horizon-scale variability of M87* from 2017–2021 EHT observations](https://doi.org/10.1051/0004-6361/202555855), A&A 704, A91 <span class="annot">Polarized images of M87* in 2017, 2018 and 2021: a ring of constant size whose brightness pattern and polarization change from year to year. <span class="ours">Our work</span></span>
+- Principe et al. (2026), [Broadband multiwavelength properties of the archetypal blazar 3C 279 during the 2017 Event Horizon Telescope campaign](https://doi.org/10.1051/0004-6361/202659551), A&A 712, A224 <span class="annot">Radio-to-TeV data taken with the 2017 EHT images of 3C 279, and a turbulent multi-zone (TEMZ) model of its broadband emission. <span class="ours">Our work</span></span>
 
 </details>
 
 <details class="topic" markdown="1">
-<summary>Very-high-energy gamma rays and rapid variability <span class="n">7</span></summary>
+<summary>Very-high-energy gamma rays and rapid variability <span class="n">8</span></summary>
 
 - Aharonian et al. (H.E.S.S. Collaboration, 2006), [Fast variability of tera-electron volt γ rays from the radio galaxy M87](https://doi.org/10.1126/science.1134408), Science 314, 1424 <span class="annot">TeV gamma rays from M87 that vary within days, so the emitting region must be very compact, close to the black hole or in a compact jet feature.</span>
 - Aharonian et al. (H.E.S.S. Collaboration, 2007), [An exceptional very high energy gamma-ray flare of PKS 2155-304](https://doi.org/10.1086/520635), ApJ 664, L71 <span class="annot">TeV flux doubling within minutes in a blazar, which requires very high Doppler factors or emission from regions much smaller than the black hole.</span>
@@ -206,6 +211,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - Review: Rieger & Levinson (2018), [Radio galaxies at VHE energies](https://doi.org/10.3390/galaxies6040116), Galaxies 6, 116 <span class="annot">Very-high-energy gamma rays from M87, Centaurus A, NGC 1275 and IC 310: observations, variability and the models proposed for them.</span>
 - MAGIC Collaboration (2018), [Detection of persistent VHE gamma-ray emission from PKS 1510−089 by the MAGIC telescopes during low states between 2012 and 2017](https://doi.org/10.1051/0004-6361/201833618), A&A 619, A159 <span class="annot">A blazar that emits very-high-energy gamma rays even in its quiet states: a steady baseline, not only flares. <span class="ours">Our work</span></span>
 - H.E.S.S. and MAGIC Collaborations (2021), [H.E.S.S. and MAGIC observations of a sudden cessation of a very-high-energy γ-ray flare in PKS 1510−089 in May 2016](https://doi.org/10.1051/0004-6361/202038949), A&A 648, A23 <span class="annot">A very-high-energy flare that switched off abruptly, and what that implies for the size and location of the emitting region. <span class="ours">Our work</span></span>
+- Lico et al. (2022), [New jet feature in the parsec-scale jet of the blazar OJ 287 connected to the 2017 teraelectronvolt flaring activity](https://doi.org/10.1051/0004-6361/202142948), A&A 658, L10 <span class="annot">GMVA images at 86 GHz show a new jet feature after the first TeV detection of OJ 287, linking the flare to the parsec-scale jet. <span class="ours">Our work</span></span>
 
 </details>
 
