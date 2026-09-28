@@ -48,11 +48,10 @@ Therefore, it helps to know what that road looks like before you start. Some tit
 </details>
 
 <details class="topic" markdown="1">
-<summary>Why (not) go to graduate school <span class="n">8</span><small class="d">Frank accounts of what a PhD gives you and what it costs, worth reading before you decide what the degree is for.</small></summary>
+<summary>Why (not) go to graduate school <span class="n">7</span><small class="d">Frank accounts of what a PhD gives you and what it costs, worth reading before you decide what the degree is for.</small></summary>
 
 - [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, *Dynamics of Cats*, 2012). An astrophysicist's candid take: the science you get to do, and the costs, such as moving every few years and depending on a single advisor.
 - [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011). The world produces far more PhDs than there are academic jobs. Worth reading before you decide what you want the degree for.
-- [The Ph.D. Grind](http://pgbovine.net/PhD-memoir-prologue.htm) (Philip Guo, 2012). A free memoir of six years as a PhD student, including a very hard first year. It is about computer science, but most of it applies to any field.
 - [Why I chose grad school](https://astrobites.org/2011/07/01/why-i-chose-grad-school/) (astrobites, 2011). An astronomy graduate student on treating the PhD as a job you are free to leave, and on the careers it opens outside academia.
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might). What a PhD adds to human knowledge, in a few simple pictures.
 - [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7) (Nature, 2019). A survey of more than 6,000 PhD students: finances, working hours and career uncertainty.
@@ -91,14 +90,13 @@ Therefore, it helps to know what that road looks like before you start. Some tit
 </details>
 
 <details class="topic" markdown="1">
-<summary>Careers outside academia <span class="n">5</span><small class="d">Many people build good careers outside academia; these articles are about making that move well.</small></summary>
+<summary>Careers outside academia <span class="n">4</span><small class="d">Many people build good careers outside academia; these articles are about making that move well.</small></summary>
 
 Many people leave academia after the degree, for all kinds of personal and professional reasons, and research training is valued in many fields. These articles are about making that move well, and they apply to any graduate degree in the basic sciences.
 
 - [Beyond academia: planning the perfect exit strategy](https://www.nature.com/articles/d41586-022-00198-0) (Nature, 2022)
 - [How to sail smoothly from academia to industry](https://www.nature.com/articles/d41586-018-03306-1) (Nature, 2018)
 - [Three hard truths I learned before moving to a non-academic career](https://www.timeshighereducation.com/career/three-hard-truths-i-learned-moving-non-academic-career) (Times Higher Education, 2021)
-- [Transition from PhD to industry: simple steps from a fellow PhD](https://careerkaizen.com/transition-from-phd-to-industry-10-simple-steps-from-a-fellow-phd/) (Career Kaizen)
 - From astrobites: [Careers beyond the academic horizon](https://astrobites.org/2013/02/18/jobs-for-astronomers-careers-beyond-the-academic-horizon/) (2013), [Leveraging your astronomy degree for data science](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/) (2016), [Bridging astronomy and the space industry](https://astrobites.org/2023/05/15/guest-astro-space-industry/) (2023)
 
 </details>
@@ -153,11 +151,10 @@ Many people leave academia after the degree, for all kinds of personal and profe
 </details>
 
 <details class="topic" markdown="1">
-<summary>대학원에 가야 할까, 말아야 할까 <span class="n">8</span><small class="d">박사학위가 주는 것과 치러야 할 대가를 솔직하게 다룬 글들입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 보세요.</small></summary>
+<summary>대학원에 가야 할까, 말아야 할까 <span class="n">7</span><small class="d">박사학위가 주는 것과 치러야 할 대가를 솔직하게 다룬 글들입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 보세요.</small></summary>
 
 - [So you want to be an astrophysicist? Should you go to grad school?](https://scienceblogs.com/catdynamics/2012/01/20/so-you-want-to-be-an-astrophys-10) (Steinn Sigurðsson, 2012): 천체물리학자가 솔직하게 쓴 글입니다. 할 수 있는 연구의 매력과 함께, 몇 년마다 이사해야 하는 삶이나 지도교수 한 사람에게 크게 좌우되는 점 같은 비용도 짚습니다.
 - [Education: The PhD factory](https://www.nature.com/articles/472276a) (Nature, 2011): 전 세계적으로 박사 배출이 학계 일자리보다 훨씬 많다는 기사입니다. 학위를 무엇을 위해 하는지 정하기 전에 읽어 볼 만합니다.
-- [The Ph.D. Grind](http://pgbovine.net/PhD-memoir-prologue.htm) (Philip Guo, 2012): 박사과정 6년을 솔직하게 쓴 무료 회고록입니다. 특히 첫해가 얼마나 힘들었는지 나옵니다. 컴퓨터과학 분야지만 경험은 어느 분야나 비슷합니다.
 - [Why I chose grad school](https://astrobites.org/2011/07/01/why-i-chose-grad-school/) (astrobites, 2011): 천문학 대학원생이 박사과정을 "언제든 그만둘 수 있는 직업"으로 보게 된 이야기와, 학계 밖으로도 열리는 진로에 관한 글입니다.
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/) (Matt Might): 박사학위가 인류의 지식에 실제로 무엇을 더하는지 그림 몇 장으로 보여 줍니다.
 - [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7) (Nature, 2019): 대학원생 6,000여 명 설문. 경제적 어려움, 긴 근무시간, 진로 불확실성.
@@ -196,14 +193,13 @@ Many people leave academia after the degree, for all kinds of personal and profe
 </details>
 
 <details class="topic" markdown="1">
-<summary>학계 밖의 커리어 <span class="n">5</span><small class="d">학계 밖에서 좋은 커리어를 쌓는 사람도 많습니다. 그 전환을 잘 하는 방법에 관한 글들입니다.</small></summary>
+<summary>학계 밖의 커리어 <span class="n">4</span><small class="d">학계 밖에서 좋은 커리어를 쌓는 사람도 많습니다. 그 전환을 잘 하는 방법에 관한 글들입니다.</small></summary>
 
 학위 후 학계 밖의 길을 택하는 사람도 많고, 그 이유는 개인적·직업적으로 다양합니다. 연구 훈련은 여러 분야에서 가치 있게 쓰입니다. 아래 글들은 그 전환을 잘 하는 방법에 관한 것이며, 천문학뿐 아니라 기초과학 대학원 전반에 해당합니다.
 
 - [Beyond academia: planning the perfect exit strategy](https://www.nature.com/articles/d41586-022-00198-0) (Nature, 2022)
 - [How to sail smoothly from academia to industry](https://www.nature.com/articles/d41586-018-03306-1) (Nature, 2018)
 - [Three hard truths I learned before moving to a non-academic career](https://www.timeshighereducation.com/career/three-hard-truths-i-learned-moving-non-academic-career) (Times Higher Education, 2021)
-- [Transition from PhD to industry](https://careerkaizen.com/transition-from-phd-to-industry-10-simple-steps-from-a-fellow-phd/) (Career Kaizen)
 - astrobites: [학계 밖 천문학자의 진로](https://astrobites.org/2013/02/18/jobs-for-astronomers-careers-beyond-the-academic-horizon/) (2013), [천문학 학위와 데이터 사이언스](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/) (2016), [천문학과 우주산업](https://astrobites.org/2023/05/15/guest-astro-space-industry/) (2023)
 
 </details>
