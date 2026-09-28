@@ -313,14 +313,25 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 - Peterson, [*An Introduction to Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139170901) (Cambridge University Press, 1997) <span class="annot">A short and readable introduction to AGN, especially emission lines and reverberation mapping.</span>
 - Netzer, [*The Physics and Evolution of Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139109291) (Cambridge University Press, 2013) <span class="annot">A graduate text on the physics and evolution of AGN, from accretion disks to surveys.</span>
 
-**Getting started: astronomy, galaxies and cosmology**
+**Astrophysics, galaxies and cosmology**
 
 - Bennett, Donahue, Schneider & Voit, [*The Cosmic Perspective*](https://www.pearson.com/en-us/subject-catalog/p/cosmic-perspective-the/P200000009792) (Pearson) <span class="annot">A very readable introduction to astronomy, also for students from other fields.</span>
 - Carroll & Ostlie, [*An Introduction to Modern Astrophysics*](https://doi.org/10.1017/9781108380980), 2nd ed. (Cambridge University Press, 2017) <span class="annot">The comprehensive undergraduate astrophysics textbook, from stars to cosmology.</span>
+- Bradt, [*Astrophysics Processes: The Physics of Astronomical Phenomena*](https://doi.org/10.1017/CBO9780511802249) (Cambridge University Press, 2008) <span class="annot">The physics behind astronomical phenomena, from gravity and radiation to relativity, worked through with many problems; well suited to students coming from physics.</span>
 - Sparke & Gallagher, [*Galaxies in the Universe: An Introduction*](https://doi.org/10.1017/CBO9780511807237), 2nd ed. (Cambridge University Press, 2007) <span class="annot">An introduction to the Milky Way and other galaxies: structure, dynamics and evolution.</span>
+- Binney & Merrifield, [*Galactic Astronomy*](https://doi.org/10.1515/9780691233321) (Princeton University Press, 1998) <span class="annot">The observational side of galaxies: stellar populations, the structure and kinematics of the Milky Way and of external galaxies.</span>
+- Binney & Tremaine, [*Galactic Dynamics*](https://doi.org/10.1515/9781400828722), 2nd ed. (Princeton University Press, 2008) <span class="annot">The standard graduate text on the dynamics of stars and dark matter in galaxies and clusters.</span>
 - Schneider, [*Extragalactic Astronomy and Cosmology: An Introduction*](https://doi.org/10.1007/978-3-642-54083-7), 2nd ed. (Springer, 2015) <span class="annot">Galaxies, AGN, clusters, gravitational lensing and cosmology at an advanced undergraduate level.</span>
 - Ryden, [*Introduction to Cosmology*](https://doi.org/10.1017/9781316651087), 2nd ed. (Cambridge University Press, 2016) <span class="annot">A short and clear introduction to cosmology.</span>
 - Mo, van den Bosch & White, [*Galaxy Formation and Evolution*](https://doi.org/10.1017/CBO9780511807244) (Cambridge University Press, 2010) <span class="annot">The graduate reference on the theory of galaxy formation.</span>
+- Loeb & Furlanetto, [*The First Galaxies in the Universe*](https://doi.org/10.1515/9781400845606) (Princeton University Press, 2013) <span class="annot">The first stars and galaxies, the seeds of supermassive black holes, and how they reionized the Universe: a guide to the epoch of reionization and the 21 cm signal.</span>
+
+**Observational astronomy and techniques**
+
+- Bradt, [*Astronomy Methods: A Physical Approach to Astronomical Observations*](https://doi.org/10.1017/CBO9780511802188) (Cambridge University Press, 2004) <span class="annot">How astronomical measurements are made across the spectrum, from coordinates and timing to telescopes, detectors and photon statistics, explained from physics.</span>
+- Chromey, [*To Measure the Sky: An Introduction to Observational Astronomy*](https://doi.org/10.1017/CBO9781316424117), 2nd ed. (Cambridge University Press, 2016) <span class="annot">An undergraduate introduction to observing: telescopes, detectors, photometry, spectroscopy and the statistics of measurement.</span>
+- Kitchin, [*Astrophysical Techniques*](https://doi.org/10.1201/9780429491139), 7th ed. (CRC Press, 2020) <span class="annot">A broad survey of detectors, telescopes, imaging, photometry, spectroscopy and polarimetry at all wavelengths.</span>
+- Rieke, [*Measuring the Universe: A Multiwavelength Perspective*](https://doi.org/10.1017/CBO9780511980497) (Cambridge University Press, 2012) <span class="annot">Observational techniques compared across the spectrum, from radio to X-rays, with an eye on what each band can and cannot measure.</span>
 
 ## Schools and lectures
 
