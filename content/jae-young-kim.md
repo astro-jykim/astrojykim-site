@@ -205,5 +205,5 @@ Selected invited talks, colloquia and seminars.
 
 - Member of the International Astronomical Union (IAU), the Korean Astronomical Society (KAS) and the Korean Physical Society (KPS)
 
-Besides academic activities, I also love and enjoy: nature, photography, bike riding, swimming, traveling to new places, and playing piano.
+Thank you for reading all this; besides academic activities, I also love and enjoy: nature, photography, bike riding, swimming, traveling to new places, and playing piano.
 {: .aside}
