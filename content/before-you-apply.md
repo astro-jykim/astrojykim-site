@@ -78,7 +78,7 @@ Therefore, it helps to know what that road looks like before you start. Some tit
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007).
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool). Some pages are gone, but the wiki still has plenty; click around.
 - [The Martial Art of Scientific Publication](https://aas.org/jobs/martial-art-scientific-publication) (Eugene N. Parker, *Eos*, 1997). A witty and practical guide to submitting papers, dealing with referees and editors, and answering criticism, from one of the great solar physicists. Read it before your first paper goes out. A [Korean translation (PDF)](/assets/docs/misc/parker1997-martial-art-korean-AI-translation.pdf) is also available; it was made with AI, is unofficial, and should be checked against the original.
-- [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research.
+- [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986). A classic talk on what distinguishes people who do important research. A [Korean translation (PDF)](/assets/docs/misc/hamming1986-you-and-your-research-korean-AI-translation.pdf) is also available; it was made with AI, is unofficial, and should be checked against the original.
     The talk is long; four points stand out:
     1. Keep asking yourself, explicitly, what the important problems in your field are.
     2. Carry ten to twenty such problems around with you, so that you notice when a new technique or new data suddenly makes one of them solvable.
@@ -183,7 +183,7 @@ Many people leave academia after the degree, for all kinds of personal and profe
 - [Ten simple rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.0030229) (PLOS Computational Biology, 2007)
 - [AstroBetter wiki: Graduate School](https://www.astrobetter.com/wiki/Graduate%2bSchool) — 일부 자료는 없어졌지만 wiki 전체로 보면 여러 자료가 있으니 이것저것 눌러 보세요.
 - [The Martial Art of Scientific Publication](https://aas.org/jobs/martial-art-scientific-publication) (Eugene N. Parker, Eos, 1997): 태양풍을 예측한 Eugene Parker가 논문 투고, 심사위원·편집자와의 공방, 비판에 답하는 법까지 출판 과정을 재미있고 실용적으로 풀어 쓴 글입니다. 첫 논문을 내기 전에 꼭 읽어 보세요. [한국어 번역본(PDF)](/assets/docs/misc/parker1997-martial-art-korean-AI-translation.pdf)도 있습니다. AI로 번역한 비공식 번역이므로, 중요한 내용은 원문과 대조해 읽으세요.
-- [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986) — 중요한 연구를 하는 사람들은 무엇이 다른지에 대한 고전적인 강연입니다.
+- [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (Richard Hamming, 1986) — 중요한 연구를 하는 사람들은 무엇이 다른지에 대한 고전적인 강연입니다. [한국어 번역본(PDF)](/assets/docs/misc/hamming1986-you-and-your-research-korean-AI-translation.pdf)도 있습니다. AI로 번역한 비공식 번역이므로, 중요한 내용은 원문과 대조해 읽으세요.
     글이 길지만, 지금 연구자 입장에서도 살아 있는 부분은 네 가지입니다.
     1. 내 분야에서 중요한 문제가 무엇인지 계속 명시적으로 생각할 것
     2. 평소 10–20개의 문제를 들고 다니면서, 새로운 기법이나 데이터가 나오면 연결해 볼 것
