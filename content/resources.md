@@ -238,7 +238,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Technical: imaging, calibration, modeling and statistics <span class="n">27</span></summary>
+<summary>Technical: imaging, calibration, modeling and statistics <span class="n">25</span></summary>
 
 - Jennison (1958), [A phase sensitive interferometer technique for the measurement of the Fourier transforms of spatial brightness distributions of small angular extent](https://doi.org/10.1093/mnras/118.3.276), MNRAS 118, 276 <span class="annot">Closure phase: a combination of visibility phases that is immune to antenna-based errors, the basis of VLBI imaging.</span>
 - Högbom (1974), [Aperture synthesis with a non-regular distribution of interferometer baselines](https://ui.adsabs.harvard.edu/abs/1974A%26AS...15..417H), A&AS 15, 417 <span class="annot">The CLEAN algorithm, still the standard way to make images from interferometer data.</span>
@@ -264,8 +264,6 @@ Papers that are widely read across the field, from classic theory and observatio
 - Foreman-Mackey et al. (2013), [emcee: the MCMC hammer](https://doi.org/10.1086/670067), PASP 125, 306 <span class="annot">The widely used MCMC sampler for fitting models to data.</span>
 - Kim & Trippe (2014), [VIMAP: an interactive program providing radio spectral index maps of active galactic nuclei](https://doi.org/10.5303/JKAS.2014.47.5.195), JKAS 47, 195 <span class="annot">VIMAP, an interactive tool for aligning multi-frequency VLBI images and making spectral-index maps. <span class="ours">Our work</span></span>
 - Zhao et al. (2018), [The power of simultaneous multi-frequency observations for mm-VLBI: beyond frequency phase transfer](https://doi.org/10.3847/1538-3881/aa99e0), AJ 155, 26 <span class="annot">With simultaneous multi-frequency receivers such as the KVN's, a second phase transfer also removes ionospheric effects, extending the coherence time at 3 mm beyond 8 hours. <span class="ours">Our work</span></span>
-- Roelofs et al. (2020), [SYMBA: an end-to-end VLBI synthetic data generation pipeline](https://doi.org/10.1051/0004-6361/201936622), A&A 636, A5 <span class="annot">Realistic synthetic EHT data, with atmosphere and instrumental errors, for testing calibration and imaging. <span class="ours">Our work</span></span>
-- Broderick et al. (2020), [THEMIS: a parameter estimation framework for the Event Horizon Telescope](https://doi.org/10.3847/1538-4357/ab91a4), ApJ 897, 139 <span class="annot">A Bayesian framework that fits models directly to EHT data, from geometric rings to images from simulations. <span class="ours">Our work</span></span>
 - Raymond et al. (2024), [First very long baseline interferometry detections at 870 μm](https://doi.org/10.3847/1538-3881/ad5bdb), AJ 168, 130 <span class="annot">The first VLBI fringes at 345 GHz, the step toward even sharper images of black holes. <span class="ours">Our work</span></span>
 
 </details>
