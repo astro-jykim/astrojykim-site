@@ -29,7 +29,7 @@ Phone: +82 52 217 2241
 
 ![](contact/image-2.jpg)
 
-<iframe class="map" src="https://maps-api-ssl.google.com/maps?hl=en-US&ll=35.573418,129.189629&output=embed&q=50+UNIST-gil,+Eonyang-eup,+Ulju-gun,+Ulsan,+South+Korea+(UNIST+%7C+Ulsan+National+Institute+of+Science+%26+Technology)&z=17" loading="lazy" title="Map: UNIST"></iframe>
+<iframe class="map" src="https://maps.google.com/maps?q=108,+Natural+Science+Building+UNIST&amp;ll=35.5717,129.1890&amp;z=17&amp;hl=en&amp;output=embed" loading="lazy" title="Map: UNIST Building 108 (Natural Science Building)"></iframe>
 
 </div>
 
