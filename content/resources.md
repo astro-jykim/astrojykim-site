@@ -201,10 +201,12 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Black holes in the early universe, and small black holes <span class="n">8</span></summary>
+<summary>Black holes in the early universe, and small black holes <span class="n">10</span></summary>
 
 - Bogdán et al. (2024), [Evidence for heavy-seed origin of early supermassive black holes from a z ≈ 10 X-ray quasar](https://ui.adsabs.harvard.edu/abs/2024NatAs...8..126B), Nature Astronomy 8, 126 <span class="annot">UHZ1, an X-ray quasar at redshift about 10, whose black hole is as massive as its host's stars, a sign of heavy seeds.</span>
 - Review: Inayoshi, Visbal & Haiman (2020), [The assembly of the first massive black holes](https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58...27I), ARA&A 58, 27 <span class="annot">How the first massive black holes formed and grew so quickly: light and heavy seeds.</span>
+- Review: Volonteri, Habouzit & Colpi (2021), [The origins of massive black holes](https://doi.org/10.1038/s42254-021-00364-9), Nature Reviews Physics 3, 732 <span class="annot">An up-to-date and readable review of seed formation, early growth and how gravitational waves and small black holes in dwarf galaxies can test the models.</span>
+- Review: Regan & Volonteri (2024), [Massive black hole seeds](https://doi.org/10.33232/001c.123239), Open J. Astrophys. 7 <span class="annot">The latest review of seeding mechanisms, from light to heavy seeds, written just as JWST began finding black holes at very high redshift.</span>
 - Review: Greene, Strader & Ho (2020), [Intermediate-mass black holes](https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58..257G), ARA&A 58, 257 <span class="annot">The search for intermediate-mass black holes in dwarf galaxies, star clusters and elsewhere.</span>
 - Reines, Greene & Geha (2013), [Dwarf galaxies with optical signatures of active massive black holes](https://doi.org/10.1088/0004-637X/775/2/116), ApJ 775, 116 <span class="annot">A systematic search of SDSS dwarf galaxies that found over a hundred with signs of accreting massive black holes.</span>
 - Review: Mezcua (2017), [Observational evidence for intermediate-mass black holes](https://doi.org/10.1142/S021827181730021X), Int. J. Mod. Phys. D 26, 1730021 <span class="annot">The evidence for black holes of 10<sup>2</sup>–10<sup>5</sup> solar masses, from star clusters to dwarf galaxies, and why they matter for the seeds of supermassive black holes.</span>
