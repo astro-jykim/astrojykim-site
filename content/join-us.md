@@ -57,7 +57,7 @@ We recommend gaining some research experience in the group before applying: a se
 
 ## Undergraduate Research Internships
 
-Internships range from introductory computational, observational and instrumentation projects to independent research, and usually run for one semester or a summer/winter break. Strong projects can continue and lead to conference presentations or publications. Some Python programming, data analysis or basic physics helps; astronomy experience is not required.
+Internships range from introductory computational, observational and instrumentation projects (for example, [building a small radio telescope](/resources/#build-a-small-radio-telescope)) to independent research, and usually run for one semester or a summer/winter break. Strong projects can continue and lead to conference presentations or publications. Some Python programming, data analysis or basic physics helps; astronomy experience is not required.
 
 ## Postdoctoral Researchers
 

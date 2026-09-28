@@ -15,7 +15,7 @@ Currently (as of Sep 2024), the 2.3m telescope at Kyungpook National University 
 
 ## Introduction
 
-In Feb 2023, the astronomy major at Kyungpook National University installed a new 2.3m radio telescope, operating at 1420 MHz (1.4 GHz, centered at the 21cm neutral hydrogen line) and observing in dual circular polarization. The telescope is the SPIDER 230C model from Radio2Space, an Italy-based company. The details are provided on their product [web page](https://www.radio2space.com/product/spider-230c-compact-radio-telescope/). The telescope will be primarily used for undergraduate/graduate education on observational astronomy (e.g., mapping the galactic plane hydrogens) and research, especially for finding and monitoring flaring events of bright radio sources such as blazars. A short presentation given in summer 2023 to provide a very brief introduction to the telescope is [here](https://drive.google.com/file/d/1XxjD6mOY3NHO6amsAf8l6Dk2BbzUz5Ux/view?usp=drive_link).
+In Feb 2023, the astronomy major at Kyungpook National University installed a new 2.3m radio telescope, operating at 1420 MHz (1.4 GHz, centered at the 21cm neutral hydrogen line) and observing in dual circular polarization. The telescope is the SPIDER 230C model from Radio2Space, an Italy-based company. The details are provided on their product [web page](https://www.radio2space.com/product/spider-230c-compact-radio-telescope/). The telescope will be primarily used for undergraduate/graduate education on observational astronomy (e.g., mapping the galactic plane hydrogens) and research, especially for finding and monitoring flaring events of bright radio sources such as blazars. A short presentation given in summer 2023 to provide a very brief introduction to the telescope is [here](/assets/docs/2-3m/2023_Summer_RadioTelescope_Presentation.pdf).
 
 This page is intended to provide details of the performance, observations, and data reduction of the 2.3m radio telescope. In the first half of 2023, the telescope will undergo various tests for performance and calibration measurements. Therefore, information on this page will be frequently updated on a non-regular basis. When the telescope performance is verified and it can operate stably, we also plan to open a limited amount of telescope time for potential users outside our astronomy major. Please [contact me](/contact/) if you want to use our telescope for education/training/research in your departments or institutes.
 
@@ -23,7 +23,7 @@ The purchase, installation, and maintenance of the 2.3m radio telescope system w
 
 ## Useful literature and memos
 
-- Official manual for the installation and maintenance of SPIDER 230C ([link](https://drive.google.com/file/d/1S8f9KktKSA7_HHcpnvwi6uc84f0qecAq/view?usp=share_link)) and the user manual for the RadioUniversePRO software ([link](https://drive.google.com/file/d/1H6MTqNOBW8qnyAx6i3u_uDNBkHBmNmnl/view?usp=share_link)). The latter is the main program for operating the 2.3m radio telescope. Note that these materials can also be obtained from the product web page (see above).
+- Official manual for the installation and maintenance of SPIDER 230C ([link](/assets/docs/2-3m/SPIDER-230C-installation-maintenance-manual.pdf)) and the user manual for the RadioUniversePRO software ([link](/assets/docs/2-3m/RadioUniversePRO-user-manual.pdf)). The latter is the main program for operating the 2.3m radio telescope. Note that these materials can also be obtained from the product web page (see above).
 
 - A research article on solar eclipse observations with SPIDER 300A ([link](https://arxiv.org/abs/2207.00858)): The authors share their experience with observing with SPIDER 300C and briefly discuss the calibration and data reduction.
 
@@ -35,10 +35,10 @@ The purchase, installation, and maintenance of the 2.3m radio telescope system w
 
 Below you see the manuals provided by Radio2Space to use the 2.3m radio telescope. Notice that our telescope system has some differences with respect to the guides you see below, for instance the mount system. We'll post other technical documents for further details sooner or later.
 
-- [SPIDER-230C-installation-maintenance-manual.pdf](https://drive.google.com/file/d/1S8f9KktKSA7_HHcpnvwi6uc84f0qecAq/view) — Manual for the installation and maintenance
-- [RadioUniversePRO-user-manual.pdf](https://drive.google.com/file/d/1H6MTqNOBW8qnyAx6i3u_uDNBkHBmNmnl/view) — User manual for the RadioUniversePro software
-- [RST_300_Instruction_Manual_v1.0_KOR.pdf](https://drive.google.com/file/d/1zVbLmfS9t0-58h-V0Xrrxgz-GO4Qu1CI/view) — Manual for the mount RST-300
-- [Hubo_i_for_RST-135_Manual_KOR_v1.2.pdf](https://drive.google.com/file/d/1FImWihupzL6llRhxczoD5cPyAJpWXh7F/view) — User manual for the hand-controller of the mount
+- [SPIDER-230C-installation-maintenance-manual.pdf](/assets/docs/2-3m/SPIDER-230C-installation-maintenance-manual.pdf) — Manual for the installation and maintenance
+- [RadioUniversePRO-user-manual.pdf](/assets/docs/2-3m/RadioUniversePRO-user-manual.pdf) — User manual for the RadioUniversePro software
+- [RST_300_Instruction_Manual_v1.0_KOR.pdf](/assets/docs/2-3m/RST_300_Instruction_Manual_v1.0_KOR.pdf) — Manual for the mount RST-300
+- [Hubo_i_for_RST-135_Manual_KOR_v1.2.pdf](/assets/docs/2-3m/Hubo_i_for_RST-135_Manual_KOR_v1.2.pdf) — User manual for the hand-controller of the mount
 
 ## Pictures
 

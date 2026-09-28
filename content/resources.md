@@ -7,7 +7,7 @@ banner_position: center 55%
 
 Papers, books, data archives and schools that we find useful. The list is far from complete, but we hope it helps students in our group and anyone starting out in radio astronomy and black hole astrophysics.
 
-[Reading list](#reading-list) [Textbooks](#textbooks) [Schools and lectures](#schools-and-lectures) [Literature and databases](#literature-and-databases) [Data archives](#data-archives)
+[Reading list](#reading-list) [Textbooks](#textbooks) [Schools and lectures](#schools-and-lectures) [Software and tutorials](#software-and-tutorials) [Build a small radio telescope](#build-a-small-radio-telescope) [Literature and databases](#literature-and-databases) [Data archives](#data-archives)
 {: .chips}
 
 ## Reading list
@@ -15,11 +15,12 @@ Papers, books, data archives and schools that we find useful. The list is far fr
 Papers that are widely read across the field, from classic theory and observations to recent reviews.
 
 <details class="topic" markdown="1">
-<summary>Near the black hole: accretion, spin and jet launching <span class="n">15</span></summary>
+<summary>Near the black hole: accretion, spin and jet launching <span class="n">17</span></summary>
 
 - Shakura & Sunyaev (1973), [Black holes in binary systems: observational appearance](https://ui.adsabs.harvard.edu/abs/1973A%26A....24..337S), A&A 24, 337 <span class="annot">The standard thin accretion disk, the starting point for every later accretion model.</span>
 - Blandford & Znajek (1977), [Electromagnetic extraction of energy from Kerr black holes](https://ui.adsabs.harvard.edu/abs/1977MNRAS.179..433B), MNRAS 179, 433 <span class="annot">How a spinning black hole threaded by magnetic field can give up its rotational energy as an electromagnetic outflow: the Blandford–Znajek process, still the leading idea for what powers jets.</span>
 - Blandford & Payne (1982), [Hydromagnetic flows from accretion discs and the production of radio jets](https://ui.adsabs.harvard.edu/abs/1982MNRAS.199..883B), MNRAS 199, 883 <span class="annot">Jets launched magneto-centrifugally from the accretion disk along inclined field lines; the disk-driven counterpart to Blandford–Znajek.</span>
+- Celotti & Blandford (2001), [On the formation of jets](https://doi.org/10.1007/10720995_43), in *Black Holes in Binaries and Galactic Nuclei* (ESO Astrophysics Symposia), 206 <span class="annot">Why jets are most likely launched magnetically: energy and composition arguments for jets that start out Poynting-flux dominated, powered by the black hole or the inner disk.</span>
 - Narayan & Yi (1995), [Advection-dominated accretion: underfed black holes and neutron stars](https://ui.adsabs.harvard.edu/abs/1995ApJ...452..710N), ApJ 452, 710 <span class="annot">Hot, radiatively inefficient accretion flows in which most of the energy is carried into the black hole; the basic model for faint nuclei such as Sgr A* and M87.</span>
 - Narayan, Igumenshchev & Abramowicz (2003), [Magnetically arrested disk: an energetically efficient accretion flow](https://doi.org/10.1093/pasj/55.6.L69), PASJ 55, L69 <span class="annot">When enough magnetic flux piles up near the black hole it halts the inflow: the magnetically arrested disk (MAD).</span>
 - Tchekhovskoy, Narayan & McKinney (2011), [Efficient generation of jets from magnetically arrested accretion on a rapidly spinning black hole](https://ui.adsabs.harvard.edu/abs/2011MNRAS.418L..79T), MNRAS 418, L79 <span class="annot">GRMHD simulations of magnetically arrested disks in which the jet carries away more power than the accreted rest mass supplies, drawn from the black hole spin.</span>
@@ -29,6 +30,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - Doeleman et al. (2008), [Event-horizon-scale structure in the supermassive black hole candidate at the Galactic Centre](https://ui.adsabs.harvard.edu/abs/2008Natur.455...78D), Nature 455, 78 <span class="annot">The first detection of structure on event-horizon scales in Sgr A*, with 1.3 mm VLBI on three telescopes.</span>
 - Event Horizon Telescope Collaboration (2019), [First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole](https://ui.adsabs.harvard.edu/abs/2019ApJ...875L...1E), ApJL 875, L1 <span class="annot">The first image of a black hole: the ring around M87*.</span>
 - Event Horizon Telescope Collaboration (2019), [First M87 Event Horizon Telescope results. V. Physical origin of the asymmetric ring](https://doi.org/10.3847/2041-8213/ab0f43), ApJL 875, L5 <span class="annot">How the M87 image is compared with a large library of GRMHD simulations, and what that says about the flow and the spin.</span>
+- Kim et al. (2016), [Resolving the base of the relativistic jet in M87 at 6R<sub>sch</sub> resolution with global mm-VLBI](https://doi.org/10.3390/galaxies4040039), Galaxies 4, 39 <span class="annot">Global 3 mm VLBI images of the M87 jet base at a resolution of six Schwarzschild radii. <span class="ours">Our work</span></span>
 - Event Horizon Telescope Collaboration (2022), [First Sagittarius A* Event Horizon Telescope results. I. The shadow of the supermassive black hole in the center of the Milky Way](https://ui.adsabs.harvard.edu/abs/2022ApJ...930L..12E), ApJL 930, L12 <span class="annot">The image of the black hole at the center of our Galaxy.</span>
 - Lu et al. (2023), [A ring-like accretion structure in M87 connecting its black hole and jet](https://doi.org/10.1038/s41586-023-05843-w), Nature 616, 686 <span class="annot">The ring and the base of the jet of M87 imaged together at 3.5 mm, linking the accretion flow to the jet.</span>
 - Review: Hada, Asada, Nakamura & Kino (2024), [M87: a cosmic laboratory for deciphering black hole accretion and jet formation](https://arxiv.org/abs/2412.07083), arXiv:2412.07083 <span class="annot">What M87 has taught us about accretion and jet formation, from the event horizon to kiloparsec scales.</span>
@@ -36,7 +38,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Jet acceleration and collimation <span class="n">16</span></summary>
+<summary>Jet acceleration and collimation <span class="n">18</span></summary>
 
 - Review: Blandford, Meier & Readhead (2019), [Relativistic jets from active galactic nuclei](https://doi.org/10.1146/annurev-astro-081817-051948), ARA&A 57, 467 <span class="annot">A broad modern review of AGN jets, from history and observations to theory; its Figure 1 is the M87 montage on our Research page.</span>
 - Vlahakis & Königl (2004), [Magnetic driving of relativistic outflows in active galactic nuclei. I. Interpretation of parsec-scale accelerations](https://doi.org/10.1086/382670), ApJ 605, 656 <span class="annot">Magnetic acceleration of AGN jets out to parsec scales, as an explanation of the accelerating features seen with VLBI.</span>
@@ -45,7 +47,9 @@ Papers that are widely read across the field, from classic theory and observatio
 - Review: Mizuno (2022), [GRMHD simulations and modeling for jet formation and acceleration region in AGNs](https://ui.adsabs.harvard.edu/abs/2022Univ....8...85M), Universe 8, 85 <span class="annot">How GRMHD simulations of jet formation and acceleration are compared with VLBI and EHT observations.</span>
 - Junor, Biretta & Livio (1999), [Formation of the radio jet in M87 at 100 Schwarzschild radii from the central black hole](https://ui.adsabs.harvard.edu/abs/1999Natur.401..891J), Nature 401, 891 <span class="annot">VLBI image of the M87 jet base showing a wide opening angle within about 100 Schwarzschild radii, the first direct view of where the jet is collimated.</span>
 - Asada & Nakamura (2012), [The structure of the M87 jet: a transition from parabolic to conical streamlines](https://ui.adsabs.harvard.edu/abs/2012ApJ...745L..28A), ApJL 745, L28 <span class="annot">The M87 jet is parabolic out to about the Bondi radius and conical beyond it, a collimation profile since measured in many other jets.</span>
-- Kim et al. (2018), [The limb-brightened jet of M87 down to the 7 Schwarzschild radii scale](https://doi.org/10.1051/0004-6361/201832921), A&A 616, A188 <span class="annot">GMVA images of the M87 jet base at 86 GHz: the jet is already limb-brightened and wide close to the black hole (our work).</span>
+- Kim et al. (2018), [The limb-brightened jet of M87 down to the 7 Schwarzschild radii scale](https://doi.org/10.1051/0004-6361/201832921), A&A 616, A188 <span class="annot">GMVA images of the M87 jet base at 86 GHz: the jet is already limb-brightened and wide close to the black hole. <span class="ours">Our work</span></span>
+- Kim et al. (2020), [Event Horizon Telescope imaging of the archetypal blazar 3C 279 at an extreme 20 microarcsecond resolution](https://doi.org/10.1051/0004-6361/202037493), A&A 640, A69 <span class="annot">The first EHT images of a blazar jet: the base of the 3C 279 jet at 20 microarcsecond resolution, with complex, rapidly evolving structure. <span class="ours">Our work</span></span>
+- Lee & Kim (2025), [Jet collimation in a spiral-hosted active galactic nucleus: a parabolic jet profile in 0313−192](https://doi.org/10.3847/2041-8213/adf72b), ApJL 991, L5 <span class="annot">VLBI measurement of the jet width along the jet of the spiral-hosted radio galaxy 0313−192, which follows a parabolic profile. <span class="ours">Our work</span></span>
 - Walker et al. (2018), [The structure and dynamics of the subparsec jet in M87 based on 50 VLBA observations over 17 years at 43 GHz](https://ui.adsabs.harvard.edu/abs/2018ApJ...855..128W), ApJ 855, 128 <span class="annot">Seventeen years of VLBA monitoring of M87 at 43 GHz: jet structure, limb brightening, speeds and the counter-jet.</span>
 - Mertens et al. (2016), [Kinematics of the jet in M 87 on scales of 100–1000 Schwarzschild radii](https://doi.org/10.1051/0004-6361/201628829), A&A 595, A54 <span class="annot">Wavelet-based velocity field of the M87 jet: gradual acceleration and a stratified, possibly rotating flow.</span>
 - Lister et al. (2009), [MOJAVE. VI. Kinematics analysis of a complete sample of blazar jets](https://ui.adsabs.harvard.edu/abs/2009AJ....138.1874L), AJ 138, 1874 <span class="annot">Speeds of jet features from the MOJAVE 15 GHz VLBA monitoring of a complete sample of blazars: the reference statistics of superluminal motion.</span>
@@ -58,7 +62,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Shocks, recollimation, hot spots and lobe formation <span class="n">10</span></summary>
+<summary>Shocks, instabilities, recollimation, hot spots and lobe formation <span class="n">12</span></summary>
 
 - Marscher & Gear (1985), [Models for high-frequency radio outbursts in extragalactic sources, with application to the early 1983 millimeter-to-infrared flare of 3C 273](https://doi.org/10.1086/163592), ApJ 298, 114 <span class="annot">The shock-in-jet model: a shock moving down the jet explains how radio-to-infrared flares evolve.</span>
 - Hughes, Aller & Aller (1985), [Polarized radio outbursts in BL Lacertae. II. The flux and polarization of a piston-driven shock](https://doi.org/10.1086/163611), ApJ 298, 301 <span class="annot">Shocks that compress the jet's magnetic field explain the flux and polarization changes during radio outbursts.</span>
@@ -66,6 +70,8 @@ Papers that are widely read across the field, from classic theory and observatio
 - Gómez et al. (1997), [Hydrodynamical models of superluminal sources](https://doi.org/10.1086/310671), ApJ 482, L33 <span class="annot">Relativistic hydrodynamic simulations with emission: moving shocks interacting with standing recollimation shocks, as seen in VLBI movies.</span>
 - Stawarz et al. (2006), [Dynamics and high-energy emission of the flaring HST-1 knot in the M 87 jet](https://doi.org/10.1111/j.1365-2966.2006.10525.x), MNRAS 370, 981 <span class="annot">HST-1 in the M87 jet as a recollimation shock, and its flares from radio to TeV energies.</span>
 - Mizuno et al. (2015), [Recollimation shocks in magnetized relativistic jets](https://doi.org/10.1088/0004-637X/809/1/38), ApJ 809, 38 <span class="annot">How the magnetic field changes the structure and strength of recollimation shocks, in relativistic MHD simulations.</span>
+- Vega-García et al. (2019), [Derivation of the physical parameters of the jet in S5 0836+710 from stability analysis](https://doi.org/10.1051/0004-6361/201935119), A&A 627, A79 <span class="annot">Kelvin–Helmholtz instability modes fitted to the wiggling ridge line of a quasar jet, turning the observed structure into estimates of the jet's speed, density and magnetization.</span>
+- Vega-García et al. (2020), [Multiband RadioAstron space VLBI imaging of the jet in quasar S5 0836+710](https://doi.org/10.1051/0004-6361/201935168), A&A 641, A40 <span class="annot">Space VLBI images of the same jet at several frequencies, tracing the instability pattern from the core outward.</span>
 - Blandford & Rees (1974), [A 'twin-exhaust' model for double radio sources](https://doi.org/10.1093/mnras/169.3.395), MNRAS 169, 395 <span class="annot">The idea that continuous beams from the nucleus feed the two radio lobes.</span>
 - Scheuer (1974), [Models of extragalactic radio sources with a continuous energy supply from a central object](https://doi.org/10.1093/mnras/166.3.513), MNRAS 166, 513 <span class="annot">How a jet drives into the surrounding gas, ending in a hot spot and inflating a cocoon: the basic picture of lobe formation.</span>
 - Begelman & Cioffi (1989), [Overpressured cocoons in extragalactic radio sources](https://doi.org/10.1086/185542), ApJ 345, L21 <span class="annot">The cocoon around a powerful jet expands sideways because it is overpressured, which sets the growth of radio sources.</span>
@@ -74,7 +80,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Radio galaxies on large scales: FR classes, jets and lobes <span class="n">10</span></summary>
+<summary>Radio galaxies on large scales: FR classes, jets and lobes <span class="n">11</span></summary>
 
 - Fanaroff & Riley (1974), [The morphology of extragalactic radio sources of high and low luminosity](https://doi.org/10.1093/mnras/167.1.31P), MNRAS 167, 31P <span class="annot">The FR I / FR II division: edge-darkened, lower-power sources versus edge-brightened, higher-power ones.</span>
 - Begelman, Blandford & Rees (1984), [Theory of extragalactic radio sources](https://ui.adsabs.harvard.edu/abs/1984RvMP...56..255B), Rev. Mod. Phys. 56, 255 <span class="annot">The classic review of how radio galaxies and quasars work, from the central engine through the jets to the hot spots and lobes.</span>
@@ -86,6 +92,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - Condon et al. (1998), [The NRAO VLA Sky Survey](https://ui.adsabs.harvard.edu/abs/1998AJ....115.1693C), AJ 115, 1693 <span class="annot">NVSS, the 1.4 GHz survey of the sky north of declination −40°, still a basic reference for radio sources.</span>
 - Shimwell et al. (2022), [The LOFAR Two-metre Sky Survey. V. Second data release](https://ui.adsabs.harvard.edu/abs/2022A%26A...659A...1S), A&A 659, A1 <span class="annot">LoTSS DR2: 144 MHz images of more than a quarter of the northern sky with millions of radio sources.</span>
 - Mingo et al. (2019), [Revisiting the Fanaroff–Riley dichotomy and radio-galaxy morphology with the LOFAR Two-Metre Sky Survey (LoTSS)](https://doi.org/10.1093/mnras/stz1901), MNRAS 488, 2701 <span class="annot">With thousands of LOFAR sources, FR I and FR II overlap widely in luminosity, so environment and host matter as much as jet power.</span>
+- Ryu & Kim (2026), [VLBI detections of compact nuclei in spiral-hosted double-lobed radio-loud active galactic nuclei (DRAGNs): evidence for weak parsec-scale jet activity](https://doi.org/10.3847/1538-4357/ae4a20), ApJ 1000, 174 <span class="annot">VLBI of rare spiral galaxies with large double radio lobes: their nuclei are compact but faint, suggesting that the jets are weak today. <span class="ours">Our work</span></span>
 
 </details>
 
@@ -107,7 +114,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Relativistic beaming, brightness temperature and core shift <span class="n">10</span></summary>
+<summary>Relativistic beaming, brightness temperature and core shift <span class="n">12</span></summary>
 
 - Blandford & Königl (1979), [Relativistic jets as compact radio sources](https://ui.adsabs.harvard.edu/abs/1979ApJ...232...34B), ApJ 232, 34 <span class="annot">The standard picture of the compact radio core as the self-absorbed base of a relativistic jet, which explains flat radio spectra and apparent superluminal motion.</span>
 - Kellermann & Pauliny-Toth (1969), [The spectra of opaque radio sources](https://doi.org/10.1086/180305), ApJ 155, L71 <span class="annot">Why the brightness temperature of an incoherent synchrotron source cannot stay much above about 10<sup>12</sup> K: beyond that, inverse-Compton losses run away (the inverse-Compton catastrophe).</span>
@@ -118,18 +125,26 @@ Papers that are widely read across the field, from classic theory and observatio
 - Cohen et al. (2007), [Relativistic beaming and the intrinsic properties of extragalactic radio jets](https://doi.org/10.1086/511063), ApJ 658, 232 <span class="annot">What apparent speeds and luminosities of VLBI jets tell us about Lorentz factors, viewing angles and beaming in flux-limited samples.</span>
 - Hovatta et al. (2009), [Doppler factors, Lorentz factors and viewing angles for quasars, BL Lacertae objects and radio galaxies](https://doi.org/10.1051/0004-6361:200811150), A&A 494, 527 <span class="annot">Doppler factors from the timescales of 37 GHz flares at Metsähovi, combined with VLBI jet speeds, for a large sample of AGN.</span>
 - Hada et al. (2011), [An origin of the radio jet in M87 at the location of the central black hole](https://doi.org/10.1038/nature10387), Nature 477, 185 <span class="annot">The core shift of M87 measured over many frequencies places the black hole within about 20 Schwarzschild radii of the 43 GHz core.</span>
+- Kim et al. (2018), [Long-term millimeter VLBI monitoring of M 87 with KVN at milliarcsecond resolution: nuclear spectrum](https://doi.org/10.1051/0004-6361/201732421), A&A 610, L5 <span class="annot">Simultaneous KVN observations at 22–129 GHz over several years give the radio spectrum of the M87 jet base and how it changes. <span class="ours">Our work</span></span>
+- Kim et al. (2023), [RadioAstron space VLBI imaging of the jet in M87. I. Detection of high brightness temperature at 22 GHz](https://doi.org/10.3847/1538-4357/accf17), ApJ 952, 34 <span class="annot">Space VLBI with RadioAstron resolves the base of the M87 jet at 22 GHz and finds a high brightness temperature there. <span class="ours">Our work</span></span>
 - Pushkarev et al. (2012), [MOJAVE IX. Nuclear opacity](https://doi.org/10.1051/0004-6361/201219173), A&A 545, A113 <span class="annot">Core shifts for a large MOJAVE sample and the magnetic fields they imply near the jet base.</span>
 
 </details>
 
 <details class="topic" markdown="1">
-<summary>Polarization and magnetic fields <span class="n">5</span></summary>
+<summary>Polarization and magnetic fields <span class="n">10</span></summary>
+
+- Laing (1980), [A model for the magnetic-field structure in extended radio sources](https://doi.org/10.1093/mnras/193.3.439), MNRAS 193, 439 <span class="annot">How a tangled magnetic field that is compressed or sheared becomes partly ordered, and what polarization this produces; the basic idea behind reading polarization maps of jets and lobes.</span>
 
 - Zavala & Taylor (2004), [A view through Faraday's fog. II. Parsec-scale rotation measures in 40 active galactic nuclei](https://doi.org/10.1086/422741), ApJ 612, 749 <span class="annot">Multi-frequency VLBA polarimetry of 40 AGN: how Faraday rotation is measured on parsec scales and what it says about the plasma around jets.</span>
 - Lister & Homan (2005), [MOJAVE I. First-epoch 15 GHz linear polarization images](https://doi.org/10.1086/432969), AJ 130, 1389 <span class="annot">Linear polarization of a complete sample of blazar jets at 15 GHz: fractional polarization and magnetic-field orientation in cores and jets.</span>
 - Hovatta et al. (2012), [MOJAVE VIII. Faraday rotation in parsec-scale AGN jets](https://doi.org/10.1088/0004-6256/144/4/105), AJ 144, 105 <span class="annot">Rotation measures for a large MOJAVE sample, including gradients across jets that may trace helical magnetic fields.</span>
+- Marscher (2014), [Turbulent, extreme multi-zone model for simulating flux and polarization variability in blazars](https://doi.org/10.1088/0004-637X/780/1/87), ApJ 780, 87 <span class="annot">The TEMZ model: many turbulent cells passing a standing shock reproduce the random swings of flux and polarization seen in blazars.</span>
 - Blinov et al. (2015), [RoboPol: first season rotations of optical polarization plane in blazars](https://doi.org/10.1093/mnras/stv1723), MNRAS 453, 1669 <span class="annot">Rotations of the optical polarization angle in a monitored sample of blazars, with hints of a link to gamma-ray flares.</span>
 - Event Horizon Telescope Collaboration (2021), [First M87 Event Horizon Telescope results. VII. Polarization of the ring](https://doi.org/10.3847/2041-8213/abe71d), ApJL 910, L12 <span class="annot">The first polarized image of a black hole: ordered magnetic fields in the ring around M87*.</span>
+- Kim et al. (2015), [PAGaN I: multi-frequency polarimetry of AGN jets with KVN](https://doi.org/10.5303/JKAS.2015.48.5.285), JKAS 48, 285 <span class="annot">Simultaneous polarimetry of AGN jets at several frequencies with KVN, the first paper of the PAGaN program. <span class="ours">Our work</span></span>
+- Kim et al. (2019), [Spatially resolved origin of millimeter-wave linear polarization in the nuclear region of 3C 84](https://doi.org/10.1051/0004-6361/201832920), A&A 622, A196 <span class="annot">Millimeter VLBI polarimetry locating where the linear polarization of 3C 84 comes from, and what it implies for the medium around the jet. <span class="ours">Our work</span></span>
+- Kim et al. (2015), [Investigating plasma-physical properties of jets in nearby radio-bright AGN with KVN and KaVA](https://doi.org/10.5303/PKAS.2015.30.2.453), PKAS 30, 453 <span class="annot">How multi-frequency KVN and KaVA observations can probe the magnetic fields and particles in nearby AGN jets. <span class="ours">Our work</span></span>
 
 </details>
 
@@ -145,7 +160,7 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Variability and the multi-wavelength view <span class="n">9</span></summary>
+<summary>Variability and the multi-wavelength view <span class="n">10</span></summary>
 
 - Review: Ulrich, Maraschi & Urry (1997), [Variability of active galactic nuclei](https://doi.org/10.1146/annurev.astro.35.1.445), ARA&A 35, 445 <span class="annot">The classic review of AGN variability from radio to gamma rays, and what it tells us about sizes and emission mechanisms.</span>
 - Marscher et al. (2008), [The inner jet of an active galactic nucleus as revealed by a radio-to-γ-ray outburst](https://ui.adsabs.harvard.edu/abs/2008Natur.452..966M), Nature 452, 966 <span class="annot">A rotating optical polarization angle during a flare of BL Lacertae, tracing a helical magnetic field in the region where the jet is accelerated.</span>
@@ -156,6 +171,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - Fuhrmann et al. (2014), [Detection of significant cm to sub-mm band radio and γ-ray correlated variability in Fermi bright blazars](https://doi.org/10.1093/mnras/stu540), MNRAS 441, 1899 <span class="annot">F-GAMMA monitoring from centimeter to submillimeter wavelengths: radio and gamma-ray flares are correlated, with delays that shrink toward shorter wavelengths.</span>
 - Fuhrmann et al. (2016), [The F-GAMMA programme: multi-frequency study of active galactic nuclei in the Fermi era](https://doi.org/10.1051/0004-6361/201528034), A&A 596, A45 <span class="annot">The F-GAMMA program: monthly radio spectra of Fermi blazars from 2.6 to 345 GHz with Effelsberg, IRAM 30 m and APEX.</span>
 - Max-Moerbeck et al. (2014), [Time correlation between the radio and gamma-ray activity in blazars and the production site of the gamma-ray emission](https://doi.org/10.1093/mnras/stu1749), MNRAS 445, 428 <span class="annot">Radio–gamma-ray cross-correlations done carefully, with significance from simulated light curves, and what the time lags say about where gamma rays are made.</span>
+- Kim & Trippe (2013), [How to monitor AGN intra-day variability at 230 GHz](https://doi.org/10.5303/JKAS.2013.46.2.65), JKAS 46, 65 <span class="annot">What it takes to detect intra-day variability of AGN at 230 GHz, and how to plan such monitoring. <span class="ours">Our work</span></span>
 
 </details>
 
@@ -171,12 +187,13 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Multi-messenger astrophysics (mostly neutrinos) <span class="n">7</span></summary>
+<summary>Multi-messenger astrophysics (mostly neutrinos) <span class="n">8</span></summary>
 
 - IceCube Collaboration (2013), [Evidence for high-energy extraterrestrial neutrinos at the IceCube detector](https://doi.org/10.1126/science.1242856), Science 342, 1242856 <span class="annot">The first evidence for high-energy neutrinos from beyond the Solar System.</span>
 - IceCube Collaboration et al. (2018), [Multimessenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A](https://ui.adsabs.harvard.edu/abs/2018Sci...361.1378I), Science 361, eaat1378 <span class="annot">A neutrino that arrived during a gamma-ray flare of the blazar TXS 0506+056, the first association of a high-energy neutrino with a source.</span>
 - IceCube Collaboration (2018), [Neutrino emission from the direction of the blazar TXS 0506+056 prior to the IceCube-170922A alert](https://ui.adsabs.harvard.edu/abs/2018Sci...361..147I), Science 361, 147 <span class="annot">An earlier excess of neutrinos from TXS 0506+056 in 2014–2015, found in archival data.</span>
 - Plavin et al. (2020), [Observational evidence for the origin of high-energy neutrinos in parsec-scale nuclei of radio-bright active galaxies](https://ui.adsabs.harvard.edu/abs/2020ApJ...894..101P), ApJ 894, 101 <span class="annot">A statistical link between IceCube neutrinos and the VLBI-bright cores of blazars.</span>
+- Kim & Kim (2025), [The dynamics of the parsec-scale jet in the neutrino blazar PKS 0735+178](https://doi.org/10.1051/0004-6361/202452111), A&A 699, A381 <span class="annot">VLBI kinematics of the jet in PKS 0735+178, the blazar that flared together with a high-energy neutrino in December 2021. <span class="ours">Our work</span></span>
 - IceCube Collaboration (2022), [Evidence for neutrino emission from the nearby active galaxy NGC 1068](https://ui.adsabs.harvard.edu/abs/2022Sci...378..538I), Science 378, 538 <span class="annot">Neutrinos from the Seyfert galaxy NGC 1068, far brighter than its gamma rays, which points to a source hidden deep in the nucleus.</span>
 - Review: Mészáros (2017), [Astrophysical sources of high-energy neutrinos in the IceCube era](https://ui.adsabs.harvard.edu/abs/2017ARNPS..67...45M), Annu. Rev. Nucl. Part. Sci. 67, 45 <span class="annot">Candidate sources of high-energy neutrinos and how the neutrinos are produced.</span>
 - Review, for the gravitational-wave side: Margutti & Chornock (2021), [First multimessenger observations of a neutron star merger](https://ui.adsabs.harvard.edu/abs/2021ARA%26A..59..155M), ARA&A 59, 155 (GW170817) <span class="annot">GW170817, the neutron star merger seen in gravitational waves and across the electromagnetic spectrum, including its relativistic jet.</span>
@@ -184,22 +201,35 @@ Papers that are widely read across the field, from classic theory and observatio
 </details>
 
 <details class="topic" markdown="1">
-<summary>Black holes in the early universe and small black holes <span class="n">3</span></summary>
+<summary>Black holes in the early universe, and small black holes <span class="n">8</span></summary>
 
 - Bogdán et al. (2024), [Evidence for heavy-seed origin of early supermassive black holes from a z ≈ 10 X-ray quasar](https://ui.adsabs.harvard.edu/abs/2024NatAs...8..126B), Nature Astronomy 8, 126 <span class="annot">UHZ1, an X-ray quasar at redshift about 10, whose black hole is as massive as its host's stars, a sign of heavy seeds.</span>
 - Review: Inayoshi, Visbal & Haiman (2020), [The assembly of the first massive black holes](https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58...27I), ARA&A 58, 27 <span class="annot">How the first massive black holes formed and grew so quickly: light and heavy seeds.</span>
 - Review: Greene, Strader & Ho (2020), [Intermediate-mass black holes](https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58..257G), ARA&A 58, 257 <span class="annot">The search for intermediate-mass black holes in dwarf galaxies, star clusters and elsewhere.</span>
+- Reines, Greene & Geha (2013), [Dwarf galaxies with optical signatures of active massive black holes](https://doi.org/10.1088/0004-637X/775/2/116), ApJ 775, 116 <span class="annot">A systematic search of SDSS dwarf galaxies that found over a hundred with signs of accreting massive black holes.</span>
+- Review: Mezcua (2017), [Observational evidence for intermediate-mass black holes](https://doi.org/10.1142/S021827181730021X), Int. J. Mod. Phys. D 26, 1730021 <span class="annot">The evidence for black holes of 10<sup>2</sup>–10<sup>5</sup> solar masses, from star clusters to dwarf galaxies, and why they matter for the seeds of supermassive black holes.</span>
+- Mezcua et al. (2018), [Intermediate-mass black holes in dwarf galaxies out to redshift ∼2.4 in the Chandra COSMOS-Legacy Survey](https://doi.org/10.1093/mnras/sty1163), MNRAS 478, 2576 <span class="annot">X-ray-selected AGN in dwarf galaxies over most of cosmic time.</span>
+- Mezcua, Suh & Civano (2019), [Radio jets from AGNs in dwarf galaxies in the COSMOS survey: mechanical feedback out to redshift ∼3.4](https://doi.org/10.1093/mnras/stz1760), MNRAS 488, 685 <span class="annot">Radio jets from small black holes in dwarf galaxies, and how much energy they could return to their hosts.</span>
+- Reines et al. (2020), [A new sample of (wandering) massive black holes in dwarf galaxies from high-resolution radio observations](https://doi.org/10.3847/1538-4357/ab4999), ApJ 888, 36 <span class="annot">A VLA search for compact radio sources in dwarf galaxies, some of them offset from the centers: candidate wandering black holes.</span>
 
 </details>
 
 <details class="topic" markdown="1">
-<summary>Technical: imaging, calibration, modeling and statistics <span class="n">14</span></summary>
+<summary>Technical: imaging, calibration, modeling and statistics <span class="n">23</span></summary>
 
 - Jennison (1958), [A phase sensitive interferometer technique for the measurement of the Fourier transforms of spatial brightness distributions of small angular extent](https://doi.org/10.1093/mnras/118.3.276), MNRAS 118, 276 <span class="annot">Closure phase: a combination of visibility phases that is immune to antenna-based errors, the basis of VLBI imaging.</span>
 - Högbom (1974), [Aperture synthesis with a non-regular distribution of interferometer baselines](https://ui.adsabs.harvard.edu/abs/1974A%26AS...15..417H), A&AS 15, 417 <span class="annot">The CLEAN algorithm, still the standard way to make images from interferometer data.</span>
 - Pearson & Readhead (1984), [Image formation by self-calibration in radio astronomy](https://ui.adsabs.harvard.edu/abs/1984ARA%26A..22...97P), ARA&A 22, 97 <span class="annot">Self-calibration, the technique that makes high-quality VLBI images possible.</span>
+- Cornwell (2008), [Multiscale CLEAN deconvolution of radio synthesis images](https://doi.org/10.1109/JSTSP.2008.2006388), IEEE J. Sel. Top. Signal Process. 2, 793 <span class="annot">Multi-scale CLEAN: deconvolution with components of several sizes, much better than point-source CLEAN for extended emission.</span>
+- Rau & Cornwell (2011), [A multi-scale multi-frequency deconvolution algorithm for synthesis imaging in radio interferometry](https://doi.org/10.1051/0004-6361/201117104), A&A 532, A71 <span class="annot">Multi-scale, multi-frequency synthesis: imaging over wide bandwidths while fitting the spectrum, as done in CASA today.</span>
 - Akiyama et al. (2017), [Imaging the Schwarzschild-radius-scale structure of M87 with the Event Horizon Telescope using sparse modeling](https://doi.org/10.3847/1538-4357/aa6305), ApJ 838, 1 <span class="annot">Sparse modeling (regularized maximum likelihood) for EHT imaging, tested on simulated M87 data.</span>
 - Chael et al. (2018), [Interferometric imaging directly with closure phases and closure amplitudes](https://doi.org/10.3847/1538-4357/aab6a8), ApJ 857, 23 <span class="annot">Imaging from closure quantities alone, avoiding most calibration errors; the method behind eht-imaging.</span>
+- Junklewitz et al. (2016), [RESOLVE: a new algorithm for aperture synthesis imaging of extended emission in radio astronomy](https://doi.org/10.1051/0004-6361/201323094), A&A 586, A76 <span class="annot">RESOLVE: Bayesian imaging based on information field theory, which also gives the uncertainty of the image.</span>
+- Arras et al. (2021), [Comparison of classical and Bayesian imaging in radio interferometry](https://doi.org/10.1051/0004-6361/202039258), A&A 646, A84 <span class="annot">CLEAN and Bayesian (RESOLVE) imaging applied to the same VLA data, side by side.</span>
+- Müller & Lobanov (2022), [DoG-HiT: a novel VLBI multiscale imaging approach](https://doi.org/10.1051/0004-6361/202243244), A&A 666, A137 <span class="annot">Multiscale imaging with wavelets designed for sparse VLBI arrays such as the EHT.</span>
+- Broderick & Pesce (2020), [Closure traces: novel calibration-insensitive quantities for radio astronomy](https://doi.org/10.3847/1538-4357/abbd9d), ApJ 904, 126 <span class="annot">Closure traces: combinations of the full polarimetric visibilities that do not depend on station gains or polarization leakage.</span>
+- Thyagarajan, Nityananda & Samuel (2022), [Invariants in copolar interferometry: an Abelian gauge theory](https://doi.org/10.1103/PhysRevD.105.043019), Phys. Rev. D 105, 043019 <span class="annot">The complete set of closure invariants for total-intensity interferometry, derived in a unified way.</span>
+- Samuel, Nityananda & Thyagarajan (2022), [Invariants in polarimetric interferometry: a non-Abelian gauge theory](https://doi.org/10.1103/PhysRevLett.128.091101), Phys. Rev. Lett. 128, 091101 <span class="annot">The same idea for full polarization: quantities unaffected by any station-based corruption, including leakage.</span>
 - Event Horizon Telescope Collaboration (2019), [First M87 Event Horizon Telescope results. IV. Imaging the central supermassive black hole](https://ui.adsabs.harvard.edu/abs/2019ApJ...875L...4E), ApJL 875, L4 <span class="annot">How the first EHT image was made and tested with independent imaging methods.</span>
 - Martí-Vidal et al. (2021), [Polarization calibration techniques for the new-generation VLBI](https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..52M), A&A 646, A52 <span class="annot">Polarization calibration for modern VLBI, with the CASA tools [PolSolve and PolSimulate](https://github.com/marti-vidal-i/casa-poltools).</span>
 - Review: Janssen, Radcliffe & Wagner (2022), [Software and techniques for VLBI data processing and analysis](https://doi.org/10.3390/universe8100527), Universe 8, 527 <span class="annot">An overview of the software used to process and analyze VLBI data today.</span>
@@ -209,6 +239,7 @@ Papers that are widely read across the field, from classic theory and observatio
 - Scargle et al. (2013), [Studies in astronomical time series analysis. VI. Bayesian block representations](https://doi.org/10.1088/0004-637X/764/2/167), ApJ 764, 167 <span class="annot">Bayesian blocks: an objective way to find flares and changes in light curves.</span>
 - VanderPlas (2018), [Understanding the Lomb–Scargle periodogram](https://doi.org/10.3847/1538-4365/aab766), ApJS 236, 16 <span class="annot">A practical guide to periodograms for unevenly sampled data, and their pitfalls.</span>
 - Foreman-Mackey et al. (2013), [emcee: the MCMC hammer](https://doi.org/10.1086/670067), PASP 125, 306 <span class="annot">The widely used MCMC sampler for fitting models to data.</span>
+- Kim & Trippe (2014), [VIMAP: an interactive program providing radio spectral index maps of active galactic nuclei](https://doi.org/10.5303/JKAS.2014.47.5.195), JKAS 47, 195 <span class="annot">VIMAP, an interactive tool for aligning multi-frequency VLBI images and making spectral-index maps. <span class="ours">Our work</span></span>
 
 </details>
 
@@ -262,7 +293,29 @@ Papers that are widely read across the field, from classic theory and observatio
 
 - [NRAO Synthesis Imaging Workshop](https://science.nrao.edu/science/meetings/2026/2026_siw): the biennial school on radio interferometry; lectures from past workshops are online, e.g. [2018](https://science.nrao.edu/science/meetings/2018/16th-synthesis-imaging-workshop/16th-synthesis-imaging-workshop-lectures)
 - [NRAO learning resources](https://science.nrao.edu/opportunities/courses): tutorials and courses on radio astronomy and data reduction
-- European Radio Interferometry School (ERIS), e.g. [ERIS 2022](https://www.jive.eu/eris2022/) and [ERIS 2026](https://acme-eris-2026.sciencesconf.org/)
+- European Radio Interferometry School (ERIS), e.g. [ERIS 2022](https://www.jive.eu/eris2022/) and [ERIS 2026](https://acme-eris-2026.sciencesconf.org/): a week of lectures and hands-on data reduction, with a strong VLBI part
+- [IRAM Millimeter Interferometry School](https://iram-institute.org/science-portal/events/interferometry-school/): millimeter interferometry with NOEMA, held in Grenoble; see also the [list of past schools](https://iram-institute.org/science-portal/events/interferometry-school/school-list/)
+- [IRAM 30-meter Schools](https://iram-institute.org/science-portal/events/30m-school/): single-dish millimeter observing, with time at the IRAM 30m telescope on Pico Veleta, Spain
+- [전파 여름학교 및 전파망원경 사용자회의](https://radio.kasi.re.kr/event/event.php?id=radio26) (KASI, Korean Radio Summer School and radio telescope users' meeting): lectures on radio astronomy and KVN, in Korean; see also [2022](https://radio.kasi.re.kr/event/radiouser22/) and [2023](https://radio.kasi.re.kr/event/radiousers2023/)
+
+## Software and tutorials
+
+The main packages for calibrating and imaging radio interferometer data, with a place to start for each.
+
+- [AIPS](http://www.aips.nrao.edu/) (Astronomical Image Processing System, NRAO): the classic package for calibrating VLBI and VLA data, still the standard for VLBA and many VLBI arrays. Start with the [AIPS CookBook](http://www.aips.nrao.edu/cook.html), whose appendix on VLBA data is a step-by-step guide.
+- [CASA](https://casa.nrao.edu/) (Common Astronomy Software Applications): the main package for ALMA and the VLA, and increasingly for VLBI. [CASA Docs](https://casadocs.readthedocs.io/) explains the tasks, and [CASA Guides](https://casaguides.nrao.edu/) has worked tutorials on real data.
+- [EVN Data Reduction Guide](https://www.evlbi.org/evn-data-reduction-guide) (JIVE): VLBI calibration from start to finish, with the same steps shown in AIPS and in CASA.
+- [Difmap](https://sites.astro.caltech.edu/~tjp/citvlb/) (Caltech): a fast, interactive program for VLBI imaging and self-calibration (CLEAN and model fitting); the Difmap Cookbook is available from the same page.
+- [eht-imaging](https://github.com/achael/eht-imaging) and [SMILI](https://github.com/astrosmili/smili): Python libraries for regularized maximum-likelihood imaging, developed for the EHT and useful for any VLBI data.
+- [rPICARD](https://bitbucket.org/M_Janssen/picard): a CASA-based pipeline for calibrating VLBI data, used for the EHT.
+
+## Build a small radio telescope
+
+A small telescope that detects the 21 cm line of hydrogen in the Milky Way can be built from inexpensive parts, and it is a good first instrumentation project for undergraduates: antennas, amplifiers, receivers, calibration and a real astronomical signal, all in one.
+
+- [SKAO Table-Top Radio Telescope (TTRT)](https://www.skao.int/en/resources/outreach-education/ar-vr-fun-stuff): the SKA Observatory's design for a small telescope that measures hydrogen emission from the Milky Way in under a minute, for less than £100 in parts. There is a [how-to guide](https://skao.canto.global/b/LJC6L) and [driver software](https://gitlab.com/ska-telescope/ska-tabletop-radiotelescope/-/packages/).
+- Our cantenna radio telescope: Byeongmin Park (UNIST undergraduate, 2026; supervised by Jae-Young Kim, mentored by Taeho Kang), *Assembly of a Cantenna-Based Radio Telescope and Observations of the 21 cm Neutral Hydrogen Line*: [report (PDF, English)](/assets/docs/cantenna/park2026-cantenna-21cm-report.pdf) and [slides with a step-by-step build manual (PDF, Korean)](/assets/docs/cantenna/park2026-cantenna-21cm-slides-ko.pdf). A horn made from a metal can, low-noise amplifiers and a software-defined radio detect the Galactic hydrogen line; the system temperature is about 200 K, and the measured spectra agree with the LAB survey.
+- The [2.3m radio telescope](/2-3m-radio-telescope/) page has manuals and pictures of a larger 1.4 GHz teaching telescope.
 
 ## Literature and databases
 
