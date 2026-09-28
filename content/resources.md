@@ -313,7 +313,10 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 - Peterson, [*An Introduction to Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139170901) (Cambridge University Press, 1997) <span class="annot">A short and readable introduction to AGN, especially emission lines and reverberation mapping.</span>
 - Netzer, [*The Physics and Evolution of Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139109291) (Cambridge University Press, 2013) <span class="annot">A graduate text on the physics and evolution of AGN, from accretion disks to surveys.</span>
 
-**Astrophysics, galaxies and cosmology**
+**Getting started: astronomy, galaxies and cosmology**
+
+Books for the big picture of astrophysics, galaxies and cosmology, for undergraduates with no background in astronomy as well as students just starting graduate school in astrophysics.
+{: .group-note}
 
 - Bennett, Donahue, Schneider & Voit, [*The Cosmic Perspective*](https://www.pearson.com/en-us/subject-catalog/p/cosmic-perspective-the/P200000009792) (Pearson) <span class="annot">A very readable introduction to astronomy, also for students from other fields.</span>
 - Carroll & Ostlie, [*An Introduction to Modern Astrophysics*](https://doi.org/10.1017/9781108380980), 2nd ed. (Cambridge University Press, 2017) <span class="annot">The comprehensive undergraduate astrophysics textbook, from stars to cosmology.</span>

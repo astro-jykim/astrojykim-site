@@ -926,3 +926,4 @@ nav.tabs .sub a + a { border-top: 1px solid var(--line); }
 .prose .ours-note { font-size: 14px; color: var(--ink-3); position: relative; padding-left: 20px; }
 .prose .ours-note::before { content: ""; position: absolute; left: 4px; top: 0.62em; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 .prose .ours-note .ours { margin-left: 0; }
+.prose .group-note { font-size: 14.5px; color: var(--ink-3); margin-top: -0.5em; text-align: left; hyphens: manual; }
