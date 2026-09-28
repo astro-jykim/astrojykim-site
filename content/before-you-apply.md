@@ -9,13 +9,12 @@ nav: false
 [한국어 버전](#korean)
 {: .langswitch}
 
-This page collects articles on graduate school and on careers in astronomy. A PhD is the first step of a research career, and it pays to know what the work and the job market look like before committing several years to it. The list ranges from career statistics to personal accounts.
+This page shares collected articles on graduate school and on careers in astronomy. A PhD is the first step of a research career, and it pays to know what the work and the job market look like before committing several years to it. The list ranges from career statistics to personal accounts.
 
-Students who start with a realistic picture, not just a dream, make better choices along the way: which problems to work on, which skills to build, and when to ask for help or consider other paths. Enthusiasm matters, and realism helps it last.
+In particular, students who start with a realistic picture, not just a dream, make better choices along the way: which problems to work on, which skills to build, and when to ask for help or consider other paths. Enthusiasm matters, and realism helps it last too.
+To this end, I ask every student who wants to join our group to read these before applying, and we go over them together before the application goes in (Admittedly, not all of my current students read all the articles intensively). It should be noted that getting the degree takes a fair amount of research and a few good papers, but the hard part comes after graduation, when you need to find a good and long-term position to continue performing good research (which should be your eventual goal in academia). 
 
-I ask every student who wants to join our group to read these before applying, and we go over them together before the application goes in. Getting the degree takes a fair amount of research and a few good papers; the hard part comes after graduation, when you need to find a good position and keep doing good research. It helps to know what that road looks like before you start.
-
-Some titles are provocative on purpose, such as reasons *not* to go to graduate school; they are meant to make you think, not to put you off. Most of the articles are about academic careers in general.
+Therefore, it helps to know what that road looks like before you start. Some titles are provocative on purpose, such as reasons *not* to go to graduate school; they are meant to make you think, not to put you off. Most of the articles are about academic careers in general.
 
 <details class="topic" markdown="1">
 <summary>The academic career and the job market <span class="n">6</span><small class="d">These articles show how many astronomy PhDs are produced, how many jobs there are for them, and what an academic career actually looks like.</small></summary>
