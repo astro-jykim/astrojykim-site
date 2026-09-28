@@ -17,8 +17,10 @@ Papers that are widely read across the field, from classic theory and observatio
 Papers marked <span class="ours">Our work</span> have members of our group among their authors, including collaboration papers.
 {: .ours-note}
 
+<p class="topic-group">Black holes and jets</p>
+
 <details class="topic" markdown="1">
-<summary>Near the black hole: accretion, spin, jet launching and tests of gravity <span class="n">24</span></summary>
+<summary>Near the black hole: accretion, spin, jet launching and tests of gravity <span class="n">24</span><small class="d">Accretion flows, how jets are launched, and what horizon-scale images tell us about black holes and gravity.</small></summary>
 
 - Shakura & Sunyaev (1973), [Black holes in binary systems: observational appearance](https://ui.adsabs.harvard.edu/abs/1973A%26A....24..337S), A&A 24, 337 <span class="annot">The standard thin accretion disk, the starting point for every later accretion model.</span>
 - Blandford & Znajek (1977), [Electromagnetic extraction of energy from Kerr black holes](https://ui.adsabs.harvard.edu/abs/1977MNRAS.179..433B), MNRAS 179, 433 <span class="annot">How a spinning black hole threaded by magnetic field can give up its rotational energy as an electromagnetic outflow: the Blandford–Znajek process, still the leading idea for what powers jets.</span>
@@ -48,7 +50,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Jet acceleration and collimation <span class="n">20</span></summary>
+<summary>Jet acceleration and collimation <span class="n">20</span><small class="d">How jets are accelerated and focused, from theory to VLBI measurements of jet shapes and speeds.</small></summary>
 
 - Review: Blandford, Meier & Readhead (2019), [Relativistic jets from active galactic nuclei](https://doi.org/10.1146/annurev-astro-081817-051948), ARA&A 57, 467 <span class="annot">A broad modern review of AGN jets, from history and observations to theory; its Figure 1 is the M87 montage on our Research page.</span>
 - Vlahakis & Königl (2004), [Magnetic driving of relativistic outflows in active galactic nuclei. I. Interpretation of parsec-scale accelerations](https://doi.org/10.1086/382670), ApJ 605, 656 <span class="annot">Magnetic acceleration of AGN jets out to parsec scales, as an explanation of the accelerating features seen with VLBI.</span>
@@ -74,7 +76,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Shocks, instabilities, recollimation, hot spots and lobe formation <span class="n">15</span></summary>
+<summary>Shocks, instabilities, recollimation, hot spots and lobe formation <span class="n">15</span><small class="d">What happens along the jet: shocks, instabilities, bends, and the hot spots and lobes where jets end.</small></summary>
 
 - Marscher & Gear (1985), [Models for high-frequency radio outbursts in extragalactic sources, with application to the early 1983 millimeter-to-infrared flare of 3C 273](https://doi.org/10.1086/163592), ApJ 298, 114 <span class="annot">The shock-in-jet model: a shock moving down the jet explains how radio-to-infrared flares evolve.</span>
 - Hughes, Aller & Aller (1985), [Polarized radio outbursts in BL Lacertae. II. The flux and polarization of a piston-driven shock](https://doi.org/10.1086/163611), ApJ 298, 301 <span class="annot">Shocks that compress the jet's magnetic field explain the flux and polarization changes during radio outbursts.</span>
@@ -95,7 +97,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Radio galaxies on large scales: FR classes, jets and lobes <span class="n">12</span></summary>
+<summary>Radio galaxies on large scales: FR classes, jets and lobes <span class="n">12</span><small class="d">Radio galaxies as a population: morphology, the Fanaroff–Riley classes and jets on kiloparsec scales.</small></summary>
 
 - Fanaroff & Riley (1974), [The morphology of extragalactic radio sources of high and low luminosity](https://doi.org/10.1093/mnras/167.1.31P), MNRAS 167, 31P <span class="annot">The FR I / FR II division: edge-darkened, lower-power sources versus edge-brightened, higher-power ones.</span>
 - Begelman, Blandford & Rees (1984), [Theory of extragalactic radio sources](https://ui.adsabs.harvard.edu/abs/1984RvMP...56..255B), Rev. Mod. Phys. 56, 255 <span class="annot">The classic review of how radio galaxies and quasars work, from the central engine through the jets to the hot spots and lobes.</span>
@@ -112,25 +114,10 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 
 </details>
 
-<details class="topic" markdown="1">
-<summary>AGN and their host galaxies: unification, coevolution and feedback <span class="n">11</span></summary>
-
-- Urry & Padovani (1995), [Unified schemes for radio-loud active galactic nuclei](https://ui.adsabs.harvard.edu/abs/1995PASP..107..803U), PASP 107, 803 <span class="annot">The unified scheme: radio galaxies, quasars and blazars as the same kind of object seen from different angles.</span>
-- Review: Padovani et al. (2017), [Active galactic nuclei: what's in a name?](https://ui.adsabs.harvard.edu/abs/2017A%26ARv..25....2P), A&ARv 25, 2 <span class="annot">A guide to the many classes of AGN and a physically based classification into jetted and non-jetted sources.</span>
-- Magorrian et al. (1998), [The demography of massive dark objects in galaxy centers](https://doi.org/10.1086/300353), AJ 115, 2285 <span class="annot">Black hole masses scale with the mass of the host bulge: most galaxies host a supermassive black hole.</span>
-- Ferrarese & Merritt (2000), [A fundamental relation between supermassive black holes and their host galaxies](https://doi.org/10.1086/312838), ApJ 539, L9 <span class="annot">The tight relation between black hole mass and the velocity dispersion of the host bulge.</span>
-- Gebhardt et al. (2000), [A relationship between nuclear black hole mass and galaxy velocity dispersion](https://doi.org/10.1086/312840), ApJ 539, L13 <span class="annot">The same relation found independently, published side by side with Ferrarese & Merritt.</span>
-- Review: Kormendy & Ho (2013), [Coevolution (or not) of supermassive black holes and host galaxies](https://ui.adsabs.harvard.edu/abs/2013ARA%26A..51..511K), ARA&A 51, 511 <span class="annot">The scaling relations between black hole mass and host galaxy, and what they say about coevolution.</span>
-- Best et al. (2005), [The host galaxies of radio-loud active galactic nuclei: mass dependences, gas cooling and active galactic nuclei feedback](https://doi.org/10.1111/j.1365-2966.2005.09192.x), MNRAS 362, 25 <span class="annot">The fraction of galaxies with radio-loud AGN rises steeply with their mass, pointing to fuelling by hot gas and to feedback.</span>
-- Croton et al. (2006), [The many lives of active galactic nuclei: cooling flows, black holes and the luminosities and colours of galaxies](https://doi.org/10.1111/j.1365-2966.2005.09675.x), MNRAS 365, 11 <span class="annot">Radio-mode feedback in a galaxy formation model: jets that stop gas cooling explain why massive galaxies stop forming stars.</span>
-- Review: McNamara & Nulsen (2007), [Heating hot atmospheres with active galactic nuclei](https://doi.org/10.1146/annurev.astro.45.051806.110625), ARA&A 45, 117 <span class="annot">Cavities and shocks inflated by radio jets in galaxy clusters, and the energy they put into the hot gas.</span>
-- Review: Fabian (2012), [Observational evidence of active galactic nuclei feedback](https://doi.org/10.1146/annurev-astro-081811-125521), ARA&A 50, 455 <span class="annot">The observational case for AGN feedback, in both its radiative and its jet (kinetic) modes.</span>
-- Review: Heckman & Best (2014), [The coevolution of galaxies and supermassive black holes: insights from surveys of the contemporary universe](https://ui.adsabs.harvard.edu/abs/2014ARA%26A..52..589H), ARA&A 52, 589 <span class="annot">AGN in the nearby universe from large surveys: radiative and jet-mode AGN and their feedback on galaxies.</span>
-
-</details>
+<p class="topic-group">Emission, magnetic fields and variability</p>
 
 <details class="topic" markdown="1">
-<summary>Relativistic beaming, brightness temperature and core shift <span class="n">14</span></summary>
+<summary>Relativistic beaming, brightness temperature and core shift <span class="n">14</span><small class="d">The basic tools for reading VLBI data: Doppler boosting, brightness temperature, synchrotron opacity and core shift.</small></summary>
 
 - Blandford & Königl (1979), [Relativistic jets as compact radio sources](https://ui.adsabs.harvard.edu/abs/1979ApJ...232...34B), ApJ 232, 34 <span class="annot">The standard picture of the compact radio core as the self-absorbed base of a relativistic jet, which explains flat radio spectra and apparent superluminal motion.</span>
 - Kellermann & Pauliny-Toth (1969), [The spectra of opaque radio sources](https://doi.org/10.1086/180305), ApJ 155, L71 <span class="annot">Why the brightness temperature of an incoherent synchrotron source cannot stay much above about 10<sup>12</sup> K: beyond that, inverse-Compton losses run away (the inverse-Compton catastrophe).</span>
@@ -150,7 +137,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Polarization and magnetic fields <span class="n">12</span></summary>
+<summary>Polarization and magnetic fields <span class="n">12</span><small class="d">Magnetic fields in jets and near black holes, measured through linear polarization and Faraday rotation.</small></summary>
 
 - Laing (1980), [A model for the magnetic-field structure in extended radio sources](https://doi.org/10.1093/mnras/193.3.439), MNRAS 193, 439 <span class="annot">How a tangled magnetic field that is compressed or sheared becomes partly ordered, and what polarization this produces; the basic idea behind reading polarization maps of jets and lobes.</span>
 
@@ -169,7 +156,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Emission models of jets and blazars <span class="n">5</span></summary>
+<summary>Emission models of jets and blazars <span class="n">5</span><small class="d">Synchrotron self-Compton, external Compton and hadronic models of the broadband emission of blazars.</small></summary>
 
 - Maraschi, Ghisellini & Celotti (1992), [A jet model for the gamma-ray emitting blazar 3C 279](https://doi.org/10.1086/186531), ApJ 397, L5 <span class="annot">Synchrotron self-Compton emission from the jet as the origin of the gamma rays of a blazar.</span>
 - Dermer & Schlickeiser (1993), [Model for the high-energy emission from blazars](https://doi.org/10.1086/173251), ApJ 416, 458 <span class="annot">External Compton emission: jet electrons scatter photons from the accretion disk up to gamma-ray energies.</span>
@@ -180,7 +167,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Variability and the multi-wavelength view <span class="n">16</span></summary>
+<summary>Variability and the multi-wavelength view <span class="n">16</span><small class="d">Light curves from radio to gamma rays, and what correlated variability says about where the emission comes from.</small></summary>
 
 - Review: Ulrich, Maraschi & Urry (1997), [Variability of active galactic nuclei](https://doi.org/10.1146/annurev.astro.35.1.445), ARA&A 35, 445 <span class="annot">The classic review of AGN variability from radio to gamma rays, and what it tells us about sizes and emission mechanisms.</span>
 - Marscher et al. (2008), [The inner jet of an active galactic nucleus as revealed by a radio-to-γ-ray outburst](https://ui.adsabs.harvard.edu/abs/2008Natur.452..966M), Nature 452, 966 <span class="annot">A rotating optical polarization angle during a flare of BL Lacertae, tracing a helical magnetic field in the region where the jet is accelerated.</span>
@@ -202,7 +189,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Very-high-energy gamma rays and rapid variability <span class="n">8</span></summary>
+<summary>Very-high-energy gamma rays and rapid variability <span class="n">8</span><small class="d">TeV gamma rays from blazars and radio galaxies, and flares so fast that they challenge emission models.</small></summary>
 
 - Aharonian et al. (H.E.S.S. Collaboration, 2006), [Fast variability of tera-electron volt γ rays from the radio galaxy M87](https://doi.org/10.1126/science.1134408), Science 314, 1424 <span class="annot">TeV gamma rays from M87 that vary within days, so the emitting region must be very compact, close to the black hole or in a compact jet feature.</span>
 - Aharonian et al. (H.E.S.S. Collaboration, 2007), [An exceptional very high energy gamma-ray flare of PKS 2155-304](https://doi.org/10.1086/520635), ApJ 664, L71 <span class="annot">TeV flux doubling within minutes in a blazar, which requires very high Doppler factors or emission from regions much smaller than the black hole.</span>
@@ -216,7 +203,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Multi-messenger astrophysics (mostly neutrinos) <span class="n">8</span></summary>
+<summary>Multi-messenger astrophysics (mostly neutrinos) <span class="n">8</span><small class="d">High-energy neutrinos and their possible link to blazars and other AGN.</small></summary>
 
 - IceCube Collaboration (2013), [Evidence for high-energy extraterrestrial neutrinos at the IceCube detector](https://doi.org/10.1126/science.1242856), Science 342, 1242856 <span class="annot">The first evidence for high-energy neutrinos from beyond the Solar System.</span>
 - IceCube Collaboration et al. (2018), [Multimessenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A](https://ui.adsabs.harvard.edu/abs/2018Sci...361.1378I), Science 361, eaat1378 <span class="annot">A neutrino that arrived during a gamma-ray flare of the blazar TXS 0506+056, the first association of a high-energy neutrino with a source.</span>
@@ -229,8 +216,27 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 
 </details>
 
+<p class="topic-group">AGN, galaxies and the early Universe</p>
+
 <details class="topic" markdown="1">
-<summary>Black holes in the early universe, and small black holes <span class="n">10</span></summary>
+<summary>AGN and their host galaxies: unification, coevolution and feedback <span class="n">11</span><small class="d">The unified picture of AGN, and how black holes and their galaxies grow and regulate each other.</small></summary>
+
+- Urry & Padovani (1995), [Unified schemes for radio-loud active galactic nuclei](https://ui.adsabs.harvard.edu/abs/1995PASP..107..803U), PASP 107, 803 <span class="annot">The unified scheme: radio galaxies, quasars and blazars as the same kind of object seen from different angles.</span>
+- Review: Padovani et al. (2017), [Active galactic nuclei: what's in a name?](https://ui.adsabs.harvard.edu/abs/2017A%26ARv..25....2P), A&ARv 25, 2 <span class="annot">A guide to the many classes of AGN and a physically based classification into jetted and non-jetted sources.</span>
+- Magorrian et al. (1998), [The demography of massive dark objects in galaxy centers](https://doi.org/10.1086/300353), AJ 115, 2285 <span class="annot">Black hole masses scale with the mass of the host bulge: most galaxies host a supermassive black hole.</span>
+- Ferrarese & Merritt (2000), [A fundamental relation between supermassive black holes and their host galaxies](https://doi.org/10.1086/312838), ApJ 539, L9 <span class="annot">The tight relation between black hole mass and the velocity dispersion of the host bulge.</span>
+- Gebhardt et al. (2000), [A relationship between nuclear black hole mass and galaxy velocity dispersion](https://doi.org/10.1086/312840), ApJ 539, L13 <span class="annot">The same relation found independently, published side by side with Ferrarese & Merritt.</span>
+- Review: Kormendy & Ho (2013), [Coevolution (or not) of supermassive black holes and host galaxies](https://ui.adsabs.harvard.edu/abs/2013ARA%26A..51..511K), ARA&A 51, 511 <span class="annot">The scaling relations between black hole mass and host galaxy, and what they say about coevolution.</span>
+- Best et al. (2005), [The host galaxies of radio-loud active galactic nuclei: mass dependences, gas cooling and active galactic nuclei feedback](https://doi.org/10.1111/j.1365-2966.2005.09192.x), MNRAS 362, 25 <span class="annot">The fraction of galaxies with radio-loud AGN rises steeply with their mass, pointing to fuelling by hot gas and to feedback.</span>
+- Croton et al. (2006), [The many lives of active galactic nuclei: cooling flows, black holes and the luminosities and colours of galaxies](https://doi.org/10.1111/j.1365-2966.2005.09675.x), MNRAS 365, 11 <span class="annot">Radio-mode feedback in a galaxy formation model: jets that stop gas cooling explain why massive galaxies stop forming stars.</span>
+- Review: McNamara & Nulsen (2007), [Heating hot atmospheres with active galactic nuclei](https://doi.org/10.1146/annurev.astro.45.051806.110625), ARA&A 45, 117 <span class="annot">Cavities and shocks inflated by radio jets in galaxy clusters, and the energy they put into the hot gas.</span>
+- Review: Fabian (2012), [Observational evidence of active galactic nuclei feedback](https://doi.org/10.1146/annurev-astro-081811-125521), ARA&A 50, 455 <span class="annot">The observational case for AGN feedback, in both its radiative and its jet (kinetic) modes.</span>
+- Review: Heckman & Best (2014), [The coevolution of galaxies and supermassive black holes: insights from surveys of the contemporary universe](https://ui.adsabs.harvard.edu/abs/2014ARA%26A..52..589H), ARA&A 52, 589 <span class="annot">AGN in the nearby universe from large surveys: radiative and jet-mode AGN and their feedback on galaxies.</span>
+
+</details>
+
+<details class="topic" markdown="1">
+<summary>Black holes in the early universe, and small black holes <span class="n">10</span><small class="d">How the first massive black holes formed and grew so fast, and what small black holes in dwarf galaxies say about their seeds.</small></summary>
 
 - Bogdán et al. (2024), [Evidence for heavy-seed origin of early supermassive black holes from a z ≈ 10 X-ray quasar](https://ui.adsabs.harvard.edu/abs/2024NatAs...8..126B), Nature Astronomy 8, 126 <span class="annot">UHZ1, an X-ray quasar at redshift about 10, whose black hole is as massive as its host's stars, a sign of heavy seeds.</span>
 - Review: Inayoshi, Visbal & Haiman (2020), [The assembly of the first massive black holes](https://ui.adsabs.harvard.edu/abs/2020ARA%26A..58...27I), ARA&A 58, 27 <span class="annot">How the first massive black holes formed and grew so quickly: light and heavy seeds.</span>
@@ -245,8 +251,10 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 
 </details>
 
+<p class="topic-group">Methods</p>
+
 <details class="topic" markdown="1">
-<summary>Technical: imaging, calibration, modeling and statistics <span class="n">25</span></summary>
+<summary>Technical: imaging, calibration, modeling and statistics <span class="n">25</span><small class="d">Imaging, calibration and closure quantities for interferometry, and time-series analysis and statistics.</small></summary>
 
 - Jennison (1958), [A phase sensitive interferometer technique for the measurement of the Fourier transforms of spatial brightness distributions of small angular extent](https://doi.org/10.1093/mnras/118.3.276), MNRAS 118, 276 <span class="annot">Closure phase: a combination of visibility phases that is immune to antenna-based errors, the basis of VLBI imaging.</span>
 - Högbom (1974), [Aperture synthesis with a non-regular distribution of interferometer baselines](https://ui.adsabs.harvard.edu/abs/1974A%26AS...15..417H), A&AS 15, 417 <span class="annot">The CLEAN algorithm, still the standard way to make images from interferometer data.</span>
@@ -277,7 +285,7 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Machine learning and deep learning in astronomy <span class="n">7</span></summary>
+<summary>Machine learning and deep learning in astronomy <span class="n">7</span><small class="d">Reviews of machine learning in astronomy and examples from radio surveys.</small></summary>
 
 - Review: Ball & Brunner (2010), [Data mining and machine learning in astronomy](https://doi.org/10.1142/S0218271810017160), Int. J. Mod. Phys. D 19, 1049 <span class="annot">An early, broad overview of machine-learning methods and where they are used in astronomy.</span>
 - Review: Fluke & Jacobs (2020), [Surveying the reach and maturity of machine learning and artificial intelligence in astronomy](https://doi.org/10.1002/widm.1349), WIREs Data Min. Knowl. Discov. 10, e1349 <span class="annot">Where machine learning is actually used across astronomy, and how mature each application is.</span>
@@ -291,32 +299,8 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 
 ## Textbooks
 
-**Radio astronomy and interferometry**
-
-- Burke, Graham-Smith & Wilkinson, [*An Introduction to Radio Astronomy*](https://doi.org/10.1017/9781316987506), 4th ed. (Cambridge University Press, 2019) <span class="annot">A readable introduction to radio telescopes, emission processes and radio sources, for advanced undergraduates and beginning graduate students.</span>
-- Wilson, Rohlfs & Hüttemeister, [*Tools of Radio Astronomy*](https://doi.org/10.1007/978-3-642-39950-3), 6th ed. (Springer, 2013) <span class="annot">The practical textbook on radio telescopes, receivers and observing techniques, including spectroscopy.</span>
-- Condon & Ransom, [*Essential Radio Astronomy*](https://www.cv.nrao.edu/~sransom/web/xxx.html) (Princeton University Press, 2016), free online <span class="annot">A graduate course from NRAO: radiometers, emission mechanisms and the basics of interferometry.</span>
-- Thompson, Moran & Swenson, [*Interferometry and Synthesis in Radio Astronomy*](https://doi.org/10.1007/978-3-319-44431-4), 3rd ed. (Springer, 2017), open access <span class="annot">The reference on interferometry and aperture synthesis, from the theory of visibilities to VLBI.</span>
-- Taylor, Carilli & Perley (eds.), [*Synthesis Imaging in Radio Astronomy II*](https://ui.adsabs.harvard.edu/abs/1999ASPC..180.....T) (ASP Conf. Ser. 180, 1999) <span class="annot">The classic lecture notes of the NRAO Synthesis Imaging School: calibration, imaging and everything in between.</span>
-- Zensus, Diamond & Napier (eds.), [*Very Long Baseline Interferometry and the VLBA*](https://ui.adsabs.harvard.edu/abs/1995ASPC...82.....Z) (ASP Conf. Ser. 82, 1995), [free online](https://www.cv.nrao.edu/vlbabook/) <span class="annot">Lectures of the 1993 VLBA summer school; still one of the best introductions to how VLBI works.</span>
-- Middelberg & Bach (2008), [High resolution radio astronomy using very long baseline interferometry](https://ui.adsabs.harvard.edu/abs/2008RPPh...71f6901M), Rep. Prog. Phys. 71, 066901 <span class="annot">A compact introduction to VLBI, from the technique to the science.</span>
-
-**Radiation, jets and AGN**
-
-- Rybicki & Lightman, [*Radiative Processes in Astrophysics*](https://doi.org/10.1002/9783527618170) (Wiley, 1979) <span class="annot">The standard graduate text on radiation: radiative transfer, synchrotron emission, Compton scattering and bremsstrahlung.</span>
-- Pacholczyk, [*Radio Astrophysics: Nonthermal Processes in Galactic and Extragalactic Sources*](https://ui.adsabs.harvard.edu/abs/1970ranp.book.....P) (Freeman, 1970) <span class="annot">The classic source of formulas for synchrotron emission, absorption and polarization used to model radio sources.</span>
-- Ghisellini, [*Radiative Processes in High Energy Astrophysics*](https://doi.org/10.1007/978-3-319-00612-3) (Lecture Notes in Physics 873, Springer, 2013) <span class="annot">Compact lecture notes on high-energy radiation processes, written with jets and blazars in mind.</span>
-- Longair, [*High Energy Astrophysics*](https://doi.org/10.1017/CBO9780511778346), 3rd ed. (Cambridge University Press, 2011) <span class="annot">A broad textbook on high-energy astrophysics: particles, radiation, cosmic rays, AGN and jets.</span>
-- Böttcher, Harris & Krawczynski (eds.), [*Relativistic Jets from Active Galactic Nuclei*](https://doi.org/10.1002/9783527641741) (Wiley-VCH, 2012) <span class="annot">Review chapters on jet observations and theory, from radio to gamma rays.</span>
-- Hughes (ed.), [*Beams and Jets in Astrophysics*](https://doi.org/10.1017/CBO9780511564703) (Cambridge University Press, 1991) <span class="annot">Includes Birkinshaw's classic chapter on the stability of jets.</span>
-- Meier, [*Black Hole Astrophysics: The Engine Paradigm*](https://doi.org/10.1007/978-3-642-01936-4) (Springer, 2012) <span class="annot">A graduate text on black hole engines: accretion, magnetohydrodynamics and jet launching.</span>
-- Peterson, [*An Introduction to Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139170901) (Cambridge University Press, 1997) <span class="annot">A short and readable introduction to AGN, especially emission lines and reverberation mapping.</span>
-- Netzer, [*The Physics and Evolution of Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139109291) (Cambridge University Press, 2013) <span class="annot">A graduate text on the physics and evolution of AGN, from accretion disks to surveys.</span>
-
-**Getting started: astronomy, galaxies and cosmology**
-
-Books for the big picture of astrophysics, galaxies and cosmology, for undergraduates with no background in astronomy as well as students just starting graduate school in astrophysics.
-{: .group-note}
+<details class="topic" markdown="1">
+<summary>Getting started: astronomy, galaxies and cosmology <span class="n">10</span><small class="d">Books for the big picture of astrophysics, galaxies and cosmology, for undergraduates with no background in astronomy as well as students just starting graduate school in astrophysics.</small></summary>
 
 - Bennett, Donahue, Schneider & Voit, [*The Cosmic Perspective*](https://www.pearson.com/en-us/subject-catalog/p/cosmic-perspective-the/P200000009792) (Pearson) <span class="annot">A very readable introduction to astronomy, also for students from other fields.</span>
 - Carroll & Ostlie, [*An Introduction to Modern Astrophysics*](https://doi.org/10.1017/9781108380980), 2nd ed. (Cambridge University Press, 2017) <span class="annot">The comprehensive undergraduate astrophysics textbook, from stars to cosmology.</span>
@@ -329,12 +313,45 @@ Books for the big picture of astrophysics, galaxies and cosmology, for undergrad
 - Mo, van den Bosch & White, [*Galaxy Formation and Evolution*](https://doi.org/10.1017/CBO9780511807244) (Cambridge University Press, 2010) <span class="annot">The graduate reference on the theory of galaxy formation.</span>
 - Loeb & Furlanetto, [*The First Galaxies in the Universe*](https://doi.org/10.1515/9781400845606) (Princeton University Press, 2013) <span class="annot">The first stars and galaxies, the seeds of supermassive black holes, and how they reionized the Universe: a guide to the epoch of reionization and the 21 cm signal.</span>
 
-**Observational astronomy and techniques**
+</details>
+
+<details class="topic" markdown="1">
+<summary>Observational astronomy and techniques <span class="n">4</span><small class="d">How astronomical measurements are made: telescopes, detectors, photometry and spectroscopy across the spectrum.</small></summary>
 
 - Bradt, [*Astronomy Methods: A Physical Approach to Astronomical Observations*](https://doi.org/10.1017/CBO9780511802188) (Cambridge University Press, 2004) <span class="annot">How astronomical measurements are made across the spectrum, from coordinates and timing to telescopes, detectors and photon statistics, explained from physics.</span>
 - Chromey, [*To Measure the Sky: An Introduction to Observational Astronomy*](https://doi.org/10.1017/CBO9781316424117), 2nd ed. (Cambridge University Press, 2016) <span class="annot">An undergraduate introduction to observing: telescopes, detectors, photometry, spectroscopy and the statistics of measurement.</span>
 - Kitchin, [*Astrophysical Techniques*](https://doi.org/10.1201/9780429491139), 7th ed. (CRC Press, 2020) <span class="annot">A broad survey of detectors, telescopes, imaging, photometry, spectroscopy and polarimetry at all wavelengths.</span>
 - Rieke, [*Measuring the Universe: A Multiwavelength Perspective*](https://doi.org/10.1017/CBO9780511980497) (Cambridge University Press, 2012) <span class="annot">Observational techniques compared across the spectrum, from radio to X-rays, with an eye on what each band can and cannot measure.</span>
+
+</details>
+
+<details class="topic" markdown="1">
+<summary>Radio astronomy and interferometry <span class="n">7</span><small class="d">Radio telescopes, interferometry and VLBI, from introductions to the standard references.</small></summary>
+
+- Burke, Graham-Smith & Wilkinson, [*An Introduction to Radio Astronomy*](https://doi.org/10.1017/9781316987506), 4th ed. (Cambridge University Press, 2019) <span class="annot">A readable introduction to radio telescopes, emission processes and radio sources, for advanced undergraduates and beginning graduate students.</span>
+- Wilson, Rohlfs & Hüttemeister, [*Tools of Radio Astronomy*](https://doi.org/10.1007/978-3-642-39950-3), 6th ed. (Springer, 2013) <span class="annot">The practical textbook on radio telescopes, receivers and observing techniques, including spectroscopy.</span>
+- Condon & Ransom, [*Essential Radio Astronomy*](https://www.cv.nrao.edu/~sransom/web/xxx.html) (Princeton University Press, 2016), free online <span class="annot">A graduate course from NRAO: radiometers, emission mechanisms and the basics of interferometry.</span>
+- Thompson, Moran & Swenson, [*Interferometry and Synthesis in Radio Astronomy*](https://doi.org/10.1007/978-3-319-44431-4), 3rd ed. (Springer, 2017), open access <span class="annot">The reference on interferometry and aperture synthesis, from the theory of visibilities to VLBI.</span>
+- Taylor, Carilli & Perley (eds.), [*Synthesis Imaging in Radio Astronomy II*](https://ui.adsabs.harvard.edu/abs/1999ASPC..180.....T) (ASP Conf. Ser. 180, 1999) <span class="annot">The classic lecture notes of the NRAO Synthesis Imaging School: calibration, imaging and everything in between.</span>
+- Zensus, Diamond & Napier (eds.), [*Very Long Baseline Interferometry and the VLBA*](https://ui.adsabs.harvard.edu/abs/1995ASPC...82.....Z) (ASP Conf. Ser. 82, 1995), [free online](https://www.cv.nrao.edu/vlbabook/) <span class="annot">Lectures of the 1993 VLBA summer school; still one of the best introductions to how VLBI works.</span>
+- Middelberg & Bach (2008), [High resolution radio astronomy using very long baseline interferometry](https://ui.adsabs.harvard.edu/abs/2008RPPh...71f6901M), Rep. Prog. Phys. 71, 066901 <span class="annot">A compact introduction to VLBI, from the technique to the science.</span>
+
+</details>
+
+<details class="topic" markdown="1">
+<summary>Radiation, jets and AGN <span class="n">9</span><small class="d">Radiative processes, high-energy astrophysics, jets and active galactic nuclei, mostly at the graduate level.</small></summary>
+
+- Rybicki & Lightman, [*Radiative Processes in Astrophysics*](https://doi.org/10.1002/9783527618170) (Wiley, 1979) <span class="annot">The standard graduate text on radiation: radiative transfer, synchrotron emission, Compton scattering and bremsstrahlung.</span>
+- Pacholczyk, [*Radio Astrophysics: Nonthermal Processes in Galactic and Extragalactic Sources*](https://ui.adsabs.harvard.edu/abs/1970ranp.book.....P) (Freeman, 1970) <span class="annot">The classic source of formulas for synchrotron emission, absorption and polarization used to model radio sources.</span>
+- Ghisellini, [*Radiative Processes in High Energy Astrophysics*](https://doi.org/10.1007/978-3-319-00612-3) (Lecture Notes in Physics 873, Springer, 2013) <span class="annot">Compact lecture notes on high-energy radiation processes, written with jets and blazars in mind.</span>
+- Longair, [*High Energy Astrophysics*](https://doi.org/10.1017/CBO9780511778346), 3rd ed. (Cambridge University Press, 2011) <span class="annot">A broad textbook on high-energy astrophysics: particles, radiation, cosmic rays, AGN and jets.</span>
+- Böttcher, Harris & Krawczynski (eds.), [*Relativistic Jets from Active Galactic Nuclei*](https://doi.org/10.1002/9783527641741) (Wiley-VCH, 2012) <span class="annot">Review chapters on jet observations and theory, from radio to gamma rays.</span>
+- Hughes (ed.), [*Beams and Jets in Astrophysics*](https://doi.org/10.1017/CBO9780511564703) (Cambridge University Press, 1991) <span class="annot">Includes Birkinshaw's classic chapter on the stability of jets.</span>
+- Meier, [*Black Hole Astrophysics: The Engine Paradigm*](https://doi.org/10.1007/978-3-642-01936-4) (Springer, 2012) <span class="annot">A graduate text on black hole engines: accretion, magnetohydrodynamics and jet launching.</span>
+- Peterson, [*An Introduction to Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139170901) (Cambridge University Press, 1997) <span class="annot">A short and readable introduction to AGN, especially emission lines and reverberation mapping.</span>
+- Netzer, [*The Physics and Evolution of Active Galactic Nuclei*](https://doi.org/10.1017/CBO9781139109291) (Cambridge University Press, 2013) <span class="annot">A graduate text on the physics and evolution of AGN, from accretion disks to surveys.</span>
+
+</details>
 
 ## Schools and lectures
 
