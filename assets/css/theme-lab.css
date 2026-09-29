@@ -172,11 +172,9 @@ footer { background: var(--surface); }
 @media print { .js .reveal { opacity: 1 !important; transform: none !important; } .masthead { position: static; } }
 
 /* boxes keep their inner spacing (the plain look had none) */
-.pubstats .nums div { padding: 14px 18px; }
-.pubpanel { padding: 18px 20px; }
 .contact-card { padding: 24px 26px; align-self: start; }
 .contact-card figure.logo, .contact-card figure.logo img { max-width: 100%; }
-@media (max-width: 560px) { .contact-card { padding: 18px 18px; } .pubpanel { padding: 16px; } }
+@media (max-width: 560px) { .contact-card { padding: 18px 18px; } }
 
 /* hero on phones: grows with its text, with room above and below */
 @media (max-width: 760px) {
@@ -201,3 +199,23 @@ footer { background: var(--surface); }
   .prose .table-wrap td:first-child { font-weight: 700; color: var(--ink); white-space: normal; }
   .prose .table-wrap td:last-child { color: var(--ink-3); font-size: 14.5px; margin-top: 4px; }
 }
+
+/* Home notice: room around the text, a light "2027" badge */
+.notice { padding: 18px 22px; gap: 16px; align-items: center; }
+.notice .tag { background: var(--surface); color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  padding: 5px 12px; font-size: 12px; font-weight: 700; letter-spacing: .06em; line-height: 1.2; margin-top: 0; }
+@media (max-width: 560px) { .notice { flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px 18px; } }
+
+/* Publications: numbers centred with space around them; panels with generous padding */
+.pubstats .nums { gap: 16px; }
+.pubstats .nums div { padding: 22px 14px 20px; text-align: center; }
+.pubstats .nums b { font-size: 32px; letter-spacing: -0.02em; }
+.pubstats .nums span { margin-top: 8px; line-height: 1.4; }
+.pubgrid { gap: 24px; margin-top: 24px; }
+.pubpanel { padding: 26px 28px 24px; }
+.pubpanel h3 { font-size: 16.5px; margin: 0 0 18px; letter-spacing: -0.01em; }
+.pubpanel ol, .pubpanel ul { line-height: 1.6; }
+.pubpanel li { margin-bottom: 10px; }
+.pubpanel .jsrc { margin-top: 16px; }
+.pubstats .src { margin-top: 12px; }
+@media (max-width: 560px) { .pubpanel { padding: 20px 18px; } .pubstats .nums { gap: 12px; } .pubstats .nums div { padding: 18px 10px 16px; } }
