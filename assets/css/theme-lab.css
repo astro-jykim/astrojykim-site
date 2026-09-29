@@ -219,3 +219,17 @@ footer { background: var(--surface); }
 .pubpanel .jsrc { margin-top: 16px; }
 .pubstats .src { margin-top: 12px; }
 @media (max-width: 560px) { .pubpanel { padding: 20px 18px; } .pubstats .nums { gap: 12px; } .pubstats .nums div { padding: 18px 10px 16px; } }
+
+/* quick links at the top of pages (Resources, Research, Join Us, Publications, Jae-Young Kim):
+   real pill buttons again (the plain look had turned them into bare text links) */
+.prose .chips, .prose .chips.toc { gap: 10px; }
+.prose .chips a, .prose .chips.toc a { display: inline-flex; align-items: center; padding: 7px 15px; border: 1px solid var(--line-2); border-radius: 999px;
+  background: var(--surface); font-size: 14px; font-weight: 500; line-height: 1.3; color: var(--ink); text-decoration: none; }
+.prose .chips a:hover, .prose .chips.toc a:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+.prose .chips.toc a[href="#frequently-asked-questions"] { background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 40%, transparent); color: var(--accent); font-weight: 600; }
+@media (max-width: 560px) { .prose .chips, .prose .chips.toc { gap: 8px; } .prose .chips a, .prose .chips.toc a { padding: 6px 13px; font-size: 13.5px; } }
+
+/* banners: a little taller top to bottom */
+.banner.size-medium { height: min(calc(100vw / 3.2), 440px); min-height: 240px; }
+.banner.size-small { height: min(calc(100vw / 4), 340px); min-height: 200px; }
+.hero { height: min(calc(100vw / 2), 80vh); min-height: 460px; }

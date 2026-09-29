@@ -1,9 +1,9 @@
 ---
 title: Join Us
 layout: page
-banner: [banners/join-us-kvn.jpg, banners/join-us-alma.jpg, banners/home.jpg]
+banner: [banners/join-us-palebluedot.jpg, banners/join-us-alma.jpg, banners/home.jpg]
 banner_size: medium
-banner_position: center 55%
+banner_position: 59% 52%   # keeps the Earth dot of the Pale Blue Dot in view
 toc: h2
 ---
 
