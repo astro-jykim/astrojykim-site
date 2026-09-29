@@ -578,6 +578,7 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 
 /* Mobile menu: a button with the current page name opens the full list */
 .navbtn { display: none; }
+.navbtn .bars { display: none; }   /* hamburger icon, used by the "lab" theme */
 @media (max-width: 760px) {
   .navbtn {
     display: inline-flex; align-items: center; gap: 6px; margin-left: auto;

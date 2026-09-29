@@ -4,6 +4,7 @@
   <div class="banner-in">
     <h1>{{ page.hero_title }}</h1>
     <p class="sub">{{ page.hero_subtitle }}</p>
+    {% if site.theme %}<p class="hero-cta"><a class="primary" href="{{ href('/research/') }}">Explore our research</a><a class="ghost" href="{{ href('/join-us/') }}">Join the group</a></p>{% endif %}
   </div>
   {% if banner and banner_credit %}<span class="banner-credit">{{ banner_credit }}</span>{% endif %}
 </div>

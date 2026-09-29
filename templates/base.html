@@ -24,6 +24,10 @@
 })();
 </script>{% endif %}
 {% if inline_css %}<style>{{ inline_css }}</style>{% else %}<link rel="stylesheet" href="{{ asset('css/site.css') }}">{% endif %}
+{% if site.theme and not inline_css %}<link rel="preload" href="{{ asset('fonts/InterVariable.woff2') }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ asset('css/theme-' ~ site.theme ~ '.css') }}">
+<link rel="stylesheet" href="{{ asset('css/motion.css') }}">
+<script src="{{ asset('js/motion.js') }}" defer></script>{% endif %}
 </head>
 <body class="l-{{ page.layout or 'page' }} p-{{ page.slug }}">
 <a class="skip" href="#main">Skip to content</a>
@@ -37,7 +41,7 @@
         <span class="brand-name">{{ site.title }}</span>
       </a>
       {% set cur = [] %}{% for item in site.nav %}{% if item.url == page.url %}{% set _ = cur.append(item) %}{% endif %}{% for k in item.children or [] %}{% if k.url == page.url and item.url != page.url %}{% set _ = cur.append(k) %}{% endif %}{% endfor %}{% endfor %}
-      <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="sitenav"><span>{{ (cur[0].short or cur[0].title) if cur else "Menu" }}</span><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+      <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="sitenav"><span>{{ (cur[0].short or cur[0].title) if cur else "Menu" }}</span><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
       <button class="themebtn" id="themebtn" type="button" aria-label="Switch light or dark theme">THEME</button>
     </div>
     <nav class="tabs" id="sitenav" aria-label="Site">

@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Motion: smooth page-to-page transitions and gentle reveal on scroll.
+   Uses the browser's own View Transitions (Chrome/Edge 126+, Safari 18.2+).
+   Browsers without it simply change pages as before. Respects "reduce motion".
+   ========================================================================== */
+
+@view-transition { navigation: auto; }
+
+/* the header stays put while the page underneath changes */
+.masthead { view-transition-name: masthead; }
+footer { view-transition-name: sitefooter; }
+
+::view-transition-old(root) { animation: vt-out .20s cubic-bezier(.4, 0, 1, 1) both; }
+::view-transition-new(root) { animation: vt-in .42s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes vt-out { to { opacity: 0; transform: translateY(-6px); } }
+@keyframes vt-in  { from { opacity: 0; transform: translateY(14px); } }
+
+/* reveal on scroll (motion.js adds .reveal, then .in when the element comes into view) */
+.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s cubic-bezier(.16, 1, .3, 1), transform .7s cubic-bezier(.16, 1, .3, 1); }
+.js .reveal.in { opacity: 1; transform: none; }
+
+/* folded topics open and close smoothly (Chrome/Edge 131+; others open instantly) */
+:root { interpolate-size: allow-keywords; }
+details::details-content { block-size: 0; overflow: clip; transition: block-size .38s cubic-bezier(.16, 1, .3, 1), content-visibility .38s allow-discrete; }
+details[open]::details-content { block-size: auto; }
+
+/* images inside cards ease in on hover */
+.card .img img, .program .thumb img, .project .thumb img { transition: transform .6s cubic-bezier(.16, 1, .3, 1); }
+.card:hover .img img, .program:hover .thumb img, .project:hover .thumb img { transform: scale(1.035); }
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+  details::details-content { transition: none; }
+}

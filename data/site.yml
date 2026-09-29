@@ -70,3 +70,4 @@ banner_credits:
 
 # Publications page: journals moved to the end of "Where we publish" (e.g. MDPI journals).
 journals_last: [Galaxies, Universe]
+theme: lab   # look of the site: 'lab' (assets/css/theme-lab.css); remove this line for the plain look
