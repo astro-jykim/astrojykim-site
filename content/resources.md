@@ -339,9 +339,10 @@ Papers marked <span class="ours">Our work</span> have members of our group among
 </details>
 
 <details class="topic" markdown="1">
-<summary>Radiation, jets and AGN <span class="n">9</span><small class="d">Radiative processes, high-energy astrophysics, jets and active galactic nuclei, mostly at the graduate level.</small></summary>
+<summary>Radiation, jets and AGN <span class="n">10</span><small class="d">Radiative processes, high-energy astrophysics, jets and active galactic nuclei, mostly at the graduate level.</small></summary>
 
 - Rybicki & Lightman, [*Radiative Processes in Astrophysics*](https://doi.org/10.1002/9783527618170) (Wiley, 1979) <span class="annot">The standard graduate text on radiation: radiative transfer, synchrotron emission, Compton scattering and bremsstrahlung.</span>
+- Draine, [*Physics of the Interstellar and Intergalactic Medium*](https://doi.org/10.1515/9781400839087) (Princeton Series in Astrophysics, Princeton University Press, 2011) <span class="annot">A graduate text on radiative processes in gas and dust: line and continuum emission and absorption, photoionization, dust, and radio and 21 cm diagnostics.</span>
 - Pacholczyk, [*Radio Astrophysics: Nonthermal Processes in Galactic and Extragalactic Sources*](https://ui.adsabs.harvard.edu/abs/1970ranp.book.....P) (Freeman, 1970) <span class="annot">The classic source of formulas for synchrotron emission, absorption and polarization used to model radio sources.</span>
 - Ghisellini, [*Radiative Processes in High Energy Astrophysics*](https://doi.org/10.1007/978-3-319-00612-3) (Lecture Notes in Physics 873, Springer, 2013) <span class="annot">Compact lecture notes on high-energy radiation processes, written with jets and blazars in mind.</span>
 - Longair, [*High Energy Astrophysics*](https://doi.org/10.1017/CBO9780511778346), 3rd ed. (Cambridge University Press, 2011) <span class="annot">A broad textbook on high-energy astrophysics: particles, radiation, cosmic rays, AGN and jets.</span>
