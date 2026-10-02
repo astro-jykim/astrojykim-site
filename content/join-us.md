@@ -9,7 +9,7 @@ toc: h2
 
 We are looking for motivated students who want to understand black holes, relativistic jets and the Universe through observations — radio astronomy, VLBI, multi-messenger astrophysics and related topics.
 
-Students from physics and astronomy, as well as engineering, computer science, applied mathematics and other quantitative fields, are welcome. Prior experience in astronomy is not required; the technical skills can be learned in the group. What matters most is curiosity, persistence, and a real interest in the astrophysical questions behind the tools.
+Students from physics and astronomy, as well as engineering, computer science, applied mathematics and other quantitative fields, are welcome. Prior experience in astronomy is not required; the technical skills can be learned in the group. We look for curiosity, persistence and an interest in the astrophysical questions behind the tools.
 
 **Two graduate positions for 2027.** See [2027 Positions](/positions-2027/). Questions about graduate life here? See the [FAQ](#frequently-asked-questions).
 {: .callout}
@@ -17,30 +17,30 @@ Students from physics and astronomy, as well as engineering, computer science, a
 <details class="fold" lang="ko" markdown="1">
 <summary>한국어 요약</summary>
 
-블랙홀, 상대론적 제트, 전파천문학과 VLBI에 관심 있는 학생을 찾습니다. 천문학 경험은 필요하지 않으며, 물리·천문학뿐 아니라 공학, 컴퓨터과학, 응용수학 등 정량적 분야 출신 모두 환영합니다.
+블랙홀, 상대론적 제트, 전파천문학과 VLBI에 관심 있는 학생을 찾습니다. 천문학 경험은 없어도 됩니다. 물리·천문학뿐 아니라 공학, 컴퓨터과학, 응용수학 등 다른 이공계 전공자도 환영합니다.
 
-- **바로 옆의 전파망원경**: UNIST에서 차로 10분 거리에 KVN 울산 전파천문대가 있어, 직접 관측하며 VLBI 관측소가 어떻게 운영되는지 배울 수 있습니다.
+- **가까운 전파망원경**: UNIST에서 차로 10분 거리에 KVN 울산전파천문대가 있어, 직접 관측에 참여하며 VLBI 관측소가 어떻게 운영되는지 배울 수 있습니다.
 - **국제 공동연구**: EHT, GMVA, KVN/KaVA/EAVN, SKA 관련 프로젝트에 참여하며, 본인의 주저자 논문과 함께 공동연구 논문에도 기여합니다.
-- **일하는 방식**: 정해진 근무시간 없이 목표와 결과 중심으로 일합니다. 매주 그룹 미팅이 있고, 관측·제안서·논문 제출 전처럼 바쁜 시기에는 더 자주 만나며, 학기와 방학이 끝날 때 개별 면담을 합니다.
-- **지원**: 모든 대학원생은 등록금 전액과 UNIST 생활장학금을 받고, 연구과제 인건비를 추가로 받습니다. 한국연구재단 석사·박사과정생 연구장려금 지원도 함께 준비합니다. 학회·여름학교·관측 출장비, 계산 서버와 개인 연구용 컴퓨터, 연구 공간을 제공합니다.
-- **학부 인턴과 박사후연구원**: UNIST 학부생은 한 학기 인턴, 타 대학 학생은 [U-SURF·U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do) 프로그램으로 참여할 수 있습니다. 박사후연구원은 세종과학펠로우십, 교육부 박사후국내연수 등으로 함께 지원을 준비합니다.
+- **일하는 방식**: 정해진 근무시간 없이 목표와 결과 중심으로 일합니다. 매주 그룹 미팅이 있고, 관측 기간이나 제안서·논문 마감 전처럼 바쁜 시기에는 더 자주 만나며, 학기와 방학이 끝날 때마다 개별 면담을 합니다.
+- **재정 지원과 연구 환경**: 모든 대학원생은 등록금 전액과 UNIST stipend 지원을 받고, 연구과제 인건비를 추가로 받습니다. 한국연구재단 석사·박사과정생 연구장려금 신청도 함께 준비합니다. 학회·여름학교·관측 출장비, 계산 서버와 개인 연구용 컴퓨터, 연구 공간을 제공합니다.
+- **학부 인턴과 박사후연구원**: UNIST 학부생은 한 학기 인턴으로, 타 대학 학생은 [U-SURF·U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do) 프로그램으로 참여할 수 있습니다. 박사후연구원 지원자와는 세종과학펠로우십, 교육부 박사후국내연수 등의 신청서를 함께 준비합니다.
 
-입학 전형과 일정은 [UNIST 대학원 입학](https://adm-g.unist.ac.kr/admg/index.do) 페이지에 있습니다. 지원 전에 먼저 교수에게 연락해 연구 주제와 과정을 상의하세요. 2027학년도 대학원생 모집은 [한국어 안내](/ko/)를 참고하세요.
+입학 전형과 일정은 [UNIST 대학원 입학](https://adm-g.unist.ac.kr/admg/index.do) 페이지에 있습니다. 지원하기 전에 먼저 교수에게 연락해 연구 주제와 과정을 상의하세요. 2027학년도 대학원생 모집은 [모집 안내](/ko/)를 참고하세요.
 
 </details>
 
 ## Why UNIST
 
-- **A radio telescope next door.** The [KVN Ulsan Radio Observatory](https://www.kasi.re.kr/eng/pageView/255), one of the 21-m telescopes of the Korean VLBI Network, is ten minutes by car from campus. Students go there for observations and learn how a VLBI station actually works: receivers, recording and calibration.
-- **Part of international projects.** We work within the Event Horizon Telescope, the GMVA, KVN / KaVA / EAVN and SKA-related projects. Students attend collaboration meetings and working groups, write observing proposals and contribute to collaboration papers, in addition to their own first-author papers.
-- **Korea's next facilities.** Korea is expanding its millimeter-VLBI facilities and taking a larger part in the next-generation EHT, space-based millimeter VLBI and the SKA. Students who train now will be well placed when these projects start.
-- **A good place to work.** Full financial support (see below), good computing and lab facilities, courses taught in English, and a modern campus set amid beautiful natural surroundings.
+- **KVN Ulsan nearby.** The [KVN Ulsan Radio Observatory](https://www.kasi.re.kr/eng/pageView/255), one of the 21-m telescopes of the Korean VLBI Network, is ten minutes by car from campus. Students take part in observations there and learn how a VLBI station works: receivers, recording and calibration.
+- **International collaborations.** We work within the Event Horizon Telescope, the GMVA, KVN / KaVA / EAVN and SKA-related projects. Students attend collaboration meetings and working groups, write observing proposals and contribute to collaboration papers, in addition to their own first-author papers.
+- **Korea's next facilities.** Korea is expanding its millimeter-VLBI facilities and taking a larger part in the next-generation EHT, space-based millimeter VLBI and the SKA.
+- **Support and facilities.** Full financial support (see below), good computing and lab facilities, courses taught in English, and a green, modern campus.
 
 ## How we work
 
-- **Goals rather than hours.** There are no fixed working hours. We agree on clear goals and look at results. Work–life balance matters to us, and we try to keep a pace that can be sustained over a whole PhD.
+- **No fixed working hours.** We agree on clear goals and look at results, and we try to keep a pace that can be sustained over a whole PhD.
 - **A weekly group meeting**, where everyone reports progress and problems, and one-to-one meetings whenever they are needed.
-- **Busier weeks now and then**, for example before and during observing runs, ahead of proposal deadlines and conference talks, or just before a paper is submitted. We meet more often in those weeks, and quieter weeks follow.
+- **Busier weeks now and then**, around observing runs, proposal deadlines, conference talks or paper submissions, when we meet more often.
 - **A longer individual meeting at the end of each semester and each vacation** to look back at progress and plan the next months: research, skills and career.
 
 ## Graduate Students
@@ -92,7 +92,7 @@ Mostly your own research: analyzing data, reading papers and writing code, at th
 <details markdown="1">
 <summary>Will I observe with real telescopes?</summary>
 
-Yes. The KVN Ulsan radio telescope is ten minutes by car from campus, and students take part in observations there and learn how a VLBI station works. Through our collaborations you will also work with data from the EHT, GMVA, VLBA, ALMA and other facilities, and write observing proposals yourself.
+Yes. Students take part in observations at KVN Ulsan and learn how a VLBI station works. Through our collaborations you will also work with data from the EHT, GMVA, VLBA, ALMA and other facilities, and write observing proposals yourself.
 </details>
 
 <details markdown="1">
@@ -110,7 +110,7 @@ Every graduate student receives full tuition support and the UNIST monthly stipe
 <details markdown="1">
 <summary>Which language do we use?</summary>
 
-English is the official language of UNIST, and courses are taught in English. English is also the common language of our international collaborations, so you will read, write and present in English from the start. Most students find that their English improves quickly with daily use.
+English is the official language of UNIST, and courses are taught in English. English is also the common language of our international collaborations, so you will read, write and present in English from the start.
 </details>
 
 <details markdown="1">

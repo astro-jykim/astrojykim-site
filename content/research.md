@@ -5,7 +5,7 @@ banner: [research/m87-polarized.jpg, banners/research.jpg]
 banner_position: center 45%
 ---
 
-Below you can find brief explanations of our research areas and recent highlights. See also [highlights](/highlights/) for our recent interesting results. If you’d like to understand our research more easily, you can also check out an interview with our research group featured by the Korea Aerospace Administration (KASA; 우주항공청) [here](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000142/view.do?bbsId=BBSMSTR_000000000142&nttId=B000000002372Hj2jN0) (in Korean; also as a [PDF](/assets/docs/misc/kasa-space-science-inside-13-radio.pdf)).
+Below you can find brief explanations of our research areas and recent highlights. See also [highlights](/highlights/) for our recent interesting results. If you’d like to understand our research more easily, you can also check out an interview with our research group featured by the Korea AeroSpace Administration (KASA; 우주항공청) [here](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000142/view.do?bbsId=BBSMSTR_000000000142&nttId=B000000002372Hj2jN0) (in Korean; also as a [PDF](/assets/docs/misc/kasa-space-science-inside-13-radio.pdf)).
 
 ## List of publications
 
@@ -13,14 +13,14 @@ Below you can find brief explanations of our research areas and recent highlight
 {: .buttons}
 
 
-[1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
+[1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-distant-faint-and-small-black-holes) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
 {: .chips}
 
 <details class="fold" markdown="1">
 <summary>Terms used on this page</summary>
 
 AGN (active galactic nucleus)
-:   The center of a galaxy where a supermassive black hole is swallowing gas and shines brightly.
+:   The bright center of a galaxy where a supermassive black hole is swallowing gas.
 
 Relativistic jet
 :   A narrow beam of plasma launched from near a black hole at almost the speed of light.
@@ -56,9 +56,9 @@ Square Kilometre Array (SKA)
 
 우리 연구실은 전파간섭계, 특히 초장기선 전파간섭계(VLBI)를 중심으로 초대질량블랙홀과 상대론적 제트를 연구합니다. 연구 주제는 세 가지입니다.
 
-1. **가까운 초대질량블랙홀의 직접 영상화**: 사건지평선망원경(EHT)과 GMVA 등으로 M87, Sgr A\*, 3C 84, 3C 279 등 가까운 블랙홀 바로 주변의 물질과 자기장을 직접 영상화합니다.
+1. **가까운 초대질량블랙홀의 직접 영상화**: 사건지평선망원경(EHT)과 GMVA로 M87, Sgr A\*, 3C 84 같은 가까운 블랙홀과 3C 279 같은 밝은 블레이저를 관측해, 블랙홀 바로 주변의 물질과 자기장을 영상으로 직접 봅니다.
 2. **다파장·다중신호 블랙홀 천체물리**: 전파부터 감마선, 중성미자까지의 관측을 결합하여 블레이저의 변광과 입자 가속, 중성미자 방출의 기원을 연구합니다.
-3. **먼 우주와 어둡고 작은 블랙홀**: SKA 선행 망원경의 광시야 탐사 자료에서 기존 표본에서 놓친 새로운 종류의 블랙홀을 찾고, 2030년대 SKA 시대를 준비합니다.
+3. **먼 우주의 블랙홀, 그리고 저광도·중간질량 블랙홀**: SKA 선행 망원경의 광시야 탐사 자료로 기존 표본이 놓친 새로운 종류의 블랙홀을 찾고, 2030년대 SKA 시대를 준비합니다.
 
 관측 제안서 작성과 관측부터 자료 보정·영상화, 물리적 해석까지 연구의 전 과정에 학생들이 직접 참여합니다.
 
@@ -84,7 +84,7 @@ Like normal galaxies, active galaxies are systems of stars, gases, and dust clou
 
 Directly image the matter and magnetic field distribution around the cosmic black holes on the event horizon scales (down to a few Schwarzschild radii) to understand how the mass inflow and outflow occur under extreme gravity.
 
-We focus on the nearest and best-resolved systems, such as M87, Sgr A*, 3C 84, Centaurus A and 3C 279, using the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space VLBI. The main questions are how the accretion flow and magnetic fields just outside the event horizon connect to the base of the jet, and how both change from year to year.
+We focus on the nearest and best-resolved systems, such as M87, Sgr A*, 3C 84 and Centaurus A, and on bright blazars such as 3C 279, using the Event Horizon Telescope, the Global Millimeter VLBI Array, ALMA and space VLBI. The main questions are how the accretion flow and magnetic fields just outside the event horizon connect to the base of the jet, and how both change from year to year.
 
 <div class="figpair" markdown="1">
 
@@ -112,7 +112,7 @@ Blazars are active galaxies whose jets point almost straight at us. They flare a
 
 <!-- highlights: kim2025, fuentes2023, paraschos2023, paraschos2022, kim2020, larionov2020 -->
 
-### 3. Black holes in the distant universe — and the faint and small ones
+### 3. Distant, faint and small black holes
 
 Discover and investigate new types of active (and inactive) black holes in the nearby and early universe, to reveal what physical conditions ultimately lead to the birth and death of an active black hole.
 
@@ -120,7 +120,7 @@ Wide-field surveys with the SKA pathfinders and precursors (LOFAR, ASKAP, MWA an
 
 <div class="figpair" markdown="1">
 
-![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its center seen by Chandra. It is the most distant black hole detected in X-rays so far. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
+![A seed of the first supermassive black holes? The close-ups show UHZ1: a galaxy seen by JWST (infrared) only 470 million years after the Big Bang, and the X-rays from the growing black hole at its center seen by Chandra. It was the most distant black hole detected in X-rays when it was found in 2023. Credit: X-ray: NASA/CXC/SAO/Á. Bogdán; Infrared: NASA/ESA/CSA/STScI; Image processing: NASA/CXC/SAO/L. Frattare & K. Arcand](research/uhz1-labeled.jpg)
 
 ![The first image from SKA-Low (2025), made with 1,024 of the planned 131,072 antennas, less than 1% of the telescope. It shows about 85 bright galaxies, each hosting a supermassive black hole, in 25 square degrees of sky; the full SKA is expected to show more than 600,000 in the same field. Credit: SKAO](research/ska-low-first-image.jpg)
 

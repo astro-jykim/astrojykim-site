@@ -485,6 +485,8 @@ h1, h2, h3, h4, .brand-name { font-family: var(--sans); font-weight: 700; letter
 
 /* small language switch / divider */
 .prose .langswitch { text-align: right; font-size: 13.5px; margin: 0 0 8px; }
+/* Korean text: break lines between words, never inside them */
+:lang(ko), .p-before-you-apply #korean ~ * { word-break: keep-all; }
 .prose .langmark { margin-top: 3.5em; padding-top: 1.2em; border-top: 1px solid var(--line); font-size: 13px; color: var(--ink-3); letter-spacing: .04em; }
 /* contact: photo above the map, both in the right column */
 .contact-side { display: flex; flex-direction: column; gap: 16px; }

@@ -16,8 +16,8 @@ programs:
   - title: Multi-wavelength and multi-messenger black hole astrophysics
     link: /research/#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics
     text: Analyze complex time-variable signals (both photons and particles such as neutrinos) from the vicinity of cosmic black holes.
-  - title: Black holes in the distant universe — and the faint and small ones
-    link: /research/#3-black-holes-in-the-distant-universe-and-the-faint-and-small-ones
+  - title: Distant, faint and small black holes
+    link: /research/#3-distant-faint-and-small-black-holes
     text: Discover and investigate new types of active (and inactive) black holes in the nearby and early universe.
 ---
 

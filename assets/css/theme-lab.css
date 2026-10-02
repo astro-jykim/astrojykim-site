@@ -233,3 +233,27 @@ footer { background: var(--surface); }
 .banner.size-medium { height: min(calc(100vw / 3.2), 440px); min-height: 240px; }
 .banner.size-small { height: min(calc(100vw / 4), 340px); min-height: 200px; }
 .hero { height: min(calc(100vw / 2), 80vh); min-height: 460px; }
+
+/* Research: facility cards are boxes in this theme, so the text inside gets real padding,
+   card titles stay card-sized, and the photo credit sits at the bottom of every card */
+.projects { gap: 28px var(--gap); }
+.project .thumb { border-radius: 0; }
+.project .body { display: flex; flex-direction: column; flex: 1; padding: 18px 20px 18px; }
+.prose .project h3 { font-size: 17px; line-height: 1.3; margin: 0 0 8px; }
+.prose .project p { font-size: 14.5px; line-height: 1.6; margin: 0 0 10px; }
+.prose .project .role { margin: 4px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.prose .project .role span { margin-bottom: 4px; }
+.prose .project .credit { margin: auto 0 0; padding-top: 12px; font-size: 12px; line-height: 1.45; }
+
+/* Research: a picture beside a short paragraph keeps a sensible size (never a thin strip);
+   the caption has room before the next block */
+.prose .textfig > figure > a { min-height: 220px; }
+.prose .textfig > p { align-self: start; }
+.prose .textfig { row-gap: 10px; margin-bottom: 2em; }
+
+/* Research: "Methods in detail" as soft tiles with room around the text */
+.prose details.topic > .methods { margin: 6px 0 22px; }
+.prose .methods { gap: 14px; }
+.prose .method { border: 0; border-radius: 12px; background: var(--surface-2); padding: 16px 18px; }
+.prose .method h4 { font-size: 15.5px; margin: 0 0 6px; }
+.prose .method p { font-size: 14.5px; line-height: 1.6; }

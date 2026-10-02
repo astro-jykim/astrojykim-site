@@ -73,11 +73,11 @@ Ulsan National Institute of Science and Technology ([UNIST](https://www.unist.ac
 
 - 2020 | Bruno Rossi Prize 2020 of the American Astronomical Society (as member of the Event Horizon Telescope Collaboration)
 
+- 2020 | Breakthrough Prize for Fundamental Physics by the Breakthrough Foundation (as member of the Event Horizon Telescope Collaboration)
+
 - 2019 | NSF Diamond Achievement Award (as member of the Event Horizon Telescope Collaboration)
 
 - 2019 | Smithsonian American Ingenuity Award 2019 Physical Sciences (as member of the Event Horizon Telescope Collaboration)
-
-- 2019 | Breakthrough Prize for Fundamental Physics by the Breakthrough Foundation (as member of the Event Horizon Telescope Collaboration)
 
 ## Grants
 
