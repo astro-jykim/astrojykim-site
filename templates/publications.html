@@ -44,7 +44,15 @@
 {% endif %}
 {% if led and led.papers %}
 <section class="led" id="led">
-  <h2>First- and corresponding-author papers ({{ led.papers|length }})</h2>
+  <h2>First- and corresponding-author papers ({{ led.papers|length }}{% if submitted %} + {{ submitted|length }} submitted{% endif %})</h2>
+  {% if submitted %}
+  <h3 class="pubyear">Submitted</h3>
+  <ul class="pubs submitted">{% for p in submitted %}
+    <li><div class="t">{{ p.title }}</div>
+        <div class="m">{{ p.authors_html }} {{ p.year }} · {{ p.journal }}, submitted{% if p.role %} · {{ p.role }}{% endif %}</div></li>{% endfor %}
+  </ul>
+  <h3 class="pubyear">Published</h3>
+  {% endif %}
   <ul class="pubs">{% for p in led.papers %}
     <li><div class="t"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title_html }}</a></div>
         <div class="m">{{ p.authors_short }} {{ p.year }} · {{ p.journal }} · {{ p.role }}{% if p.citations %} · cited {{ p.citations }}×{% endif %}</div></li>{% endfor %}

@@ -245,11 +245,21 @@ footer { background: var(--surface); }
 .prose .project .role span { margin-bottom: 4px; }
 .prose .project .credit { margin: auto 0 0; padding-top: 12px; font-size: 12px; line-height: 1.45; }
 
-/* Research: a picture beside a short paragraph keeps a sensible size (never a thin strip);
-   the caption has room before the next block */
-.prose .textfig > figure > a { min-height: 220px; }
-.prose .textfig > p { align-self: start; }
-.prose .textfig { row-gap: 10px; margin-bottom: 2em; }
+/* Research: a paragraph with a picture beside it. Picture and caption share one column, so the
+   caption is exactly as wide as the picture; the picture fills the height left after the caption,
+   so the text and the picture+caption end level. The paragraph is set a little larger (a lead).
+   .narrow gives the picture a smaller share for a longer paragraph. */
+.prose .textfig { grid-template-columns: minmax(0, 1fr) var(--fig, 46%); grid-template-rows: 1fr auto;
+  grid-template-areas: "t f" "t c"; column-gap: 28px; row-gap: 10px; align-items: stretch; margin: 1em 0 2em; }
+.prose .textfig.narrow { --fig: 40%; }
+.prose .textfig > p { grid-area: t; align-self: center; font-size: 19.5px; line-height: 1.65; text-align: left; hyphens: manual; }
+.prose .textfig > figure > a { grid-area: f; min-height: 160px; margin: 0; }
+.prose .textfig > figure figcaption { grid-area: c; margin: 0; }
+@media (max-width: 720px) {
+  .prose .textfig { grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "t" "f" "c"; }
+  .prose .textfig > p { font-size: inherit; line-height: inherit; }
+  .prose .textfig > figure > a { min-height: 0; aspect-ratio: 16 / 10; }
+}
 
 /* Research: "Methods in detail" as soft tiles with room around the text */
 .prose details.topic > .methods { margin: 6px 0 22px; }

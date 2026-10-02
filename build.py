@@ -42,6 +42,7 @@ ROOT = Path(__file__).resolve().parent
 CONTENT, DATA, TEMPLATES, ASSETS = ROOT / "content", ROOT / "data", ROOT / "templates", ROOT / "assets"
 IMG = ASSETS / "img"
 IMG_EXT = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg")
+STAR = Markup("<sup class=\"corr\" title=\"corresponding author\">★</sup>")   # marks the corresponding author
 
 
 # --------------------------------------------------------------------------- helpers
@@ -379,6 +380,10 @@ class Builder:
             t = html.escape(p.get("title") or "")
             names = [x.split(",")[0] for x in a]
             short = " & ".join(names) if n == 2 else (names[0] + (" et al." if n > 1 else "")) if names else ""
+            if role == "corresponding author" and names and len(names) == n <= 3:
+                # all names, with a star on the corresponding author: "Ryu & Kim★"
+                marked = [Markup.escape(nm) + (STAR if is_me(full) else "") for nm, full in zip(names, a)]
+                short = marked[0] if n == 1 else Markup(", ").join(marked[:-1]) + Markup(" & ") + marked[-1]
             led.append({**p, "role": role, "authors_short": short,
                         "title_html": Markup(re.sub(r"&lt;(/?)(sup|sub|i|b)&gt;", r"<\1\2>", t, flags=re.I))})
         key = lambda p: (-(p.get("year") or 0), p.get("title") or "")
@@ -513,6 +518,13 @@ class Builder:
             ctx["journal_metrics"], ctx["journal_source"] = metrics, jm.get("source")
             ctx["pubs_by_year"] = self.pubs_by_year()
             ctx["led"] = self.led_papers()
+            subs = []   # not refereed yet: listed, not counted
+            for s in load_yaml("submitted.yml", []) or []:
+                corr = s.get("corresponding") or ("Jae-Young Kim" if s.get("role") == "corresponding author" else "")
+                names = [x.strip() for x in str(s.get("authors") or "").split(",") if x.strip()]
+                subs.append({**s, "authors_html": Markup(", ").join(
+                    Markup.escape(nm) + (STAR if nm == corr else "") for nm in names)})
+            ctx["submitted"] = subs
             ctx["stats"] = self.pub_stats() if self.site.get("publication_stats", True) else None
         ctx.update(extra or {})
         return tpl.render(**ctx)

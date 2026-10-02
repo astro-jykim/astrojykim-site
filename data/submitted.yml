@@ -1,0 +1,10 @@
+# Submitted papers (not yet accepted): shown at the top of "First- and corresponding-author
+# papers" on /publications/, without a link, and not counted in the metrics.
+# When a paper is published, the ADS sync lists it automatically; then delete its entry here.
+# ms: the journal's manuscript number, kept to recognise the paper later (not shown on the page).
+- authors: Hojun Jeong, Yu-Sik Kim, Jae-Young Kim
+  year: 2026
+  title: "VLBA 43 GHz polarimetry of PKS 0735+178: A transient jet disturbance associated with IceCube-211208A"
+  journal: A&A
+  role: corresponding author      # a star (★) marks Jae-Young Kim; set "corresponding:" for someone else
+  ms: aa63090-26

@@ -274,6 +274,7 @@ iframe.map { width: 100%; max-width: none; aspect-ratio: 16 / 9; min-height: 360
 .pubs li { padding-block: 11px; border-bottom: 1px solid var(--line); }
 .pubs .t { color: var(--ink); }
 .pubs .m { font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); margin-top: 3px; }
+.pubs .m sup.corr { font-size: .72em; line-height: 0; margin-left: 1px; color: var(--ink-2); }
 
 /* ---------------------------------------------------------------- footer */
 footer { border-top: 1px solid var(--line); padding-block: 26px; font-size: 12.5px; color: var(--ink-3); }

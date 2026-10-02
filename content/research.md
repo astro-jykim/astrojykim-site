@@ -161,9 +161,9 @@ Therefore, we conduct active collaborative research with many international and 
 
 ### Methods
 
-<div class="textfig" markdown="1">
+<div class="textfig narrow" markdown="1">
 
-Our work starts at the telescope. We write observing proposals, carry out the observations and record the signals. The data are then correlated, calibrated and imaged, and finally interpreted physically. We develop our own tools where existing ones are not enough, and students take part in every step, from the observing run to the paper.
+Our work starts at the telescope. We write observing proposals, carry out the observations and record the signals. The data are then correlated, calibrated and imaged, and finally interpreted physically. We develop our own tools where existing ones are not enough, and students take part in every step, from the observing run to the paper. Looking ahead, we are preparing for the next-generation EHT, expanded Korean millimeter-VLBI facilities, space-based millimeter VLBI (e.g. the proposed [Black Hole Explorer](https://www.blackholeexplorer.org/)), and the [Square Kilometre Array](https://www.skao.int/) in the 2030s.
 
 ![KVN Ulsan, one of the four 21-m telescopes of the Korean VLBI Network, ten minutes by car from UNIST. It observes at four frequencies at once, from 22 to 129 GHz. Photo: KASI](facilities/kvn.jpg){: .top}
 
@@ -209,7 +209,6 @@ Comparing images, spectra and light curves with models of accretion flows, jets 
 
 </details>
 
-Looking ahead, we are preparing for the next-generation EHT, expanded Korean millimeter-VLBI facilities, space-based millimeter VLBI (e.g. the proposed [Black Hole Explorer](https://www.blackholeexplorer.org/)), and the [Square Kilometre Array](https://www.skao.int/) in the 2030s.
 
 ### Funding
 
