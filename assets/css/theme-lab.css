@@ -268,10 +268,10 @@ footer { background: var(--surface); }
 .prose .method h4 { font-size: 15.5px; margin: 0 0 6px; }
 .prose .method p { font-size: 14.5px; line-height: 1.6; }
 
-/* Home hero on phones held upright: the picture gets a band of its own at the top, with nothing on it but its
-   credit; the title, the line under it and the buttons sit below, on the same night blue the
-   picture fades into. The antennas and the sky stay in view instead of hiding behind the text.
-   (Upright only: held sideways, a band this tall would fill the screen and push the title off it.) */
+/* Home hero on phones held upright: the picture gets a band of its own at the top, with nothing on
+   it but its credit; the title, the line under it and the buttons sit below, on the same night blue
+   the picture fades into. The antennas and the sky stay in view instead of hiding behind the text.
+   Upright only: held sideways, a band this tall would fill the screen and push the title off it. */
 @media (max-width: 760px) and (orientation: portrait) {
   .banner.hero {
     --photo: 72vw;          /* height of the picture band */
@@ -288,7 +288,6 @@ footer { background: var(--surface); }
   .hero .sub { font-size: 16px; line-height: 1.55; margin-top: 12px; }
   .hero-cta { gap: 10px; margin-top: 24px; }
   .hero-cta a { flex: 1 1 auto; justify-content: center; padding: 12px 16px; font-size: 14.5px; }
-  .l-home .prose h2 { text-wrap: balance; }
   /* the credit goes to the foot of the panel, under the buttons */
   .banner.hero .banner-credit { top: auto; bottom: 18px; left: 16px; right: 16px; max-width: none; padding: 0;
     color: rgba(255, 255, 255, .5); text-shadow: none; font-size: 10.5px; text-align: left; }
@@ -300,14 +299,15 @@ footer { background: var(--surface); }
    under it and the buttons all fit on the first screen below the header. */
 @media (orientation: landscape) and (max-height: 500px) {
   .masthead { position: static; }   /* kept in view, the header would cover a third of this short screen */
-  .banner.hero { height: auto; min-height: 0; margin-bottom: 26px; }
-  .hero .banner-in { padding: 24px 16px 30px; }
+  .banner.hero { height: auto; min-height: 0; }
+  .hero .banner-in { padding: 18px 16px 24px; }
   .hero h1 { font-size: clamp(26px, 3.6vw, 32px); }
-  .hero .sub { font-size: 15px; line-height: 1.5; margin-top: 8px; }
-  .hero-cta { gap: 10px; margin-top: 16px; }
+  .hero .sub { font-size: 15px; line-height: 1.5; margin-top: 8px; max-width: 22em; }   /* two lines, clear of the middle dish */
+  .hero-cta { gap: 10px; margin-top: 14px; }
   .hero-cta a { padding: 8px 16px; font-size: 14px; }
   /* the credit goes just below the picture: a strip this short is cut through the antennas,
      and the corner it sits in on a computer would put it on the bright dishes */
+  .banner.hero { margin-bottom: 26px; }
   .banner.hero .banner-credit { top: 100%; bottom: auto; left: auto; right: max(16px, calc((100% - var(--maxw)) / 2 + 16px));
     max-width: none; padding: 6px 0 0; color: var(--ink-3); text-shadow: none; font-size: 10.5px; text-align: right; }
 }
