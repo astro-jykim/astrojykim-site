@@ -545,7 +545,7 @@ def build_site(out: Path) -> Builder:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html_out, encoding="utf-8")
         urls.append(fm["url"])
-    # 404, redirects, sitemap, CNAME
+    # 404, redirects, sitemap, robots.txt, CNAME
     (out / "404.html").write_text(b.render_page({"slug": "404", "url": "", "title": "Page not found", "layout": "404"}, ""),
                                   encoding="utf-8")
     for old, new in (b.site.get("redirects") or {}).items():
@@ -557,6 +557,7 @@ def build_site(out: Path) -> Builder:
     domain = b.site.get("domain")
     if domain:
         (out / "CNAME").write_text(domain + "\n", encoding="utf-8")
+        (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: https://{domain}/sitemap.xml\n", encoding="utf-8")
         (out / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             + "".join(f"  <url><loc>https://{domain}{u}</loc></url>\n" for u in sorted(urls)) + "</urlset>\n",

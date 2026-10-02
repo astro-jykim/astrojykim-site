@@ -10,7 +10,7 @@ banner_position: center 40%
 
 We are currently seeking two students for the MSc–PhD integrated and/or PhD programs, ideally starting in 2027. Both positions are centered on understanding black hole activity and its connection to relativistic outflows and galaxy evolution through radio observations, while developing expertise for the next generation of EHT/mm-VLBI and SKA science. The long-term aim is to train researchers who can take active roles in these major international programs, including areas in which Korea is becoming increasingly engaged.
 
-Applications will be considered until the positions are filled. Prospective students are strongly encouraged to contact the professor in advance to discuss the projects, their background, and the graduate admission process.
+Applications will be considered until the positions are filled. Prospective students are strongly encouraged to contact the professor in advance to discuss the projects, their background, and the graduate admission process (see [How to apply](#how-to-apply) below).
 
 Before applying, please read [Before You Apply](/before-you-apply/) — a reading list on graduate school and careers in astronomy (English and Korean).
 {: .callout}
@@ -31,4 +31,12 @@ The student will continue our ongoing searches for new spiral DRAGNs and related
 
 Machine-learning and deep-learning techniques may be developed where scientifically useful for source discovery, classification, and exploration of very large survey datasets. The research may later expand toward other unusual black hole systems, including candidate intermediate-mass black holes in dwarf galaxies and rare populations that the Square Kilometre Array (SKA) will open up in the 2030s. The student will also engage in SKA-related science activities and collaborations, taking advantage of Korea’s growing participation in SKA science and developing experience relevant to future SKA observations, survey science, and international collaborative projects. This project would suit students with a strong interest in black hole activity, jet formation, galaxy evolution, radio astronomy, and multi-wavelength astrophysics. Experience with programming, large datasets, statistics, or machine learning would be useful, but these are primarily tools for addressing the astrophysical questions, which matter far more.
 
-For general information about joining the group, see [Join Us](/join-us/).
+## How to apply
+
+1. **Contact the professor first.** Write to Jae-Young Kim (jaeyoungkim at unist.ac.kr) with a short note about your background and interests, and which of the two projects interests you. We then discuss the project and the right program: MSc–PhD integrated or PhD.
+2. **If you can, try research with us before applying.** UNIST undergraduates can do a semester-long internship; undergraduates at other universities in Korea can join through [U-SURF and U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do).
+3. **Apply to UNIST Graduate School.** Applications go through UNIST Graduate Admissions, which lists the admission rounds, deadlines and application guidelines: [Graduate Admissions (Korean)](https://adm-g.unist.ac.kr/admg/index.do) and [Graduate Admissions for international applicants](https://admg-intl.unist.ac.kr/).
+
+Students from physics and astronomy, as well as engineering, computer science, applied mathematics and other quantitative fields, are welcome. Prior experience in astronomy is not required. Every graduate student receives full tuition support and the UNIST monthly stipend, plus payment from the group's research projects; see [Funding and support](/join-us/#funding-and-support-for-graduate-students).
+
+For general information about joining the group, see [Join Us](/join-us/) and its [frequently asked questions](/join-us/#frequently-asked-questions).

@@ -20,7 +20,7 @@ groups:
     detail: 이덕형, UNIST
     period: since Mar 2026
     topic: Highest-resolution imaging of radio galaxies and blazars by EHT and GMVA
-  - name: Seung-Yeon Lee
+  - name: Seung Yeon Lee
     detail: 이승연, UNIST
     period: since Mar 2024
     topic: Peculiar jetted AGNs in spiral and disk galaxies
@@ -36,7 +36,7 @@ groups:
     detail: 김유식, UNIST
     period: since Mar 2025
     topic: High-frequency radio astronomy study of extragalactic neutrino emitters
-  - name: Ho Jun Jeong
+  - name: Hojun Jeong
     detail: 정호준, UNIST
     period: since Mar 2026
     topic: Spectro-polarimetric properties of neutrino blazars
@@ -53,7 +53,7 @@ groups:
     topic: Probing circular polarization in the core of M87 using multi-year VLBA 15 GHz observations
 - label: Advisory Students
   people:
-  - name: Hyeon-Woo Chung
+  - name: Hyeon-Woo Jeong
     detail: 정현우; Ph.D. student at UST and KASI
     period: since 2021
   - name: Myeongseok Nam
@@ -76,7 +76,7 @@ groups:
     detail: 조재준, KNU
     period: Jul-Aug 2025
     topic: Neural network processing of ultra wide-field radio interferometric images from the SKA
-  - name: Ho Jun Jeong
+  - name: Hojun Jeong
     detail: 정호준, UNIST
     period: Jan-Feb 2025
     topic: Polarization of synchrotron emission from jet in the neutrino blazar PKS 0735+178
@@ -96,7 +96,7 @@ groups:
     detail: 서주희, B.Sc. internship at KNU
     period: Jun-Dec 2024
     topic: Broadband SED modeling of the central AGN in a spiral galaxy 0313-192 using JetSet
-  - name: Seung-Yeon Lee
+  - name: Seung Yeon Lee
     detail: 이승연, B.Sc. internship at KNU
     period: Jul 2022 - Feb 2024
     topic: Collimation profile of relativistic jet in a spiral galaxy 0313-192
