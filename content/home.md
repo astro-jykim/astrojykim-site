@@ -21,6 +21,6 @@ programs:
     text: Discover and investigate new types of active (and inactive) black holes in the nearby and early universe.
 ---
 
-## Welcome to Jae-Young Kim’s research group at UNIST
+## Welcome to <span class="nowrap">Jae-Young</span> Kim’s research group at UNIST
 
 We study how supermassive black holes accrete matter, generate relativistic jets, and interact with their galactic environments. Our research combines high-resolution radio interferometry, multi-wavelength and multi-messenger observations, and next-generation radio facilities to investigate black hole systems from event-horizon to galactic scales.

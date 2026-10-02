@@ -934,3 +934,6 @@ nav.tabs .sub a + a { border-top: 1px solid var(--line); }
 .p-resources .prose .topic-group { margin: 2.2em 0 0.5em; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
 .p-resources .prose .ours-note + .topic-group { margin-top: 1.4em; }
 .p-resources .prose h2 + details.topic, .p-resources .prose h2 + .topic-group { margin-top: 0.8em; }
+
+/* keeps a name such as "Jae-Young" on one line (headings otherwise break at the hyphen on phones) */
+.nowrap { white-space: nowrap; }
