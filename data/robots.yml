@@ -1,0 +1,57 @@
+# Which robots may read the site. build.py turns this into /robots.txt.
+# Search engines (Google, Bing, Naver, Daum, DuckDuckGo, Baidu, Apple ...) are not listed,
+# so they keep full access. robots.txt is a request, not a lock: polite crawlers obey it.
+
+# AI crawlers that collect pages to TRAIN models. Blocking Google-Extended and
+# Applebot-Extended does not affect Google Search or Apple/Siri search results.
+ai_training:
+  - GPTBot                 # OpenAI
+  - ClaudeBot              # Anthropic
+  - anthropic-ai
+  - Claude-Web
+  - Google-Extended        # Gemini training (Google Search is unaffected)
+  - GoogleOther            # Google research crawls (not Search)
+  - Google-CloudVertexBot
+  - Applebot-Extended      # Apple AI training (Apple search is unaffected)
+  - meta-externalagent     # Meta
+  - FacebookBot
+  - CCBot                  # Common Crawl, used by most training datasets
+  - Bytespider             # ByteDance / TikTok
+  - TikTokSpider
+  - Amazonbot
+  - cohere-ai
+  - cohere-training-data-crawler
+  - AI2Bot                 # Allen Institute
+  - Ai2Bot-Dolma
+  - Diffbot
+  - omgili
+  - omgilibot
+  - Webzio-Extended
+  - PanguBot               # Huawei
+  - Timpibot
+  - ImagesiftBot
+  - img2dataset
+  - laion-huggingface-processor
+  - Kangaroo Bot
+  - FirecrawlAgent
+  - SBIntuitionsBot
+  - VelenPublicWebCrawler
+  - Brightbot
+  - ICC-Crawler
+  - Scrapy
+
+# Marketing / SEO crawlers: heavy traffic, no visitors in return.
+seo:
+  - AhrefsBot
+  - SemrushBot
+  - MJ12bot
+  - DotBot
+  - BLEXBot
+  - DataForSeoBot
+  - serpstatbot
+  - barkrowler
+  - SeekportBot
+
+# Not blocked on purpose: AI *search* tools that fetch a page when someone asks
+# about it and answer with a link back (OAI-SearchBot, ChatGPT-User, Claude-SearchBot,
+# Claude-User, PerplexityBot, Perplexity-User, DuckAssistBot). Move them up to block them too.

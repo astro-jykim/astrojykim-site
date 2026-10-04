@@ -557,7 +557,16 @@ def build_site(out: Path) -> Builder:
     domain = b.site.get("domain")
     if domain:
         (out / "CNAME").write_text(domain + "\n", encoding="utf-8")
-        (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: https://{domain}/sitemap.xml\n", encoding="utf-8")
+        bots = load_yaml("robots.yml", {}) or {}
+        blocked = [a for group in ("ai_training", "seo") for a in bots.get(group) or []]
+        (out / "robots.txt").write_text(
+            "# Search engines are welcome. Collecting this site to train AI models is not permitted.\n\n"
+            + "".join(f"User-agent: {a}\n" for a in blocked) + "Disallow: /\n\n"
+            "User-agent: *\nContent-Signal: search=yes, ai-input=yes, ai-train=no\nAllow: /\n\n"
+            f"Sitemap: https://{domain}/sitemap.xml\n", encoding="utf-8")
+        # Machine-readable text-and-data-mining opt-out (W3C TDMRep, EU DSM Directive Art. 4)
+        (out / ".well-known").mkdir(exist_ok=True)
+        (out / ".well-known" / "tdmrep.json").write_text('[{"location": "/*", "tdm-reservation": 1}]\n', encoding="utf-8")
         (out / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             + "".join(f"  <url><loc>https://{domain}{u}</loc></url>\n" for u in sorted(urls)) + "</urlset>\n",
