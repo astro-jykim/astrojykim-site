@@ -404,7 +404,7 @@ A small telescope that detects the 21 cm line of hydrogen in the Milky Way can b
 
 ## Literature and databases
 
-- [NASA ADS](https://ui.adsabs.harvard.edu/): the literature database of astronomy; set up your own ADS account and libraries
+- [NASA SciX](https://scixplorer.org/) (successor of NASA ADS): the literature database of astronomy; set up your own account and libraries
 - [arXiv astro-ph](https://arxiv.org/list/astro-ph/new): new preprints, every weekday
 - [NED](https://ned.ipac.caltech.edu/): the NASA/IPAC Extragalactic Database
 - [SIMBAD](https://simbad.cds.unistra.fr/simbad/) and [VizieR](https://vizier.cds.unistra.fr/): object database and published catalogs (CDS, Strasbourg)

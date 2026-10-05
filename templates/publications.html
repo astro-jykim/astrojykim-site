@@ -4,7 +4,7 @@
 <div class="prose"><p class="chips toc"><a href="#metrics">Metrics</a>{% if led and led.papers %}<a href="#led">First- and corresponding-author papers</a><a href="#all-papers">All refereed papers</a>{% endif %}</p></div>
 {% if stats %}
 <section class="pubstats" id="metrics">
-  <p class="metrics-note">Metrics from <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8229-7183" target="_blank" rel="noopener">NASA ADS</a> · refereed papers only · updated weekly</p>
+  <p class="metrics-note">Metrics from <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8229-7183" target="_blank" rel="noopener">NASA SciX</a> · refereed papers only · updated weekly</p>
   <div class="nums">
     <div><b>{{ stats.papers }}</b><span>refereed papers</span></div>
     <div><b>{{ "{:,}".format(stats.citations) }}</b><span>citations</span></div>
@@ -16,8 +16,8 @@
   <details class="numdefs">
     <summary>What the numbers mean</summary>
       <dl class="defs">
-      <div><dt>Refereed papers</dt><dd>Peer-reviewed journal papers, as listed by <a href="https://ui.adsabs.harvard.edu/" target="_blank" rel="noopener">NASA ADS</a>, the standard bibliographic database of astronomy.</dd></div>
-      <div><dt>Citations</dt><dd>How many times these papers have been cited by other papers indexed in ADS.</dd></div>
+      <div><dt>Refereed papers</dt><dd>Peer-reviewed journal papers, as listed by <a href="https://scixplorer.org/" target="_blank" rel="noopener">NASA SciX</a> (successor of NASA ADS), the standard bibliographic database of astronomy.</dd></div>
+      <div><dt>Citations</dt><dd>How many times these papers have been cited by other papers indexed in SciX.</dd></div>
       <div><dt>h-index</dt><dd>The largest number h such that h papers have each been cited at least h times. Proposed by J. E. Hirsch (<a href="https://doi.org/10.1073/pnas.0507655102" target="_blank" rel="noopener">2005, PNAS 102, 16569</a>) as a single number combining productivity and impact.</dd></div>
       <div><dt>i10-index</dt><dd>The number of papers cited at least 10 times; introduced by <a href="https://scholar.google.com/intl/en/scholar/citations.html" target="_blank" rel="noopener">Google Scholar</a> in 2011.</dd></div>
       <div><dt>First / corresponding author</dt><dd>Papers led by our group: Jae-Young Kim as first author, or as corresponding author of papers written with a student.</dd></div>
