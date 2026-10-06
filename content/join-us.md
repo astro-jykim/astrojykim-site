@@ -122,7 +122,7 @@ Many paths: postdoctoral research in Korea or abroad, research institutes such a
 <details markdown="1">
 <summary>How do I apply?</summary>
 
-1. **Contact us first.** Write to the professor (jaeyoungkim at unist.ac.kr) with a short note about your background and interests. We then discuss research topics and the right program: MSc, MSc–PhD integrated or PhD.
+1. **Contact us first.** Write to the professor (jaeyoungkim at unist.ac.kr) with a short note about your background and interests. We then talk about the research topic you would work on.
 2. **If you can, try research with us before applying.** UNIST undergraduates can do a semester-long internship; undergraduates at other universities in Korea can join through [U-SURF and U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do).
 3. **Apply to UNIST Graduate School.** Applications go through UNIST Graduate Admissions, which lists the admission rounds, deadlines and application guidelines: [Graduate Admissions (Korean)](https://adm-g.unist.ac.kr/admg/index.do) and [Graduate Admissions for international applicants](https://admg-intl.unist.ac.kr/).
 

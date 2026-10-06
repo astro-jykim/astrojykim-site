@@ -33,7 +33,7 @@ Machine-learning and deep-learning techniques may be developed where scientifica
 
 ## How to apply
 
-1. **Contact the professor first.** Write to Jae-Young Kim (jaeyoungkim at unist.ac.kr) with a short note about your background and interests, and which of the two projects interests you. We then discuss the project and the right program: MSc–PhD integrated or PhD.
+1. **Contact the professor first.** Write to Jae-Young Kim (jaeyoungkim at unist.ac.kr) with a short note about your background and interests, and which of the two projects interests you. We then talk about the research topic you would work on.
 2. **If you can, try research with us before applying.** UNIST undergraduates can do a semester-long internship; undergraduates at other universities in Korea can join through [U-SURF and U-WURF](https://adm-g.unist.ac.kr/admg/program/uswurf.do).
 3. **Apply to UNIST Graduate School.** Applications go through UNIST Graduate Admissions, which lists the admission rounds, deadlines and application guidelines: [Graduate Admissions (Korean)](https://adm-g.unist.ac.kr/admg/index.do) and [Graduate Admissions for international applicants](https://admg-intl.unist.ac.kr/).
 
