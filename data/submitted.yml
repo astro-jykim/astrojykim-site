@@ -2,6 +2,12 @@
 # papers" on /publications/, without a link, and not counted in the metrics.
 # When a paper is published, the ADS sync lists it automatically; then delete its entry here.
 # ms: the journal's manuscript number, kept to recognise the paper later (not shown on the page).
+- authors: Taeho Kang, Jae-Young Kim, Sascha Trippe, Taehyun Jung, Jung-won Lee, Jeong-Yeol Han
+  year: 2026
+  title: "Time-dependent imaging performance of multi-orbiter space VLBI: A case study of Capella"
+  journal: A&A
+  role: corresponding author
+  ms: aa63490-26
 - authors: Hojun Jeong, Yu-Sik Kim, Jae-Young Kim
   year: 2026
   title: "VLBA 43 GHz polarimetry of PKS 0735+178: A transient jet disturbance associated with IceCube-211208A"
