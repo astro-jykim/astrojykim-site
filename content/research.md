@@ -5,13 +5,7 @@ banner: [research/m87-polarized.jpg, banners/research.jpg]
 banner_position: center 45%
 ---
 
-Below you can find brief explanations of our research areas and recent highlights. See also [highlights](/highlights/) for our recent interesting results. If you’d like to understand our research more easily, you can also check out an interview with our research group featured by the Korea AeroSpace Administration (KASA; 우주항공청) [here](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000142/view.do?bbsId=BBSMSTR_000000000142&nttId=B000000002372Hj2jN0) (in Korean; also as a [PDF](/assets/docs/misc/kasa-space-science-inside-13-radio.pdf)).
-
-## List of publications
-
-[NASA SciX (recommended)](https://scixplorer.org/search?q=orcid%3A0000-0001-8229-7183&sort=date%20desc%2C%20bibcode%20desc&p=1) [Google Scholar](https://scholar.google.com/citations?user=G3x3HkAAAAAJ&hl=en) [ORCID](https://orcid.org/0000-0001-8229-7183)
-{: .buttons}
-
+Below you can find brief explanations of our research areas and recent highlights. See also [Highlights](/highlights/) for recent results and [Publications](/publications/) for the full list of papers. If you’d like to understand our research more easily, you can also check out an interview with our research group featured by the Korea AeroSpace Administration (KASA; 우주항공청) [here](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000142/view.do?bbsId=BBSMSTR_000000000142&nttId=B000000002372Hj2jN0) (in Korean; also as a [PDF](/assets/docs/misc/kasa-space-science-inside-13-radio.pdf)).
 
 [1. Direct imaging](#1-nearby-supermassive-black-holes-and-direct-imaging) [2. Multi-messenger](#2-multi-wavelength-and-multi-messenger-black-hole-astrophysics) [3. Distant, faint and small black holes](#3-distant-faint-and-small-black-holes) [Facilities](#facilities-and-data-we-use) [Methods](#methods)
 {: .chips}
