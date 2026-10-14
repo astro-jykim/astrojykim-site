@@ -2,6 +2,12 @@
 # papers" on /publications/, without a link, and not counted in the metrics.
 # When a paper is published, the ADS sync lists it automatically; then delete its entry here.
 # ms: the journal's manuscript number, kept to recognise the paper later (not shown on the page).
+- authors: Yu-Sik Kim, Jae-Young Kim, Georgios Kalaitzidakis, Teresa Toscano, Yuri Y. Kovalev
+  year: 2026
+  title: "Parsec-scale Jet Activity in PKS 1749+096: A Candidate Counterpart to Three IceCube Neutrino Alerts"
+  journal: A&A
+  role: corresponding author
+  ms: aa63604-26
 - authors: Taeho Kang, Jae-Young Kim, Sascha Trippe, Taehyun Jung, Jung-won Lee, Jeong-Yeol Han
   year: 2026
   title: "Time-dependent imaging performance of multi-orbiter space VLBI: A case study of Capella"
