@@ -2,6 +2,12 @@
 # papers" on /publications/, without a link, and not counted in the metrics.
 # When a paper is published, the ADS sync lists it automatically; then delete its entry here.
 # ms: the journal's manuscript number, kept to recognise the paper later (not shown on the page).
+- authors: Jae-Young Kim
+  year: 2026
+  title: "Superluminal features in the jet of 3C 84 and the GeV and TeV flares of 2022–2026"
+  journal: ApJL
+  role: sole author
+  ms: AAS82973
 - authors: Yu-Sik Kim, Jae-Young Kim, Georgios Kalaitzidakis, Teresa Toscano, Yuri Y. Kovalev
   year: 2026
   title: "Parsec-scale Jet Activity in PKS 1749+096: A Candidate Counterpart to Three IceCube Neutrino Alerts"
