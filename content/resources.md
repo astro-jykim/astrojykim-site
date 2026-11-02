@@ -7,7 +7,7 @@ banner_position: center 55%
 
 Papers, books, data archives and schools that we find useful. The list is far from complete, but we hope it helps students in our group and anyone starting out in radio astronomy and black hole astrophysics.
 
-[Reading list](#reading-list) [Textbooks](#textbooks) [Schools and lectures](#schools-and-lectures) [Software and tutorials](#software-and-tutorials) [Build a small radio telescope](#build-a-small-radio-telescope) [Literature and databases](#literature-and-databases) [Data archives](#data-archives)
+[Reading list](#reading-list) [Textbooks](#textbooks) [Schools and lectures](#schools-and-lectures) [Software and tutorials](#software-and-tutorials) [Build a small radio telescope](#build-a-small-radio-telescope) [Literature and databases](#literature-and-databases) [Data archives](#data-archives) [AI in scientific publishing](/ai-in-scientific-publishing/)
 {: .chips}
 
 ## Reading list
