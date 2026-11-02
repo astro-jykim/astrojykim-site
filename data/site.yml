@@ -32,6 +32,7 @@ nav:
     url: /resources/
     children:
       - {title: General resources, note: "Reading list, textbooks, software, schools, data archives and a small telescope to build", url: /resources/}
+      - {title: AI in scientific publishing, short: AI publishing, note: "Journal guidelines to help students and readers navigate AI use in scientific publication", url: /ai-in-scientific-publishing/}
       - {title: 2.3m Radio Telescope, short: 2.3m Telescope, note: "Manuals, memos and pictures of the KNU 2.3m telescope", url: /2-3m-radio-telescope/}
   - {title: Contact, url: /contact/}
 
